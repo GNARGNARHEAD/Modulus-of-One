@@ -1,12 +1,14 @@
 # Modulus of One
 
-**Modulus of One began with the problem of squaring the circle and the broader
-question of finding areas under curves.** Following the question of what
-justifies a construction led back to something more elementary: an attempt
-to justify counting to two.
+**Modulus of One began with a failed attempt to count to two.**
 
-The philosophical starting thought is *“I think, therefore one.”* Here, `1`
-names an immediate certainty. Using it again requires remembering an earlier occurrence,
+That attempt grew out of an earlier inquiry into squaring the circle and,
+more broadly, finding areas under curves. Asking what justifies a construction
+led back to the apparently simple act of counting.
+
+The philosophical starting thought is *cogito ergo unum* — “I think, therefore
+one.” Here, `1` names an immediate certainty. Using it again requires
+remembering an earlier occurrence,
 identifying it, and admitting recurrence. Descartes' demon expresses the
 problem: memory cannot simply inherit the certainty of the immediate `1`.
 The arithmetic of `1 + 1 = 2` works once those commitments are admitted; it
