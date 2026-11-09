@@ -1,0 +1,34 @@
+{
+  "argv": [
+    "strict_stage_moo.py",
+    "--db",
+    "out/experiments/gauss/strict_stage_u850_holdout_v1.sqlite",
+    "--max-stage",
+    "850",
+    "--max-abs-p",
+    "1000000000",
+    "--max-abs-q",
+    "850",
+    "--max-abs-value",
+    "1000000000",
+    "--commit-every",
+    "25",
+    "--summary",
+    "out/experiments/gauss/strict_stage_u850_holdout_v1.summary.json",
+    "--quiet"
+  ],
+  "analysis_manifest_sha256": "3323f3caf9b3847abbece7136dc32fa16c28f3c4e522c9c0bc96d7af0fac38f1",
+  "db_path": "out/experiments/gauss/strict_stage_u850_holdout_v1.sqlite",
+  "db_sha256": "cf3d1dd7a67dbd6772647dac7c746e09267e6e4c3d888f53b05c6e4073565162",
+  "experiment_id": "gauss_nested_class_genus_ablation_u850_v1",
+  "generated_at_utc": "2026-08-28T00:05:41Z",
+  "generator_sha256": {
+    "moo_graph_corpus.py": "5f863dc297b3b2136fa76835d13067ae41206a150885dd37ba2bb49da5532c1f",
+    "strict_stage_moo.py": "e91574e0df7c573ec6e36d56dfbe5c779da632108d631ec22b4d2196acfc099b"
+  },
+  "python_executable": "C:\\Users\\USER\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "python_version": "3.12.13",
+  "schema_version": "moo_corpus_generation_provenance.v1",
+  "summary_path": "out/experiments/gauss/strict_stage_u850_holdout_v1.summary.json",
+  "summary_sha256": "ecafb92017974bbd3e12bc15b285c193c8f31c7e5bcf7ed476f03f017963798d"
+}

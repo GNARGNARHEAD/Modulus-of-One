@@ -1,0 +1,386 @@
+{
+  "format": "moo.documentation_transfer.v1",
+  "source_revision": "921669be473b7f2776344e1f61e3d26d68a2946a",
+  "sources": {
+    "ANALYSIS_TOOL_PROTOCOL.md": {
+      "sha256": "856bc58d29f6e9717d88cedace332f1f6cc0ae9a52eae458e202e925e0a01eb8",
+      "bytes": 4225,
+      "lines": 179
+    },
+    "CORE_CLAIMS.md": {
+      "sha256": "c1379628e2cda7c078fbaad7622e7645a9afb656c883c8a592b2f5bad49e73f1",
+      "bytes": 15572,
+      "lines": 561
+    },
+    "EPISTEMIC_ORDER_NOTE.md": {
+      "sha256": "65158fabc913ac38ffd58f6236d8449c6d06859da6a07efd5930d6c160bc8bff",
+      "bytes": 10239,
+      "lines": 357
+    },
+    "FUNDAMENTAL_OPERATOR_FAN_NOTE.md": {
+      "sha256": "0c4cccd2e1448d99a284bfec2a8d6a7fb8a6002095c15f004984fb0f6b3c9f6c",
+      "bytes": 5145,
+      "lines": 229
+    },
+    "MOO_REALIGNMENT_NOTE.md": {
+      "sha256": "63aa43a551ae4ddaec48bee93aaf511ee94b095948c065c6df4e1d803e6cbc66",
+      "bytes": 7098,
+      "lines": 301
+    },
+    "docs/protocols/research-programs.md": {
+      "sha256": "39cc2303f4386b208ceefb446f05b177ca9a4d6ba35f79235d7f53fdb89f00da",
+      "bytes": 5817,
+      "lines": 132
+    }
+  },
+  "integrated_documents": {
+    "docs/foundations/EPISTEMIC_ORDER.md": {
+      "sha256": "6fb796f779875f81018691d74b4ac7922de38aa20ed0bd4d9a96d9857b3d0b55"
+    },
+    "docs/CLAIMS.md": {
+      "sha256": "d396143b0b6117fe4f5742aac50eab637d90c180a7881aeab7527325d436969f"
+    },
+    "docs/protocols/research-programs.md": {
+      "sha256": "c5a8e6b411dda42e07cd3871ec5743e9c4690006096a06ec9c9c3454a7eb831c"
+    }
+  },
+  "section_transfers": [
+    {
+      "source": "EPISTEMIC_ORDER_NOTE.md",
+      "source_sections": [
+        "Core Claim"
+      ],
+      "target": "docs/foundations/EPISTEMIC_ORDER.md",
+      "target_sections": [
+        "Immediate Certainty And Admitted Construction",
+        "The Continuing Operator Fan"
+      ],
+      "disposition": "consolidated"
+    },
+    {
+      "source": "EPISTEMIC_ORDER_NOTE.md",
+      "source_sections": [
+        "Positive-Spine Stage Corpus"
+      ],
+      "target": "docs/foundations/EPISTEMIC_ORDER.md",
+      "target_sections": [
+        "Counting And The Signed Field",
+        "Positive-Spine Stages And Operand Eligibility"
+      ],
+      "disposition": "consolidated"
+    },
+    {
+      "source": "EPISTEMIC_ORDER_NOTE.md",
+      "source_sections": [
+        "Orders"
+      ],
+      "target": "docs/foundations/EPISTEMIC_ORDER.md",
+      "target_sections": [
+        "Four Orders Of Support"
+      ],
+      "disposition": "consolidated"
+    },
+    {
+      "source": "EPISTEMIC_ORDER_NOTE.md",
+      "source_sections": [
+        "Confirmation By n",
+        "Fractions"
+      ],
+      "target": "docs/foundations/EPISTEMIC_ORDER.md",
+      "target_sections": [
+        "Confirmation Adds Support Without Rewriting A Witness"
+      ],
+      "disposition": "consolidated"
+    },
+    {
+      "source": "EPISTEMIC_ORDER_NOTE.md",
+      "source_sections": [
+        "No Independent Operands",
+        "Report Language"
+      ],
+      "target": "docs/foundations/EPISTEMIC_ORDER.md",
+      "target_sections": [
+        "Construction And Report Language"
+      ],
+      "disposition": "consolidated"
+    },
+    {
+      "source": "EPISTEMIC_ORDER_NOTE.md",
+      "source_sections": [
+        "Report Language"
+      ],
+      "target": "docs/protocols/research-programs.md",
+      "target_sections": [
+        "Machine Terms And MoO Reading"
+      ],
+      "disposition": "consolidated"
+    },
+    {
+      "source": "EPISTEMIC_ORDER_NOTE.md",
+      "source_sections": [
+        "Order 4 Is Not Certainty",
+        "Stage Versus Closure Round"
+      ],
+      "target": "docs/foundations/EPISTEMIC_ORDER.md",
+      "target_sections": [
+        "Order 4 Is A Proposal, Not Certainty",
+        "Stage Versus Closure Round"
+      ],
+      "disposition": "consolidated"
+    },
+    {
+      "source": "FUNDAMENTAL_OPERATOR_FAN_NOTE.md",
+      "source_sections": [
+        "Governing Sentence",
+        "First Asymmetry",
+        "The Relation Is Also A Question"
+      ],
+      "target": "docs/foundations/EPISTEMIC_ORDER.md",
+      "target_sections": [
+        "The Continuing Operator Fan"
+      ],
+      "disposition": "consolidated"
+    },
+    {
+      "source": "FUNDAMENTAL_OPERATOR_FAN_NOTE.md",
+      "source_sections": [
+        "Counting Is Downstream",
+        "Implication For Existing Corpora",
+        "Relationship To Early Shadows",
+        "Required Language",
+        "Short Version"
+      ],
+      "target": "docs/foundations/EPISTEMIC_ORDER.md",
+      "target_sections": [
+        "Counting And The Signed Field",
+        "Positive-Spine Stages And Operand Eligibility"
+      ],
+      "disposition": "consolidated"
+    },
+    {
+      "source": "CORE_CLAIMS.md",
+      "source_sections": [
+        "Reading Rule"
+      ],
+      "target": "docs/CLAIMS.md",
+      "target_sections": [
+        "Claim Discipline"
+      ],
+      "disposition": "consolidated"
+    },
+    {
+      "source": "CORE_CLAIMS.md",
+      "source_sections": [
+        "Core Theory Claims",
+        "Primitive Certainty",
+        "Fundamental Operator Fan",
+        "Failed Proof Of 2",
+        "Positive-Spine Stage Corpus",
+        "Epistemic Orders",
+        "Order-4 Projected Objects",
+        "Current Positive-Spine Operand Rule",
+        "Graph-First Identity",
+        "Branch Lineage"
+      ],
+      "target": "docs/CLAIMS.md",
+      "target_sections": [
+        "Foundational Commitments And Implementation Limits"
+      ],
+      "disposition": "consolidated"
+    },
+    {
+      "source": "CORE_CLAIMS.md",
+      "source_sections": [
+        "Current Strong Claims",
+        "Corpus-Conditioned Observations",
+        "Candidate Claims",
+        "Not Yet Earned"
+      ],
+      "target": "docs/CLAIMS.md",
+      "target_sections": [
+        "Current Strong Claims",
+        "Corpus-Conditioned Observations",
+        "Candidate Claims",
+        "Not Yet Earned"
+      ],
+      "disposition": "consolidated"
+    },
+    {
+      "source": "CORE_CLAIMS.md",
+      "source_sections": [
+        "Layer Boundaries",
+        "Positive-Spine Strict Corpus",
+        "Exploratory Closure",
+        "External Probes",
+        "Order-4 Projection"
+      ],
+      "target": "docs/CLAIMS.md",
+      "target_sections": [
+        "Evidence Layers"
+      ],
+      "disposition": "consolidated"
+    },
+    {
+      "source": "CORE_CLAIMS.md",
+      "source_sections": [
+        "Verification Trail"
+      ],
+      "target": "docs/CLAIMS.md",
+      "target_sections": [
+        "Checking A Claim"
+      ],
+      "disposition": "replace duplicate reading stack with canonical owners; preserve dynamics and historical-lead routes"
+    },
+    {
+      "source": "ANALYSIS_TOOL_PROTOCOL.md",
+      "source_sections": [
+        "Core Rule",
+        "Required Boundaries",
+        "What Tools May Do",
+        "What Tools Must Not Do",
+        "Short Version"
+      ],
+      "target": "docs/protocols/research-programs.md",
+      "target_sections": [
+        "Analysis Must Return To The Graph"
+      ],
+      "disposition": "consolidated"
+    },
+    {
+      "source": "ANALYSIS_TOOL_PROTOCOL.md",
+      "source_sections": [
+        "Evidence Ladder"
+      ],
+      "target": "docs/protocols/research-programs.md",
+      "target_sections": [
+        "Reading The Evidence"
+      ],
+      "disposition": "consolidated"
+    },
+    {
+      "source": "ANALYSIS_TOOL_PROTOCOL.md",
+      "source_sections": [
+        "Standard Output Shape"
+      ],
+      "target": "docs/protocols/research-programs.md",
+      "target_sections": [
+        "Standard Analysis Output"
+      ],
+      "disposition": "consolidated"
+    },
+    {
+      "source": "ANALYSIS_TOOL_PROTOCOL.md",
+      "source_sections": [
+        "Existing Tool Categories",
+        "Geometry Probes",
+        "Prime And Fermat Probes",
+        "Convergence Probes",
+        "Spectral Scouts",
+        "Historical Closure Studies"
+      ],
+      "target": "docs/protocols/research-programs.md",
+      "target_sections": [
+        "Domain Interpretation Rules"
+      ],
+      "disposition": "consolidated"
+    },
+    {
+      "source": "docs/protocols/research-programs.md",
+      "source_sections": [
+        "Canonical Status Values",
+        "Required Program Card",
+        "Promotion And Retirement"
+      ],
+      "target": "docs/protocols/research-programs.md",
+      "target_sections": [
+        "Canonical Status Values",
+        "Required Program Card",
+        "Promotion And Retirement"
+      ],
+      "disposition": "consolidated"
+    },
+    {
+      "source": "docs/protocols/research-programs.md",
+      "source_sections": [
+        "Evidence Rule"
+      ],
+      "target": "docs/protocols/research-programs.md",
+      "target_sections": [
+        "Evidence And Availability"
+      ],
+      "disposition": "consolidated"
+    },
+    {
+      "source": "docs/protocols/research-programs.md",
+      "source_sections": [
+        "Seventeen-Lens Transition Ledger"
+      ],
+      "target": "docs/protocols/research-programs.md",
+      "target_sections": [
+        "Seventeen-Lens Ownership Ledger"
+      ],
+      "disposition": "consolidated"
+    },
+    {
+      "source": "MOO_REALIGNMENT_NOTE.md",
+      "source_sections": [
+        "Governing Sentence",
+        "Witness Before Value"
+      ],
+      "target": "docs/CLAIMS.md",
+      "target_sections": [
+        "Claim Discipline",
+        "Foundational Commitments And Implementation Limits"
+      ],
+      "disposition": "canonical constraint retained; original illustrative correction preserved in archive"
+    },
+    {
+      "source": "MOO_REALIGNMENT_NOTE.md",
+      "source_sections": [
+        "Core Problem",
+        "Orders Are Grammar"
+      ],
+      "target": "docs/foundations/EPISTEMIC_ORDER.md",
+      "target_sections": [
+        "Immediate Certainty And Admitted Construction",
+        "The Continuing Operator Fan",
+        "Four Orders Of Support"
+      ],
+      "disposition": "consolidated"
+    },
+    {
+      "source": "MOO_REALIGNMENT_NOTE.md",
+      "source_sections": [
+        "Branch"
+      ],
+      "target": "docs/foundations/BRANCHES.md",
+      "target_sections": [],
+      "disposition": "existing canonical glossary owns branch definitions; original examples preserved in archived correction"
+    },
+    {
+      "source": "MOO_REALIGNMENT_NOTE.md",
+      "source_sections": [
+        "Tool Terms Mapped Back To MoO",
+        "Strengthening Ladder",
+        "Rule For Future Reports"
+      ],
+      "target": "docs/protocols/research-programs.md",
+      "target_sections": [
+        "Machine Terms And MoO Reading",
+        "Reading The Evidence"
+      ],
+      "disposition": "consolidated"
+    },
+    {
+      "source": "MOO_REALIGNMENT_NOTE.md",
+      "source_sections": [
+        "Geometry Reading"
+      ],
+      "target": "archive/reorganizations/20261107/MOO_REALIGNMENT_NOTE.md",
+      "target_sections": [
+        "Geometry Reading"
+      ],
+      "disposition": "preserve historical U80/U480 reading verbatim; shell program should route to this case, not present it as current evidence"
+    }
+  ]
+}

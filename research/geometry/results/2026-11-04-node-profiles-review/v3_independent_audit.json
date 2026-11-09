@@ -1,0 +1,18 @@
+{
+  "association_count": 435,
+  "auditor_sha256": "0468e6b7e5dd2610a711c2a86cdb7e8ba28499d8a9bf1b411899931eb482b2a6",
+  "certificates_checked": 832,
+  "checkpoint": 576,
+  "distinct_directed_requests_checked": 1241,
+  "errors": [],
+  "index_path": "/home/USER/Documents/MoO/out/scratch/node_profiles_20261104_reviewed/associations.sqlite",
+  "index_sha256": "fb38441765b7524fc3ab3d8c450d712cbb38c6c376e71b4b4b0cee6cf29205fb",
+  "inputs_unchanged": true,
+  "materialized_references_checked": 1764,
+  "observed_directed_requests": 789,
+  "review_method": "Independent direct SQL and exact rational arithmetic; no production evidence helpers or tests imported.",
+  "scope_limit": "Checks recorded requests, eligibility, references, dependency support and completion stages, not the mathematical sufficiency of arbitrary certificate schemas.",
+  "source_path": "/home/USER/Documents/MoO/out/scratch/shell_composition_20260920_current_v1/wide_u576.sqlite",
+  "source_sha256": "655e2ba49f53519e7cb3720ad8894579aaf113444afbe56b81a99ae7bbdae2b6",
+  "witnessed_association_participant_rows_checked": 867
+}

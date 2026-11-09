@@ -1,0 +1,783 @@
+{
+  "schema": "moo_shared_241_nodes_v1",
+  "date": "2026-09-11",
+  "evidence_layer": "external_exact_arithmetic_with_explicit_embeddings",
+  "source_sha256": {
+    "verify_241_branch_joins.py": "762cf418fcb04e5e56116ccc2f29a6dfdf9c94e148cd470b58972d1a7d05d0ca",
+    "moo_split_prime_branch_probe.py": "26a25d0cd5778e62b929bdb2936d5723a4c2b18fd565d38192181313f1ca40ee",
+    "moo_variable_denominator_probe.py": "1e78d63f8995b444fc3638b27a5caa4132dc755cb5729907bc42214e55ddcc94",
+    "2026-09-11-variable-denominator-v1.json": "0db03fbcb6b39a988d7ef817fd5414fce31ff8cf6527fed0dd6390ee30802088"
+  },
+  "seed_family": [
+    {
+      "x": 2,
+      "seeds_by_root_order": {
+        "24": [
+          2,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "8": [
+          4,
+          0,
+          -1,
+          -2
+        ],
+        "4": [
+          15,
+          -4
+        ]
+      },
+      "common_norm": 241,
+      "prime_factorization": [
+        [
+          241,
+          1
+        ]
+      ],
+      "norm_power_checks": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "x": 3,
+      "seeds_by_root_order": {
+        "24": [
+          3,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "8": [
+          9,
+          0,
+          -1,
+          -3
+        ],
+        "4": [
+          80,
+          -9
+        ]
+      },
+      "common_norm": 6481,
+      "prime_factorization": [
+        [
+          6481,
+          1
+        ]
+      ],
+      "norm_power_checks": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "x": 4,
+      "seeds_by_root_order": {
+        "24": [
+          4,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "8": [
+          16,
+          0,
+          -1,
+          -4
+        ],
+        "4": [
+          255,
+          -16
+        ]
+      },
+      "common_norm": 65281,
+      "prime_factorization": [
+        [
+          97,
+          1
+        ],
+        [
+          673,
+          1
+        ]
+      ],
+      "norm_power_checks": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "x": 5,
+      "seeds_by_root_order": {
+        "24": [
+          5,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "8": [
+          25,
+          0,
+          -1,
+          -5
+        ],
+        "4": [
+          624,
+          -25
+        ]
+      },
+      "common_norm": 390001,
+      "prime_factorization": [
+        [
+          390001,
+          1
+        ]
+      ],
+      "norm_power_checks": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "x": 6,
+      "seeds_by_root_order": {
+        "24": [
+          6,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "8": [
+          36,
+          0,
+          -1,
+          -6
+        ],
+        "4": [
+          1295,
+          -36
+        ]
+      },
+      "common_norm": 1678321,
+      "prime_factorization": [
+        [
+          1678321,
+          1
+        ]
+      ],
+      "norm_power_checks": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "x": 7,
+      "seeds_by_root_order": {
+        "24": [
+          7,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "8": [
+          49,
+          0,
+          -1,
+          -7
+        ],
+        "4": [
+          2400,
+          -49
+        ]
+      },
+      "common_norm": 5762401,
+      "prime_factorization": [
+        [
+          73,
+          1
+        ],
+        [
+          193,
+          1
+        ],
+        [
+          409,
+          1
+        ]
+      ],
+      "norm_power_checks": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "x": 8,
+      "seeds_by_root_order": {
+        "24": [
+          8,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "8": [
+          64,
+          0,
+          -1,
+          -8
+        ],
+        "4": [
+          4095,
+          -64
+        ]
+      },
+      "common_norm": 16773121,
+      "prime_factorization": [
+        [
+          433,
+          1
+        ],
+        [
+          38737,
+          1
+        ]
+      ],
+      "norm_power_checks": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "x": 9,
+      "seeds_by_root_order": {
+        "24": [
+          9,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "8": [
+          81,
+          0,
+          -1,
+          -9
+        ],
+        "4": [
+          6560,
+          -81
+        ]
+      },
+      "common_norm": 43040161,
+      "prime_factorization": [
+        [
+          97,
+          1
+        ],
+        [
+          577,
+          1
+        ],
+        [
+          769,
+          1
+        ]
+      ],
+      "norm_power_checks": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "x": 10,
+      "seeds_by_root_order": {
+        "24": [
+          10,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "8": [
+          100,
+          0,
+          -1,
+          -10
+        ],
+        "4": [
+          9999,
+          -100
+        ]
+      },
+      "common_norm": 99990001,
+      "prime_factorization": [
+        [
+          99990001,
+          1
+        ]
+      ],
+      "norm_power_checks": [
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  ],
+  "direction_power_route_matches": [
+    {
+      "k": 1,
+      "gaussian_numerator": [
+        209,
+        -120
+      ],
+      "least_denominator": 241,
+      "K8_route": {
+        "rule": "q_8,1^k / q_8,3^k",
+        "numerator_before_cancellation": [
+          50369,
+          0,
+          -28920,
+          0
+        ],
+        "denominator_before_cancellation": 58081,
+        "common_cancelled_factor": 241
+      },
+      "K24_route": {
+        "rule": "q_24,1^k * q_24,5^k / (q_24,7^k * q_24,11^k)",
+        "numerator_before_cancellation": [
+          2925481889,
+          0,
+          0,
+          0,
+          0,
+          0,
+          -1679702520,
+          0
+        ],
+        "denominator_before_cancellation": 3373402561,
+        "common_cancelled_factor": 13997521
+      },
+      "common_value_in_K24": {
+        "basis_numerator": [
+          209,
+          0,
+          0,
+          0,
+          0,
+          0,
+          -120,
+          0
+        ],
+        "denominator": 241
+      }
+    },
+    {
+      "k": 2,
+      "gaussian_numerator": [
+        29281,
+        -50160
+      ],
+      "least_denominator": 58081,
+      "K8_route": {
+        "rule": "q_8,1^k / q_8,3^k",
+        "numerator_before_cancellation": [
+          1700669761,
+          0,
+          -2913342960,
+          0
+        ],
+        "denominator_before_cancellation": 3373402561,
+        "common_cancelled_factor": 58081
+      },
+      "K24_route": {
+        "rule": "q_24,1^k * q_24,5^k / (q_24,7^k * q_24,11^k)",
+        "numerator_before_cancellation": [
+          5737043727172657921,
+          0,
+          0,
+          0,
+          0,
+          0,
+          -9827878602335320560,
+          0
+        ],
+        "denominator_before_cancellation": 11379844838561358721,
+        "common_cancelled_factor": 195930594145441
+      },
+      "common_value_in_K24": {
+        "basis_numerator": [
+          29281,
+          0,
+          0,
+          0,
+          0,
+          0,
+          -50160,
+          0
+        ],
+        "denominator": 58081
+      }
+    },
+    {
+      "k": 3,
+      "gaussian_numerator": [
+        100529,
+        -13997160
+      ],
+      "least_denominator": 13997521,
+      "K8_route": {
+        "rule": "q_8,1^k / q_8,3^k",
+        "numerator_before_cancellation": [
+          1407156788609,
+          0,
+          -195925541040360,
+          0
+        ],
+        "denominator_before_cancellation": 195930594145441,
+        "common_cancelled_factor": 13997521
+      },
+      "K24_route": {
+        "rule": "q_24,1^k * q_24,5^k / (q_24,7^k * q_24,11^k)",
+        "numerator_before_cancellation": [
+          275705065647952094238081569,
+          0,
+          0,
+          0,
+          0,
+          0,
+          -38387807664304719388290998760,
+          0
+        ],
+        "denominator_before_cancellation": 38388797722185519065061084481,
+        "common_cancelled_factor": 2742542606093287451761
+      },
+      "common_value_in_K24": {
+        "basis_numerator": [
+          100529,
+          0,
+          0,
+          0,
+          0,
+          0,
+          -13997160,
+          0
+        ],
+        "denominator": 13997521
+      }
+    },
+    {
+      "k": 4,
+      "gaussian_numerator": [
+        -1658648639,
+        -2937469920
+      ],
+      "least_denominator": 3373402561,
+      "K8_route": {
+        "rule": "q_8,1^k / q_8,3^k",
+        "numerator_before_cancellation": [
+          -5595289566601764479,
+          0,
+          -9909268550988465120,
+          0
+        ],
+        "denominator_before_cancellation": 11379844838561358721,
+        "common_cancelled_factor": 3373402561
+      },
+      "K24_route": {
+        "rule": "q_24,1^k * q_24,5^k / (q_24,7^k * q_24,11^k)",
+        "numerator_before_cancellation": [
+          -63673527094749311302772120226274671359,
+          0,
+          0,
+          0,
+          0,
+          0,
+          -112765938573884478913203458625516311520,
+          0
+        ],
+        "denominator_before_cancellation": 129500868549731596531191388009642755841,
+        "common_cancelled_factor": 38388797722185519065061084481
+      },
+      "common_value_in_K24": {
+        "basis_numerator": [
+          -1658648639,
+          0,
+          0,
+          0,
+          0,
+          0,
+          -2937469920,
+          0
+        ],
+        "denominator": 3373402561
+      }
+    },
+    {
+      "k": 5,
+      "gaussian_numerator": [
+        -699153955951,
+        -414893376600
+      ],
+      "least_denominator": 812990017201,
+      "K8_route": {
+        "rule": "q_8,1^k / q_8,3^k",
+        "numerator_before_cancellation": [
+          -568405186674750686313151,
+          0,
+          -337304173378614970896600,
+          0
+        ],
+        "denominator_before_cancellation": 660952768068482275874401,
+        "common_cancelled_factor": 812990017201
+      },
+      "K24_route": {
+        "rule": "q_24,1^k * q_24,5^k / (q_24,7^k * q_24,11^k)",
+        "numerator_before_cancellation": [
+          -375688981517158862630877543942092617761430547551,
+          0,
+          0,
+          0,
+          0,
+          0,
+          -222942127075646834475248307851292266931957936600,
+          0
+        ],
+        "denominator_before_cancellation": 436858561617388923600939744692873565249127108801,
+        "common_cancelled_factor": 537348002281043969009092896305571601
+      },
+      "common_value_in_K24": {
+        "basis_numerator": [
+          -699153955951,
+          0,
+          0,
+          0,
+          0,
+          0,
+          -414893376600,
+          0
+        ],
+        "denominator": 812990017201
+      }
+    }
+  ],
+  "denominator_58081_set_inclusions": [
+    {
+      "source_root_order": 4,
+      "target_root_order": 8,
+      "source_count": 20,
+      "shared_direction_count": 20,
+      "target_count": 200,
+      "new_direction_count": 180
+    },
+    {
+      "source_root_order": 8,
+      "target_root_order": 24,
+      "source_count": 200,
+      "shared_direction_count": 200,
+      "target_count": 15000,
+      "new_direction_count": 14800
+    },
+    {
+      "source_root_order": 4,
+      "target_root_order": 24,
+      "source_count": 20,
+      "shared_direction_count": 20,
+      "target_count": 15000,
+      "new_direction_count": 14980
+    }
+  ],
+  "same_norm_different_directions": {
+    "ambient_root_order": 24,
+    "common_absolute_field_norm": 58081,
+    "repeated_factor": {
+      "rule": "a*a",
+      "seed_coefficients": [
+        4,
+        4,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "ratio_numerator": [
+        19632,
+        30144,
+        33220,
+        -21132,
+        -9903,
+        15468,
+        -22260,
+        27168
+      ],
+      "ratio_least_denominator": 58081
+    },
+    "distinct_factors": {
+      "rule": "a*sigma_17(a)",
+      "seed_coefficients": [
+        4,
+        2,
+        0,
+        0,
+        0,
+        -2,
+        -1,
+        0
+      ],
+      "ratio_numerator": [
+        195,
+        66,
+        0,
+        -114,
+        0,
+        -66,
+        -52,
+        0
+      ],
+      "ratio_least_denominator": 241
+    },
+    "equal_seed_elements": false,
+    "interpretation": "Equal norm projection, different elements and denominator requirements."
+  },
+  "modular_root_lifts": [
+    {
+      "k": 1,
+      "modulus": 241,
+      "residue": 2,
+      "F_remainder": 0,
+      "next_base_241_digit": 43
+    },
+    {
+      "k": 2,
+      "modulus": 58081,
+      "residue": 10365,
+      "F_remainder": 0,
+      "next_base_241_digit": 205
+    },
+    {
+      "k": 3,
+      "modulus": 13997521,
+      "residue": 11916970,
+      "F_remainder": 0,
+      "next_base_241_digit": 138
+    },
+    {
+      "k": 4,
+      "modulus": 3373402561,
+      "residue": 1943574868,
+      "F_remainder": 0,
+      "next_base_241_digit": 157
+    },
+    {
+      "k": 5,
+      "modulus": 812990017201,
+      "residue": 531567776945,
+      "F_remainder": 0,
+      "next_base_241_digit": 111
+    },
+    {
+      "k": 6,
+      "modulus": 195930594145441,
+      "residue": 90773459686256,
+      "F_remainder": 0,
+      "next_base_241_digit": 167
+    }
+  ],
+  "existing_core_square_node": {
+    "product": {
+      "edge_uid": 245,
+      "inputs": [
+        241,
+        241
+      ],
+      "output_uid": 245,
+      "status": "S",
+      "value": 58081
+    },
+    "incoming_edges": [
+      {
+        "edge_uid": 245,
+        "input_uids": [
+          241,
+          241
+        ],
+        "inputs": [
+          241,
+          241
+        ],
+        "metadata": {
+          "potential_val": 58081,
+          "result": "speculative"
+        },
+        "op": "*",
+        "output": 58081,
+        "output_uid": 245
+      }
+    ],
+    "used_as_operand": false,
+    "multiple_incoming_paths_observed": false
+  },
+  "scope": [
+    "The repeated denominator 241^2 was a supplied comparison parameter.",
+    "A norm match alone does not identify a direction or determine a least denominator.",
+    "The direction route matches verify full embedded values, including denominator cancellation.",
+    "The script reuses the probes' cyclotomic arithmetic; symbolic proofs are in the note.",
+    "The finite checks do not by themselves prove universal identities or prime infinitude.",
+    "The root lifts converge in the 241-adic metric, not in ordinary planar distance.",
+    "No core speculative node was used, promoted, or expanded; no point-density claim is made."
+  ]
+}

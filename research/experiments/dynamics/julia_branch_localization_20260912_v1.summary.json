@@ -1,0 +1,7372 @@
+{
+  "experiment_id": "julia_branch_localization_20260912_v1",
+  "source_report_sha256": "dc2b4be7a3b814f6059112d46cf0fabbfd9ced56300a777d6e77ec564940c5da",
+  "claim_boundary": "Exact finite external calibrations with attached strict witnesses; no Julia set, complex operand, new MoO branch, chaos, or predictive effect is established.",
+  "validation": {
+    "passed": true,
+    "checks": [
+      "32 doubling profiles equal the independent denominator baseline",
+      "same initial integer 2 gives different mod-7 periods for + and *",
+      "critical-orbit detector distinguishes exact cycles, escape, and finite uncertainty"
+    ]
+  },
+  "corpora": {
+    "u300": {
+      "path": "out/experiments/pascal_edge_probe_u300.sqlite",
+      "sha256": "3d23228ea2a1926918d49bbdc89d9f7bf85ecfe4729ec96c7bd6e9f97e54b097",
+      "stage": 300,
+      "queried_relations": 148,
+      "retained_relations": 123,
+      "blockers": {
+        "candidate_stage_beyond_corpus": 17,
+        "operand_not_positive_spine": 8
+      },
+      "q7": [
+        {
+          "operation": "+",
+          "seed": 2,
+          "denominator": 7,
+          "states": [
+            {
+              "step": 0,
+              "numerator": 2,
+              "divisor": 7,
+              "rational": "2/7",
+              "phase": "2/7",
+              "division_witness": "2 / 7 -> 2/7"
+            },
+            {
+              "step": 1,
+              "numerator": 4,
+              "divisor": 7,
+              "rational": "4/7",
+              "phase": "4/7",
+              "division_witness": "4 / 7 -> 4/7"
+            },
+            {
+              "step": 2,
+              "numerator": 8,
+              "divisor": 7,
+              "rational": "8/7",
+              "phase": "1/7",
+              "division_witness": "8 / 7 -> 8/7"
+            },
+            {
+              "step": 3,
+              "numerator": 16,
+              "divisor": 7,
+              "rational": "16/7",
+              "phase": "2/7",
+              "division_witness": "16 / 7 -> 16/7"
+            },
+            {
+              "step": 4,
+              "numerator": 32,
+              "divisor": 7,
+              "rational": "32/7",
+              "phase": "4/7",
+              "division_witness": "32 / 7 -> 32/7"
+            }
+          ],
+          "steps": [
+            {
+              "step": 1,
+              "source": 2,
+              "target": 4,
+              "witness": "2 + 2 -> 4"
+            },
+            {
+              "step": 2,
+              "source": 4,
+              "target": 8,
+              "witness": "4 + 4 -> 8"
+            },
+            {
+              "step": 3,
+              "source": 8,
+              "target": 16,
+              "witness": "8 + 8 -> 16"
+            },
+            {
+              "step": 4,
+              "source": 16,
+              "target": 32,
+              "witness": "16 + 16 -> 32"
+            }
+          ],
+          "external_cycle": {
+            "residues": [
+              2,
+              4,
+              1,
+              2
+            ],
+            "phases": [
+              "2/7",
+              "4/7",
+              "1/7",
+              "2/7"
+            ],
+            "preperiod": 0,
+            "period": 3,
+            "first_repeat_index": 3,
+            "evidence_layer": "external_probe"
+          },
+          "cycle_witnessed_by_checkpoint": {
+            "2": false,
+            "4": false,
+            "8": false,
+            "16": true,
+            "40": true,
+            "80": true,
+            "256": true,
+            "300": true
+          },
+          "cycle_in_declared_lift_budget": true,
+          "phase_projection_is_external": true
+        },
+        {
+          "operation": "*",
+          "seed": 2,
+          "denominator": 7,
+          "states": [
+            {
+              "step": 0,
+              "numerator": 2,
+              "divisor": 7,
+              "rational": "2/7",
+              "phase": "2/7",
+              "division_witness": "2 / 7 -> 2/7"
+            },
+            {
+              "step": 1,
+              "numerator": 4,
+              "divisor": 7,
+              "rational": "4/7",
+              "phase": "4/7",
+              "division_witness": "4 / 7 -> 4/7"
+            },
+            {
+              "step": 2,
+              "numerator": 16,
+              "divisor": 7,
+              "rational": "16/7",
+              "phase": "2/7",
+              "division_witness": "16 / 7 -> 16/7"
+            },
+            {
+              "step": 3,
+              "numerator": 256,
+              "divisor": 7,
+              "rational": "256/7",
+              "phase": "4/7",
+              "division_witness": "256 / 7 -> 256/7"
+            },
+            {
+              "step": 4,
+              "numerator": 65536,
+              "divisor": 7,
+              "rational": "65536/7",
+              "phase": "2/7",
+              "division_witness": "65536 / 7 -> 65536/7"
+            }
+          ],
+          "steps": [
+            {
+              "step": 1,
+              "source": 2,
+              "target": 4,
+              "witness": "2 * 2 -> 4"
+            },
+            {
+              "step": 2,
+              "source": 4,
+              "target": 16,
+              "witness": "4 * 4 -> 16"
+            },
+            {
+              "step": 3,
+              "source": 16,
+              "target": 256,
+              "witness": "16 * 16 -> 256"
+            },
+            {
+              "step": 4,
+              "source": 256,
+              "target": 65536,
+              "witness": "256 * 256 -> 65536"
+            }
+          ],
+          "external_cycle": {
+            "residues": [
+              2,
+              4,
+              2
+            ],
+            "phases": [
+              "2/7",
+              "4/7",
+              "2/7"
+            ],
+            "preperiod": 0,
+            "period": 2,
+            "first_repeat_index": 2,
+            "evidence_layer": "external_probe"
+          },
+          "cycle_witnessed_by_checkpoint": {
+            "2": false,
+            "4": false,
+            "8": false,
+            "16": true,
+            "40": true,
+            "80": true,
+            "256": true,
+            "300": true
+          },
+          "cycle_in_declared_lift_budget": true,
+          "phase_projection_is_external": true
+        }
+      ],
+      "scalar_cases": [
+        {
+          "name": "pure_square_fixed_one",
+          "seed": "1",
+          "c": "0",
+          "states": [
+            "1",
+            "1"
+          ],
+          "steps": [
+            {
+              "step": 1,
+              "source": "1",
+              "square": "1",
+              "target": "1",
+              "witnesses": [
+                "1 * 1 -> 1"
+              ]
+            }
+          ],
+          "external_exact_cycle": {
+            "preperiod": 0,
+            "period": 1
+          },
+          "witness_coverage_by_checkpoint": {
+            "2": {
+              "complete_prefix_steps": 1,
+              "first_unwitnessed_operation": null
+            },
+            "4": {
+              "complete_prefix_steps": 1,
+              "first_unwitnessed_operation": null
+            },
+            "8": {
+              "complete_prefix_steps": 1,
+              "first_unwitnessed_operation": null
+            },
+            "16": {
+              "complete_prefix_steps": 1,
+              "first_unwitnessed_operation": null
+            },
+            "40": {
+              "complete_prefix_steps": 1,
+              "first_unwitnessed_operation": null
+            },
+            "80": {
+              "complete_prefix_steps": 1,
+              "first_unwitnessed_operation": null
+            },
+            "256": {
+              "complete_prefix_steps": 1,
+              "first_unwitnessed_operation": null
+            },
+            "300": {
+              "complete_prefix_steps": 1,
+              "first_unwitnessed_operation": null
+            }
+          },
+          "runtime_replay_performed": false
+        },
+        {
+          "name": "subtract_two_fixed_two",
+          "seed": "2",
+          "c": "-2",
+          "states": [
+            "2",
+            "2"
+          ],
+          "steps": [
+            {
+              "step": 1,
+              "source": "2",
+              "square": "4",
+              "target": "2",
+              "witnesses": [
+                "2 * 2 -> 4",
+                "4 - 2 -> 2"
+              ]
+            }
+          ],
+          "external_exact_cycle": {
+            "preperiod": 0,
+            "period": 1
+          },
+          "witness_coverage_by_checkpoint": {
+            "2": {
+              "complete_prefix_steps": 0,
+              "first_unwitnessed_operation": "4 - 2 -> 2"
+            },
+            "4": {
+              "complete_prefix_steps": 1,
+              "first_unwitnessed_operation": null
+            },
+            "8": {
+              "complete_prefix_steps": 1,
+              "first_unwitnessed_operation": null
+            },
+            "16": {
+              "complete_prefix_steps": 1,
+              "first_unwitnessed_operation": null
+            },
+            "40": {
+              "complete_prefix_steps": 1,
+              "first_unwitnessed_operation": null
+            },
+            "80": {
+              "complete_prefix_steps": 1,
+              "first_unwitnessed_operation": null
+            },
+            "256": {
+              "complete_prefix_steps": 1,
+              "first_unwitnessed_operation": null
+            },
+            "300": {
+              "complete_prefix_steps": 1,
+              "first_unwitnessed_operation": null
+            }
+          },
+          "runtime_replay_performed": false
+        },
+        {
+          "name": "subtract_one_hits_zero",
+          "seed": "1",
+          "c": "-1",
+          "states": [
+            "1",
+            "0",
+            "-1",
+            "0"
+          ],
+          "steps": [
+            {
+              "step": 1,
+              "source": "1",
+              "square": "1",
+              "target": "0",
+              "witnesses": [
+                "1 * 1 -> 1",
+                "1 - 1 -> 0"
+              ]
+            },
+            {
+              "step": 2,
+              "source": "0",
+              "square": "0",
+              "target": "-1",
+              "witnesses": [
+                "0 * 0 -> 0",
+                "0 - 1 -> -1"
+              ]
+            },
+            {
+              "step": 3,
+              "source": "-1",
+              "square": "1",
+              "target": "0",
+              "witnesses": [
+                "-1 * -1 -> 1",
+                "1 - 1 -> 0"
+              ]
+            }
+          ],
+          "external_exact_cycle": {
+            "preperiod": 1,
+            "period": 2
+          },
+          "witness_coverage_by_checkpoint": {
+            "2": {
+              "complete_prefix_steps": 1,
+              "first_unwitnessed_operation": "0 * 0 -> 0"
+            },
+            "4": {
+              "complete_prefix_steps": 1,
+              "first_unwitnessed_operation": "0 * 0 -> 0"
+            },
+            "8": {
+              "complete_prefix_steps": 1,
+              "first_unwitnessed_operation": "0 * 0 -> 0"
+            },
+            "16": {
+              "complete_prefix_steps": 1,
+              "first_unwitnessed_operation": "0 * 0 -> 0"
+            },
+            "40": {
+              "complete_prefix_steps": 1,
+              "first_unwitnessed_operation": "0 * 0 -> 0"
+            },
+            "80": {
+              "complete_prefix_steps": 1,
+              "first_unwitnessed_operation": "0 * 0 -> 0"
+            },
+            "256": {
+              "complete_prefix_steps": 1,
+              "first_unwitnessed_operation": "0 * 0 -> 0"
+            },
+            "300": {
+              "complete_prefix_steps": 1,
+              "first_unwitnessed_operation": "0 * 0 -> 0"
+            }
+          },
+          "runtime_replay_performed": false
+        },
+        {
+          "name": "add_one_expands",
+          "seed": "1",
+          "c": "1",
+          "states": [
+            "1",
+            "2",
+            "5",
+            "26",
+            "677"
+          ],
+          "steps": [
+            {
+              "step": 1,
+              "source": "1",
+              "square": "1",
+              "target": "2",
+              "witnesses": [
+                "1 * 1 -> 1",
+                "1 + 1 -> 2"
+              ]
+            },
+            {
+              "step": 2,
+              "source": "2",
+              "square": "4",
+              "target": "5",
+              "witnesses": [
+                "2 * 2 -> 4",
+                "4 + 1 -> 5"
+              ]
+            },
+            {
+              "step": 3,
+              "source": "5",
+              "square": "25",
+              "target": "26",
+              "witnesses": [
+                "5 * 5 -> 25",
+                "25 + 1 -> 26"
+              ]
+            },
+            {
+              "step": 4,
+              "source": "26",
+              "square": "676",
+              "target": "677",
+              "witnesses": [
+                "26 * 26 -> 676",
+                "676 + 1 -> 677"
+              ]
+            }
+          ],
+          "external_exact_cycle": null,
+          "witness_coverage_by_checkpoint": {
+            "2": {
+              "complete_prefix_steps": 1,
+              "first_unwitnessed_operation": "4 + 1 -> 5"
+            },
+            "4": {
+              "complete_prefix_steps": 2,
+              "first_unwitnessed_operation": "5 * 5 -> 25"
+            },
+            "8": {
+              "complete_prefix_steps": 2,
+              "first_unwitnessed_operation": "25 + 1 -> 26"
+            },
+            "16": {
+              "complete_prefix_steps": 2,
+              "first_unwitnessed_operation": "25 + 1 -> 26"
+            },
+            "40": {
+              "complete_prefix_steps": 3,
+              "first_unwitnessed_operation": "676 + 1 -> 677"
+            },
+            "80": {
+              "complete_prefix_steps": 3,
+              "first_unwitnessed_operation": "676 + 1 -> 677"
+            },
+            "256": {
+              "complete_prefix_steps": 3,
+              "first_unwitnessed_operation": "676 + 1 -> 677"
+            },
+            "300": {
+              "complete_prefix_steps": 3,
+              "first_unwitnessed_operation": "676 + 1 -> 677"
+            }
+          },
+          "runtime_replay_performed": false
+        },
+        {
+          "name": "fractional_seed_square",
+          "seed": "1/2",
+          "c": "0",
+          "states": [
+            "1/2",
+            "1/4",
+            "1/16",
+            "1/256"
+          ],
+          "steps": [
+            {
+              "step": 1,
+              "source": "1/2",
+              "square": "1/4",
+              "target": "1/4",
+              "witnesses": [
+                "1/2 * 1/2 -> 1/4"
+              ]
+            },
+            {
+              "step": 2,
+              "source": "1/4",
+              "square": "1/16",
+              "target": "1/16",
+              "witnesses": [
+                "1/4 * 1/4 -> 1/16"
+              ]
+            },
+            {
+              "step": 3,
+              "source": "1/16",
+              "square": "1/256",
+              "target": "1/256",
+              "witnesses": [
+                "1/16 * 1/16 -> 1/256"
+              ]
+            }
+          ],
+          "external_exact_cycle": null,
+          "witness_coverage_by_checkpoint": {
+            "2": {
+              "complete_prefix_steps": 0,
+              "first_unwitnessed_operation": "1/2 * 1/2 -> 1/4"
+            },
+            "4": {
+              "complete_prefix_steps": 0,
+              "first_unwitnessed_operation": "1/2 * 1/2 -> 1/4"
+            },
+            "8": {
+              "complete_prefix_steps": 0,
+              "first_unwitnessed_operation": "1/2 * 1/2 -> 1/4"
+            },
+            "16": {
+              "complete_prefix_steps": 0,
+              "first_unwitnessed_operation": "1/2 * 1/2 -> 1/4"
+            },
+            "40": {
+              "complete_prefix_steps": 0,
+              "first_unwitnessed_operation": "1/2 * 1/2 -> 1/4"
+            },
+            "80": {
+              "complete_prefix_steps": 0,
+              "first_unwitnessed_operation": "1/2 * 1/2 -> 1/4"
+            },
+            "256": {
+              "complete_prefix_steps": 0,
+              "first_unwitnessed_operation": "1/2 * 1/2 -> 1/4"
+            },
+            "300": {
+              "complete_prefix_steps": 0,
+              "first_unwitnessed_operation": "1/2 * 1/2 -> 1/4"
+            }
+          },
+          "runtime_replay_performed": false
+        }
+      ],
+      "fixed_point_family": [
+        {
+          "name": "fixed_m1",
+          "seed": "1",
+          "c": "0",
+          "steps": [
+            {
+              "step": 1,
+              "source": "1",
+              "square": "1",
+              "target": "1",
+              "witnesses": [
+                "1 * 1 -> 1"
+              ]
+            }
+          ],
+          "parameter_witness": "1 - 1 -> 0",
+          "external_derivative": 2,
+          "external_critical_orbit": {
+            "parameter": {
+              "real": "0",
+              "imag": "0"
+            },
+            "seed": {
+              "real": "0",
+              "imag": "0"
+            },
+            "budget": 8,
+            "states": [
+              {
+                "real": "0",
+                "imag": "0"
+              },
+              {
+                "real": "0",
+                "imag": "0"
+              }
+            ],
+            "finite_detector": "exact_cycle",
+            "preperiod": 0,
+            "period": 1,
+            "evidence_layer": "external_probe",
+            "runtime_orbit": false
+          }
+        },
+        {
+          "name": "fixed_m2",
+          "seed": "2",
+          "c": "-2",
+          "steps": [
+            {
+              "step": 1,
+              "source": "2",
+              "square": "4",
+              "target": "2",
+              "witnesses": [
+                "2 * 2 -> 4",
+                "4 - 2 -> 2"
+              ]
+            }
+          ],
+          "parameter_witness": "2 - 4 -> -2",
+          "external_derivative": 4,
+          "external_critical_orbit": {
+            "parameter": {
+              "real": "-2",
+              "imag": "0"
+            },
+            "seed": {
+              "real": "0",
+              "imag": "0"
+            },
+            "budget": 8,
+            "states": [
+              {
+                "real": "0",
+                "imag": "0"
+              },
+              {
+                "real": "-2",
+                "imag": "0"
+              },
+              {
+                "real": "2",
+                "imag": "0"
+              },
+              {
+                "real": "2",
+                "imag": "0"
+              }
+            ],
+            "finite_detector": "exact_cycle",
+            "preperiod": 2,
+            "period": 1,
+            "evidence_layer": "external_probe",
+            "runtime_orbit": false
+          }
+        },
+        {
+          "name": "fixed_m3",
+          "seed": "3",
+          "c": "-6",
+          "steps": [
+            {
+              "step": 1,
+              "source": "3",
+              "square": "9",
+              "target": "3",
+              "witnesses": [
+                "3 * 3 -> 9",
+                "9 - 6 -> 3"
+              ]
+            }
+          ],
+          "parameter_witness": "3 - 9 -> -6",
+          "external_derivative": 6,
+          "external_critical_orbit": {
+            "parameter": {
+              "real": "-6",
+              "imag": "0"
+            },
+            "seed": {
+              "real": "0",
+              "imag": "0"
+            },
+            "budget": 8,
+            "states": [
+              {
+                "real": "0",
+                "imag": "0"
+              },
+              {
+                "real": "-6",
+                "imag": "0"
+              },
+              {
+                "real": "30",
+                "imag": "0"
+              }
+            ],
+            "finite_detector": "certified_escape",
+            "escape_step": 2,
+            "radius_squared": "36",
+            "norm_squared": "900",
+            "evidence_layer": "external_probe",
+            "runtime_orbit": false
+          }
+        },
+        {
+          "name": "fixed_m4",
+          "seed": "4",
+          "c": "-12",
+          "steps": [
+            {
+              "step": 1,
+              "source": "4",
+              "square": "16",
+              "target": "4",
+              "witnesses": [
+                "4 * 4 -> 16",
+                "16 - 12 -> 4"
+              ]
+            }
+          ],
+          "parameter_witness": "4 - 16 -> -12",
+          "external_derivative": 8,
+          "external_critical_orbit": {
+            "parameter": {
+              "real": "-12",
+              "imag": "0"
+            },
+            "seed": {
+              "real": "0",
+              "imag": "0"
+            },
+            "budget": 8,
+            "states": [
+              {
+                "real": "0",
+                "imag": "0"
+              },
+              {
+                "real": "-12",
+                "imag": "0"
+              },
+              {
+                "real": "132",
+                "imag": "0"
+              }
+            ],
+            "finite_detector": "certified_escape",
+            "escape_step": 2,
+            "radius_squared": "144",
+            "norm_squared": "17424",
+            "evidence_layer": "external_probe",
+            "runtime_orbit": false
+          }
+        },
+        {
+          "name": "fixed_m5",
+          "seed": "5",
+          "c": "-20",
+          "steps": [
+            {
+              "step": 1,
+              "source": "5",
+              "square": "25",
+              "target": "5",
+              "witnesses": [
+                "5 * 5 -> 25",
+                "25 - 20 -> 5"
+              ]
+            }
+          ],
+          "parameter_witness": "5 - 25 -> -20",
+          "external_derivative": 10,
+          "external_critical_orbit": {
+            "parameter": {
+              "real": "-20",
+              "imag": "0"
+            },
+            "seed": {
+              "real": "0",
+              "imag": "0"
+            },
+            "budget": 8,
+            "states": [
+              {
+                "real": "0",
+                "imag": "0"
+              },
+              {
+                "real": "-20",
+                "imag": "0"
+              },
+              {
+                "real": "380",
+                "imag": "0"
+              }
+            ],
+            "finite_detector": "certified_escape",
+            "escape_step": 2,
+            "radius_squared": "400",
+            "norm_squared": "144400",
+            "evidence_layer": "external_probe",
+            "runtime_orbit": false
+          }
+        },
+        {
+          "name": "fixed_m6",
+          "seed": "6",
+          "c": "-30",
+          "steps": [
+            {
+              "step": 1,
+              "source": "6",
+              "square": "36",
+              "target": "6",
+              "witnesses": [
+                "6 * 6 -> 36",
+                "36 - 30 -> 6"
+              ]
+            }
+          ],
+          "parameter_witness": "6 - 36 -> -30",
+          "external_derivative": 12,
+          "external_critical_orbit": {
+            "parameter": {
+              "real": "-30",
+              "imag": "0"
+            },
+            "seed": {
+              "real": "0",
+              "imag": "0"
+            },
+            "budget": 8,
+            "states": [
+              {
+                "real": "0",
+                "imag": "0"
+              },
+              {
+                "real": "-30",
+                "imag": "0"
+              },
+              {
+                "real": "870",
+                "imag": "0"
+              }
+            ],
+            "finite_detector": "certified_escape",
+            "escape_step": 2,
+            "radius_squared": "900",
+            "norm_squared": "756900",
+            "evidence_layer": "external_probe",
+            "runtime_orbit": false
+          }
+        }
+      ],
+      "witnesses": {
+        "2 / 2 -> 1": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 13,
+              "stage": 2
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 2,
+          "result_present": true
+        },
+        "2 + 2 -> 4": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 10,
+              "stage": 2
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 2,
+          "result_present": true
+        },
+        "4 / 2 -> 2": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 45,
+              "stage": 4
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 4,
+          "result_present": true
+        },
+        "4 + 4 -> 8": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 50,
+              "stage": 4
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 4,
+          "result_present": true
+        },
+        "8 / 2 -> 4": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 205,
+              "stage": 8
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 8,
+          "result_present": true
+        },
+        "8 + 8 -> 16": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 226,
+              "stage": 8
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 8,
+          "result_present": true
+        },
+        "16 / 2 -> 8": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 909,
+              "stage": 16
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 16,
+          "result_present": true
+        },
+        "16 + 16 -> 32": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 962,
+              "stage": 16
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 16,
+          "result_present": true
+        },
+        "32 / 2 -> 16": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 3853,
+              "stage": 32
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 32,
+          "result_present": true
+        },
+        "2 * 2 -> 4": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 12,
+              "stage": 2
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 2,
+          "result_present": true
+        },
+        "4 * 4 -> 16": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 52,
+              "stage": 4
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 4,
+          "result_present": true
+        },
+        "16 * 16 -> 256": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 964,
+              "stage": 16
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 16,
+          "result_present": true
+        },
+        "256 / 2 -> 128": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 260109,
+              "stage": 256
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 256,
+          "result_present": true
+        },
+        "256 * 256 -> 65536": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 261124,
+              "stage": 256
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 256,
+          "result_present": true
+        },
+        "65536 / 2 -> 32768": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "candidate_stage_beyond_corpus",
+          "candidate_stage": 65536,
+          "result_present": true
+        },
+        "2 / 3 -> 2/3": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 37,
+              "stage": 3
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 3,
+          "result_present": true
+        },
+        "4 / 3 -> 4/3": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 49,
+              "stage": 4
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 4,
+          "result_present": true
+        },
+        "8 / 3 -> 8/3": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 209,
+              "stage": 8
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 8,
+          "result_present": true
+        },
+        "16 / 3 -> 16/3": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 913,
+              "stage": 16
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 16,
+          "result_present": true
+        },
+        "32 / 3 -> 32/3": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 3857,
+              "stage": 32
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 32,
+          "result_present": true
+        },
+        "256 / 3 -> 256/3": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 260113,
+              "stage": 256
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 256,
+          "result_present": true
+        },
+        "65536 / 3 -> 65536/3": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "candidate_stage_beyond_corpus",
+          "candidate_stage": 65536,
+          "result_present": false
+        },
+        "2 / 4 -> 1/2": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 61,
+              "stage": 4
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 4,
+          "result_present": true
+        },
+        "4 / 4 -> 1": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 53,
+              "stage": 4
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 4,
+          "result_present": true
+        },
+        "8 / 4 -> 2": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 213,
+              "stage": 8
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 8,
+          "result_present": true
+        },
+        "16 / 4 -> 4": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 917,
+              "stage": 16
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 16,
+          "result_present": true
+        },
+        "32 / 4 -> 8": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 3861,
+              "stage": 32
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 32,
+          "result_present": true
+        },
+        "256 / 4 -> 64": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 260117,
+              "stage": 256
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 256,
+          "result_present": true
+        },
+        "65536 / 4 -> 16384": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "candidate_stage_beyond_corpus",
+          "candidate_stage": 65536,
+          "result_present": true
+        },
+        "2 / 5 -> 2/5": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 93,
+              "stage": 5
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 5,
+          "result_present": true
+        },
+        "4 / 5 -> 4/5": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 101,
+              "stage": 5
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 5,
+          "result_present": true
+        },
+        "8 / 5 -> 8/5": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 217,
+              "stage": 8
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 8,
+          "result_present": true
+        },
+        "16 / 5 -> 16/5": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 921,
+              "stage": 16
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 16,
+          "result_present": true
+        },
+        "32 / 5 -> 32/5": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 3865,
+              "stage": 32
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 32,
+          "result_present": true
+        },
+        "256 / 5 -> 256/5": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 260121,
+              "stage": 256
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 256,
+          "result_present": true
+        },
+        "65536 / 5 -> 65536/5": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "candidate_stage_beyond_corpus",
+          "candidate_stage": 65536,
+          "result_present": false
+        },
+        "2 / 6 -> 1/3": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 133,
+              "stage": 6
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 6,
+          "result_present": true
+        },
+        "4 / 6 -> 2/3": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 141,
+              "stage": 6
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 6,
+          "result_present": true
+        },
+        "8 / 6 -> 4/3": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 221,
+              "stage": 8
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 8,
+          "result_present": true
+        },
+        "16 / 6 -> 8/3": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 925,
+              "stage": 16
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 16,
+          "result_present": true
+        },
+        "32 / 6 -> 16/3": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 3869,
+              "stage": 32
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 32,
+          "result_present": true
+        },
+        "256 / 6 -> 128/3": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 260125,
+              "stage": 256
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 256,
+          "result_present": true
+        },
+        "65536 / 6 -> 32768/3": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "candidate_stage_beyond_corpus",
+          "candidate_stage": 65536,
+          "result_present": false
+        },
+        "2 / 7 -> 2/7": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 181,
+              "stage": 7
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 7,
+          "result_present": true
+        },
+        "4 / 7 -> 4/7": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 189,
+              "stage": 7
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 7,
+          "result_present": true
+        },
+        "8 / 7 -> 8/7": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 225,
+              "stage": 8
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 8,
+          "result_present": true
+        },
+        "16 / 7 -> 16/7": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 929,
+              "stage": 16
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 16,
+          "result_present": true
+        },
+        "32 / 7 -> 32/7": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 3873,
+              "stage": 32
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 32,
+          "result_present": true
+        },
+        "256 / 7 -> 256/7": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 260129,
+              "stage": 256
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 256,
+          "result_present": true
+        },
+        "65536 / 7 -> 65536/7": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "candidate_stage_beyond_corpus",
+          "candidate_stage": 65536,
+          "result_present": false
+        },
+        "2 / 8 -> 1/4": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 237,
+              "stage": 8
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 8,
+          "result_present": true
+        },
+        "4 / 8 -> 1/2": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 245,
+              "stage": 8
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 8,
+          "result_present": true
+        },
+        "8 / 8 -> 1": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 229,
+              "stage": 8
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 8,
+          "result_present": true
+        },
+        "16 / 8 -> 2": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 933,
+              "stage": 16
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 16,
+          "result_present": true
+        },
+        "32 / 8 -> 4": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 3877,
+              "stage": 32
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 32,
+          "result_present": true
+        },
+        "256 / 8 -> 32": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 260133,
+              "stage": 256
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 256,
+          "result_present": true
+        },
+        "65536 / 8 -> 8192": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "candidate_stage_beyond_corpus",
+          "candidate_stage": 65536,
+          "result_present": true
+        },
+        "2 / 9 -> 2/9": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 301,
+              "stage": 9
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 9,
+          "result_present": true
+        },
+        "4 / 9 -> 4/9": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 309,
+              "stage": 9
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 9,
+          "result_present": true
+        },
+        "8 / 9 -> 8/9": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 325,
+              "stage": 9
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 9,
+          "result_present": true
+        },
+        "16 / 9 -> 16/9": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 937,
+              "stage": 16
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 16,
+          "result_present": true
+        },
+        "32 / 9 -> 32/9": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 3881,
+              "stage": 32
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 32,
+          "result_present": true
+        },
+        "256 / 9 -> 256/9": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 260137,
+              "stage": 256
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 256,
+          "result_present": true
+        },
+        "65536 / 9 -> 65536/9": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "candidate_stage_beyond_corpus",
+          "candidate_stage": 65536,
+          "result_present": false
+        },
+        "2 / 10 -> 1/5": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 373,
+              "stage": 10
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 10,
+          "result_present": true
+        },
+        "4 / 10 -> 2/5": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 381,
+              "stage": 10
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 10,
+          "result_present": true
+        },
+        "8 / 10 -> 4/5": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 397,
+              "stage": 10
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 10,
+          "result_present": true
+        },
+        "16 / 10 -> 8/5": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 941,
+              "stage": 16
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 16,
+          "result_present": true
+        },
+        "32 / 10 -> 16/5": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 3885,
+              "stage": 32
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 32,
+          "result_present": true
+        },
+        "256 / 10 -> 128/5": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 260141,
+              "stage": 256
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 256,
+          "result_present": true
+        },
+        "65536 / 10 -> 32768/5": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "candidate_stage_beyond_corpus",
+          "candidate_stage": 65536,
+          "result_present": false
+        },
+        "2 / 11 -> 2/11": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 453,
+              "stage": 11
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 11,
+          "result_present": true
+        },
+        "4 / 11 -> 4/11": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 461,
+              "stage": 11
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 11,
+          "result_present": true
+        },
+        "8 / 11 -> 8/11": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 477,
+              "stage": 11
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 11,
+          "result_present": true
+        },
+        "16 / 11 -> 16/11": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 945,
+              "stage": 16
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 16,
+          "result_present": true
+        },
+        "32 / 11 -> 32/11": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 3889,
+              "stage": 32
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 32,
+          "result_present": true
+        },
+        "256 / 11 -> 256/11": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 260145,
+              "stage": 256
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 256,
+          "result_present": true
+        },
+        "65536 / 11 -> 65536/11": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "candidate_stage_beyond_corpus",
+          "candidate_stage": 65536,
+          "result_present": false
+        },
+        "2 / 12 -> 1/6": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 541,
+              "stage": 12
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 12,
+          "result_present": true
+        },
+        "4 / 12 -> 1/3": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 549,
+              "stage": 12
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 12,
+          "result_present": true
+        },
+        "8 / 12 -> 2/3": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 565,
+              "stage": 12
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 12,
+          "result_present": true
+        },
+        "16 / 12 -> 4/3": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 949,
+              "stage": 16
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 16,
+          "result_present": true
+        },
+        "32 / 12 -> 8/3": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 3893,
+              "stage": 32
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 32,
+          "result_present": true
+        },
+        "256 / 12 -> 64/3": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 260149,
+              "stage": 256
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 256,
+          "result_present": true
+        },
+        "65536 / 12 -> 16384/3": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "candidate_stage_beyond_corpus",
+          "candidate_stage": 65536,
+          "result_present": false
+        },
+        "2 / 13 -> 2/13": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 637,
+              "stage": 13
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 13,
+          "result_present": true
+        },
+        "4 / 13 -> 4/13": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 645,
+              "stage": 13
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 13,
+          "result_present": true
+        },
+        "8 / 13 -> 8/13": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 661,
+              "stage": 13
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 13,
+          "result_present": true
+        },
+        "16 / 13 -> 16/13": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 953,
+              "stage": 16
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 16,
+          "result_present": true
+        },
+        "32 / 13 -> 32/13": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 3897,
+              "stage": 32
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 32,
+          "result_present": true
+        },
+        "256 / 13 -> 256/13": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 260153,
+              "stage": 256
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 256,
+          "result_present": true
+        },
+        "65536 / 13 -> 65536/13": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "candidate_stage_beyond_corpus",
+          "candidate_stage": 65536,
+          "result_present": false
+        },
+        "2 / 14 -> 1/7": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 741,
+              "stage": 14
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 14,
+          "result_present": true
+        },
+        "4 / 14 -> 2/7": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 749,
+              "stage": 14
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 14,
+          "result_present": true
+        },
+        "8 / 14 -> 4/7": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 765,
+              "stage": 14
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 14,
+          "result_present": true
+        },
+        "16 / 14 -> 8/7": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 957,
+              "stage": 16
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 16,
+          "result_present": true
+        },
+        "32 / 14 -> 16/7": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 3901,
+              "stage": 32
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 32,
+          "result_present": true
+        },
+        "256 / 14 -> 128/7": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 260157,
+              "stage": 256
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 256,
+          "result_present": true
+        },
+        "65536 / 14 -> 32768/7": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "candidate_stage_beyond_corpus",
+          "candidate_stage": 65536,
+          "result_present": false
+        },
+        "2 / 15 -> 2/15": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 853,
+              "stage": 15
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 15,
+          "result_present": true
+        },
+        "4 / 15 -> 4/15": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 861,
+              "stage": 15
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 15,
+          "result_present": true
+        },
+        "8 / 15 -> 8/15": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 877,
+              "stage": 15
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 15,
+          "result_present": true
+        },
+        "16 / 15 -> 16/15": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 961,
+              "stage": 16
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 16,
+          "result_present": true
+        },
+        "32 / 15 -> 32/15": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 3905,
+              "stage": 32
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 32,
+          "result_present": true
+        },
+        "256 / 15 -> 256/15": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 260161,
+              "stage": 256
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 256,
+          "result_present": true
+        },
+        "65536 / 15 -> 65536/15": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "candidate_stage_beyond_corpus",
+          "candidate_stage": 65536,
+          "result_present": false
+        },
+        "2 / 16 -> 1/8": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 973,
+              "stage": 16
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 16,
+          "result_present": true
+        },
+        "4 / 16 -> 1/4": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 981,
+              "stage": 16
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 16,
+          "result_present": true
+        },
+        "8 / 16 -> 1/2": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 997,
+              "stage": 16
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 16,
+          "result_present": true
+        },
+        "16 / 16 -> 1": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 965,
+              "stage": 16
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 16,
+          "result_present": true
+        },
+        "32 / 16 -> 2": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 3909,
+              "stage": 32
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 32,
+          "result_present": true
+        },
+        "256 / 16 -> 16": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 260165,
+              "stage": 256
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 256,
+          "result_present": true
+        },
+        "65536 / 16 -> 4096": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "candidate_stage_beyond_corpus",
+          "candidate_stage": 65536,
+          "result_present": true
+        },
+        "2 / 31 -> 2/31": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 3733,
+              "stage": 31
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 31,
+          "result_present": true
+        },
+        "4 / 31 -> 4/31": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 3741,
+              "stage": 31
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 31,
+          "result_present": true
+        },
+        "8 / 31 -> 8/31": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 3757,
+              "stage": 31
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 31,
+          "result_present": true
+        },
+        "16 / 31 -> 16/31": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 3789,
+              "stage": 31
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 31,
+          "result_present": true
+        },
+        "32 / 31 -> 32/31": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 3969,
+              "stage": 32
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 32,
+          "result_present": true
+        },
+        "256 / 31 -> 256/31": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 260225,
+              "stage": 256
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 256,
+          "result_present": true
+        },
+        "65536 / 31 -> 65536/31": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "candidate_stage_beyond_corpus",
+          "candidate_stage": 65536,
+          "result_present": false
+        },
+        "1 * 1 -> 1": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 4,
+              "stage": 1
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 1,
+          "result_present": true
+        },
+        "4 - 2 -> 2": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 43,
+              "stage": 4
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 4,
+          "result_present": true
+        },
+        "1 - 1 -> 0": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 3,
+              "stage": 1
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 1,
+          "result_present": true
+        },
+        "0 * 0 -> 0": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "operand_not_positive_spine",
+          "candidate_stage": null,
+          "result_present": true
+        },
+        "0 - 1 -> -1": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "operand_not_positive_spine",
+          "candidate_stage": null,
+          "result_present": true
+        },
+        "-1 * -1 -> 1": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "operand_not_positive_spine",
+          "candidate_stage": null,
+          "result_present": true
+        },
+        "1 + 1 -> 2": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 2,
+              "stage": 1
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 1,
+          "result_present": true
+        },
+        "4 + 1 -> 5": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 38,
+              "stage": 4
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 4,
+          "result_present": true
+        },
+        "5 * 5 -> 25": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 84,
+              "stage": 5
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 5,
+          "result_present": true
+        },
+        "25 + 1 -> 26": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 2306,
+              "stage": 25
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 25,
+          "result_present": true
+        },
+        "26 * 26 -> 676": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 2604,
+              "stage": 26
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 26,
+          "result_present": true
+        },
+        "676 + 1 -> 677": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "candidate_stage_beyond_corpus",
+          "candidate_stage": 676,
+          "result_present": false
+        },
+        "1/2 * 1/2 -> 1/4": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "operand_not_positive_spine",
+          "candidate_stage": null,
+          "result_present": true
+        },
+        "1/4 * 1/4 -> 1/16": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "operand_not_positive_spine",
+          "candidate_stage": null,
+          "result_present": true
+        },
+        "1/16 * 1/16 -> 1/256": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "operand_not_positive_spine",
+          "candidate_stage": null,
+          "result_present": true
+        },
+        "2 - 4 -> -2": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 59,
+              "stage": 4
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 4,
+          "result_present": true
+        },
+        "3 * 3 -> 9": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 28,
+              "stage": 3
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 3,
+          "result_present": true
+        },
+        "9 - 6 -> 3": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 279,
+              "stage": 9
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 9,
+          "result_present": true
+        },
+        "3 - 9 -> -6": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 303,
+              "stage": 9
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 9,
+          "result_present": true
+        },
+        "16 - 12 -> 4": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 947,
+              "stage": 16
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 16,
+          "result_present": true
+        },
+        "4 - 16 -> -12": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 979,
+              "stage": 16
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 16,
+          "result_present": true
+        },
+        "25 - 20 -> 5": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 2383,
+              "stage": 25
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 25,
+          "result_present": true
+        },
+        "5 - 25 -> -20": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 2423,
+              "stage": 25
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 25,
+          "result_present": true
+        },
+        "6 * 6 -> 36": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 124,
+              "stage": 6
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 6,
+          "result_present": true
+        },
+        "36 - 30 -> 6": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 5019,
+              "stage": 36
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 36,
+          "result_present": true
+        },
+        "6 - 36 -> -30": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 5067,
+              "stage": 36
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 36,
+          "result_present": true
+        },
+        "1/3 * 1/3 -> 1/9": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "operand_not_positive_spine",
+          "candidate_stage": null,
+          "result_present": true
+        },
+        "4/3 * 4/3 -> 16/9": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "operand_not_positive_spine",
+          "candidate_stage": null,
+          "result_present": true
+        }
+      }
+    },
+    "u40": {
+      "path": "out/experiments/circle_as_one_u40_wide.sqlite",
+      "sha256": "12d358def1827b217a603a6da1aa793aa3525eb28b135fd3991af1bbcdc279ad",
+      "stage": 40,
+      "queried_relations": 148,
+      "retained_relations": 104,
+      "blockers": {
+        "result_outside_retention_aperture": 2,
+        "candidate_stage_beyond_corpus": 34,
+        "operand_not_positive_spine": 8
+      },
+      "q7": [
+        {
+          "operation": "+",
+          "seed": 2,
+          "denominator": 7,
+          "states": [
+            {
+              "step": 0,
+              "numerator": 2,
+              "divisor": 7,
+              "rational": "2/7",
+              "phase": "2/7",
+              "division_witness": "2 / 7 -> 2/7"
+            },
+            {
+              "step": 1,
+              "numerator": 4,
+              "divisor": 7,
+              "rational": "4/7",
+              "phase": "4/7",
+              "division_witness": "4 / 7 -> 4/7"
+            },
+            {
+              "step": 2,
+              "numerator": 8,
+              "divisor": 7,
+              "rational": "8/7",
+              "phase": "1/7",
+              "division_witness": "8 / 7 -> 8/7"
+            },
+            {
+              "step": 3,
+              "numerator": 16,
+              "divisor": 7,
+              "rational": "16/7",
+              "phase": "2/7",
+              "division_witness": "16 / 7 -> 16/7"
+            },
+            {
+              "step": 4,
+              "numerator": 32,
+              "divisor": 7,
+              "rational": "32/7",
+              "phase": "4/7",
+              "division_witness": "32 / 7 -> 32/7"
+            }
+          ],
+          "steps": [
+            {
+              "step": 1,
+              "source": 2,
+              "target": 4,
+              "witness": "2 + 2 -> 4"
+            },
+            {
+              "step": 2,
+              "source": 4,
+              "target": 8,
+              "witness": "4 + 4 -> 8"
+            },
+            {
+              "step": 3,
+              "source": 8,
+              "target": 16,
+              "witness": "8 + 8 -> 16"
+            },
+            {
+              "step": 4,
+              "source": 16,
+              "target": 32,
+              "witness": "16 + 16 -> 32"
+            }
+          ],
+          "external_cycle": {
+            "residues": [
+              2,
+              4,
+              1,
+              2
+            ],
+            "phases": [
+              "2/7",
+              "4/7",
+              "1/7",
+              "2/7"
+            ],
+            "preperiod": 0,
+            "period": 3,
+            "first_repeat_index": 3,
+            "evidence_layer": "external_probe"
+          },
+          "cycle_witnessed_by_checkpoint": {
+            "2": false,
+            "4": false,
+            "8": false,
+            "16": true,
+            "40": true
+          },
+          "cycle_in_declared_lift_budget": true,
+          "phase_projection_is_external": true
+        },
+        {
+          "operation": "*",
+          "seed": 2,
+          "denominator": 7,
+          "states": [
+            {
+              "step": 0,
+              "numerator": 2,
+              "divisor": 7,
+              "rational": "2/7",
+              "phase": "2/7",
+              "division_witness": "2 / 7 -> 2/7"
+            },
+            {
+              "step": 1,
+              "numerator": 4,
+              "divisor": 7,
+              "rational": "4/7",
+              "phase": "4/7",
+              "division_witness": "4 / 7 -> 4/7"
+            },
+            {
+              "step": 2,
+              "numerator": 16,
+              "divisor": 7,
+              "rational": "16/7",
+              "phase": "2/7",
+              "division_witness": "16 / 7 -> 16/7"
+            },
+            {
+              "step": 3,
+              "numerator": 256,
+              "divisor": 7,
+              "rational": "256/7",
+              "phase": "4/7",
+              "division_witness": "256 / 7 -> 256/7"
+            },
+            {
+              "step": 4,
+              "numerator": 65536,
+              "divisor": 7,
+              "rational": "65536/7",
+              "phase": "2/7",
+              "division_witness": "65536 / 7 -> 65536/7"
+            }
+          ],
+          "steps": [
+            {
+              "step": 1,
+              "source": 2,
+              "target": 4,
+              "witness": "2 * 2 -> 4"
+            },
+            {
+              "step": 2,
+              "source": 4,
+              "target": 16,
+              "witness": "4 * 4 -> 16"
+            },
+            {
+              "step": 3,
+              "source": 16,
+              "target": 256,
+              "witness": "16 * 16 -> 256"
+            },
+            {
+              "step": 4,
+              "source": 256,
+              "target": 65536,
+              "witness": "256 * 256 -> 65536"
+            }
+          ],
+          "external_cycle": {
+            "residues": [
+              2,
+              4,
+              2
+            ],
+            "phases": [
+              "2/7",
+              "4/7",
+              "2/7"
+            ],
+            "preperiod": 0,
+            "period": 2,
+            "first_repeat_index": 2,
+            "evidence_layer": "external_probe"
+          },
+          "cycle_witnessed_by_checkpoint": {
+            "2": false,
+            "4": false,
+            "8": false,
+            "16": true,
+            "40": true
+          },
+          "cycle_in_declared_lift_budget": true,
+          "phase_projection_is_external": true
+        }
+      ],
+      "scalar_cases": [
+        {
+          "name": "pure_square_fixed_one",
+          "seed": "1",
+          "c": "0",
+          "states": [
+            "1",
+            "1"
+          ],
+          "steps": [
+            {
+              "step": 1,
+              "source": "1",
+              "square": "1",
+              "target": "1",
+              "witnesses": [
+                "1 * 1 -> 1"
+              ]
+            }
+          ],
+          "external_exact_cycle": {
+            "preperiod": 0,
+            "period": 1
+          },
+          "witness_coverage_by_checkpoint": {
+            "2": {
+              "complete_prefix_steps": 1,
+              "first_unwitnessed_operation": null
+            },
+            "4": {
+              "complete_prefix_steps": 1,
+              "first_unwitnessed_operation": null
+            },
+            "8": {
+              "complete_prefix_steps": 1,
+              "first_unwitnessed_operation": null
+            },
+            "16": {
+              "complete_prefix_steps": 1,
+              "first_unwitnessed_operation": null
+            },
+            "40": {
+              "complete_prefix_steps": 1,
+              "first_unwitnessed_operation": null
+            }
+          },
+          "runtime_replay_performed": false
+        },
+        {
+          "name": "subtract_two_fixed_two",
+          "seed": "2",
+          "c": "-2",
+          "states": [
+            "2",
+            "2"
+          ],
+          "steps": [
+            {
+              "step": 1,
+              "source": "2",
+              "square": "4",
+              "target": "2",
+              "witnesses": [
+                "2 * 2 -> 4",
+                "4 - 2 -> 2"
+              ]
+            }
+          ],
+          "external_exact_cycle": {
+            "preperiod": 0,
+            "period": 1
+          },
+          "witness_coverage_by_checkpoint": {
+            "2": {
+              "complete_prefix_steps": 0,
+              "first_unwitnessed_operation": "4 - 2 -> 2"
+            },
+            "4": {
+              "complete_prefix_steps": 1,
+              "first_unwitnessed_operation": null
+            },
+            "8": {
+              "complete_prefix_steps": 1,
+              "first_unwitnessed_operation": null
+            },
+            "16": {
+              "complete_prefix_steps": 1,
+              "first_unwitnessed_operation": null
+            },
+            "40": {
+              "complete_prefix_steps": 1,
+              "first_unwitnessed_operation": null
+            }
+          },
+          "runtime_replay_performed": false
+        },
+        {
+          "name": "subtract_one_hits_zero",
+          "seed": "1",
+          "c": "-1",
+          "states": [
+            "1",
+            "0",
+            "-1",
+            "0"
+          ],
+          "steps": [
+            {
+              "step": 1,
+              "source": "1",
+              "square": "1",
+              "target": "0",
+              "witnesses": [
+                "1 * 1 -> 1",
+                "1 - 1 -> 0"
+              ]
+            },
+            {
+              "step": 2,
+              "source": "0",
+              "square": "0",
+              "target": "-1",
+              "witnesses": [
+                "0 * 0 -> 0",
+                "0 - 1 -> -1"
+              ]
+            },
+            {
+              "step": 3,
+              "source": "-1",
+              "square": "1",
+              "target": "0",
+              "witnesses": [
+                "-1 * -1 -> 1",
+                "1 - 1 -> 0"
+              ]
+            }
+          ],
+          "external_exact_cycle": {
+            "preperiod": 1,
+            "period": 2
+          },
+          "witness_coverage_by_checkpoint": {
+            "2": {
+              "complete_prefix_steps": 1,
+              "first_unwitnessed_operation": "0 * 0 -> 0"
+            },
+            "4": {
+              "complete_prefix_steps": 1,
+              "first_unwitnessed_operation": "0 * 0 -> 0"
+            },
+            "8": {
+              "complete_prefix_steps": 1,
+              "first_unwitnessed_operation": "0 * 0 -> 0"
+            },
+            "16": {
+              "complete_prefix_steps": 1,
+              "first_unwitnessed_operation": "0 * 0 -> 0"
+            },
+            "40": {
+              "complete_prefix_steps": 1,
+              "first_unwitnessed_operation": "0 * 0 -> 0"
+            }
+          },
+          "runtime_replay_performed": false
+        },
+        {
+          "name": "add_one_expands",
+          "seed": "1",
+          "c": "1",
+          "states": [
+            "1",
+            "2",
+            "5",
+            "26",
+            "677"
+          ],
+          "steps": [
+            {
+              "step": 1,
+              "source": "1",
+              "square": "1",
+              "target": "2",
+              "witnesses": [
+                "1 * 1 -> 1",
+                "1 + 1 -> 2"
+              ]
+            },
+            {
+              "step": 2,
+              "source": "2",
+              "square": "4",
+              "target": "5",
+              "witnesses": [
+                "2 * 2 -> 4",
+                "4 + 1 -> 5"
+              ]
+            },
+            {
+              "step": 3,
+              "source": "5",
+              "square": "25",
+              "target": "26",
+              "witnesses": [
+                "5 * 5 -> 25",
+                "25 + 1 -> 26"
+              ]
+            },
+            {
+              "step": 4,
+              "source": "26",
+              "square": "676",
+              "target": "677",
+              "witnesses": [
+                "26 * 26 -> 676",
+                "676 + 1 -> 677"
+              ]
+            }
+          ],
+          "external_exact_cycle": null,
+          "witness_coverage_by_checkpoint": {
+            "2": {
+              "complete_prefix_steps": 1,
+              "first_unwitnessed_operation": "4 + 1 -> 5"
+            },
+            "4": {
+              "complete_prefix_steps": 2,
+              "first_unwitnessed_operation": "5 * 5 -> 25"
+            },
+            "8": {
+              "complete_prefix_steps": 2,
+              "first_unwitnessed_operation": "25 + 1 -> 26"
+            },
+            "16": {
+              "complete_prefix_steps": 2,
+              "first_unwitnessed_operation": "25 + 1 -> 26"
+            },
+            "40": {
+              "complete_prefix_steps": 3,
+              "first_unwitnessed_operation": "26 * 26 -> 676"
+            }
+          },
+          "runtime_replay_performed": false
+        },
+        {
+          "name": "fractional_seed_square",
+          "seed": "1/2",
+          "c": "0",
+          "states": [
+            "1/2",
+            "1/4",
+            "1/16",
+            "1/256"
+          ],
+          "steps": [
+            {
+              "step": 1,
+              "source": "1/2",
+              "square": "1/4",
+              "target": "1/4",
+              "witnesses": [
+                "1/2 * 1/2 -> 1/4"
+              ]
+            },
+            {
+              "step": 2,
+              "source": "1/4",
+              "square": "1/16",
+              "target": "1/16",
+              "witnesses": [
+                "1/4 * 1/4 -> 1/16"
+              ]
+            },
+            {
+              "step": 3,
+              "source": "1/16",
+              "square": "1/256",
+              "target": "1/256",
+              "witnesses": [
+                "1/16 * 1/16 -> 1/256"
+              ]
+            }
+          ],
+          "external_exact_cycle": null,
+          "witness_coverage_by_checkpoint": {
+            "2": {
+              "complete_prefix_steps": 0,
+              "first_unwitnessed_operation": "1/2 * 1/2 -> 1/4"
+            },
+            "4": {
+              "complete_prefix_steps": 0,
+              "first_unwitnessed_operation": "1/2 * 1/2 -> 1/4"
+            },
+            "8": {
+              "complete_prefix_steps": 0,
+              "first_unwitnessed_operation": "1/2 * 1/2 -> 1/4"
+            },
+            "16": {
+              "complete_prefix_steps": 0,
+              "first_unwitnessed_operation": "1/2 * 1/2 -> 1/4"
+            },
+            "40": {
+              "complete_prefix_steps": 0,
+              "first_unwitnessed_operation": "1/2 * 1/2 -> 1/4"
+            }
+          },
+          "runtime_replay_performed": false
+        }
+      ],
+      "fixed_point_family": [
+        {
+          "name": "fixed_m1",
+          "seed": "1",
+          "c": "0",
+          "steps": [
+            {
+              "step": 1,
+              "source": "1",
+              "square": "1",
+              "target": "1",
+              "witnesses": [
+                "1 * 1 -> 1"
+              ]
+            }
+          ],
+          "parameter_witness": "1 - 1 -> 0",
+          "external_derivative": 2,
+          "external_critical_orbit": {
+            "parameter": {
+              "real": "0",
+              "imag": "0"
+            },
+            "seed": {
+              "real": "0",
+              "imag": "0"
+            },
+            "budget": 8,
+            "states": [
+              {
+                "real": "0",
+                "imag": "0"
+              },
+              {
+                "real": "0",
+                "imag": "0"
+              }
+            ],
+            "finite_detector": "exact_cycle",
+            "preperiod": 0,
+            "period": 1,
+            "evidence_layer": "external_probe",
+            "runtime_orbit": false
+          }
+        },
+        {
+          "name": "fixed_m2",
+          "seed": "2",
+          "c": "-2",
+          "steps": [
+            {
+              "step": 1,
+              "source": "2",
+              "square": "4",
+              "target": "2",
+              "witnesses": [
+                "2 * 2 -> 4",
+                "4 - 2 -> 2"
+              ]
+            }
+          ],
+          "parameter_witness": "2 - 4 -> -2",
+          "external_derivative": 4,
+          "external_critical_orbit": {
+            "parameter": {
+              "real": "-2",
+              "imag": "0"
+            },
+            "seed": {
+              "real": "0",
+              "imag": "0"
+            },
+            "budget": 8,
+            "states": [
+              {
+                "real": "0",
+                "imag": "0"
+              },
+              {
+                "real": "-2",
+                "imag": "0"
+              },
+              {
+                "real": "2",
+                "imag": "0"
+              },
+              {
+                "real": "2",
+                "imag": "0"
+              }
+            ],
+            "finite_detector": "exact_cycle",
+            "preperiod": 2,
+            "period": 1,
+            "evidence_layer": "external_probe",
+            "runtime_orbit": false
+          }
+        },
+        {
+          "name": "fixed_m3",
+          "seed": "3",
+          "c": "-6",
+          "steps": [
+            {
+              "step": 1,
+              "source": "3",
+              "square": "9",
+              "target": "3",
+              "witnesses": [
+                "3 * 3 -> 9",
+                "9 - 6 -> 3"
+              ]
+            }
+          ],
+          "parameter_witness": "3 - 9 -> -6",
+          "external_derivative": 6,
+          "external_critical_orbit": {
+            "parameter": {
+              "real": "-6",
+              "imag": "0"
+            },
+            "seed": {
+              "real": "0",
+              "imag": "0"
+            },
+            "budget": 8,
+            "states": [
+              {
+                "real": "0",
+                "imag": "0"
+              },
+              {
+                "real": "-6",
+                "imag": "0"
+              },
+              {
+                "real": "30",
+                "imag": "0"
+              }
+            ],
+            "finite_detector": "certified_escape",
+            "escape_step": 2,
+            "radius_squared": "36",
+            "norm_squared": "900",
+            "evidence_layer": "external_probe",
+            "runtime_orbit": false
+          }
+        },
+        {
+          "name": "fixed_m4",
+          "seed": "4",
+          "c": "-12",
+          "steps": [
+            {
+              "step": 1,
+              "source": "4",
+              "square": "16",
+              "target": "4",
+              "witnesses": [
+                "4 * 4 -> 16",
+                "16 - 12 -> 4"
+              ]
+            }
+          ],
+          "parameter_witness": "4 - 16 -> -12",
+          "external_derivative": 8,
+          "external_critical_orbit": {
+            "parameter": {
+              "real": "-12",
+              "imag": "0"
+            },
+            "seed": {
+              "real": "0",
+              "imag": "0"
+            },
+            "budget": 8,
+            "states": [
+              {
+                "real": "0",
+                "imag": "0"
+              },
+              {
+                "real": "-12",
+                "imag": "0"
+              },
+              {
+                "real": "132",
+                "imag": "0"
+              }
+            ],
+            "finite_detector": "certified_escape",
+            "escape_step": 2,
+            "radius_squared": "144",
+            "norm_squared": "17424",
+            "evidence_layer": "external_probe",
+            "runtime_orbit": false
+          }
+        },
+        {
+          "name": "fixed_m5",
+          "seed": "5",
+          "c": "-20",
+          "steps": [
+            {
+              "step": 1,
+              "source": "5",
+              "square": "25",
+              "target": "5",
+              "witnesses": [
+                "5 * 5 -> 25",
+                "25 - 20 -> 5"
+              ]
+            }
+          ],
+          "parameter_witness": "5 - 25 -> -20",
+          "external_derivative": 10,
+          "external_critical_orbit": {
+            "parameter": {
+              "real": "-20",
+              "imag": "0"
+            },
+            "seed": {
+              "real": "0",
+              "imag": "0"
+            },
+            "budget": 8,
+            "states": [
+              {
+                "real": "0",
+                "imag": "0"
+              },
+              {
+                "real": "-20",
+                "imag": "0"
+              },
+              {
+                "real": "380",
+                "imag": "0"
+              }
+            ],
+            "finite_detector": "certified_escape",
+            "escape_step": 2,
+            "radius_squared": "400",
+            "norm_squared": "144400",
+            "evidence_layer": "external_probe",
+            "runtime_orbit": false
+          }
+        },
+        {
+          "name": "fixed_m6",
+          "seed": "6",
+          "c": "-30",
+          "steps": [
+            {
+              "step": 1,
+              "source": "6",
+              "square": "36",
+              "target": "6",
+              "witnesses": [
+                "6 * 6 -> 36",
+                "36 - 30 -> 6"
+              ]
+            }
+          ],
+          "parameter_witness": "6 - 36 -> -30",
+          "external_derivative": 12,
+          "external_critical_orbit": {
+            "parameter": {
+              "real": "-30",
+              "imag": "0"
+            },
+            "seed": {
+              "real": "0",
+              "imag": "0"
+            },
+            "budget": 8,
+            "states": [
+              {
+                "real": "0",
+                "imag": "0"
+              },
+              {
+                "real": "-30",
+                "imag": "0"
+              },
+              {
+                "real": "870",
+                "imag": "0"
+              }
+            ],
+            "finite_detector": "certified_escape",
+            "escape_step": 2,
+            "radius_squared": "900",
+            "norm_squared": "756900",
+            "evidence_layer": "external_probe",
+            "runtime_orbit": false
+          }
+        }
+      ],
+      "witnesses": {
+        "2 / 2 -> 1": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 13,
+              "stage": 2
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 2,
+          "result_present": true
+        },
+        "2 + 2 -> 4": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 10,
+              "stage": 2
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 2,
+          "result_present": true
+        },
+        "4 / 2 -> 2": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 45,
+              "stage": 4
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 4,
+          "result_present": true
+        },
+        "4 + 4 -> 8": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 50,
+              "stage": 4
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 4,
+          "result_present": true
+        },
+        "8 / 2 -> 4": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 202,
+              "stage": 8
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 8,
+          "result_present": true
+        },
+        "8 + 8 -> 16": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 221,
+              "stage": 8
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 8,
+          "result_present": true
+        },
+        "16 / 2 -> 8": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 782,
+              "stage": 16
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 16,
+          "result_present": true
+        },
+        "16 + 16 -> 32": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 822,
+              "stage": 16
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 16,
+          "result_present": true
+        },
+        "32 / 2 -> 16": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 2778,
+              "stage": 32
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 32,
+          "result_present": true
+        },
+        "2 * 2 -> 4": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 12,
+              "stage": 2
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 2,
+          "result_present": true
+        },
+        "4 * 4 -> 16": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 52,
+              "stage": 4
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 4,
+          "result_present": true
+        },
+        "16 * 16 -> 256": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "result_outside_retention_aperture",
+          "candidate_stage": 16,
+          "result_present": false
+        },
+        "256 / 2 -> 128": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "candidate_stage_beyond_corpus",
+          "candidate_stage": 256,
+          "result_present": false
+        },
+        "256 * 256 -> 65536": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "candidate_stage_beyond_corpus",
+          "candidate_stage": 256,
+          "result_present": false
+        },
+        "65536 / 2 -> 32768": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "candidate_stage_beyond_corpus",
+          "candidate_stage": 65536,
+          "result_present": false
+        },
+        "2 / 3 -> 2/3": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 37,
+              "stage": 3
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 3,
+          "result_present": true
+        },
+        "4 / 3 -> 4/3": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 49,
+              "stage": 4
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 4,
+          "result_present": true
+        },
+        "8 / 3 -> 8/3": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 206,
+              "stage": 8
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 8,
+          "result_present": true
+        },
+        "16 / 3 -> 16/3": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 785,
+              "stage": 16
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 16,
+          "result_present": true
+        },
+        "32 / 3 -> 32/3": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 2781,
+              "stage": 32
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 32,
+          "result_present": true
+        },
+        "256 / 3 -> 256/3": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "candidate_stage_beyond_corpus",
+          "candidate_stage": 256,
+          "result_present": false
+        },
+        "65536 / 3 -> 65536/3": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "candidate_stage_beyond_corpus",
+          "candidate_stage": 65536,
+          "result_present": false
+        },
+        "2 / 4 -> 1/2": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 61,
+              "stage": 4
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 4,
+          "result_present": true
+        },
+        "4 / 4 -> 1": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 53,
+              "stage": 4
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 4,
+          "result_present": true
+        },
+        "8 / 4 -> 2": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 210,
+              "stage": 8
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 8,
+          "result_present": true
+        },
+        "16 / 4 -> 4": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 788,
+              "stage": 16
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 16,
+          "result_present": true
+        },
+        "32 / 4 -> 8": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 2784,
+              "stage": 32
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 32,
+          "result_present": true
+        },
+        "256 / 4 -> 64": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "candidate_stage_beyond_corpus",
+          "candidate_stage": 256,
+          "result_present": false
+        },
+        "65536 / 4 -> 16384": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "candidate_stage_beyond_corpus",
+          "candidate_stage": 65536,
+          "result_present": false
+        },
+        "2 / 5 -> 2/5": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 93,
+              "stage": 5
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 5,
+          "result_present": true
+        },
+        "4 / 5 -> 4/5": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 101,
+              "stage": 5
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 5,
+          "result_present": true
+        },
+        "8 / 5 -> 8/5": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 214,
+              "stage": 8
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 8,
+          "result_present": true
+        },
+        "16 / 5 -> 16/5": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 791,
+              "stage": 16
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 16,
+          "result_present": true
+        },
+        "32 / 5 -> 32/5": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 2787,
+              "stage": 32
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 32,
+          "result_present": true
+        },
+        "256 / 5 -> 256/5": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "candidate_stage_beyond_corpus",
+          "candidate_stage": 256,
+          "result_present": false
+        },
+        "65536 / 5 -> 65536/5": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "candidate_stage_beyond_corpus",
+          "candidate_stage": 65536,
+          "result_present": false
+        },
+        "2 / 6 -> 1/3": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 133,
+              "stage": 6
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 6,
+          "result_present": true
+        },
+        "4 / 6 -> 2/3": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 141,
+              "stage": 6
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 6,
+          "result_present": true
+        },
+        "8 / 6 -> 4/3": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 217,
+              "stage": 8
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 8,
+          "result_present": true
+        },
+        "16 / 6 -> 8/3": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 794,
+              "stage": 16
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 16,
+          "result_present": true
+        },
+        "32 / 6 -> 16/3": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 2790,
+              "stage": 32
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 32,
+          "result_present": true
+        },
+        "256 / 6 -> 128/3": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "candidate_stage_beyond_corpus",
+          "candidate_stage": 256,
+          "result_present": false
+        },
+        "65536 / 6 -> 32768/3": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "candidate_stage_beyond_corpus",
+          "candidate_stage": 65536,
+          "result_present": false
+        },
+        "2 / 7 -> 2/7": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 179,
+              "stage": 7
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 7,
+          "result_present": true
+        },
+        "4 / 7 -> 4/7": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 187,
+              "stage": 7
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 7,
+          "result_present": true
+        },
+        "8 / 7 -> 8/7": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 220,
+              "stage": 8
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 8,
+          "result_present": true
+        },
+        "16 / 7 -> 16/7": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 797,
+              "stage": 16
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 16,
+          "result_present": true
+        },
+        "32 / 7 -> 32/7": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 2793,
+              "stage": 32
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 32,
+          "result_present": true
+        },
+        "256 / 7 -> 256/7": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "candidate_stage_beyond_corpus",
+          "candidate_stage": 256,
+          "result_present": false
+        },
+        "65536 / 7 -> 65536/7": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "candidate_stage_beyond_corpus",
+          "candidate_stage": 65536,
+          "result_present": false
+        },
+        "2 / 8 -> 1/4": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 231,
+              "stage": 8
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 8,
+          "result_present": true
+        },
+        "4 / 8 -> 1/2": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 239,
+              "stage": 8
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 8,
+          "result_present": true
+        },
+        "8 / 8 -> 1": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 223,
+              "stage": 8
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 8,
+          "result_present": true
+        },
+        "16 / 8 -> 2": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 800,
+              "stage": 16
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 16,
+          "result_present": true
+        },
+        "32 / 8 -> 4": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 2796,
+              "stage": 32
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 32,
+          "result_present": true
+        },
+        "256 / 8 -> 32": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "candidate_stage_beyond_corpus",
+          "candidate_stage": 256,
+          "result_present": true
+        },
+        "65536 / 8 -> 8192": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "candidate_stage_beyond_corpus",
+          "candidate_stage": 65536,
+          "result_present": false
+        },
+        "2 / 9 -> 2/9": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 288,
+              "stage": 9
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 9,
+          "result_present": true
+        },
+        "4 / 9 -> 4/9": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 296,
+              "stage": 9
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 9,
+          "result_present": true
+        },
+        "8 / 9 -> 8/9": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 308,
+              "stage": 9
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 9,
+          "result_present": true
+        },
+        "16 / 9 -> 16/9": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 803,
+              "stage": 16
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 16,
+          "result_present": true
+        },
+        "32 / 9 -> 32/9": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 2798,
+              "stage": 32
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 32,
+          "result_present": true
+        },
+        "256 / 9 -> 256/9": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "candidate_stage_beyond_corpus",
+          "candidate_stage": 256,
+          "result_present": false
+        },
+        "65536 / 9 -> 65536/9": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "candidate_stage_beyond_corpus",
+          "candidate_stage": 65536,
+          "result_present": false
+        },
+        "2 / 10 -> 1/5": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 350,
+              "stage": 10
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 10,
+          "result_present": true
+        },
+        "4 / 10 -> 2/5": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 358,
+              "stage": 10
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 10,
+          "result_present": true
+        },
+        "8 / 10 -> 4/5": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 370,
+              "stage": 10
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 10,
+          "result_present": true
+        },
+        "16 / 10 -> 8/5": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 806,
+              "stage": 16
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 16,
+          "result_present": true
+        },
+        "32 / 10 -> 16/5": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 2800,
+              "stage": 32
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 32,
+          "result_present": true
+        },
+        "256 / 10 -> 128/5": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "candidate_stage_beyond_corpus",
+          "candidate_stage": 256,
+          "result_present": false
+        },
+        "65536 / 10 -> 32768/5": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "candidate_stage_beyond_corpus",
+          "candidate_stage": 65536,
+          "result_present": false
+        },
+        "2 / 11 -> 2/11": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 417,
+              "stage": 11
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 11,
+          "result_present": true
+        },
+        "4 / 11 -> 4/11": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 424,
+              "stage": 11
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 11,
+          "result_present": true
+        },
+        "8 / 11 -> 8/11": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 436,
+              "stage": 11
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 11,
+          "result_present": true
+        },
+        "16 / 11 -> 16/11": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 809,
+              "stage": 16
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 16,
+          "result_present": true
+        },
+        "32 / 11 -> 32/11": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 2802,
+              "stage": 32
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 32,
+          "result_present": true
+        },
+        "256 / 11 -> 256/11": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "candidate_stage_beyond_corpus",
+          "candidate_stage": 256,
+          "result_present": false
+        },
+        "65536 / 11 -> 65536/11": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "candidate_stage_beyond_corpus",
+          "candidate_stage": 65536,
+          "result_present": false
+        },
+        "2 / 12 -> 1/6": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 489,
+              "stage": 12
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 12,
+          "result_present": true
+        },
+        "4 / 12 -> 1/3": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 496,
+              "stage": 12
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 12,
+          "result_present": true
+        },
+        "8 / 12 -> 2/3": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 508,
+              "stage": 12
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 12,
+          "result_present": true
+        },
+        "16 / 12 -> 4/3": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 812,
+              "stage": 16
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 16,
+          "result_present": true
+        },
+        "32 / 12 -> 8/3": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 2804,
+              "stage": 32
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 32,
+          "result_present": true
+        },
+        "256 / 12 -> 64/3": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "candidate_stage_beyond_corpus",
+          "candidate_stage": 256,
+          "result_present": false
+        },
+        "65536 / 12 -> 16384/3": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "candidate_stage_beyond_corpus",
+          "candidate_stage": 65536,
+          "result_present": false
+        },
+        "2 / 13 -> 2/13": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 567,
+              "stage": 13
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 13,
+          "result_present": true
+        },
+        "4 / 13 -> 4/13": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 574,
+              "stage": 13
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 13,
+          "result_present": true
+        },
+        "8 / 13 -> 8/13": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 586,
+              "stage": 13
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 13,
+          "result_present": true
+        },
+        "16 / 13 -> 16/13": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 815,
+              "stage": 16
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 16,
+          "result_present": true
+        },
+        "32 / 13 -> 32/13": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 2806,
+              "stage": 32
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 32,
+          "result_present": true
+        },
+        "256 / 13 -> 256/13": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "candidate_stage_beyond_corpus",
+          "candidate_stage": 256,
+          "result_present": false
+        },
+        "65536 / 13 -> 65536/13": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "candidate_stage_beyond_corpus",
+          "candidate_stage": 65536,
+          "result_present": false
+        },
+        "2 / 14 -> 1/7": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 650,
+              "stage": 14
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 14,
+          "result_present": true
+        },
+        "4 / 14 -> 2/7": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 656,
+              "stage": 14
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 14,
+          "result_present": true
+        },
+        "8 / 14 -> 4/7": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 668,
+              "stage": 14
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 14,
+          "result_present": true
+        },
+        "16 / 14 -> 8/7": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 818,
+              "stage": 16
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 16,
+          "result_present": true
+        },
+        "32 / 14 -> 16/7": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 2808,
+              "stage": 32
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 32,
+          "result_present": true
+        },
+        "256 / 14 -> 128/7": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "candidate_stage_beyond_corpus",
+          "candidate_stage": 256,
+          "result_present": false
+        },
+        "65536 / 14 -> 32768/7": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "candidate_stage_beyond_corpus",
+          "candidate_stage": 65536,
+          "result_present": false
+        },
+        "2 / 15 -> 2/15": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 738,
+              "stage": 15
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 15,
+          "result_present": true
+        },
+        "4 / 15 -> 4/15": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 744,
+              "stage": 15
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 15,
+          "result_present": true
+        },
+        "8 / 15 -> 8/15": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 756,
+              "stage": 15
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 15,
+          "result_present": true
+        },
+        "16 / 15 -> 16/15": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 821,
+              "stage": 16
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 16,
+          "result_present": true
+        },
+        "32 / 15 -> 32/15": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 2810,
+              "stage": 32
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 32,
+          "result_present": true
+        },
+        "256 / 15 -> 256/15": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "candidate_stage_beyond_corpus",
+          "candidate_stage": 256,
+          "result_present": false
+        },
+        "65536 / 15 -> 65536/15": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "candidate_stage_beyond_corpus",
+          "candidate_stage": 65536,
+          "result_present": false
+        },
+        "2 / 16 -> 1/8": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 832,
+              "stage": 16
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 16,
+          "result_present": true
+        },
+        "4 / 16 -> 1/4": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 838,
+              "stage": 16
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 16,
+          "result_present": true
+        },
+        "8 / 16 -> 1/2": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 850,
+              "stage": 16
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 16,
+          "result_present": true
+        },
+        "16 / 16 -> 1": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 824,
+              "stage": 16
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 16,
+          "result_present": true
+        },
+        "32 / 16 -> 2": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 2812,
+              "stage": 32
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 32,
+          "result_present": true
+        },
+        "256 / 16 -> 16": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "candidate_stage_beyond_corpus",
+          "candidate_stage": 256,
+          "result_present": true
+        },
+        "65536 / 16 -> 4096": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "candidate_stage_beyond_corpus",
+          "candidate_stage": 65536,
+          "result_present": false
+        },
+        "2 / 31 -> 2/31": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 2708,
+              "stage": 31
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 31,
+          "result_present": true
+        },
+        "4 / 31 -> 4/31": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 2714,
+              "stage": 31
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 31,
+          "result_present": true
+        },
+        "8 / 31 -> 8/31": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 2726,
+              "stage": 31
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 31,
+          "result_present": true
+        },
+        "16 / 31 -> 16/31": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 2743,
+              "stage": 31
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 31,
+          "result_present": true
+        },
+        "32 / 31 -> 32/31": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 2842,
+              "stage": 32
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 32,
+          "result_present": true
+        },
+        "256 / 31 -> 256/31": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "candidate_stage_beyond_corpus",
+          "candidate_stage": 256,
+          "result_present": false
+        },
+        "65536 / 31 -> 65536/31": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "candidate_stage_beyond_corpus",
+          "candidate_stage": 65536,
+          "result_present": false
+        },
+        "1 * 1 -> 1": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 4,
+              "stage": 1
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 1,
+          "result_present": true
+        },
+        "4 - 2 -> 2": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 43,
+              "stage": 4
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 4,
+          "result_present": true
+        },
+        "1 - 1 -> 0": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 3,
+              "stage": 1
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 1,
+          "result_present": true
+        },
+        "0 * 0 -> 0": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "operand_not_positive_spine",
+          "candidate_stage": null,
+          "result_present": true
+        },
+        "0 - 1 -> -1": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "operand_not_positive_spine",
+          "candidate_stage": null,
+          "result_present": true
+        },
+        "-1 * -1 -> 1": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "operand_not_positive_spine",
+          "candidate_stage": null,
+          "result_present": true
+        },
+        "1 + 1 -> 2": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 2,
+              "stage": 1
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 1,
+          "result_present": true
+        },
+        "4 + 1 -> 5": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 38,
+              "stage": 4
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 4,
+          "result_present": true
+        },
+        "5 * 5 -> 25": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 84,
+              "stage": 5
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 5,
+          "result_present": true
+        },
+        "25 + 1 -> 26": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 1820,
+              "stage": 25
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 25,
+          "result_present": true
+        },
+        "26 * 26 -> 676": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "result_outside_retention_aperture",
+          "candidate_stage": 26,
+          "result_present": false
+        },
+        "676 + 1 -> 677": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "candidate_stage_beyond_corpus",
+          "candidate_stage": 676,
+          "result_present": false
+        },
+        "1/2 * 1/2 -> 1/4": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "operand_not_positive_spine",
+          "candidate_stage": null,
+          "result_present": true
+        },
+        "1/4 * 1/4 -> 1/16": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "operand_not_positive_spine",
+          "candidate_stage": null,
+          "result_present": true
+        },
+        "1/16 * 1/16 -> 1/256": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "operand_not_positive_spine",
+          "candidate_stage": null,
+          "result_present": false
+        },
+        "2 - 4 -> -2": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 59,
+              "stage": 4
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 4,
+          "result_present": true
+        },
+        "3 * 3 -> 9": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 28,
+              "stage": 3
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 3,
+          "result_present": true
+        },
+        "9 - 6 -> 3": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 270,
+              "stage": 9
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 9,
+          "result_present": true
+        },
+        "3 - 9 -> -6": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 290,
+              "stage": 9
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 9,
+          "result_present": true
+        },
+        "16 - 12 -> 4": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 811,
+              "stage": 16
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 16,
+          "result_present": true
+        },
+        "4 - 16 -> -12": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 837,
+              "stage": 16
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 16,
+          "result_present": true
+        },
+        "25 - 20 -> 5": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 1874,
+              "stage": 25
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 25,
+          "result_present": true
+        },
+        "5 - 25 -> -20": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 1900,
+              "stage": 25
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 25,
+          "result_present": true
+        },
+        "6 * 6 -> 36": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 124,
+              "stage": 6
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 6,
+          "result_present": true
+        },
+        "36 - 30 -> 6": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 3423,
+              "stage": 36
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 36,
+          "result_present": true
+        },
+        "6 - 36 -> -30": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 3452,
+              "stage": 36
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 36,
+          "result_present": true
+        },
+        "1/3 * 1/3 -> 1/9": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "operand_not_positive_spine",
+          "candidate_stage": null,
+          "result_present": true
+        },
+        "4/3 * 4/3 -> 16/9": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "operand_not_positive_spine",
+          "candidate_stage": null,
+          "result_present": true
+        }
+      }
+    },
+    "u80": {
+      "path": "out/experiments/circle_as_one_u80.sqlite",
+      "sha256": "796e043087eee8908c840d21f1c14235310c0093e816927bbab8374fbd0d4780",
+      "stage": 80,
+      "queried_relations": 148,
+      "retained_relations": 86,
+      "blockers": {
+        "result_outside_retention_aperture": 20,
+        "candidate_stage_beyond_corpus": 34,
+        "operand_not_positive_spine": 8
+      },
+      "q7": [
+        {
+          "operation": "+",
+          "seed": 2,
+          "denominator": 7,
+          "states": [
+            {
+              "step": 0,
+              "numerator": 2,
+              "divisor": 7,
+              "rational": "2/7",
+              "phase": "2/7",
+              "division_witness": "2 / 7 -> 2/7"
+            },
+            {
+              "step": 1,
+              "numerator": 4,
+              "divisor": 7,
+              "rational": "4/7",
+              "phase": "4/7",
+              "division_witness": "4 / 7 -> 4/7"
+            },
+            {
+              "step": 2,
+              "numerator": 8,
+              "divisor": 7,
+              "rational": "8/7",
+              "phase": "1/7",
+              "division_witness": "8 / 7 -> 8/7"
+            },
+            {
+              "step": 3,
+              "numerator": 16,
+              "divisor": 7,
+              "rational": "16/7",
+              "phase": "2/7",
+              "division_witness": "16 / 7 -> 16/7"
+            },
+            {
+              "step": 4,
+              "numerator": 32,
+              "divisor": 7,
+              "rational": "32/7",
+              "phase": "4/7",
+              "division_witness": "32 / 7 -> 32/7"
+            }
+          ],
+          "steps": [
+            {
+              "step": 1,
+              "source": 2,
+              "target": 4,
+              "witness": "2 + 2 -> 4"
+            },
+            {
+              "step": 2,
+              "source": 4,
+              "target": 8,
+              "witness": "4 + 4 -> 8"
+            },
+            {
+              "step": 3,
+              "source": 8,
+              "target": 16,
+              "witness": "8 + 8 -> 16"
+            },
+            {
+              "step": 4,
+              "source": 16,
+              "target": 32,
+              "witness": "16 + 16 -> 32"
+            }
+          ],
+          "external_cycle": {
+            "residues": [
+              2,
+              4,
+              1,
+              2
+            ],
+            "phases": [
+              "2/7",
+              "4/7",
+              "1/7",
+              "2/7"
+            ],
+            "preperiod": 0,
+            "period": 3,
+            "first_repeat_index": 3,
+            "evidence_layer": "external_probe"
+          },
+          "cycle_witnessed_by_checkpoint": {
+            "2": false,
+            "4": false,
+            "8": false,
+            "16": false,
+            "40": false,
+            "80": false
+          },
+          "cycle_in_declared_lift_budget": true,
+          "phase_projection_is_external": true
+        },
+        {
+          "operation": "*",
+          "seed": 2,
+          "denominator": 7,
+          "states": [
+            {
+              "step": 0,
+              "numerator": 2,
+              "divisor": 7,
+              "rational": "2/7",
+              "phase": "2/7",
+              "division_witness": "2 / 7 -> 2/7"
+            },
+            {
+              "step": 1,
+              "numerator": 4,
+              "divisor": 7,
+              "rational": "4/7",
+              "phase": "4/7",
+              "division_witness": "4 / 7 -> 4/7"
+            },
+            {
+              "step": 2,
+              "numerator": 16,
+              "divisor": 7,
+              "rational": "16/7",
+              "phase": "2/7",
+              "division_witness": "16 / 7 -> 16/7"
+            },
+            {
+              "step": 3,
+              "numerator": 256,
+              "divisor": 7,
+              "rational": "256/7",
+              "phase": "4/7",
+              "division_witness": "256 / 7 -> 256/7"
+            },
+            {
+              "step": 4,
+              "numerator": 65536,
+              "divisor": 7,
+              "rational": "65536/7",
+              "phase": "2/7",
+              "division_witness": "65536 / 7 -> 65536/7"
+            }
+          ],
+          "steps": [
+            {
+              "step": 1,
+              "source": 2,
+              "target": 4,
+              "witness": "2 * 2 -> 4"
+            },
+            {
+              "step": 2,
+              "source": 4,
+              "target": 16,
+              "witness": "4 * 4 -> 16"
+            },
+            {
+              "step": 3,
+              "source": 16,
+              "target": 256,
+              "witness": "16 * 16 -> 256"
+            },
+            {
+              "step": 4,
+              "source": 256,
+              "target": 65536,
+              "witness": "256 * 256 -> 65536"
+            }
+          ],
+          "external_cycle": {
+            "residues": [
+              2,
+              4,
+              2
+            ],
+            "phases": [
+              "2/7",
+              "4/7",
+              "2/7"
+            ],
+            "preperiod": 0,
+            "period": 2,
+            "first_repeat_index": 2,
+            "evidence_layer": "external_probe"
+          },
+          "cycle_witnessed_by_checkpoint": {
+            "2": false,
+            "4": false,
+            "8": false,
+            "16": false,
+            "40": false,
+            "80": false
+          },
+          "cycle_in_declared_lift_budget": true,
+          "phase_projection_is_external": true
+        }
+      ],
+      "scalar_cases": [
+        {
+          "name": "pure_square_fixed_one",
+          "seed": "1",
+          "c": "0",
+          "states": [
+            "1",
+            "1"
+          ],
+          "steps": [
+            {
+              "step": 1,
+              "source": "1",
+              "square": "1",
+              "target": "1",
+              "witnesses": [
+                "1 * 1 -> 1"
+              ]
+            }
+          ],
+          "external_exact_cycle": {
+            "preperiod": 0,
+            "period": 1
+          },
+          "witness_coverage_by_checkpoint": {
+            "2": {
+              "complete_prefix_steps": 1,
+              "first_unwitnessed_operation": null
+            },
+            "4": {
+              "complete_prefix_steps": 1,
+              "first_unwitnessed_operation": null
+            },
+            "8": {
+              "complete_prefix_steps": 1,
+              "first_unwitnessed_operation": null
+            },
+            "16": {
+              "complete_prefix_steps": 1,
+              "first_unwitnessed_operation": null
+            },
+            "40": {
+              "complete_prefix_steps": 1,
+              "first_unwitnessed_operation": null
+            },
+            "80": {
+              "complete_prefix_steps": 1,
+              "first_unwitnessed_operation": null
+            }
+          },
+          "runtime_replay_performed": false
+        },
+        {
+          "name": "subtract_two_fixed_two",
+          "seed": "2",
+          "c": "-2",
+          "states": [
+            "2",
+            "2"
+          ],
+          "steps": [
+            {
+              "step": 1,
+              "source": "2",
+              "square": "4",
+              "target": "2",
+              "witnesses": [
+                "2 * 2 -> 4",
+                "4 - 2 -> 2"
+              ]
+            }
+          ],
+          "external_exact_cycle": {
+            "preperiod": 0,
+            "period": 1
+          },
+          "witness_coverage_by_checkpoint": {
+            "2": {
+              "complete_prefix_steps": 0,
+              "first_unwitnessed_operation": "4 - 2 -> 2"
+            },
+            "4": {
+              "complete_prefix_steps": 1,
+              "first_unwitnessed_operation": null
+            },
+            "8": {
+              "complete_prefix_steps": 1,
+              "first_unwitnessed_operation": null
+            },
+            "16": {
+              "complete_prefix_steps": 1,
+              "first_unwitnessed_operation": null
+            },
+            "40": {
+              "complete_prefix_steps": 1,
+              "first_unwitnessed_operation": null
+            },
+            "80": {
+              "complete_prefix_steps": 1,
+              "first_unwitnessed_operation": null
+            }
+          },
+          "runtime_replay_performed": false
+        },
+        {
+          "name": "subtract_one_hits_zero",
+          "seed": "1",
+          "c": "-1",
+          "states": [
+            "1",
+            "0",
+            "-1",
+            "0"
+          ],
+          "steps": [
+            {
+              "step": 1,
+              "source": "1",
+              "square": "1",
+              "target": "0",
+              "witnesses": [
+                "1 * 1 -> 1",
+                "1 - 1 -> 0"
+              ]
+            },
+            {
+              "step": 2,
+              "source": "0",
+              "square": "0",
+              "target": "-1",
+              "witnesses": [
+                "0 * 0 -> 0",
+                "0 - 1 -> -1"
+              ]
+            },
+            {
+              "step": 3,
+              "source": "-1",
+              "square": "1",
+              "target": "0",
+              "witnesses": [
+                "-1 * -1 -> 1",
+                "1 - 1 -> 0"
+              ]
+            }
+          ],
+          "external_exact_cycle": {
+            "preperiod": 1,
+            "period": 2
+          },
+          "witness_coverage_by_checkpoint": {
+            "2": {
+              "complete_prefix_steps": 1,
+              "first_unwitnessed_operation": "0 * 0 -> 0"
+            },
+            "4": {
+              "complete_prefix_steps": 1,
+              "first_unwitnessed_operation": "0 * 0 -> 0"
+            },
+            "8": {
+              "complete_prefix_steps": 1,
+              "first_unwitnessed_operation": "0 * 0 -> 0"
+            },
+            "16": {
+              "complete_prefix_steps": 1,
+              "first_unwitnessed_operation": "0 * 0 -> 0"
+            },
+            "40": {
+              "complete_prefix_steps": 1,
+              "first_unwitnessed_operation": "0 * 0 -> 0"
+            },
+            "80": {
+              "complete_prefix_steps": 1,
+              "first_unwitnessed_operation": "0 * 0 -> 0"
+            }
+          },
+          "runtime_replay_performed": false
+        },
+        {
+          "name": "add_one_expands",
+          "seed": "1",
+          "c": "1",
+          "states": [
+            "1",
+            "2",
+            "5",
+            "26",
+            "677"
+          ],
+          "steps": [
+            {
+              "step": 1,
+              "source": "1",
+              "square": "1",
+              "target": "2",
+              "witnesses": [
+                "1 * 1 -> 1",
+                "1 + 1 -> 2"
+              ]
+            },
+            {
+              "step": 2,
+              "source": "2",
+              "square": "4",
+              "target": "5",
+              "witnesses": [
+                "2 * 2 -> 4",
+                "4 + 1 -> 5"
+              ]
+            },
+            {
+              "step": 3,
+              "source": "5",
+              "square": "25",
+              "target": "26",
+              "witnesses": [
+                "5 * 5 -> 25",
+                "25 + 1 -> 26"
+              ]
+            },
+            {
+              "step": 4,
+              "source": "26",
+              "square": "676",
+              "target": "677",
+              "witnesses": [
+                "26 * 26 -> 676",
+                "676 + 1 -> 677"
+              ]
+            }
+          ],
+          "external_exact_cycle": null,
+          "witness_coverage_by_checkpoint": {
+            "2": {
+              "complete_prefix_steps": 1,
+              "first_unwitnessed_operation": "4 + 1 -> 5"
+            },
+            "4": {
+              "complete_prefix_steps": 1,
+              "first_unwitnessed_operation": "4 + 1 -> 5"
+            },
+            "8": {
+              "complete_prefix_steps": 1,
+              "first_unwitnessed_operation": "4 + 1 -> 5"
+            },
+            "16": {
+              "complete_prefix_steps": 1,
+              "first_unwitnessed_operation": "4 + 1 -> 5"
+            },
+            "40": {
+              "complete_prefix_steps": 1,
+              "first_unwitnessed_operation": "4 + 1 -> 5"
+            },
+            "80": {
+              "complete_prefix_steps": 1,
+              "first_unwitnessed_operation": "4 + 1 -> 5"
+            }
+          },
+          "runtime_replay_performed": false
+        },
+        {
+          "name": "fractional_seed_square",
+          "seed": "1/2",
+          "c": "0",
+          "states": [
+            "1/2",
+            "1/4",
+            "1/16",
+            "1/256"
+          ],
+          "steps": [
+            {
+              "step": 1,
+              "source": "1/2",
+              "square": "1/4",
+              "target": "1/4",
+              "witnesses": [
+                "1/2 * 1/2 -> 1/4"
+              ]
+            },
+            {
+              "step": 2,
+              "source": "1/4",
+              "square": "1/16",
+              "target": "1/16",
+              "witnesses": [
+                "1/4 * 1/4 -> 1/16"
+              ]
+            },
+            {
+              "step": 3,
+              "source": "1/16",
+              "square": "1/256",
+              "target": "1/256",
+              "witnesses": [
+                "1/16 * 1/16 -> 1/256"
+              ]
+            }
+          ],
+          "external_exact_cycle": null,
+          "witness_coverage_by_checkpoint": {
+            "2": {
+              "complete_prefix_steps": 0,
+              "first_unwitnessed_operation": "1/2 * 1/2 -> 1/4"
+            },
+            "4": {
+              "complete_prefix_steps": 0,
+              "first_unwitnessed_operation": "1/2 * 1/2 -> 1/4"
+            },
+            "8": {
+              "complete_prefix_steps": 0,
+              "first_unwitnessed_operation": "1/2 * 1/2 -> 1/4"
+            },
+            "16": {
+              "complete_prefix_steps": 0,
+              "first_unwitnessed_operation": "1/2 * 1/2 -> 1/4"
+            },
+            "40": {
+              "complete_prefix_steps": 0,
+              "first_unwitnessed_operation": "1/2 * 1/2 -> 1/4"
+            },
+            "80": {
+              "complete_prefix_steps": 0,
+              "first_unwitnessed_operation": "1/2 * 1/2 -> 1/4"
+            }
+          },
+          "runtime_replay_performed": false
+        }
+      ],
+      "fixed_point_family": [
+        {
+          "name": "fixed_m1",
+          "seed": "1",
+          "c": "0",
+          "steps": [
+            {
+              "step": 1,
+              "source": "1",
+              "square": "1",
+              "target": "1",
+              "witnesses": [
+                "1 * 1 -> 1"
+              ]
+            }
+          ],
+          "parameter_witness": "1 - 1 -> 0",
+          "external_derivative": 2,
+          "external_critical_orbit": {
+            "parameter": {
+              "real": "0",
+              "imag": "0"
+            },
+            "seed": {
+              "real": "0",
+              "imag": "0"
+            },
+            "budget": 8,
+            "states": [
+              {
+                "real": "0",
+                "imag": "0"
+              },
+              {
+                "real": "0",
+                "imag": "0"
+              }
+            ],
+            "finite_detector": "exact_cycle",
+            "preperiod": 0,
+            "period": 1,
+            "evidence_layer": "external_probe",
+            "runtime_orbit": false
+          }
+        },
+        {
+          "name": "fixed_m2",
+          "seed": "2",
+          "c": "-2",
+          "steps": [
+            {
+              "step": 1,
+              "source": "2",
+              "square": "4",
+              "target": "2",
+              "witnesses": [
+                "2 * 2 -> 4",
+                "4 - 2 -> 2"
+              ]
+            }
+          ],
+          "parameter_witness": "2 - 4 -> -2",
+          "external_derivative": 4,
+          "external_critical_orbit": {
+            "parameter": {
+              "real": "-2",
+              "imag": "0"
+            },
+            "seed": {
+              "real": "0",
+              "imag": "0"
+            },
+            "budget": 8,
+            "states": [
+              {
+                "real": "0",
+                "imag": "0"
+              },
+              {
+                "real": "-2",
+                "imag": "0"
+              },
+              {
+                "real": "2",
+                "imag": "0"
+              },
+              {
+                "real": "2",
+                "imag": "0"
+              }
+            ],
+            "finite_detector": "exact_cycle",
+            "preperiod": 2,
+            "period": 1,
+            "evidence_layer": "external_probe",
+            "runtime_orbit": false
+          }
+        },
+        {
+          "name": "fixed_m3",
+          "seed": "3",
+          "c": "-6",
+          "steps": [
+            {
+              "step": 1,
+              "source": "3",
+              "square": "9",
+              "target": "3",
+              "witnesses": [
+                "3 * 3 -> 9",
+                "9 - 6 -> 3"
+              ]
+            }
+          ],
+          "parameter_witness": "3 - 9 -> -6",
+          "external_derivative": 6,
+          "external_critical_orbit": {
+            "parameter": {
+              "real": "-6",
+              "imag": "0"
+            },
+            "seed": {
+              "real": "0",
+              "imag": "0"
+            },
+            "budget": 8,
+            "states": [
+              {
+                "real": "0",
+                "imag": "0"
+              },
+              {
+                "real": "-6",
+                "imag": "0"
+              },
+              {
+                "real": "30",
+                "imag": "0"
+              }
+            ],
+            "finite_detector": "certified_escape",
+            "escape_step": 2,
+            "radius_squared": "36",
+            "norm_squared": "900",
+            "evidence_layer": "external_probe",
+            "runtime_orbit": false
+          }
+        },
+        {
+          "name": "fixed_m4",
+          "seed": "4",
+          "c": "-12",
+          "steps": [
+            {
+              "step": 1,
+              "source": "4",
+              "square": "16",
+              "target": "4",
+              "witnesses": [
+                "4 * 4 -> 16",
+                "16 - 12 -> 4"
+              ]
+            }
+          ],
+          "parameter_witness": "4 - 16 -> -12",
+          "external_derivative": 8,
+          "external_critical_orbit": {
+            "parameter": {
+              "real": "-12",
+              "imag": "0"
+            },
+            "seed": {
+              "real": "0",
+              "imag": "0"
+            },
+            "budget": 8,
+            "states": [
+              {
+                "real": "0",
+                "imag": "0"
+              },
+              {
+                "real": "-12",
+                "imag": "0"
+              },
+              {
+                "real": "132",
+                "imag": "0"
+              }
+            ],
+            "finite_detector": "certified_escape",
+            "escape_step": 2,
+            "radius_squared": "144",
+            "norm_squared": "17424",
+            "evidence_layer": "external_probe",
+            "runtime_orbit": false
+          }
+        },
+        {
+          "name": "fixed_m5",
+          "seed": "5",
+          "c": "-20",
+          "steps": [
+            {
+              "step": 1,
+              "source": "5",
+              "square": "25",
+              "target": "5",
+              "witnesses": [
+                "5 * 5 -> 25",
+                "25 - 20 -> 5"
+              ]
+            }
+          ],
+          "parameter_witness": "5 - 25 -> -20",
+          "external_derivative": 10,
+          "external_critical_orbit": {
+            "parameter": {
+              "real": "-20",
+              "imag": "0"
+            },
+            "seed": {
+              "real": "0",
+              "imag": "0"
+            },
+            "budget": 8,
+            "states": [
+              {
+                "real": "0",
+                "imag": "0"
+              },
+              {
+                "real": "-20",
+                "imag": "0"
+              },
+              {
+                "real": "380",
+                "imag": "0"
+              }
+            ],
+            "finite_detector": "certified_escape",
+            "escape_step": 2,
+            "radius_squared": "400",
+            "norm_squared": "144400",
+            "evidence_layer": "external_probe",
+            "runtime_orbit": false
+          }
+        },
+        {
+          "name": "fixed_m6",
+          "seed": "6",
+          "c": "-30",
+          "steps": [
+            {
+              "step": 1,
+              "source": "6",
+              "square": "36",
+              "target": "6",
+              "witnesses": [
+                "6 * 6 -> 36",
+                "36 - 30 -> 6"
+              ]
+            }
+          ],
+          "parameter_witness": "6 - 36 -> -30",
+          "external_derivative": 12,
+          "external_critical_orbit": {
+            "parameter": {
+              "real": "-30",
+              "imag": "0"
+            },
+            "seed": {
+              "real": "0",
+              "imag": "0"
+            },
+            "budget": 8,
+            "states": [
+              {
+                "real": "0",
+                "imag": "0"
+              },
+              {
+                "real": "-30",
+                "imag": "0"
+              },
+              {
+                "real": "870",
+                "imag": "0"
+              }
+            ],
+            "finite_detector": "certified_escape",
+            "escape_step": 2,
+            "radius_squared": "900",
+            "norm_squared": "756900",
+            "evidence_layer": "external_probe",
+            "runtime_orbit": false
+          }
+        }
+      ],
+      "witnesses": {
+        "2 / 2 -> 1": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 13,
+              "stage": 2
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 2,
+          "result_present": true
+        },
+        "2 + 2 -> 4": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 10,
+              "stage": 2
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 2,
+          "result_present": true
+        },
+        "4 / 2 -> 2": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 36,
+              "stage": 4
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 4,
+          "result_present": true
+        },
+        "4 + 4 -> 8": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "result_outside_retention_aperture",
+          "candidate_stage": 4,
+          "result_present": true
+        },
+        "8 / 2 -> 4": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 121,
+              "stage": 8
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 8,
+          "result_present": true
+        },
+        "8 + 8 -> 16": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "result_outside_retention_aperture",
+          "candidate_stage": 8,
+          "result_present": true
+        },
+        "16 / 2 -> 8": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 431,
+              "stage": 16
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 16,
+          "result_present": true
+        },
+        "16 + 16 -> 32": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "result_outside_retention_aperture",
+          "candidate_stage": 16,
+          "result_present": true
+        },
+        "32 / 2 -> 16": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 1590,
+              "stage": 32
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 32,
+          "result_present": true
+        },
+        "2 * 2 -> 4": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 12,
+              "stage": 2
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 2,
+          "result_present": true
+        },
+        "4 * 4 -> 16": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "result_outside_retention_aperture",
+          "candidate_stage": 4,
+          "result_present": true
+        },
+        "16 * 16 -> 256": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "result_outside_retention_aperture",
+          "candidate_stage": 16,
+          "result_present": false
+        },
+        "256 / 2 -> 128": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "candidate_stage_beyond_corpus",
+          "candidate_stage": 256,
+          "result_present": false
+        },
+        "256 * 256 -> 65536": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "candidate_stage_beyond_corpus",
+          "candidate_stage": 256,
+          "result_present": false
+        },
+        "65536 / 2 -> 32768": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "candidate_stage_beyond_corpus",
+          "candidate_stage": 65536,
+          "result_present": false
+        },
+        "2 / 3 -> 2/3": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 31,
+              "stage": 3
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 3,
+          "result_present": true
+        },
+        "4 / 3 -> 4/3": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 38,
+              "stage": 4
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 4,
+          "result_present": true
+        },
+        "8 / 3 -> 8/3": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 123,
+              "stage": 8
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 8,
+          "result_present": true
+        },
+        "16 / 3 -> 16/3": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "result_outside_retention_aperture",
+          "candidate_stage": 16,
+          "result_present": false
+        },
+        "32 / 3 -> 32/3": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "result_outside_retention_aperture",
+          "candidate_stage": 32,
+          "result_present": false
+        },
+        "256 / 3 -> 256/3": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "candidate_stage_beyond_corpus",
+          "candidate_stage": 256,
+          "result_present": false
+        },
+        "65536 / 3 -> 65536/3": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "candidate_stage_beyond_corpus",
+          "candidate_stage": 65536,
+          "result_present": false
+        },
+        "2 / 4 -> 1/2": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 45,
+              "stage": 4
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 4,
+          "result_present": true
+        },
+        "4 / 4 -> 1": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 40,
+              "stage": 4
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 4,
+          "result_present": true
+        },
+        "8 / 4 -> 2": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 125,
+              "stage": 8
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 8,
+          "result_present": true
+        },
+        "16 / 4 -> 4": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 434,
+              "stage": 16
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 16,
+          "result_present": true
+        },
+        "32 / 4 -> 8": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 1593,
+              "stage": 32
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 32,
+          "result_present": true
+        },
+        "256 / 4 -> 64": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "candidate_stage_beyond_corpus",
+          "candidate_stage": 256,
+          "result_present": true
+        },
+        "65536 / 4 -> 16384": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "candidate_stage_beyond_corpus",
+          "candidate_stage": 65536,
+          "result_present": false
+        },
+        "2 / 5 -> 2/5": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 63,
+              "stage": 5
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 5,
+          "result_present": true
+        },
+        "4 / 5 -> 4/5": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 67,
+              "stage": 5
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 5,
+          "result_present": true
+        },
+        "8 / 5 -> 8/5": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 127,
+              "stage": 8
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 8,
+          "result_present": true
+        },
+        "16 / 5 -> 16/5": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 436,
+              "stage": 16
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 16,
+          "result_present": true
+        },
+        "32 / 5 -> 32/5": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "result_outside_retention_aperture",
+          "candidate_stage": 32,
+          "result_present": false
+        },
+        "256 / 5 -> 256/5": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "candidate_stage_beyond_corpus",
+          "candidate_stage": 256,
+          "result_present": false
+        },
+        "65536 / 5 -> 65536/5": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "candidate_stage_beyond_corpus",
+          "candidate_stage": 65536,
+          "result_present": false
+        },
+        "2 / 6 -> 1/3": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 84,
+              "stage": 6
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 6,
+          "result_present": true
+        },
+        "4 / 6 -> 2/3": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 88,
+              "stage": 6
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 6,
+          "result_present": true
+        },
+        "8 / 6 -> 4/3": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 129,
+              "stage": 8
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 8,
+          "result_present": true
+        },
+        "16 / 6 -> 8/3": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 438,
+              "stage": 16
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 16,
+          "result_present": true
+        },
+        "32 / 6 -> 16/3": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "result_outside_retention_aperture",
+          "candidate_stage": 32,
+          "result_present": false
+        },
+        "256 / 6 -> 128/3": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "candidate_stage_beyond_corpus",
+          "candidate_stage": 256,
+          "result_present": false
+        },
+        "65536 / 6 -> 32768/3": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "candidate_stage_beyond_corpus",
+          "candidate_stage": 65536,
+          "result_present": false
+        },
+        "2 / 7 -> 2/7": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 108,
+              "stage": 7
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 7,
+          "result_present": true
+        },
+        "4 / 7 -> 4/7": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 112,
+              "stage": 7
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 7,
+          "result_present": true
+        },
+        "8 / 7 -> 8/7": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 131,
+              "stage": 8
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 8,
+          "result_present": true
+        },
+        "16 / 7 -> 16/7": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 440,
+              "stage": 16
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 16,
+          "result_present": true
+        },
+        "32 / 7 -> 32/7": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "result_outside_retention_aperture",
+          "candidate_stage": 32,
+          "result_present": false
+        },
+        "256 / 7 -> 256/7": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "candidate_stage_beyond_corpus",
+          "candidate_stage": 256,
+          "result_present": false
+        },
+        "65536 / 7 -> 65536/7": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "candidate_stage_beyond_corpus",
+          "candidate_stage": 65536,
+          "result_present": false
+        },
+        "2 / 8 -> 1/4": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 136,
+              "stage": 8
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 8,
+          "result_present": true
+        },
+        "4 / 8 -> 1/2": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 139,
+              "stage": 8
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 8,
+          "result_present": true
+        },
+        "8 / 8 -> 1": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 133,
+              "stage": 8
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 8,
+          "result_present": true
+        },
+        "16 / 8 -> 2": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 442,
+              "stage": 16
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 16,
+          "result_present": true
+        },
+        "32 / 8 -> 4": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 1598,
+              "stage": 32
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 32,
+          "result_present": true
+        },
+        "256 / 8 -> 32": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "candidate_stage_beyond_corpus",
+          "candidate_stage": 256,
+          "result_present": true
+        },
+        "65536 / 8 -> 8192": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "candidate_stage_beyond_corpus",
+          "candidate_stage": 65536,
+          "result_present": false
+        },
+        "2 / 9 -> 2/9": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 166,
+              "stage": 9
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 9,
+          "result_present": true
+        },
+        "4 / 9 -> 4/9": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 168,
+              "stage": 9
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 9,
+          "result_present": true
+        },
+        "8 / 9 -> 8/9": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 176,
+              "stage": 9
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 9,
+          "result_present": true
+        },
+        "16 / 9 -> 16/9": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 444,
+              "stage": 16
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 16,
+          "result_present": true
+        },
+        "32 / 9 -> 32/9": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 1600,
+              "stage": 32
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 32,
+          "result_present": true
+        },
+        "256 / 9 -> 256/9": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "candidate_stage_beyond_corpus",
+          "candidate_stage": 256,
+          "result_present": false
+        },
+        "65536 / 9 -> 65536/9": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "candidate_stage_beyond_corpus",
+          "candidate_stage": 65536,
+          "result_present": false
+        },
+        "2 / 10 -> 1/5": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 200,
+              "stage": 10
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 10,
+          "result_present": true
+        },
+        "4 / 10 -> 2/5": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 202,
+              "stage": 10
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 10,
+          "result_present": true
+        },
+        "8 / 10 -> 4/5": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 209,
+              "stage": 10
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 10,
+          "result_present": true
+        },
+        "16 / 10 -> 8/5": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 446,
+              "stage": 16
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 16,
+          "result_present": true
+        },
+        "32 / 10 -> 16/5": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 1602,
+              "stage": 32
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 32,
+          "result_present": true
+        },
+        "256 / 10 -> 128/5": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "candidate_stage_beyond_corpus",
+          "candidate_stage": 256,
+          "result_present": false
+        },
+        "65536 / 10 -> 32768/5": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "candidate_stage_beyond_corpus",
+          "candidate_stage": 65536,
+          "result_present": false
+        },
+        "2 / 11 -> 2/11": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 236,
+              "stage": 11
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 11,
+          "result_present": true
+        },
+        "4 / 11 -> 4/11": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 238,
+              "stage": 11
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 11,
+          "result_present": true
+        },
+        "8 / 11 -> 8/11": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 244,
+              "stage": 11
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 11,
+          "result_present": true
+        },
+        "16 / 11 -> 16/11": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 448,
+              "stage": 16
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 16,
+          "result_present": true
+        },
+        "32 / 11 -> 32/11": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 1604,
+              "stage": 32
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 32,
+          "result_present": true
+        },
+        "256 / 11 -> 256/11": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "candidate_stage_beyond_corpus",
+          "candidate_stage": 256,
+          "result_present": false
+        },
+        "65536 / 11 -> 65536/11": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "candidate_stage_beyond_corpus",
+          "candidate_stage": 65536,
+          "result_present": false
+        },
+        "2 / 12 -> 1/6": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 276,
+              "stage": 12
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 12,
+          "result_present": true
+        },
+        "4 / 12 -> 1/3": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 278,
+              "stage": 12
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 12,
+          "result_present": true
+        },
+        "8 / 12 -> 2/3": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 283,
+              "stage": 12
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 12,
+          "result_present": true
+        },
+        "16 / 12 -> 4/3": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 450,
+              "stage": 16
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 16,
+          "result_present": true
+        },
+        "32 / 12 -> 8/3": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 1606,
+              "stage": 32
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 32,
+          "result_present": true
+        },
+        "256 / 12 -> 64/3": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "candidate_stage_beyond_corpus",
+          "candidate_stage": 256,
+          "result_present": false
+        },
+        "65536 / 12 -> 16384/3": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "candidate_stage_beyond_corpus",
+          "candidate_stage": 65536,
+          "result_present": false
+        },
+        "2 / 13 -> 2/13": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 317,
+              "stage": 13
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 13,
+          "result_present": true
+        },
+        "4 / 13 -> 4/13": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 319,
+              "stage": 13
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 13,
+          "result_present": true
+        },
+        "8 / 13 -> 8/13": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 323,
+              "stage": 13
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 13,
+          "result_present": true
+        },
+        "16 / 13 -> 16/13": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 452,
+              "stage": 16
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 16,
+          "result_present": true
+        },
+        "32 / 13 -> 32/13": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 1608,
+              "stage": 32
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 32,
+          "result_present": true
+        },
+        "256 / 13 -> 256/13": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "candidate_stage_beyond_corpus",
+          "candidate_stage": 256,
+          "result_present": false
+        },
+        "65536 / 13 -> 65536/13": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "candidate_stage_beyond_corpus",
+          "candidate_stage": 65536,
+          "result_present": false
+        },
+        "2 / 14 -> 1/7": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 362,
+              "stage": 14
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 14,
+          "result_present": true
+        },
+        "4 / 14 -> 2/7": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 364,
+              "stage": 14
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 14,
+          "result_present": true
+        },
+        "8 / 14 -> 4/7": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 368,
+              "stage": 14
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 14,
+          "result_present": true
+        },
+        "16 / 14 -> 8/7": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 454,
+              "stage": 16
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 16,
+          "result_present": true
+        },
+        "32 / 14 -> 16/7": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 1610,
+              "stage": 32
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 32,
+          "result_present": true
+        },
+        "256 / 14 -> 128/7": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "candidate_stage_beyond_corpus",
+          "candidate_stage": 256,
+          "result_present": false
+        },
+        "65536 / 14 -> 32768/7": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "candidate_stage_beyond_corpus",
+          "candidate_stage": 65536,
+          "result_present": false
+        },
+        "2 / 15 -> 2/15": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 410,
+              "stage": 15
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 15,
+          "result_present": true
+        },
+        "4 / 15 -> 4/15": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 412,
+              "stage": 15
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 15,
+          "result_present": true
+        },
+        "8 / 15 -> 8/15": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 416,
+              "stage": 15
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 15,
+          "result_present": true
+        },
+        "16 / 15 -> 16/15": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 456,
+              "stage": 16
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 16,
+          "result_present": true
+        },
+        "32 / 15 -> 32/15": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 1612,
+              "stage": 32
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 32,
+          "result_present": true
+        },
+        "256 / 15 -> 256/15": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "candidate_stage_beyond_corpus",
+          "candidate_stage": 256,
+          "result_present": false
+        },
+        "65536 / 15 -> 65536/15": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "candidate_stage_beyond_corpus",
+          "candidate_stage": 65536,
+          "result_present": false
+        },
+        "2 / 16 -> 1/8": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 461,
+              "stage": 16
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 16,
+          "result_present": true
+        },
+        "4 / 16 -> 1/4": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 463,
+              "stage": 16
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 16,
+          "result_present": true
+        },
+        "8 / 16 -> 1/2": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 467,
+              "stage": 16
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 16,
+          "result_present": true
+        },
+        "16 / 16 -> 1": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 458,
+              "stage": 16
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 16,
+          "result_present": true
+        },
+        "32 / 16 -> 2": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 1614,
+              "stage": 32
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 32,
+          "result_present": true
+        },
+        "256 / 16 -> 16": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "candidate_stage_beyond_corpus",
+          "candidate_stage": 256,
+          "result_present": true
+        },
+        "65536 / 16 -> 4096": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "candidate_stage_beyond_corpus",
+          "candidate_stage": 65536,
+          "result_present": false
+        },
+        "2 / 31 -> 2/31": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 1553,
+              "stage": 31
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 31,
+          "result_present": true
+        },
+        "4 / 31 -> 4/31": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 1555,
+              "stage": 31
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 31,
+          "result_present": true
+        },
+        "8 / 31 -> 8/31": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 1559,
+              "stage": 31
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 31,
+          "result_present": true
+        },
+        "16 / 31 -> 16/31": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 1567,
+              "stage": 31
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 31,
+          "result_present": true
+        },
+        "32 / 31 -> 32/31": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 1644,
+              "stage": 32
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 32,
+          "result_present": true
+        },
+        "256 / 31 -> 256/31": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "candidate_stage_beyond_corpus",
+          "candidate_stage": 256,
+          "result_present": false
+        },
+        "65536 / 31 -> 65536/31": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "candidate_stage_beyond_corpus",
+          "candidate_stage": 65536,
+          "result_present": false
+        },
+        "1 * 1 -> 1": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 4,
+              "stage": 1
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 1,
+          "result_present": true
+        },
+        "4 - 2 -> 2": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 35,
+              "stage": 4
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 4,
+          "result_present": true
+        },
+        "1 - 1 -> 0": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 3,
+              "stage": 1
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 1,
+          "result_present": true
+        },
+        "0 * 0 -> 0": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "operand_not_positive_spine",
+          "candidate_stage": null,
+          "result_present": true
+        },
+        "0 - 1 -> -1": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "operand_not_positive_spine",
+          "candidate_stage": null,
+          "result_present": true
+        },
+        "-1 * -1 -> 1": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "operand_not_positive_spine",
+          "candidate_stage": null,
+          "result_present": true
+        },
+        "1 + 1 -> 2": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 2,
+              "stage": 1
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 1,
+          "result_present": true
+        },
+        "4 + 1 -> 5": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "result_outside_retention_aperture",
+          "candidate_stage": 4,
+          "result_present": true
+        },
+        "5 * 5 -> 25": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "result_outside_retention_aperture",
+          "candidate_stage": 5,
+          "result_present": true
+        },
+        "25 + 1 -> 26": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "result_outside_retention_aperture",
+          "candidate_stage": 25,
+          "result_present": true
+        },
+        "26 * 26 -> 676": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "result_outside_retention_aperture",
+          "candidate_stage": 26,
+          "result_present": false
+        },
+        "676 + 1 -> 677": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "candidate_stage_beyond_corpus",
+          "candidate_stage": 676,
+          "result_present": false
+        },
+        "1/2 * 1/2 -> 1/4": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "operand_not_positive_spine",
+          "candidate_stage": null,
+          "result_present": true
+        },
+        "1/4 * 1/4 -> 1/16": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "operand_not_positive_spine",
+          "candidate_stage": null,
+          "result_present": true
+        },
+        "1/16 * 1/16 -> 1/256": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "operand_not_positive_spine",
+          "candidate_stage": null,
+          "result_present": false
+        },
+        "2 - 4 -> -2": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 44,
+              "stage": 4
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 4,
+          "result_present": true
+        },
+        "3 * 3 -> 9": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "result_outside_retention_aperture",
+          "candidate_stage": 3,
+          "result_present": true
+        },
+        "9 - 6 -> 3": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 156,
+              "stage": 9
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 9,
+          "result_present": true
+        },
+        "3 - 9 -> -6": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "result_outside_retention_aperture",
+          "candidate_stage": 9,
+          "result_present": false
+        },
+        "16 - 12 -> 4": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 449,
+              "stage": 16
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 16,
+          "result_present": true
+        },
+        "4 - 16 -> -12": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "result_outside_retention_aperture",
+          "candidate_stage": 16,
+          "result_present": false
+        },
+        "25 - 20 -> 5": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 1027,
+              "stage": 25
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 25,
+          "result_present": true
+        },
+        "5 - 25 -> -20": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "result_outside_retention_aperture",
+          "candidate_stage": 25,
+          "result_present": false
+        },
+        "6 * 6 -> 36": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "result_outside_retention_aperture",
+          "candidate_stage": 6,
+          "result_present": true
+        },
+        "36 - 30 -> 6": {
+          "present": true,
+          "edge_refs": [
+            {
+              "edge_id": 2043,
+              "stage": 36
+            }
+          ],
+          "blocker": null,
+          "candidate_stage": 36,
+          "result_present": true
+        },
+        "6 - 36 -> -30": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "result_outside_retention_aperture",
+          "candidate_stage": 36,
+          "result_present": false
+        },
+        "1/3 * 1/3 -> 1/9": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "operand_not_positive_spine",
+          "candidate_stage": null,
+          "result_present": true
+        },
+        "4/3 * 4/3 -> 16/9": {
+          "present": false,
+          "edge_refs": [],
+          "blocker": "operand_not_positive_spine",
+          "candidate_stage": null,
+          "result_present": true
+        }
+      }
+    }
+  },
+  "critical_atlas": [
+    {
+      "parameter": {
+        "real": "0",
+        "imag": "0"
+      },
+      "seed": {
+        "real": "0",
+        "imag": "0"
+      },
+      "budget": 8,
+      "finite_detector": "exact_cycle",
+      "preperiod": 0,
+      "period": 1,
+      "evidence_layer": "external_probe",
+      "runtime_orbit": false
+    },
+    {
+      "parameter": {
+        "real": "-1",
+        "imag": "0"
+      },
+      "seed": {
+        "real": "0",
+        "imag": "0"
+      },
+      "budget": 8,
+      "finite_detector": "exact_cycle",
+      "preperiod": 0,
+      "period": 2,
+      "evidence_layer": "external_probe",
+      "runtime_orbit": false
+    },
+    {
+      "parameter": {
+        "real": "-2",
+        "imag": "0"
+      },
+      "seed": {
+        "real": "0",
+        "imag": "0"
+      },
+      "budget": 8,
+      "finite_detector": "exact_cycle",
+      "preperiod": 2,
+      "period": 1,
+      "evidence_layer": "external_probe",
+      "runtime_orbit": false
+    },
+    {
+      "parameter": {
+        "real": "-6",
+        "imag": "0"
+      },
+      "seed": {
+        "real": "0",
+        "imag": "0"
+      },
+      "budget": 8,
+      "finite_detector": "certified_escape",
+      "escape_step": 2,
+      "radius_squared": "36",
+      "norm_squared": "900",
+      "evidence_layer": "external_probe",
+      "runtime_orbit": false
+    },
+    {
+      "parameter": {
+        "real": "1",
+        "imag": "0"
+      },
+      "seed": {
+        "real": "0",
+        "imag": "0"
+      },
+      "budget": 8,
+      "finite_detector": "certified_escape",
+      "escape_step": 3,
+      "radius_squared": "4",
+      "norm_squared": "25",
+      "evidence_layer": "external_probe",
+      "runtime_orbit": false
+    },
+    {
+      "parameter": {
+        "real": "1/4",
+        "imag": "0"
+      },
+      "seed": {
+        "real": "0",
+        "imag": "0"
+      },
+      "budget": 8,
+      "finite_detector": "unresolved_after_budget",
+      "evidence_layer": "external_probe",
+      "runtime_orbit": false
+    },
+    {
+      "parameter": {
+        "real": "1/2",
+        "imag": "0"
+      },
+      "seed": {
+        "real": "0",
+        "imag": "0"
+      },
+      "budget": 8,
+      "finite_detector": "certified_escape",
+      "escape_step": 5,
+      "radius_squared": "4",
+      "norm_squared": "42707115649/4294967296",
+      "evidence_layer": "external_probe",
+      "runtime_orbit": false
+    },
+    {
+      "parameter": {
+        "real": "0",
+        "imag": "1"
+      },
+      "seed": {
+        "real": "0",
+        "imag": "0"
+      },
+      "budget": 8,
+      "finite_detector": "exact_cycle",
+      "preperiod": 2,
+      "period": 2,
+      "evidence_layer": "external_probe",
+      "runtime_orbit": false
+    }
+  ]
+}

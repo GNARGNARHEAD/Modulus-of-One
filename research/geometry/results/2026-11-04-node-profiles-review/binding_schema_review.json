@@ -1,0 +1,130 @@
+[
+  {
+    "association": "square:9",
+    "route": "generic_factored",
+    "binding": {
+      "role": "step:sum",
+      "left": "7",
+      "op": "+",
+      "right": "2",
+      "result": "9"
+    },
+    "added_by_adapter": false,
+    "original_requests_preserved": true,
+    "extra_requests": [],
+    "ac_unchanged": true,
+    "root_is_bound": true
+  },
+  {
+    "association": "square:9",
+    "route": "generic_expanded_left",
+    "binding": {
+      "role": "binding:root_sum",
+      "left": "7",
+      "op": "+",
+      "right": "2",
+      "result": "9"
+    },
+    "added_by_adapter": true,
+    "original_requests_preserved": true,
+    "extra_requests": [
+      [
+        "binding:root_sum",
+        "7",
+        "+",
+        "2",
+        "9"
+      ]
+    ],
+    "ac_unchanged": true,
+    "root_is_bound": true
+  },
+  {
+    "association": "square:9",
+    "route": "generic_expanded_paired",
+    "binding": {
+      "role": "binding:root_sum",
+      "left": "7",
+      "op": "+",
+      "right": "2",
+      "result": "9"
+    },
+    "added_by_adapter": true,
+    "original_requests_preserved": true,
+    "extra_requests": [
+      [
+        "binding:root_sum",
+        "7",
+        "+",
+        "2",
+        "9"
+      ]
+    ],
+    "ac_unchanged": true,
+    "root_is_bound": true
+  },
+  {
+    "association": "square:25",
+    "route": "shell_factored",
+    "binding": {
+      "role": "step:sum",
+      "left": "16",
+      "op": "+",
+      "right": "9",
+      "result": "25"
+    },
+    "added_by_adapter": false,
+    "original_requests_preserved": true,
+    "extra_requests": [],
+    "ac_unchanged": true,
+    "root_is_bound": true
+  },
+  {
+    "association": "square:25",
+    "route": "shell_expanded_left",
+    "binding": {
+      "role": "premise:source_agreement",
+      "left": "16",
+      "op": "+",
+      "right": "9",
+      "result": "25"
+    },
+    "added_by_adapter": false,
+    "original_requests_preserved": true,
+    "extra_requests": [],
+    "ac_unchanged": true,
+    "root_is_bound": true
+  },
+  {
+    "association": "square:25",
+    "route": "shell_expanded_paired",
+    "binding": {
+      "role": "premise:source_agreement",
+      "left": "16",
+      "op": "+",
+      "right": "9",
+      "result": "25"
+    },
+    "added_by_adapter": false,
+    "original_requests_preserved": true,
+    "extra_requests": [],
+    "ac_unchanged": true,
+    "root_is_bound": true
+  },
+  {
+    "association": "square:25",
+    "route": "shell_composed_norm",
+    "binding": {
+      "role": "premise:source_agreement",
+      "left": "16",
+      "op": "+",
+      "right": "9",
+      "result": "25"
+    },
+    "added_by_adapter": false,
+    "original_requests_preserved": true,
+    "extra_requests": [],
+    "ac_unchanged": true,
+    "root_is_bound": true
+  }
+]

@@ -1,0 +1,1669 @@
+{
+  "format": "moo.path_migration.v1",
+  "source_revision": "921669be473b7f2776344e1f61e3d26d68a2946a",
+  "paths": [
+    {
+      "from": "ANALYSIS_TOOL_PROTOCOL.md",
+      "to": "docs/protocols/research-programs.md",
+      "sha256_before": "856bc58d29f6e9717d88cedace332f1f6cc0ae9a52eae458e202e925e0a01eb8",
+      "disposition": "merged_into_owner"
+    },
+    {
+      "from": "BRANCH_FORMALIZATION_NOTE.md",
+      "to": "docs/protocols/branch-evidence.md",
+      "sha256_before": "ea0e7903d6f5596ef9a6b883acee5d39c828c0e24cc0ecf73b0203c27f3847de",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "BRANCH_GLOSSARY.md",
+      "to": "docs/foundations/BRANCHES.md",
+      "sha256_before": "d2f828286ad6657671427c8c14cc41c08db542b5605cfae3ee0dd65d4966cb60",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "CORE_CLAIMS.md",
+      "to": "docs/CLAIMS.md",
+      "sha256_before": "c1379628e2cda7c078fbaad7622e7645a9afb656c883c8a592b2f5bad49e73f1",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "DOCS_INDEX.md",
+      "to": "archive/reorganizations/20261107/DOCS_INDEX.md",
+      "sha256_before": "848e37fc21f430e8f550efb4b4ec8032d8f0739821fee5c93e86952b46bfd0ad",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "EPISTEMIC_ORDER_NOTE.md",
+      "to": "docs/foundations/EPISTEMIC_ORDER.md",
+      "sha256_before": "65158fabc913ac38ffd58f6236d8449c6d06859da6a07efd5930d6c160bc8bff",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "FUNDAMENTAL_OPERATOR_FAN_NOTE.md",
+      "to": "archive/reorganizations/20261107/FUNDAMENTAL_OPERATOR_FAN_NOTE.md",
+      "sha256_before": "0c4cccd2e1448d99a284bfec2a8d6a7fb8a6002095c15f004984fb0f6b3c9f6c",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "GRAPH_CORPUS_NOTE.md",
+      "to": "docs/software/GRAPH_CORPUS.md",
+      "sha256_before": "8bc782e4e3bdab261ad4344ace081bad6069903c71efd4861e06d672b8fa535d",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "GRAPH_INVARIANTS_PROTOCOL.md",
+      "to": "docs/protocols/graph-invariants.md",
+      "sha256_before": "e4d08f08b97ec450eeaabd717df4124f784bac875359983f8e4f6afed19cf6b8",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "LAYMAN_OVERVIEW.md",
+      "to": "docs/PHILOSOPHY.md",
+      "sha256_before": "7f236b9ab960f8792faf980bbe2dbd61b4f215557d2f7d3c6e36a17d3fd365c6",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "MOO_REALIGNMENT_NOTE.md",
+      "to": "archive/reorganizations/20261107/MOO_REALIGNMENT_NOTE.md",
+      "sha256_before": "63aa43a551ae4ddaec48bee93aaf511ee94b095948c065c6df4e1d803e6cbc66",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "NODE_PROFILES_NOTE.md",
+      "to": "docs/software/NODE_PROFILES.md",
+      "sha256_before": "0da67e9f28131d1b94a0be366e1eb923671722f49507f384e8f8a97ad7b9bbb3",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "ORDER4_PROJECTION_PROTOCOL.md",
+      "to": "docs/protocols/order4-projection.md",
+      "sha256_before": "c381e0cecdfe0b835263c006858d1497ac306084569c7a1a0c52b1a3fb91f0ee",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "OTHERNESS_AND_NEGATIVE_FOOTPRINT_NOTE.md",
+      "to": "docs/foundations/OTHERNESS.md",
+      "sha256_before": "f4c792727039d0eb326c829bbb013f06c9b549f96188bfdc82730e299b83b4ec",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "PROJECT_ALIGNMENT_NOTE.md",
+      "to": "archive/reorganizations/20261107/PROJECT_ALIGNMENT_NOTE.md",
+      "sha256_before": "3c230b6cfe21c32e5de58334f94a059d9692081bb66f6dd5540c8ddc56535f48",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "Qwen3-8-27B-Analysis-full-conversation.md",
+      "to": "archive/README.md",
+      "sha256_before": "f3b3e62b251562edba89b8d37ab0ddaa46e4348c0a4b1e241429f6590f6222db",
+      "disposition": "merged_into_owner"
+    },
+    {
+      "from": "RECURRENCE_FRAMES_NOTE.md",
+      "to": "research/dynamics/RECURRENCE_FRAMES_NOTE.md",
+      "sha256_before": "9dab130abdc68bc058789fc995057347d134b69353980bbe1d7db5030387da63",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "RESEARCH_LENSES.md",
+      "to": "docs/research/LENSES.md",
+      "sha256_before": "e93da0a80be3689db22ab5cbd91121fc329692379837af26f8ff157861db6df8",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "SPAN_TRIAD_SQUARE_EMERGENCE_NOTE.md",
+      "to": "research/geometry/SPAN_TRIAD_SQUARE_EMERGENCE_NOTE.md",
+      "sha256_before": "c2c50630163f3afbec42ccbbd7338895aee9ee089fef4239f799bae749cd93d4",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "VISION.md",
+      "to": "archive/reorganizations/20261107/VISION.md",
+      "sha256_before": "b1bc6d889f4d49e768548204ce59d3bfe52ca12d4d5fbc77969b18e45afb27d6",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "attractor_view.py",
+      "to": "moo/legacy/attractor_view.py",
+      "sha256_before": "162e617e1c2bba9c14a3b46e8242917bf405d3d12291ef375c7d6392b9dd3829",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "binding_structure_study.py",
+      "to": "moo/legacy/binding_structure_study.py",
+      "sha256_before": "623b6286dbcd93e542f7a0a9a1ca0f25742a3aed7e8e025aba44110ce335b975",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "branch_lineage.py",
+      "to": "moo/branch_lineage.py",
+      "sha256_before": "5715e0eb4ed6cc394135966b05e748baf0dfa0223c7d29a4d6eddc5695e3ef16",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "concept_branch_study.py",
+      "to": "moo/legacy/concept_branch_study.py",
+      "sha256_before": "6b91dba6704413faa8c04b8c979d73e038d4cecdbf7aa6e3602bcd17e925bd9a",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "constant_probe.py",
+      "to": "moo/legacy/constant_probe.py",
+      "sha256_before": "7141129b5aa85408fa08c07cd9a74de1417f62a14af6e71c55766004a8d3a88a",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "construction_aperture_study.py",
+      "to": "moo/legacy/construction_aperture_study.py",
+      "sha256_before": "1e92b9ea549f97eb69144123fc8e9f2e2dfd7ac89efb49c7a222965c3f5ffa7d",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "constructionist_math.py",
+      "to": "moo/constructionist_math.py",
+      "sha256_before": "db77578db9d8c2aa9ba563fc594bc93e55142e5aecae2a9bb0d6e5e1f6a0c131",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "corridor_atlas_study.py",
+      "to": "moo/legacy/corridor_atlas_study.py",
+      "sha256_before": "383493012efdfe8743be00315cc186e7f1033c00ce714cb9787e33afcf61411e",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "docs/ASTRA_CRITIQUE_20261106.md",
+      "to": "archive/reviews/ASTRA_CRITIQUE_20261106.md",
+      "sha256_before": "d596e9b863814c67d198e8cbfe11454c5a1a1626500a8ea17a5e7ef3e3f11c0c",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "docs/DEVELOPMENT.md",
+      "to": "docs/software/DEVELOPMENT.md",
+      "sha256_before": "1be294d695f594b27f08e817854646bf60bdd07e83994008b6381a0ea8f117b3",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "docs/FIVE_FIXES_20261106.md",
+      "to": "archive/reviews/FIVE_FIXES_20261106.md",
+      "sha256_before": "93e3a08f19cc944d40a7a892c8d0dacc208218d24e7ce4630f1fe0227991f232",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "docs/FOURTH_ORDER_EXAMPLE.md",
+      "to": "docs/examples/FOURTH_ORDER_EXAMPLE.md",
+      "sha256_before": "8c8f64a2f648490054677f7b4c0804697b6071381bfffccf10b16e9441b0fdd9",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "docs/PI_FOURTH_ORDER_EXAMPLE.md",
+      "to": "docs/examples/PI_FOURTH_ORDER_EXAMPLE.md",
+      "sha256_before": "52b1fd99e7b84d04582859bbfa651648a54287a20e311c25bf28642ac88fd0d7",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "docs/REVIEW_20261106.md",
+      "to": "archive/reviews/REVIEW_20261106.md",
+      "sha256_before": "00673f2faa8e3abe319e805eb4af0dc706a9f10c68c8acd7566a9b7eb5e287a3",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "docs/WORKED_INSPECTION.md",
+      "to": "docs/examples/WORKED_INSPECTION.md",
+      "sha256_before": "e2b1bf045cbe296cee052929e456a2819a759924bfafc017988f7dc50bb2790b",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "docs/evidence/fourth_order_square_example_20261107.json",
+      "to": "docs/examples/evidence/fourth_order_square_example_20261107.json",
+      "sha256_before": "048a39effe59e125d573d10ab0003ccd2523305097ba67d4540a0dde2cc04939",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "docs/evidence/pi_fourth_order_example_20261107.json",
+      "to": "docs/examples/evidence/pi_fourth_order_example_20261107.json",
+      "sha256_before": "dcf087e8f6b42f5863ce0beb7ea50c81f5b5ef9fbc5bdfa717072c608eb743a5",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "emergence_baselines.py",
+      "to": "moo/legacy/emergence_baselines.py",
+      "sha256_before": "0ae08bf607132d1746e8236bd1065dbda0646c2a93915e9b447bfa89178c457e",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "erdos_unit_distance_certificate.py",
+      "to": "moo/erdos_unit_distance_certificate.py",
+      "sha256_before": "b61e6b45223c6a58bb2c7310ae269ee8d28af8fd40362a7fcbb6f96b8c3ba293",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "fermat_little_probe.py",
+      "to": "moo/fermat_little_probe.py",
+      "sha256_before": "61fa47d8171aba0e5bd12ab542e21c137dbe7215f0f228b7b9becd880f25d8ba",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "fermat_prime_probe.py",
+      "to": "moo/fermat_prime_probe.py",
+      "sha256_before": "fa9da2d85a368b31e83fc798dd8e24ccf0f1c371ecfc1665cce7c73c270d5697",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "moo_association_families.py",
+      "to": "moo/association_families.py",
+      "sha256_before": "29edce4dbb75121db79e8aad618e2cdc164e4ec80707cc8d4ab1125078e07131",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "moo_circle_as_one_probe.py",
+      "to": "moo/circle_as_one_probe.py",
+      "sha256_before": "f06634c4fbf541c0118f90ab1ced80a487909ecc76daaeeded1c95e85a8e0297",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "moo_circle_probe.py",
+      "to": "moo/circle_probe.py",
+      "sha256_before": "8814d2185ba1bd0512728af82590e8ee36db3dabadd4bcf5bf9b94a4eb646e8c",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "moo_circle_square_area_probe.py",
+      "to": "moo/circle_square_area_probe.py",
+      "sha256_before": "7874d964b011309448cb241beee8fb2fc57a0642b73983215656c108cd677466",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "moo_circle_square_probe.py",
+      "to": "moo/circle_square_probe.py",
+      "sha256_before": "8d251a8b425fb258070ec96ffa14292145cd6bac59caf4ec5504a5081a284d12",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "moo_congruence_quotient_probe.py",
+      "to": "moo/congruence_quotient_probe.py",
+      "sha256_before": "118538fed212a112f5850f334b6da9a4e4637e211b2abcc17243e466879c8b54",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "moo_core_alignment_check.py",
+      "to": "moo/core_alignment_check.py",
+      "sha256_before": "cfd45397b42a2181f065eba724d407c487ccc9a6d772925d4d8eedc5e75af282",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "moo_corpus.py",
+      "to": "moo/legacy/corpus.py",
+      "sha256_before": "4379e9f486f495a7c41908bd701bdfd0af3d1e47584da3a2c790b7bba34ee2d0",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "moo_graph_corpus.py",
+      "to": "moo/graph_corpus.py",
+      "sha256_before": "66572b7240489e56d45a2b014a27332286ce9766a4b133754a62846c388f33cd",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "moo_graph_evidence.py",
+      "to": "moo/graph_evidence.py",
+      "sha256_before": "cb384efe0d9a23dba6c068f7e2d42597a323b62e900b2498748e605f13ef2156",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "moo_graph_invariants.py",
+      "to": "moo/graph_invariants.py",
+      "sha256_before": "1ec922857faf0f1015896f37310300b2d68d9a5d98d8ae20ccfd8906ad73fce6",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "moo_graph_query.py",
+      "to": "moo/graph_query.py",
+      "sha256_before": "f639237f66edf92a38930487c21087b634835041231c6255f8ca1fff11094ef5",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "moo_node_profiles.py",
+      "to": "moo/node_profiles.py",
+      "sha256_before": "6e00daed8310385176a094f812c9fee533ae379d78d9495449a1ad9a46c6aba1",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "moo_observatory.py",
+      "to": "moo/legacy/observatory.py",
+      "sha256_before": "0121e8fdb8b5468163215fd6494e5dab32357e007768486537e642d432ff87be",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "moo_phase.py",
+      "to": "moo/phase.py",
+      "sha256_before": "329d36f7872603b58d67a80fda4078e2a32a4ccfd49fd6910c28cff0ae09aa55",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "moo_phase_metric_probe.py",
+      "to": "moo/phase_metric_probe.py",
+      "sha256_before": "bde3682d79ecbf93d5ae71ef79db1ad9ceee6217e7a9274bc8d301e37f125d01",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "moo_phase_transport_probe.py",
+      "to": "moo/phase_transport_probe.py",
+      "sha256_before": "364167fe749f7695b02db7e2907b715cce202c2ae6f20f4ed5de6c7f5b89bb57",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "moo_profile_certificates.py",
+      "to": "moo/profile_certificates.py",
+      "sha256_before": "9511f1f74e56eb64ea39fed8ef3a0b48890ac2946d0244cb67f970fc84bdb16e",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "moo_quadratic_form_nested_math.py",
+      "to": "moo/quadratic_form_nested_math.py",
+      "sha256_before": "dbead35be9e82ed1cea66f369ab5d1608b83573db897ca534f9f53af347ba8bb",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "moo_quadratic_form_nested_probe.py",
+      "to": "moo/quadratic_form_nested_probe.py",
+      "sha256_before": "70cc59001e863ca43b5775f01f98dfac410ac7e1c14cb9955b20458b5be33360",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "moo_quadratic_form_probe.py",
+      "to": "moo/quadratic_form_probe.py",
+      "sha256_before": "75f80ed39d14c962535d1a83a93b313236bd2e7153ed4a1c4581367d73f7c306",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "moo_quadratic_form_recovery.py",
+      "to": "moo/quadratic_form_recovery.py",
+      "sha256_before": "0f6281e888bf32aa7997eb93e1226ec52536ad97e8124d12cc8346222867758c",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "moo_relation_geometry_probe.py",
+      "to": "moo/relation_geometry_probe.py",
+      "sha256_before": "fcda527f36f86b51ef0bc2f3fe1613e769581e16f0ac918060643e8011e14a15",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "moo_research_report.py",
+      "to": "moo/research_report.py",
+      "sha256_before": "3b5cebd1bc6c351da21d6792c92587bdd18929601557f44a0e15de0db9be6072",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "moo_research_utils.py",
+      "to": "moo/research_utils.py",
+      "sha256_before": "f672cc60007a1368d21ec90353403f4aa21c0bae3936781cd589a171e559019e",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "moo_route_identity_probe.py",
+      "to": "moo/route_identity_probe.py",
+      "sha256_before": "82b3b070221daffd7faac2b00f8f7187b08e1058e5c4dd3c1f40000d54ce3d0b",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "moo_series_probe.py",
+      "to": "moo/series_probe.py",
+      "sha256_before": "7b851830a61907c631a62ca4836208477a09063b958038d15a96611671e0e1e3",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "moo_set_closure.py",
+      "to": "moo/legacy/set_closure.py",
+      "sha256_before": "5d89b6551d860a674f9ed42e909a7d0f2a24153b93daa1a95ef3cfab4856b5a6",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "moo_shell_branch_search.py",
+      "to": "moo/shell_branch_search.py",
+      "sha256_before": "1e134bddb869aa46afb29668b5abb1fa38a6cf8733bffa3c38555ad831c5c4d9",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "moo_shell_composition_probe.py",
+      "to": "moo/shell_composition_probe.py",
+      "sha256_before": "3c9bd33ad574160b394b7e469ec5070ab6a8520cd2d67e57d4372946f38387d4",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "moo_split_prime_branch_probe.py",
+      "to": "moo/split_prime_branch_probe.py",
+      "sha256_before": "26a25d0cd5778e62b929bdb2936d5723a4c2b18fd565d38192181313f1ca40ee",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "moo_targets.py",
+      "to": "moo/legacy/targets.py",
+      "sha256_before": "79558fc5ae42db932d7a73121b97352ef2718f35e902b4102ff0266435dcfa1f",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "moo_theta_weil_probe.py",
+      "to": "moo/theta_weil_probe.py",
+      "sha256_before": "dc5777d14d7059e73848940c743d3c1abc5a4eb66cbc0869e8f3dbdfd6934861",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "moo_unit_direction_branch_probe.py",
+      "to": "moo/unit_direction_branch_probe.py",
+      "sha256_before": "1344f5048c2bc2c272914a7c9538afb197e12cdbd3615e27c74d2236e6f649bc",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "moo_variable_denominator_probe.py",
+      "to": "moo/variable_denominator_probe.py",
+      "sha256_before": "1e78d63f8995b444fc3638b27a5caa4132dc755cb5729907bc42214e55ddcc94",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "moo_zeta_arrival_probe.py",
+      "to": "moo/zeta_arrival_probe.py",
+      "sha256_before": "5146f6807d2871f0acb71626bb322926f971a163f2bc478462f68d5bf72869d9",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "moo_zeta_centered_inversion_probe.py",
+      "to": "moo/zeta_centered_inversion_probe.py",
+      "sha256_before": "4613471d324f8cdaab4c12c750cc9403442a57286cc76398c3a68310050c82c5",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "moo_zeta_critical_probe.py",
+      "to": "moo/zeta_critical_probe.py",
+      "sha256_before": "95c0010bcc4e48339ba83526ee2487259af990067f849cf6c67db0d9d3a961db",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "motif_graph_study.py",
+      "to": "moo/legacy/motif_graph_study.py",
+      "sha256_before": "9e9cd2255bf8e6e2b4853e1aa6c20e683d65181132a1de849b34de1808d9cfb6",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "motif_grid_summary.py",
+      "to": "moo/legacy/motif_grid_summary.py",
+      "sha256_before": "cb778f4516f74824c2a034e311f34cd0e97142369c74ab63a154f2fde5993c53",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "motif_mass_study.py",
+      "to": "moo/legacy/motif_mass_study.py",
+      "sha256_before": "ce60428cfbbabb0f853ed9ae61951a790dd8e3c8f713be1856e5fba5ed089929",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "motif_persistence_study.py",
+      "to": "moo/legacy/motif_persistence_study.py",
+      "sha256_before": "6ededeb3f6b911aeff9209a4fbfc0a8e44b839b7abd0b0272390bf70eee5e795",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "native_emergence_scan.py",
+      "to": "moo/legacy/native_emergence_scan.py",
+      "sha256_before": "024770c9de17b8a0dd029049a7382291d1e460c6a74d9665c12b9956b86d95eb",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "order_transition_study.py",
+      "to": "moo/legacy/order_transition_study.py",
+      "sha256_before": "1ec1cf0b698c07af89404a58a3e4184f65d5f7b96dfa8db3bba3333f4d643fdc",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/216/golden_rotation_216_v1.json",
+      "to": "research/experiments/216/golden_rotation_216_v1.json",
+      "sha256_before": "aa16cae9b7b69c89cc3dfac67432c0580d9fa37f5560560b5738a34bc64df701",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/216/golden_rotation_216_v1.md",
+      "to": "research/experiments/216/golden_rotation_216_v1.md",
+      "sha256_before": "553ce7ce4f748ca469202549fcad7c889e4d2c824a202e1b13f1a51bd06cb475",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/216/power_lattice_216_v1.json",
+      "to": "research/experiments/216/power_lattice_216_v1.json",
+      "sha256_before": "6266109b272aeff13920f56c2c36c52645b06bf0eebee2098c9c3bb03f3970cd",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/216/power_lattice_216_v1.md",
+      "to": "research/experiments/216/power_lattice_216_v1.md",
+      "sha256_before": "afac332b1dbb6d0ec94526aaeccb639106320d69a895bbdb26827287fc86078c",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/216/route_identity_216_u1000_v2.report.json",
+      "to": "research/experiments/216/route_identity_216_u1000_v2.report.json",
+      "sha256_before": "0f934ad2a7df98da2d7618aa81a25d48778d2012e1593a8159c958840a088b20",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/CORPUS_INVENTORY.md",
+      "to": "research/experiments/CORPUS_INVENTORY.md",
+      "sha256_before": "6eab02169d343a7722fb607aeb65f0ab99337fa08983156e04c6a9c4124a60a7",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "out/experiments/README.md",
+      "to": "research/experiments/README.md",
+      "sha256_before": "4212bb9dff3d96cdebc3b9c4bfbcbae8171e53c706d543eba499bae5942f13a8",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "out/experiments/circle_as_one_u40_integer_congruence_v1.json",
+      "to": "research/experiments/circle_as_one_u40_integer_congruence_v1.json",
+      "sha256_before": "74fb987de7800eed94cec64f4826c6880df58060736977276311f868a21f9662",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/circle_as_one_u40_wide_d12_v1.json",
+      "to": "research/experiments/circle_as_one_u40_wide_d12_v1.json",
+      "sha256_before": "c54a403f24b81c1b6ecbb1a75dde75b196b634786b3f3986b0edca98791f1606",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/circle_as_one_u40_wide_d12_v2.json",
+      "to": "research/experiments/circle_as_one_u40_wide_d12_v2.json",
+      "sha256_before": "783448394ede7e6a9d444e69f8a0d2be55a7ccde54692abb9e7578cb491fb1b1",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/circle_as_one_u40_wide_d12_v3.json",
+      "to": "research/experiments/circle_as_one_u40_wide_d12_v3.json",
+      "sha256_before": "416e3d99eaae2a023940ab65a10311ead0736b56bae7f4e3b24e828d5c1f11ac",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/circle_as_one_u80_d20_v1.json",
+      "to": "research/experiments/circle_as_one_u80_d20_v1.json",
+      "sha256_before": "b89e43690093ae7c56a79921c47904cc15225e518fd7553d50963488541b1310",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/circle_as_one_u80_d20_v2.json",
+      "to": "research/experiments/circle_as_one_u80_d20_v2.json",
+      "sha256_before": "f69fe1fd1cb3d41312a33aaf4ba967c6e89a1d7ee4dfdabd9ce4ba1937ae8f60",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/circle_as_one_u80_d20_v3.json",
+      "to": "research/experiments/circle_as_one_u80_d20_v3.json",
+      "sha256_before": "a88975d5e076c9cf1d763e67f10364b013bf14d2b8f92437b1915423e008cb7f",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/dynamics/README.md",
+      "to": "research/experiments/dynamics/README.md",
+      "sha256_before": "832e560a0b1f0a90d8e8f9e2d45508401f191672eab426d6c7f7ce4c3ce205a1",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "out/experiments/dynamics/julia_branch_localization_20260912_v1.analysis.md",
+      "to": "research/experiments/dynamics/julia_branch_localization_20260912_v1.analysis.md",
+      "sha256_before": "68ad1e89492b74c5767f45635787f924ee85565a1e2e9bdf5e48b818f6a2ab02",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/dynamics/julia_branch_localization_20260912_v1.analysis.py",
+      "to": "research/experiments/dynamics/julia_branch_localization_20260912_v1.analysis.py",
+      "sha256_before": "e3ca09017bf1ea23fd7aa062a513f327c85abd41f5f0df2b3ef5b32ab3c0fac9",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/dynamics/julia_branch_localization_20260912_v1.json",
+      "to": "research/experiments/dynamics/julia_branch_localization_20260912_v1.json",
+      "sha256_before": "5c15b48a7139c5f6afa92fae3addbbe3838d1ab380d1dacc613bdd78031e32bc",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/dynamics/julia_branch_localization_20260912_v1.pre.md",
+      "to": "research/experiments/dynamics/julia_branch_localization_20260912_v1.pre.md",
+      "sha256_before": "492b494232f4c9a262a4a70b72d443a42a4527717373f3ff1e920049ad415fa6",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/dynamics/julia_branch_localization_20260912_v1.summary.json",
+      "to": "research/experiments/dynamics/julia_branch_localization_20260912_v1.summary.json",
+      "sha256_before": "fb3c2b4af323e132369164f5c721d60c3dbc880c4bd85747296b867beea29b1e",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/dynamics/order4_unit_shell_t_3_over_4_u80_v1.analysis.md",
+      "to": "research/experiments/dynamics/order4_unit_shell_t_3_over_4_u80_v1.analysis.md",
+      "sha256_before": "dd7460eb66e890a6024863d7f20f9824a9156d0f66c1cd384e287365a7b6f1a7",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/dynamics/order4_unit_shell_t_3_over_4_u80_v1.json",
+      "to": "research/experiments/dynamics/order4_unit_shell_t_3_over_4_u80_v1.json",
+      "sha256_before": "3439e4ae7ec2dff97e593cf7175b90634d13e0902ce97ae791f2525c8968e3d6",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/dynamics/order4_unit_shell_t_3_over_4_u80_v1.pre.md",
+      "to": "research/experiments/dynamics/order4_unit_shell_t_3_over_4_u80_v1.pre.md",
+      "sha256_before": "e592d8b25292c1454152e101648ab142ef3f5afc89f7640aa9fb2bcb3c8c538c",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/euler/README.md",
+      "to": "research/experiments/euler/README.md",
+      "sha256_before": "9f8c9f97558bf20d54362ab4dd36bf9273105f8818af7453683b3de8022c2573",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "out/experiments/euler/series_zeta_probe_u1000_v2.json",
+      "to": "research/experiments/euler/series_zeta_probe_u1000_v2.json",
+      "sha256_before": "c843d1f576ad9e009de2800b9d5f8abcc1ba06ed09db6e7c727ede704b4de17c",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/euler/series_zeta_probe_u300_v2.json",
+      "to": "research/experiments/euler/series_zeta_probe_u300_v2.json",
+      "sha256_before": "5abb25f8d500a73d61829d21ae71270b4071a56a1f9b65f201ea5f6faebb140f",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/euler/series_zeta_probe_v2.analysis.md",
+      "to": "research/experiments/euler/series_zeta_probe_v2.analysis.md",
+      "sha256_before": "383db1830c3c3ac2755be8c231e1bfc4eacdc6eb1c8142ad96cca03ff3c4042f",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/euler/zeta_arrival_first_zero_u300_broad_v1.json",
+      "to": "research/experiments/euler/zeta_arrival_first_zero_u300_broad_v1.json",
+      "sha256_before": "f69b2748969300c35c993f999ab3950753739339c7d5f2fb43f192432add75bf",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/euler/zeta_arrival_first_zero_u80_v1.json",
+      "to": "research/experiments/euler/zeta_arrival_first_zero_u80_v1.json",
+      "sha256_before": "46b61a6f2600f8d1dc32bf27319b095f2046bd64afbed7bfc55fec5a5b0b4bbd",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/euler/zeta_cancellation_arrival_v1.analysis.md",
+      "to": "research/experiments/euler/zeta_cancellation_arrival_v1.analysis.md",
+      "sha256_before": "c9defc02186b77b80234dbf112c0fb66ef32b232a65df9b17d5f9e2dae9cc71a",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/euler/zeta_centered_inversion_first_zero_u300_broad_v1.json",
+      "to": "research/experiments/euler/zeta_centered_inversion_first_zero_u300_broad_v1.json",
+      "sha256_before": "4aab6942af62182444c92d4186ffd5b128c89ba864e4b0cceadfc6a306a7aedc",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/euler/zeta_centered_inversion_first_zero_u80_v1.json",
+      "to": "research/experiments/euler/zeta_centered_inversion_first_zero_u80_v1.json",
+      "sha256_before": "93c8f4baf4ba0ef0d48bd01c7f5bee4800e07b1b9a42be6b8866a9b1063a954e",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/euler/zeta_critical_first_zero_u40_wide_v1.json",
+      "to": "research/experiments/euler/zeta_critical_first_zero_u40_wide_v1.json",
+      "sha256_before": "e2a09edd671921ac66f7fdbb33404eedea7faf22406fd4a6616f8b2a56a18b5e",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/euler/zeta_critical_first_zero_u80_v1.json",
+      "to": "research/experiments/euler/zeta_critical_first_zero_u80_v1.json",
+      "sha256_before": "1bb73b7b6dfb7238ef91a2c206f3f60e9f751a2f951e7879cc62a348f2d5020f",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/euler/zeta_critical_first_zero_v1.analysis.md",
+      "to": "research/experiments/euler/zeta_critical_first_zero_v1.analysis.md",
+      "sha256_before": "5f59a9490e6a2d6fb2c2ce7762f2270c36cde67596229b7b35108d0ad2d684c0",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/gauss/README.md",
+      "to": "research/experiments/gauss/README.md",
+      "sha256_before": "aaf2747a0cbd057cd7a47961117e1c64117e2042df2f54c9a41517df46167278",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "out/experiments/gauss/gauss_congruence_quotient_u300_v1.json",
+      "to": "research/experiments/gauss/gauss_congruence_quotient_u300_v1.json",
+      "sha256_before": "b4a9c3bce1637a62ec1f6d6e38bc280e083527a950e8eb4db2ef458249d16248",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/gauss/gauss_nested_class_genus_ablation_u850_v1.analysis.md",
+      "to": "research/experiments/gauss/gauss_nested_class_genus_ablation_u850_v1.analysis.md",
+      "sha256_before": "c42540cbd008d8798e3d223b6e263bb02a080417e12056cebc6224e4ccb3ac74",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/gauss/gauss_nested_class_genus_ablation_u850_v1.analysis_manifest.json",
+      "to": "research/experiments/gauss/gauss_nested_class_genus_ablation_u850_v1.analysis_manifest.json",
+      "sha256_before": "3323f3caf9b3847abbece7136dc32fa16c28f3c4e522c9c0bc96d7af0fac38f1",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/gauss/gauss_nested_class_genus_ablation_u850_v1.json",
+      "to": "research/experiments/gauss/gauss_nested_class_genus_ablation_u850_v1.json",
+      "sha256_before": "c0a461b442c12ca4a483b04289f6c8307e6f5caa463b6840c63585790b694518",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/gauss/gauss_nested_class_genus_ablation_u850_v1.pre.md",
+      "to": "research/experiments/gauss/gauss_nested_class_genus_ablation_u850_v1.pre.md",
+      "sha256_before": "710e1e3ba10c27372d11339dfb3720cc0e27eb3c22f7457da2418a54eefe8f07",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/gauss/gauss_quadratic_forms_d20_u300_v1.analysis.md",
+      "to": "research/experiments/gauss/gauss_quadratic_forms_d20_u300_v1.analysis.md",
+      "sha256_before": "cf2fa962341829f183e685005215efbfab3714fae6446236e0a428988e064352",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/gauss/gauss_quadratic_forms_d20_u300_v1.json",
+      "to": "research/experiments/gauss/gauss_quadratic_forms_d20_u300_v1.json",
+      "sha256_before": "d3ebb2c9bc1f4aeb7ce0e68683ae799bcfa28c55202a72b8e6381a4a194f4d3e",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/gauss/gauss_quadratic_forms_d20_u300_v1.pre.md",
+      "to": "research/experiments/gauss/gauss_quadratic_forms_d20_u300_v1.pre.md",
+      "sha256_before": "613bc988827e1aa39f37002f80bde826c671bd841e69a4628f33b3f8df0cdfde",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/gauss/strict_stage_u850_holdout_v1.provenance.json",
+      "to": "research/experiments/gauss/strict_stage_u850_holdout_v1.provenance.json",
+      "sha256_before": "a4aff748ab7433e50feafb53c8681ed4052c2ac4988a3ac23ebc4447f45b0b7f",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/gauss/strict_stage_u850_holdout_v1.summary.json",
+      "to": "research/experiments/gauss/strict_stage_u850_holdout_v1.summary.json",
+      "sha256_before": "c5576ec28c36777baabd9fdd83db657750aac35d8f2c03277ee5616ef194f45e",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/geometry/README.md",
+      "to": "research/experiments/geometry/README.md",
+      "sha256_before": "aa38a5e0b1f82d56461896f89e186e0dcd836a5aa5718d3767d2190ea1c63ad1",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "out/experiments/geometry/circle_square_alignment_u80_v1.analysis.md",
+      "to": "research/experiments/geometry/circle_square_alignment_u80_v1.analysis.md",
+      "sha256_before": "a2dadcf776b08c7d2ed38d738bc57596d298a696731bd1aba12a5a3533238b5e",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/geometry/circle_square_alignment_u80_v1.json",
+      "to": "research/experiments/geometry/circle_square_alignment_u80_v1.json",
+      "sha256_before": "36513329c4bfbbc78d0d8ae59e170c8a72ad3f3a2c5e9ac7f4d57d8baef8c902",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/geometry/circle_square_alignment_u80_v1.pre.md",
+      "to": "research/experiments/geometry/circle_square_alignment_u80_v1.pre.md",
+      "sha256_before": "8b8859244757a2fca4f9f04a833a51597f2c408d4551e50f395724fbd9bc1ad3",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/geometry/geometry_unit_shell_summary_u80_v1.analysis.md",
+      "to": "research/experiments/geometry/geometry_unit_shell_summary_u80_v1.analysis.md",
+      "sha256_before": "0aa1ba6a073b258e9e58d4b4e97c85365fb251198dc6e90819f8cb6028843380",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/geometry/geometry_unit_shell_summary_u80_v1.json",
+      "to": "research/experiments/geometry/geometry_unit_shell_summary_u80_v1.json",
+      "sha256_before": "fe2e908dd58fd3329bf8530c969cbdb890f97adc2c06b3c18004b058cfa150e6",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/geometry/geometry_unit_shell_summary_u80_v1.pre.md",
+      "to": "research/experiments/geometry/geometry_unit_shell_summary_u80_v1.pre.md",
+      "sha256_before": "477629ed2bf649e8390e9540683b914946a9f4fd0b8b191a1bd534924a5dda74",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/geometry/prime_euclid_shell_alignment_u80_v1.analysis.md",
+      "to": "research/experiments/geometry/prime_euclid_shell_alignment_u80_v1.analysis.md",
+      "sha256_before": "66532759acb419c73e1bd4dd6cba527f08be6fb7891601d04decdaa70dc24ece",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/geometry/prime_euclid_shell_alignment_u80_v1.json",
+      "to": "research/experiments/geometry/prime_euclid_shell_alignment_u80_v1.json",
+      "sha256_before": "77ff2c3a9adbd40c07de3c4a0c9f2738686cb0d28f041c0706724cd8d8d04b9b",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/geometry/prime_euclid_shell_alignment_u80_v1.pre.md",
+      "to": "research/experiments/geometry/prime_euclid_shell_alignment_u80_v1.pre.md",
+      "sha256_before": "2d29a676be5cff30b38fbf8382bcc93d55eed41dc2b65739cc08b83de3b0bf76",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/geometry/primitive_euclid_branch_sweep_u120_provenance_v1.analysis.md",
+      "to": "research/experiments/geometry/primitive_euclid_branch_sweep_u120_provenance_v1.analysis.md",
+      "sha256_before": "efbf4ec44d726521b2cb946b9b49296ba35c56ece067e88cb707acbd7fddf9a1",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/geometry/primitive_euclid_branch_sweep_u120_provenance_v1.json",
+      "to": "research/experiments/geometry/primitive_euclid_branch_sweep_u120_provenance_v1.json",
+      "sha256_before": "fffcacc2e2d1ce09030168689250c18ba4b9a2f951100b76ebab587298d1f54f",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/geometry/primitive_euclid_branch_sweep_u120_provenance_v1.pre.md",
+      "to": "research/experiments/geometry/primitive_euclid_branch_sweep_u120_provenance_v1.pre.md",
+      "sha256_before": "88dc34d3315ab5a6547b5894b4ebdb6a561adf6439fdc50a83d8f29267ab95f7",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/geometry/primitive_euclid_branch_sweep_u120_v1.analysis.md",
+      "to": "research/experiments/geometry/primitive_euclid_branch_sweep_u120_v1.analysis.md",
+      "sha256_before": "928e5ef39513275ceedec0d90d8f33e761ad72b711dc093c64495db919afecf5",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/geometry/primitive_euclid_branch_sweep_u120_v1.json",
+      "to": "research/experiments/geometry/primitive_euclid_branch_sweep_u120_v1.json",
+      "sha256_before": "d260f50eb040e4255c957dcece1cd376e8942dd7adf8c57c342109385f8019a2",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/geometry/primitive_euclid_branch_sweep_u120_v1.pre.md",
+      "to": "research/experiments/geometry/primitive_euclid_branch_sweep_u120_v1.pre.md",
+      "sha256_before": "53dcc80e16d2b846d011444c0f2d3dad77951fa229beb256d2f5f06f1a6d045d",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/geometry/primitive_euclid_branch_sweep_u240_provenance_v1.analysis.md",
+      "to": "research/experiments/geometry/primitive_euclid_branch_sweep_u240_provenance_v1.analysis.md",
+      "sha256_before": "68b02e526a918478853ad5d340826eca81b00d5baac85840e66e587eed735061",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/geometry/primitive_euclid_branch_sweep_u240_provenance_v1.json",
+      "to": "research/experiments/geometry/primitive_euclid_branch_sweep_u240_provenance_v1.json",
+      "sha256_before": "eadc17e4befb8625b526431aa69ebcbd610c5926592510969fb7dbec7682f072",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/geometry/primitive_euclid_branch_sweep_u240_provenance_v1.pre.md",
+      "to": "research/experiments/geometry/primitive_euclid_branch_sweep_u240_provenance_v1.pre.md",
+      "sha256_before": "63ba5a265d05181c6e9dbffaa87912c38a8c582c784c45e3a76f9a5e115d8f38",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/geometry/primitive_euclid_branch_sweep_u480_20260508_v2.json",
+      "to": "research/experiments/geometry/primitive_euclid_branch_sweep_u480_20260508_v2.json",
+      "sha256_before": "b5b3014aeb576833c07bba676bb61779198de7dad0d2baca958bc09b22b659ea",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/geometry/primitive_euclid_branch_sweep_u480_provenance_v1.analysis.md",
+      "to": "research/experiments/geometry/primitive_euclid_branch_sweep_u480_provenance_v1.analysis.md",
+      "sha256_before": "7cdffc72876ab7115dc4a11361a29d6c8f09af89dbbb6ab4608e5a2c85309d01",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/geometry/primitive_euclid_branch_sweep_u480_provenance_v1.json",
+      "to": "research/experiments/geometry/primitive_euclid_branch_sweep_u480_provenance_v1.json",
+      "sha256_before": "9fd89a5fe5905e9729bf8b517e85123b618060e654b586824f956629fc0a394b",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/geometry/primitive_euclid_branch_sweep_u480_provenance_v1.pre.md",
+      "to": "research/experiments/geometry/primitive_euclid_branch_sweep_u480_provenance_v1.pre.md",
+      "sha256_before": "24a6fd9aeac2ac393e3fd2022bf3db6a53b05a1313b3bdd7afc6517aa9505999",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/geometry/primitive_euclid_branch_sweep_u80_provenance_v1.analysis.md",
+      "to": "research/experiments/geometry/primitive_euclid_branch_sweep_u80_provenance_v1.analysis.md",
+      "sha256_before": "0682edc68436c2bafbcfca8a47d417702ae25a3f065d55a974419392c6135b68",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/geometry/primitive_euclid_branch_sweep_u80_provenance_v1.json",
+      "to": "research/experiments/geometry/primitive_euclid_branch_sweep_u80_provenance_v1.json",
+      "sha256_before": "87e8031a446f6cde49076398c7a99453d50e41e3d3109ac165614f1549cc0351",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/geometry/primitive_euclid_branch_sweep_u80_provenance_v1.pre.md",
+      "to": "research/experiments/geometry/primitive_euclid_branch_sweep_u80_provenance_v1.pre.md",
+      "sha256_before": "41aaa770f957fc5bcd004623e5cd8207d1ab81638bf2dc9d25c6989ab3908a29",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/geometry/primitive_euclid_branch_sweep_u80_v1.analysis.md",
+      "to": "research/experiments/geometry/primitive_euclid_branch_sweep_u80_v1.analysis.md",
+      "sha256_before": "3eb3a2869dc008b4804c5adca544a524230cb62a6d35fae1c165a372a984599a",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/geometry/primitive_euclid_branch_sweep_u80_v1.json",
+      "to": "research/experiments/geometry/primitive_euclid_branch_sweep_u80_v1.json",
+      "sha256_before": "c0bdf81f08116d118f82dbb060a665438d727e915a6b266c951992857b23c7af",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/geometry/primitive_euclid_branch_sweep_u80_v1.pre.md",
+      "to": "research/experiments/geometry/primitive_euclid_branch_sweep_u80_v1.pre.md",
+      "sha256_before": "ea47f2f411ec912b66d4b3dc210ee0011f8dac706850b7785ded21a7d57a8ec5",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/geometry/quarantined_phase_transport/README.md",
+      "to": "research/experiments/geometry/quarantined_phase_transport/README.md",
+      "sha256_before": "625d498b415ea2ba555b22d89da53cb4ae45b9f4f5f10cb3479b4b60b5f9e618",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "out/experiments/geometry/quarantined_phase_transport/phase_provenance_transport_u40_q24_l8_v1.analysis.md",
+      "to": "research/experiments/geometry/quarantined_phase_transport/phase_provenance_transport_u40_q24_l8_v1.analysis.md",
+      "sha256_before": "891d78b4ac36d5567224475ef0746b1dfa0a4d3711f82ca275850a6974b37582",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/geometry/quarantined_phase_transport/phase_provenance_transport_u40_q24_l8_v1.json",
+      "to": "research/experiments/geometry/quarantined_phase_transport/phase_provenance_transport_u40_q24_l8_v1.json",
+      "sha256_before": "964808483967bc2f4c05cfc33819b2818fa7e99da76154688c43809a933aec72",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/geometry/quarantined_phase_transport/phase_provenance_transport_u40_q24_l8_v1.pre.md",
+      "to": "research/experiments/geometry/quarantined_phase_transport/phase_provenance_transport_u40_q24_l8_v1.pre.md",
+      "sha256_before": "5b292f2b446ecc6452b288ed811ec12d5e1bbbd2eb9161c0acc777b35a5da4b1",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/geometry/quarantined_phase_transport/phase_provenance_transport_u80_q24_l8_v1_followup.analysis.md",
+      "to": "research/experiments/geometry/quarantined_phase_transport/phase_provenance_transport_u80_q24_l8_v1_followup.analysis.md",
+      "sha256_before": "e0492b891cf1153c4f262b1e8593857b55f895cbe2111a0ea2df13e9443ae251",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/geometry/quarantined_phase_transport/phase_provenance_transport_u80_q24_l8_v1_followup.json",
+      "to": "research/experiments/geometry/quarantined_phase_transport/phase_provenance_transport_u80_q24_l8_v1_followup.json",
+      "sha256_before": "f4837e2e5176fbc1cb299ac001dab93bb621919a066c7ae3a46f0447f648841b",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/geometry/quarantined_phase_transport/phase_provenance_transport_u80_q24_l8_v1_followup.pre.md",
+      "to": "research/experiments/geometry/quarantined_phase_transport/phase_provenance_transport_u80_q24_l8_v1_followup.pre.md",
+      "sha256_before": "a7007fe5e4e20a0bacd6b02b098b7f25923ddf449a7e0dc549c91eaf5aaeb354",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/lattice_shell_gap_rate_20_200.png",
+      "to": "research/experiments/lattice_shell_gap_rate_20_200.png",
+      "sha256_before": "4013edaabf74bf15c2717f21b78f972ed43835c08e92a083c427a6239d934012",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/lattice_shell_next_threshold_race.png",
+      "to": "research/experiments/lattice_shell_next_threshold_race.png",
+      "sha256_before": "2915a362cafc3eb3ef439a48ba93d16bba6fee3f795515ab845cb3236c39e3da",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/lattice_shell_rate_windows.csv",
+      "to": "research/experiments/lattice_shell_rate_windows.csv",
+      "sha256_before": "cd244b69f764050e7b960d7fa35d2290de46da801ef7b960ecc38240b40cab5b",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/lattice_shell_rolling_race.csv",
+      "to": "research/experiments/lattice_shell_rolling_race.csv",
+      "sha256_before": "c791efb3d9408f655e3eef08476598f7e980b31dea5add9cd208689ec375f161",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/lattice_shell_step_analysis.py",
+      "to": "research/experiments/lattice_shell_step_analysis.py",
+      "sha256_before": "69b0428877f198c28484426c500cb97c23eaaa5b87d34cd06504cff16dd6c368",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/lattice_shell_step_summary.json",
+      "to": "research/experiments/lattice_shell_step_summary.json",
+      "sha256_before": "cada7c5cc608b1ec142f17b88d3efeed8664f1be7be44b794c414f0c2a06115f",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/lattice_shell_thresholds_20_200.csv",
+      "to": "research/experiments/lattice_shell_thresholds_20_200.csv",
+      "sha256_before": "9fac15f60c25b981942989b8c5ccd78cfb6ea7ba9593795e77b3c84d29b265cd",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/lattice_step_analysis.py",
+      "to": "research/experiments/lattice_step_analysis.py",
+      "sha256_before": "4a6757a770cb680471e10956573ef4ccfe8cc6b43045c8d9525eb75645c0602e",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/lattice_step_analysis_summary.json",
+      "to": "research/experiments/lattice_step_analysis_summary.json",
+      "sha256_before": "ed2377b7e8537a092a155027f5748758079d8fc0f110c84f30a1d44a2fdd65e0",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/lattice_step_autocorrelation.csv",
+      "to": "research/experiments/lattice_step_autocorrelation.csv",
+      "sha256_before": "057dcf4938df2e42263b29f59c0161bfa4416378e94155353388cda0e5679677",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/lattice_step_autocorrelation.png",
+      "to": "research/experiments/lattice_step_autocorrelation.png",
+      "sha256_before": "1d785325d722dab46180721f838f68cc0d1f09be723d1512db1181f91945cbb3",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/lattice_step_bins_by_diameter.csv",
+      "to": "research/experiments/lattice_step_bins_by_diameter.csv",
+      "sha256_before": "3a88260f4a4e41d864ec6eede488557a5234d774d75f32714d847d3130103659",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/lattice_step_bins_by_diameter.png",
+      "to": "research/experiments/lattice_step_bins_by_diameter.png",
+      "sha256_before": "000128a1573eaf10b7e92de9213231d791ed62a603c8d529635d84b864eba578",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/lattice_step_bins_by_r2.csv",
+      "to": "research/experiments/lattice_step_bins_by_r2.csv",
+      "sha256_before": "8cd1435a62c161b6e73af2162ef609382961135355b8cac25ac8384c0ec36345",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/lattice_step_bins_by_r2.png",
+      "to": "research/experiments/lattice_step_bins_by_r2.png",
+      "sha256_before": "f3414ca7c8239ca7251bcf20c9a46b7672d88977347ff36ed088ffb5ebf8103f",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/lattice_step_decomposition.png",
+      "to": "research/experiments/lattice_step_decomposition.png",
+      "sha256_before": "ad3d558c6d7be2f2e515a7fdede45b2e62ccd5fefdae8a1fc29877444ea501b2",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/lattice_step_events_20_200.csv",
+      "to": "research/experiments/lattice_step_events_20_200.csv",
+      "sha256_before": "4d69ebdffa5f7bed433a7a74f3548862f3042e0aa212bea55f1314d7732656c8",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/lattice_step_events_by_r2.png",
+      "to": "research/experiments/lattice_step_events_by_r2.png",
+      "sha256_before": "9f3e516e60b96257ba9b2487dbbb1e1c85f2862955261eb37342a3508ebc3a95",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/lattice_step_ratio_20_200.png",
+      "to": "research/experiments/lattice_step_ratio_20_200.png",
+      "sha256_before": "7889267c9571083632bd58303e70d2d390aec31cedc3cc3ad226bfe1462035c7",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/lattice_step_residue_factor.png",
+      "to": "research/experiments/lattice_step_residue_factor.png",
+      "sha256_before": "7616e66c1c96e67fdb35d72fd0024db29992a3d9021490c53d0f26c5edb488ac",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/lattice_step_residue_rows.json",
+      "to": "research/experiments/lattice_step_residue_rows.json",
+      "sha256_before": "63724ffdab5a47b19669fc76dc59e2ab77d2c4f8acc97886815db30a11f79188",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/motif_grid_r5_summary.json",
+      "to": "research/experiments/motif_grid_r5_summary.json",
+      "sha256_before": "bffb485d57449e017e4300230df23a529b79486a1a939d2ae3e44550378f75d0",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/motif_persistence_r5.json",
+      "to": "research/experiments/motif_persistence_r5.json",
+      "sha256_before": "30bf00e6ae78ecb79ca5ed23836a228c382319d326e9fbb1e41b2f5165d640be",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/motif_persistence_r5_q80.json",
+      "to": "research/experiments/motif_persistence_r5_q80.json",
+      "sha256_before": "eca502a23285a53541e4617f105b9a21da0d06a97aee6ab21bbfdfbb366081cb",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/motif_persistence_r5_q80_v3.json",
+      "to": "research/experiments/motif_persistence_r5_q80_v3.json",
+      "sha256_before": "ba414a0a9bf6c1a27e3ae2bcce1383da716cc26561006644293932b67998a189",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/motif_persistence_r5_q80_v5.json",
+      "to": "research/experiments/motif_persistence_r5_q80_v5.json",
+      "sha256_before": "b20b8a1334560a7c2bff14b167983d0a88e3883d89e3de6da11a146d076e504a",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/motif_persistence_r5_q90_v3.json",
+      "to": "research/experiments/motif_persistence_r5_q90_v3.json",
+      "sha256_before": "d3aae93011a2d7a58185ca2daffa7a1017a5be7071d86ab470ad2ee67791f876",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/motif_persistence_r5_q90_v4.json",
+      "to": "research/experiments/motif_persistence_r5_q90_v4.json",
+      "sha256_before": "72c989f5a77f23b955269afc34ab7fb7163b7307a60458b30ce26c2eaf0c8057",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/motif_persistence_r5_q90_v5.json",
+      "to": "research/experiments/motif_persistence_r5_q90_v5.json",
+      "sha256_before": "56bf88346449224062b022bd068f0bbfdba1bdf48b84be847a2c17ca3fff0487",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/motif_persistence_r5_v3.json",
+      "to": "research/experiments/motif_persistence_r5_v3.json",
+      "sha256_before": "47da4f22570d47cfd0b34bac631f9477e980e36df631eb633fabd06dd6beb0c8",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/motif_persistence_r5_v5.json",
+      "to": "research/experiments/motif_persistence_r5_v5.json",
+      "sha256_before": "7e9e42b2956d6f7d1d005397d6ddf7e4695a0c21ea54f8d9e903be3aefff509c",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/motif_persistence_r6.json",
+      "to": "research/experiments/motif_persistence_r6.json",
+      "sha256_before": "6adf0c03959dc93e873f51cc60f496341b5d999d20a3f59292da746aaf26f2da",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/motif_r5.json",
+      "to": "research/experiments/motif_r5.json",
+      "sha256_before": "05bcfe7ef80278ce020defbb96e8527296596072060a0c5532231e9226e617e5",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/native_r5_full.json",
+      "to": "research/experiments/native_r5_full.json",
+      "sha256_before": "2c737e7d2f7792204c8caf166ea9d69e6f13f8335dbfd30463562df3a283bd05",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/native_r5_q80.json",
+      "to": "research/experiments/native_r5_q80.json",
+      "sha256_before": "b02bb6efe1540adfa0d174bd9125d0d4e98d3e6b48511402106684c10dac87d2",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/native_r5_q80_v3.json",
+      "to": "research/experiments/native_r5_q80_v3.json",
+      "sha256_before": "a2dcd662b10ae931f43fc60988ca021cfc44a7f5e9c9344998c4563190556f44",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/native_r5_q80_v5.json",
+      "to": "research/experiments/native_r5_q80_v5.json",
+      "sha256_before": "3f96da3361dbeb545f1d5fbab1a98af676126b9239839da593cdd47b969882dd",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/native_r5_q90_v3.json",
+      "to": "research/experiments/native_r5_q90_v3.json",
+      "sha256_before": "99d45d4796eedab4ab43180233ee15fe7149e204fcf0812e865fedab2842ce1d",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/native_r5_q90_v4.json",
+      "to": "research/experiments/native_r5_q90_v4.json",
+      "sha256_before": "21fa9128e66e8f3e962965aa86b189636df0448c49e00b8ba43c923cd527f0fb",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/native_r5_q90_v5.json",
+      "to": "research/experiments/native_r5_q90_v5.json",
+      "sha256_before": "4aa75b953aec4f7e2210ee9303f758bccbfcb5a37f96f84af98560c412b7a4d8",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/native_r5_v3.json",
+      "to": "research/experiments/native_r5_v3.json",
+      "sha256_before": "bb9bf98fc6f52f635c0d6212d6bd377ddffded842c19d2c19596891c3f6be316",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/native_r5_v5.json",
+      "to": "research/experiments/native_r5_v5.json",
+      "sha256_before": "b5f674ed6c5e8d72321a82b5e1ccabcf451f0db9a994b3cdafa181ec30faad6a",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/native_r6_full.json",
+      "to": "research/experiments/native_r6_full.json",
+      "sha256_before": "3e3c078dea68fe89619185896850304d7a8b8250cc09008bce3149c57637afa9",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/pascal_coefficient_u1000_v2.report.json",
+      "to": "research/experiments/pascal_coefficient_u1000_v2.report.json",
+      "sha256_before": "29d97c6af1bec7d35aa978e13d65484303e5c5e47b9ce708ef9d4944341f494d",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/pascal_controls_u1000_v1.report.json",
+      "to": "research/experiments/pascal_controls_u1000_v1.report.json",
+      "sha256_before": "df5469c6ff29c72f5004bc3a166fc6d97d1d429ae2ed4d39b7d932424b6e2385",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/pascal_controls_u1000_v2.report.json",
+      "to": "research/experiments/pascal_controls_u1000_v2.report.json",
+      "sha256_before": "b854b6c5733bdbf387774b91d123205ed621e7150f7d4d768aea3a05a3620f72",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/pascal_controls_u300_v1.report.json",
+      "to": "research/experiments/pascal_controls_u300_v1.report.json",
+      "sha256_before": "05746dd85397c9399c82bea1534c10ecaf489cefda964c5741367f1f3bccd9d7",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/pascal_controls_u300_v2.report.json",
+      "to": "research/experiments/pascal_controls_u300_v2.report.json",
+      "sha256_before": "ba707a1d6e836bfbc3ec4e71629ea3e73ac002cf391cbe2780cd5da28b4192ac",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/pascal_cubic_u1000_v2.report.json",
+      "to": "research/experiments/pascal_cubic_u1000_v2.report.json",
+      "sha256_before": "f801ed45c82b6dd192c891297a33545c135794f459b49fe7c0aa4b46e54437b2",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/pascal_cubic_u1000_v3.report.json",
+      "to": "research/experiments/pascal_cubic_u1000_v3.report.json",
+      "sha256_before": "e9626e60e0dae755778128224ee9a777fddc571e5728a231567a432bcab72a50",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/pascal_edge_probe_u300_v2.report.json",
+      "to": "research/experiments/pascal_edge_probe_u300_v2.report.json",
+      "sha256_before": "6fd451277287d71b420c37bfc69deb3d78ea0c045d8a23227549aca59413fcfc",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/pascal_subset_u1000_v2.report.json",
+      "to": "research/experiments/pascal_subset_u1000_v2.report.json",
+      "sha256_before": "51cb97bec32620cb72ad4dd8c3bcb0a9913f46fca581f76c763cf78579bd7bc4",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/phase_metric_collapse_u40_wide_d12_v1.json",
+      "to": "research/experiments/phase_metric_collapse_u40_wide_d12_v1.json",
+      "sha256_before": "14cf420f25284faa9b96748455f963d34b3b4fd5af48798d843f87aeaae4c958",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/residual_r5.json",
+      "to": "research/experiments/residual_r5.json",
+      "sha256_before": "19aa91f3e8c01f34c636893dfa72e37b4bee2c78572593a5752aef8b8d51c624",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/experiments/saturation_r6.json",
+      "to": "research/experiments/saturation_r6.json",
+      "sha256_before": "13d87dde779cb0c8dcef4fa5353d89bfcadc43f2af6c44000a3281f53e824770",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "out/scratch/README.md",
+      "to": "docs/software/DEVELOPMENT.md",
+      "sha256_before": "dd714a5ef6c664a0019d7c455b63b16648a6b093f4b8af4002a77a0f46f70faf",
+      "disposition": "merged_into_owner"
+    },
+    {
+      "from": "pascal_edge_probe.py",
+      "to": "moo/pascal_edge_probe.py",
+      "sha256_before": "993248da8a32902168e143986c1bf8a68a686ea85e304ee1702f151f6deaa924",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "prime_shell_features.py",
+      "to": "moo/prime_shell_features.py",
+      "sha256_before": "ea7d964caf48d1a75cbe43b8a77e98ed535cc3aed17d9041f2989c88c48b3ede",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "primitive_euclid_branch_sweep.py",
+      "to": "moo/primitive_euclid_branch_sweep.py",
+      "sha256_before": "3effee7865145b807b01be593e0d7d234cf79a43cd479c1e0f2b4ff7217cbb94",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "rational_baselines.py",
+      "to": "moo/rational_baselines.py",
+      "sha256_before": "895b081847796ae2237fb3fb6ad80d38ae71faa7b7f2dbaccff1065da9b9f368",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "research/dynamics/test_branch_rhythm_probe.py",
+      "to": "tests/test_branch_rhythm_probe.py",
+      "sha256_before": "d26a96c41fd81207822e62fb2c4354896e1bee166612626c3a7e6c9212febef1",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "research/geometry/test_area_branch_comparison.py",
+      "to": "tests/test_area_branch_comparison.py",
+      "sha256_before": "5079258723f0a3053590644dc8f1415d47c9506e7ad57f4b028c8b6c652d028a",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "residual_emergence_study.py",
+      "to": "moo/legacy/residual_emergence_study.py",
+      "sha256_before": "9e5aedc26c37010e8b6a4f8cfe362beb19a656aa763b5a13375f6f8310eac46c",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "saturation_layer_study.py",
+      "to": "moo/legacy/saturation_layer_study.py",
+      "sha256_before": "3780e0b7ea4d80b9e23585ff85a8d2b9eabdea43eea66c47a43f1b9ecfa144ad",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "stage_indexed_analysis.py",
+      "to": "moo/legacy/stage_indexed_analysis.py",
+      "sha256_before": "e76d868055fbeb191f2a9095971604a70114439c831bb7ac20a4d5ff135a03b2",
+      "disposition": "moved_unchanged"
+    },
+    {
+      "from": "stage_indexed_convergence_study.py",
+      "to": "moo/legacy/stage_indexed_convergence_study.py",
+      "sha256_before": "996cfdbfb1f9dc048ea8ddf76cd3af4ad59b526f7ba530b8b32f062efcd6f23a",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "stage_indexed_moo_ledger.py",
+      "to": "moo/legacy/stage_indexed_moo_ledger.py",
+      "sha256_before": "d69dab3b0f275830a1aa8d9d65d24b5ce601eedb591dfb0e9ba172418810653d",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "strict_stage_moo.py",
+      "to": "moo/strict_stage_moo.py",
+      "sha256_before": "4e6f7fd44b8220f5bb077ccb2e44a91b32c59f320b3561659a46918a132e0808",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "test_branch_lineage.py",
+      "to": "tests/test_branch_lineage.py",
+      "sha256_before": "8faba6596d3a52bcb72a18ed8d6fff90ccf957cedd2e2e7296e8e0c8978ad31a",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "test_constructionist_math.py",
+      "to": "tests/test_constructionist_math.py",
+      "sha256_before": "6c92f965e874a639c294fe5e2f86a77a77c98294c9bac9a1f26fb0b2c0b7da58",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "test_erdos_unit_distance_certificate.py",
+      "to": "tests/test_erdos_unit_distance_certificate.py",
+      "sha256_before": "222867c4e53aeb503e0a31622038caabf79b416933eb5f73fdf57167f52516eb",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "test_fermat_little_probe.py",
+      "to": "tests/test_fermat_little_probe.py",
+      "sha256_before": "eae2270d36c1bd89883aa526961edfa2eb6f079dfbc2b1d92ae40b8b70d4536e",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "test_moo_association_families.py",
+      "to": "tests/test_moo_association_families.py",
+      "sha256_before": "02c047a1d0f48850aebc2c893b178629325efe45fe3949c930babcdc2b5b5a0b",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "test_moo_circle_as_one_probe.py",
+      "to": "tests/test_moo_circle_as_one_probe.py",
+      "sha256_before": "297cc5de7d65687595c3ca69f9f8f0d8e2965667c9a838392acbe011bf1b550b",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "test_moo_circle_probe.py",
+      "to": "tests/test_moo_circle_probe.py",
+      "sha256_before": "7a25a8d07c6ef01a398320269c8b7a59cbaf31258603cba3fa292be4d1a18fde",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "test_moo_circle_square_area_probe.py",
+      "to": "tests/test_moo_circle_square_area_probe.py",
+      "sha256_before": "d9ac959381f5d4ae696da5e253e4db53cd13e56e6b7c84e433a76351de486d8f",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "test_moo_circle_square_probe.py",
+      "to": "tests/test_moo_circle_square_probe.py",
+      "sha256_before": "8ba231b1b3e9a2ddc0eb03bac851c38370cbfe28cee0e800f579d6ed06338a6b",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "test_moo_congruence_quotient_probe.py",
+      "to": "tests/test_moo_congruence_quotient_probe.py",
+      "sha256_before": "759b97bce5f1b10fd41a9bf98a292b470b0b3338339e7b11759c711b9257a496",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "test_moo_graph_evidence.py",
+      "to": "tests/test_moo_graph_evidence.py",
+      "sha256_before": "977043db71f8005ebaee4b6c91c4550d3784ff4c7a345b08dfca6d253b3666ab",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "test_moo_graph_invariants.py",
+      "to": "tests/test_moo_graph_invariants.py",
+      "sha256_before": "07e48fe453b201f69d8adab3b27cf1338ca6c7387322b91c6a89f5f623c3dfea",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "test_moo_graph_query.py",
+      "to": "tests/test_moo_graph_query.py",
+      "sha256_before": "cb102ada0a1fd874f1cd1f7a0fcac11c761fbd26df17f701c04b387ac9fbe121",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "test_moo_node_profiles.py",
+      "to": "tests/test_moo_node_profiles.py",
+      "sha256_before": "6c53dd7d95246d46617c7f1ac7cf1d6e9813a36df64f1fbd0f41bd9699dc2b7d",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "test_moo_phase_metric_probe.py",
+      "to": "tests/test_moo_phase_metric_probe.py",
+      "sha256_before": "0b92260fdac2c91b52230448c38de4f55ab5ae1974e443320ac3c37426a5ca78",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "test_moo_phase_operator.py",
+      "to": "tests/test_moo_phase_operator.py",
+      "sha256_before": "4646dd30936c5732c11bb45636f67f0e7a7f8a887715310f6227fb3faf1ff9a3",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "test_moo_phase_transport_probe.py",
+      "to": "tests/test_moo_phase_transport_probe.py",
+      "sha256_before": "6528d709b7db098b4c36d568fcca1714ed7d4526bf0d9c25d415c02faca2947a",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "test_moo_profile_certificates.py",
+      "to": "tests/test_moo_profile_certificates.py",
+      "sha256_before": "8227c56714cafde750c32cacfc4b84c677e604ae5cecf16da3563f32bf1e45c3",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "test_moo_quadratic_form_nested_math.py",
+      "to": "tests/test_moo_quadratic_form_nested_math.py",
+      "sha256_before": "0d5b5b2dc53e02095aea7a68f531eb7536e52ba1868351b80ef54d01598b1e27",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "test_moo_quadratic_form_nested_probe.py",
+      "to": "tests/test_moo_quadratic_form_nested_probe.py",
+      "sha256_before": "508201e49d9fe5ffcff68be23635fbb9596d26898a6ef96d665fc93c2916ef64",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "test_moo_quadratic_form_probe.py",
+      "to": "tests/test_moo_quadratic_form_probe.py",
+      "sha256_before": "f604280eaad29184f6305d8e9155bf18578877ebc00c578e742c6e04991bef2d",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "test_moo_quadratic_form_recovery.py",
+      "to": "tests/test_moo_quadratic_form_recovery.py",
+      "sha256_before": "07fa33d4196bdd05424e05715715d94301871a8173ab0dc8aaacc81f4575b1f4",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "test_moo_relation_geometry_probe.py",
+      "to": "tests/test_moo_relation_geometry_probe.py",
+      "sha256_before": "9295a8b736204eea4ccdc3c661493c66dcf8830df25af4d2d15badfa40562d7d",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "test_moo_research_utils.py",
+      "to": "tests/test_moo_research_utils.py",
+      "sha256_before": "5c7972442443849e561934f1341bc247b88b0375764d30884c3f776564d36e93",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "test_moo_route_identity_probe.py",
+      "to": "tests/test_moo_route_identity_probe.py",
+      "sha256_before": "232619ed12eaddba1956c69a242f253b85f8c9d3063402e91f143d3138305b52",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "test_moo_series_probe.py",
+      "to": "tests/test_moo_series_probe.py",
+      "sha256_before": "f057fd79174b98d8725a990d60324fb8e152a13faa1ed1ea8cd8edb88ba32efc",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "test_moo_shell_branch_search.py",
+      "to": "tests/test_moo_shell_branch_search.py",
+      "sha256_before": "6466743b96683c4fe9bcea10a9f8ccddbf45f657c93ade46e7d0c2644e01e316",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "test_moo_shell_composition_probe.py",
+      "to": "tests/test_moo_shell_composition_probe.py",
+      "sha256_before": "fdf7c4e60ea8fbbf8e0323dc2dc2a903c4e6b4e3665b27734afba8dc256b5b9f",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "test_moo_split_prime_branch_probe.py",
+      "to": "tests/test_moo_split_prime_branch_probe.py",
+      "sha256_before": "5e20f429d007b673ed6998998b91f9ece55fdc1db9e1fb206807894d92800c56",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "test_moo_theta_weil_probe.py",
+      "to": "tests/test_moo_theta_weil_probe.py",
+      "sha256_before": "267074f4873e512b134bd5885a08b1380d2d5059f4aa56669a2b611d53c12038",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "test_moo_unit_direction_branch_probe.py",
+      "to": "tests/test_moo_unit_direction_branch_probe.py",
+      "sha256_before": "089b69ff678848f9763c2a480ee970878a63f0c1d86c2f3811f05fa16ba12ac4",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "test_moo_variable_denominator_probe.py",
+      "to": "tests/test_moo_variable_denominator_probe.py",
+      "sha256_before": "b9eca427dab5ac769735f88c00a6358742c3b97554a7d4c7801f4a1ab333121b",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "test_moo_zeta_arrival_probe.py",
+      "to": "tests/test_moo_zeta_arrival_probe.py",
+      "sha256_before": "5e75012090e231b76c95ae5ac0924b08d3bdc2b1fe118cfa4f927fdfc95bc6f7",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "test_moo_zeta_centered_inversion_probe.py",
+      "to": "tests/test_moo_zeta_centered_inversion_probe.py",
+      "sha256_before": "b496922c0af5adeeed1e4d6eef661883c0ea4dfd91ffa90deb28d8b6d9ad12b4",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "test_moo_zeta_critical_probe.py",
+      "to": "tests/test_moo_zeta_critical_probe.py",
+      "sha256_before": "54cd8049719a280851cc083227f1ee147058fd38daa15b080abcdd0e198c722b",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "test_prime_shell_features.py",
+      "to": "tests/test_prime_shell_features.py",
+      "sha256_before": "b8a23a8abf941bb0016eaca20190c115f4113ef497bd2251fddc3ddb05b124f9",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "test_primitive_euclid_branch_sweep.py",
+      "to": "tests/test_primitive_euclid_branch_sweep.py",
+      "sha256_before": "bfbbae6a1aced239413404fc59224d0c629cb3e152d38ee429b841242a20befe",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "test_rational_baselines.py",
+      "to": "tests/test_rational_baselines.py",
+      "sha256_before": "0589013424791900b4978ac559d31a7e957189abe15d04be402d0157ce4d85ea",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "verify_241_branch_joins.py",
+      "to": "moo/verify_241_branch_joins.py",
+      "sha256_before": "762cf418fcb04e5e56116ccc2f29a6dfdf9c94e148cd470b58972d1a7d05d0ca",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "verify_split_prime_branch_report.py",
+      "to": "moo/verify_split_prime_branch_report.py",
+      "sha256_before": "f762b9f23fa41fc47219ccc169fb2ed2f78f4ba098c72201905f0ee9f22f29ef",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "waterfall_view.py",
+      "to": "moo/legacy/waterfall_view.py",
+      "sha256_before": "8bb6f140ce2aaacebdf249e2bc0d6993b6c9632393d510e05e2e9aa0c16311fe",
+      "disposition": "moved_and_updated"
+    },
+    {
+      "from": "witness_threshold_study.py",
+      "to": "moo/legacy/witness_threshold_study.py",
+      "sha256_before": "c7ef582c1bca3eb160b67b8b510ec5b9ad2f4e5ab7d2aa868d1708fa250ccb40",
+      "disposition": "moved_and_updated"
+    }
+  ],
+  "additional_original_snapshot": "archive/reorganizations/20261107/GRAPH_CORPUS_NOTE.md"
+}

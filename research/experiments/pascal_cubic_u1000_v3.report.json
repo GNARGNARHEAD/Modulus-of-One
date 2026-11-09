@@ -1,0 +1,1572 @@
+{
+  "claim_boundary": {
+    "allowed_claim_language": [
+      "This report checks where Pascal-style recurrence, ranked subset lattices, and cubic lift defects are witnessed by exact strict MoO nodes and edges.",
+      "Complete edge hits are corpus- and aperture-conditioned, not absolute mathematical discoveries.",
+      "Aperture misses are first-class data when the predicted operand stage exceeds the corpus stage.",
+      "Subset-lattice rank counts are Pascal shadows only when cover edges and commuting diamonds are reported.",
+      "Cubic closure is reported as exact graph visibility of a classical defect/closure lens."
+    ],
+    "claim_status": "lead",
+    "disallowed_claim_language": [
+      "Do not claim Pascal is a confirmed MoO branch from this report alone.",
+      "Do not treat value presence as graph evidence without exact edge witnesses.",
+      "Do not treat strict positive-spine evidence as the full signed operator-fan field.",
+      "Do not operate on speculative nodes; missing ratio or closure edges may simply require later confirmation.",
+      "Do not claim new number theory from classical Pascal or Pythagorean identities.",
+      "Do not count commutative reversals or different external labels on one normalized witness as independent routes."
+    ],
+    "evidence_layer": "strict",
+    "meaning_status": "graph_inspection_lens_only",
+    "object_language": "pascal_recurrence_lattice_and_lift_lens"
+  },
+  "corpus": {
+    "alignment": {
+      "non_core_operand_edges": 0,
+      "operand_rule": "positive-spine strict corpus: only confirmed positive-spine iterations may be operands",
+      "speculative_input_edges": 0,
+      "speculative_nodes_are_operands": false,
+      "status": "pass"
+    },
+    "config": {
+      "generator": "strict_stage_moo_graph",
+      "max_abs_p": 1000000000,
+      "max_abs_q": 1000,
+      "max_abs_value": 1000000000.0,
+      "max_stage": 1000,
+      "retain_confirmed_edges": true
+    },
+    "edges": 4000001,
+    "latest_stage": {
+      "candidate_events": 7996,
+      "elapsed_seconds": 0.36281509999935224,
+      "new_edges": 7996,
+      "new_nodes": 1070,
+      "retained_events": 7996,
+      "stage": 1000,
+      "total_edges": 4000001,
+      "total_nodes": 856601
+    },
+    "nodes": 856601,
+    "schema_version": "1"
+  },
+  "metadata": {
+    "checksums_included": true,
+    "command": "pascal_edge_probe.py --db 'out\\experiments\\pascal_cubic_scale_u1000.sqlite' --mode cubic --max-scale 4 --primitive-hypotenuse-limit 100 --pretty --include-checksums --write 'out\\experiments\\pascal_cubic_u1000_v3.report.json'",
+    "db_path": "out\\experiments\\pascal_cubic_scale_u1000.sqlite",
+    "db_sha256": "1dcb1037ad05a2c91a9bfdbc848abc8b9a9ba626d032355264c0ac90c39dd472",
+    "generated_at_utc": "2026-08-28T09:30:16Z",
+    "schema_version": "pascal_edge_probe.v3",
+    "tool": "pascal_edge_probe.py",
+    "tool_path": "C:\\Users\\USER\\Documents\\MoO\\pascal_edge_probe.py",
+    "tool_sha256": "993248da8a32902168e143986c1bf8a68a686ea85e304ee1702f151f6deaa924"
+  },
+  "reports": {
+    "right_triangle_cubic_lift": {
+      "closure_reading": "Zero defect is graph-relevant only when the required square, cube, addition, multiplication, and ratio witnesses are visible under the strict positive-spine operand rule.",
+      "defect_formula": "Delta_3 = s^3 - (a^3+b^3+c^3) = s^2(5r-c)",
+      "max_scale": 4,
+      "mode": "right_triangle_cubic_lift",
+      "primitive_defect_controls": {
+        "nearest_primitive_by_relative_defect": [
+          {
+            "a": 3,
+            "b": 4,
+            "c": 5,
+            "c_over_r": 5.0,
+            "cube_sum_candidate_stage": 125,
+            "delta3_times_8": 0,
+            "inradius": 1.0,
+            "primitive": true,
+            "semiperimeter": 6.0,
+            "square_sum_candidate_stage": 16,
+            "zero_defect": true
+          },
+          {
+            "a": 48,
+            "b": 55,
+            "c": 73,
+            "c_over_r": 4.866666666666666,
+            "cube_sum_candidate_stage": 389017,
+            "delta3_times_8": 123904,
+            "inradius": 15.0,
+            "primitive": true,
+            "semiperimeter": 88.0,
+            "square_sum_candidate_stage": 3025,
+            "zero_defect": false
+          },
+          {
+            "a": 65,
+            "b": 72,
+            "c": 97,
+            "c_over_r": 4.85,
+            "cube_sum_candidate_stage": 912673,
+            "delta3_times_8": 328536,
+            "inradius": 20.0,
+            "primitive": true,
+            "semiperimeter": 117.0,
+            "square_sum_candidate_stage": 5184,
+            "zero_defect": false
+          },
+          {
+            "a": 20,
+            "b": 21,
+            "c": 29,
+            "c_over_r": 4.833333333333333,
+            "cube_sum_candidate_stage": 24389,
+            "delta3_times_8": 9800,
+            "inradius": 6.0,
+            "primitive": true,
+            "semiperimeter": 35.0,
+            "square_sum_candidate_stage": 441,
+            "zero_defect": false
+          },
+          {
+            "a": 28,
+            "b": 45,
+            "c": 53,
+            "c_over_r": 5.3,
+            "cube_sum_candidate_stage": 148877,
+            "delta3_times_8": -95256,
+            "inradius": 10.0,
+            "primitive": true,
+            "semiperimeter": 63.0,
+            "square_sum_candidate_stage": 2025,
+            "zero_defect": false
+          },
+          {
+            "a": 33,
+            "b": 56,
+            "c": 65,
+            "c_over_r": 5.416666666666667,
+            "cube_sum_candidate_stage": 274625,
+            "delta3_times_8": -237160,
+            "inradius": 12.0,
+            "primitive": true,
+            "semiperimeter": 77.0,
+            "square_sum_candidate_stage": 3136,
+            "zero_defect": false
+          },
+          {
+            "a": 8,
+            "b": 15,
+            "c": 17,
+            "c_over_r": 5.666666666666667,
+            "cube_sum_candidate_stage": 4913,
+            "delta3_times_8": -6400,
+            "inradius": 3.0,
+            "primitive": true,
+            "semiperimeter": 20.0,
+            "square_sum_candidate_stage": 225,
+            "zero_defect": false
+          },
+          {
+            "a": 39,
+            "b": 80,
+            "c": 89,
+            "c_over_r": 5.933333333333334,
+            "cube_sum_candidate_stage": 704969,
+            "delta3_times_8": -1211392,
+            "inradius": 15.0,
+            "primitive": true,
+            "semiperimeter": 104.0,
+            "square_sum_candidate_stage": 6400,
+            "zero_defect": false
+          },
+          {
+            "a": 36,
+            "b": 77,
+            "c": 85,
+            "c_over_r": 6.071428571428571,
+            "cube_sum_candidate_stage": 614125,
+            "delta3_times_8": -1176120,
+            "inradius": 14.0,
+            "primitive": true,
+            "semiperimeter": 99.0,
+            "square_sum_candidate_stage": 5929,
+            "zero_defect": false
+          },
+          {
+            "a": 5,
+            "b": 12,
+            "c": 13,
+            "c_over_r": 6.5,
+            "cube_sum_candidate_stage": 2197,
+            "delta3_times_8": -5400,
+            "inradius": 2.0,
+            "primitive": true,
+            "semiperimeter": 15.0,
+            "square_sum_candidate_stage": 144,
+            "zero_defect": false
+          },
+          {
+            "a": 12,
+            "b": 35,
+            "c": 37,
+            "c_over_r": 7.4,
+            "cube_sum_candidate_stage": 50653,
+            "delta3_times_8": -169344,
+            "inradius": 5.0,
+            "primitive": true,
+            "semiperimeter": 42.0,
+            "square_sum_candidate_stage": 1225,
+            "zero_defect": false
+          },
+          {
+            "a": 7,
+            "b": 24,
+            "c": 25,
+            "c_over_r": 8.333333333333334,
+            "cube_sum_candidate_stage": 15625,
+            "delta3_times_8": -62720,
+            "inradius": 3.0,
+            "primitive": true,
+            "semiperimeter": 28.0,
+            "square_sum_candidate_stage": 576,
+            "zero_defect": false
+          }
+        ],
+        "primitive_count": 16,
+        "zero_defect_all_scales": [
+          {
+            "a": 3,
+            "b": 4,
+            "c": 5,
+            "c_over_r": 5.0,
+            "cube_sum_candidate_stage": 125,
+            "delta3_times_8": 0,
+            "inradius": 1.0,
+            "primitive": true,
+            "semiperimeter": 6.0,
+            "square_sum_candidate_stage": 16,
+            "zero_defect": true
+          },
+          {
+            "a": 6,
+            "b": 8,
+            "c": 10,
+            "c_over_r": 5.0,
+            "cube_sum_candidate_stage": 1000,
+            "delta3_times_8": 0,
+            "inradius": 2.0,
+            "primitive": false,
+            "semiperimeter": 12.0,
+            "square_sum_candidate_stage": 64,
+            "zero_defect": true
+          },
+          {
+            "a": 9,
+            "b": 12,
+            "c": 15,
+            "c_over_r": 5.0,
+            "cube_sum_candidate_stage": 3375,
+            "delta3_times_8": 0,
+            "inradius": 3.0,
+            "primitive": false,
+            "semiperimeter": 18.0,
+            "square_sum_candidate_stage": 144,
+            "zero_defect": true
+          },
+          {
+            "a": 12,
+            "b": 16,
+            "c": 20,
+            "c_over_r": 5.0,
+            "cube_sum_candidate_stage": 8000,
+            "delta3_times_8": 0,
+            "inradius": 4.0,
+            "primitive": false,
+            "semiperimeter": 24.0,
+            "square_sum_candidate_stage": 256,
+            "zero_defect": true
+          },
+          {
+            "a": 15,
+            "b": 20,
+            "c": 25,
+            "c_over_r": 5.0,
+            "cube_sum_candidate_stage": 15625,
+            "delta3_times_8": 0,
+            "inradius": 5.0,
+            "primitive": false,
+            "semiperimeter": 30.0,
+            "square_sum_candidate_stage": 400,
+            "zero_defect": true
+          },
+          {
+            "a": 18,
+            "b": 24,
+            "c": 30,
+            "c_over_r": 5.0,
+            "cube_sum_candidate_stage": 27000,
+            "delta3_times_8": 0,
+            "inradius": 6.0,
+            "primitive": false,
+            "semiperimeter": 36.0,
+            "square_sum_candidate_stage": 576,
+            "zero_defect": true
+          },
+          {
+            "a": 21,
+            "b": 28,
+            "c": 35,
+            "c_over_r": 5.0,
+            "cube_sum_candidate_stage": 42875,
+            "delta3_times_8": 0,
+            "inradius": 7.0,
+            "primitive": false,
+            "semiperimeter": 42.0,
+            "square_sum_candidate_stage": 784,
+            "zero_defect": true
+          },
+          {
+            "a": 24,
+            "b": 32,
+            "c": 40,
+            "c_over_r": 5.0,
+            "cube_sum_candidate_stage": 64000,
+            "delta3_times_8": 0,
+            "inradius": 8.0,
+            "primitive": false,
+            "semiperimeter": 48.0,
+            "square_sum_candidate_stage": 1024,
+            "zero_defect": true
+          },
+          {
+            "a": 27,
+            "b": 36,
+            "c": 45,
+            "c_over_r": 5.0,
+            "cube_sum_candidate_stage": 91125,
+            "delta3_times_8": 0,
+            "inradius": 9.0,
+            "primitive": false,
+            "semiperimeter": 54.0,
+            "square_sum_candidate_stage": 1296,
+            "zero_defect": true
+          },
+          {
+            "a": 30,
+            "b": 40,
+            "c": 50,
+            "c_over_r": 5.0,
+            "cube_sum_candidate_stage": 125000,
+            "delta3_times_8": 0,
+            "inradius": 10.0,
+            "primitive": false,
+            "semiperimeter": 60.0,
+            "square_sum_candidate_stage": 1600,
+            "zero_defect": true
+          },
+          {
+            "a": 33,
+            "b": 44,
+            "c": 55,
+            "c_over_r": 5.0,
+            "cube_sum_candidate_stage": 166375,
+            "delta3_times_8": 0,
+            "inradius": 11.0,
+            "primitive": false,
+            "semiperimeter": 66.0,
+            "square_sum_candidate_stage": 1936,
+            "zero_defect": true
+          },
+          {
+            "a": 36,
+            "b": 48,
+            "c": 60,
+            "c_over_r": 5.0,
+            "cube_sum_candidate_stage": 216000,
+            "delta3_times_8": 0,
+            "inradius": 12.0,
+            "primitive": false,
+            "semiperimeter": 72.0,
+            "square_sum_candidate_stage": 2304,
+            "zero_defect": true
+          }
+        ],
+        "zero_defect_primitive": [
+          {
+            "a": 3,
+            "b": 4,
+            "c": 5,
+            "c_over_r": 5.0,
+            "cube_sum_candidate_stage": 125,
+            "delta3_times_8": 0,
+            "inradius": 1.0,
+            "primitive": true,
+            "semiperimeter": 6.0,
+            "square_sum_candidate_stage": 16,
+            "zero_defect": true
+          }
+        ]
+      },
+      "primitive_hypotenuse_limit": 100,
+      "route_identity_rule": "Named geometric roles do not create separate MoO routes when their commutative-normalized edge certificates are identical.",
+      "scale_branch": [
+        {
+          "a_b_c_s_r": [
+            3,
+            4,
+            5,
+            6,
+            1
+          ],
+          "area": 6,
+          "cube_surface": 216,
+          "cube_volume": 216,
+          "perimeter": 12,
+          "route_identity": {
+            "assessment": "projection_alias_not_independent_routes",
+            "named_witness_alias_groups": [
+              {
+                "assessment": "external_role_alias_on_one_normalized_witness",
+                "commutative_normalized_signature": {
+                  "inputs": [
+                    6,
+                    36
+                  ],
+                  "op": "*",
+                  "result": 216
+                },
+                "named_witnesses": [
+                  "surface_6s2",
+                  "volume_s3"
+                ],
+                "shared_edge_refs": [
+                  4924,
+                  5068
+                ]
+              },
+              {
+                "assessment": "external_role_alias_on_one_normalized_witness",
+                "commutative_normalized_signature": {
+                  "inputs": [
+                    12,
+                    2
+                  ],
+                  "op": "/",
+                  "result": 6
+                },
+                "named_witnesses": [
+                  "area_half",
+                  "semiperimeter"
+                ],
+                "shared_edge_refs": [
+                  493
+                ]
+              }
+            ],
+            "quotient": "sort operands for + and *; preserve - and / order",
+            "surface_volume_edge_ref_overlap": [
+              4924,
+              5068
+            ],
+            "surface_volume_same_commutative_terminal_witness": true
+          },
+          "scale": 1,
+          "surface_node": {
+            "complete_corpus_stage": 1000,
+            "confirmed_stage": 216,
+            "first_stage": 18,
+            "incoming_derivation_events": 1019,
+            "kind": "positive_integer",
+            "node_id": 315,
+            "operation_signature": {
+              "*": 16,
+              "+": 215,
+              "-": 784,
+              "/": 4
+            },
+            "present": true,
+            "value": 216,
+            "visible_in_complete_corpus": true
+          },
+          "volume_node": {
+            "complete_corpus_stage": 1000,
+            "confirmed_stage": 216,
+            "first_stage": 18,
+            "incoming_derivation_events": 1019,
+            "kind": "positive_integer",
+            "node_id": 315,
+            "operation_signature": {
+              "*": 16,
+              "+": 215,
+              "-": 784,
+              "/": 4
+            },
+            "present": true,
+            "value": 216,
+            "visible_in_complete_corpus": true
+          },
+          "witnesses": {
+            "area_half": {
+              "blocker": null,
+              "candidate_stage": 12,
+              "commutative_normalized_signature": {
+                "inputs": [
+                  12,
+                  2
+                ],
+                "op": "/",
+                "result": 6
+              },
+              "edge_count": 1,
+              "edge_refs": [
+                {
+                  "edge_id": 493,
+                  "stage": 12
+                }
+              ],
+              "edge_status": "complete_directed",
+              "eligible": true,
+              "eligible_by_retention": true,
+              "eligible_by_stage": true,
+              "expected_directed_edges": 1,
+              "first_stage": 12,
+              "missing_nodes": [],
+              "relation": "12 / 2 -> 6"
+            },
+            "pythagorean_square_sum": {
+              "blocker": null,
+              "candidate_stage": 16,
+              "commutative_normalized_signature": {
+                "inputs": [
+                  9,
+                  16
+                ],
+                "op": "+",
+                "result": 25
+              },
+              "edge_count": 2,
+              "edge_refs": [
+                {
+                  "edge_id": 934,
+                  "stage": 16
+                },
+                {
+                  "edge_id": 998,
+                  "stage": 16
+                }
+              ],
+              "edge_status": "complete_directed",
+              "eligible": true,
+              "eligible_by_retention": true,
+              "eligible_by_stage": true,
+              "expected_directed_edges": 2,
+              "first_stage": 16,
+              "missing_nodes": [],
+              "relation": "9 + 16 -> 25"
+            },
+            "semiperimeter": {
+              "blocker": null,
+              "candidate_stage": 12,
+              "commutative_normalized_signature": {
+                "inputs": [
+                  12,
+                  2
+                ],
+                "op": "/",
+                "result": 6
+              },
+              "edge_count": 1,
+              "edge_refs": [
+                {
+                  "edge_id": 493,
+                  "stage": 12
+                }
+              ],
+              "edge_status": "complete_directed",
+              "eligible": true,
+              "eligible_by_retention": true,
+              "eligible_by_stage": true,
+              "expected_directed_edges": 1,
+              "first_stage": 12,
+              "missing_nodes": [],
+              "relation": "12 / 2 -> 6"
+            },
+            "side_cube_sum_ab": {
+              "blocker": null,
+              "candidate_stage": 64,
+              "commutative_normalized_signature": {
+                "inputs": [
+                  27,
+                  64
+                ],
+                "op": "+",
+                "result": 91
+              },
+              "edge_count": 2,
+              "edge_refs": [
+                {
+                  "edge_id": 15982,
+                  "stage": 64
+                },
+                {
+                  "edge_id": 16238,
+                  "stage": 64
+                }
+              ],
+              "edge_status": "complete_directed",
+              "eligible": true,
+              "eligible_by_retention": true,
+              "eligible_by_stage": true,
+              "expected_directed_edges": 2,
+              "first_stage": 64,
+              "missing_nodes": [],
+              "relation": "27 + 64 -> 91"
+            },
+            "side_cube_sum_abc": {
+              "blocker": null,
+              "candidate_stage": 125,
+              "commutative_normalized_signature": {
+                "inputs": [
+                  91,
+                  125
+                ],
+                "op": "+",
+                "result": 216
+              },
+              "edge_count": 2,
+              "edge_refs": [
+                {
+                  "edge_id": 61866,
+                  "stage": 125
+                },
+                {
+                  "edge_id": 62366,
+                  "stage": 125
+                }
+              ],
+              "edge_status": "complete_directed",
+              "eligible": true,
+              "eligible_by_retention": true,
+              "eligible_by_stage": true,
+              "expected_directed_edges": 2,
+              "first_stage": 125,
+              "missing_nodes": [],
+              "relation": "91 + 125 -> 216"
+            },
+            "surface_6s2": {
+              "blocker": null,
+              "candidate_stage": 36,
+              "commutative_normalized_signature": {
+                "inputs": [
+                  6,
+                  36
+                ],
+                "op": "*",
+                "result": 216
+              },
+              "edge_count": 2,
+              "edge_refs": [
+                {
+                  "edge_id": 4924,
+                  "stage": 36
+                },
+                {
+                  "edge_id": 5068,
+                  "stage": 36
+                }
+              ],
+              "edge_status": "complete_directed",
+              "eligible": true,
+              "eligible_by_retention": true,
+              "eligible_by_stage": true,
+              "expected_directed_edges": 2,
+              "first_stage": 36,
+              "missing_nodes": [],
+              "relation": "6 * 36 -> 216"
+            },
+            "volume_over_surface": {
+              "blocker": null,
+              "candidate_stage": 216,
+              "commutative_normalized_signature": {
+                "inputs": [
+                  216,
+                  216
+                ],
+                "op": "/",
+                "result": 1
+              },
+              "edge_count": 1,
+              "edge_refs": [
+                {
+                  "edge_id": 185765,
+                  "stage": 216
+                }
+              ],
+              "edge_status": "complete_directed",
+              "eligible": true,
+              "eligible_by_retention": true,
+              "eligible_by_stage": true,
+              "expected_directed_edges": 1,
+              "first_stage": 216,
+              "missing_nodes": [],
+              "relation": "216 / 216 -> 1"
+            },
+            "volume_s3": {
+              "blocker": null,
+              "candidate_stage": 36,
+              "commutative_normalized_signature": {
+                "inputs": [
+                  6,
+                  36
+                ],
+                "op": "*",
+                "result": 216
+              },
+              "edge_count": 2,
+              "edge_refs": [
+                {
+                  "edge_id": 4924,
+                  "stage": 36
+                },
+                {
+                  "edge_id": 5068,
+                  "stage": 36
+                }
+              ],
+              "edge_status": "complete_directed",
+              "eligible": true,
+              "eligible_by_retention": true,
+              "eligible_by_stage": true,
+              "expected_directed_edges": 2,
+              "first_stage": 36,
+              "missing_nodes": [],
+              "relation": "36 * 6 -> 216"
+            }
+          }
+        },
+        {
+          "a_b_c_s_r": [
+            6,
+            8,
+            10,
+            12,
+            2
+          ],
+          "area": 24,
+          "cube_surface": 864,
+          "cube_volume": 1728,
+          "perimeter": 24,
+          "route_identity": {
+            "assessment": "different_terminal_results_or_witnesses",
+            "named_witness_alias_groups": [],
+            "quotient": "sort operands for + and *; preserve - and / order",
+            "surface_volume_edge_ref_overlap": [],
+            "surface_volume_same_commutative_terminal_witness": false
+          },
+          "scale": 2,
+          "surface_node": {
+            "complete_corpus_stage": 1000,
+            "confirmed_stage": 864,
+            "first_stage": 32,
+            "incoming_derivation_events": 1024,
+            "kind": "positive_integer",
+            "node_id": 983,
+            "operation_signature": {
+              "*": 24,
+              "+": 863,
+              "-": 136,
+              "/": 1
+            },
+            "present": true,
+            "value": 864,
+            "visible_in_complete_corpus": true
+          },
+          "volume_node": {
+            "complete_corpus_stage": 1000,
+            "confirmed_stage": 1728,
+            "first_stage": 48,
+            "incoming_derivation_events": 299,
+            "kind": "positive_integer",
+            "node_id": 2146,
+            "operation_signature": {
+              "*": 26,
+              "+": 273,
+              "-": 0,
+              "/": 0
+            },
+            "present": true,
+            "value": 1728,
+            "visible_in_complete_corpus": true
+          },
+          "witnesses": {
+            "area_half": {
+              "blocker": null,
+              "candidate_stage": 48,
+              "commutative_normalized_signature": {
+                "inputs": [
+                  48,
+                  2
+                ],
+                "op": "/",
+                "result": 24
+              },
+              "edge_count": 1,
+              "edge_refs": [
+                {
+                  "edge_id": 8845,
+                  "stage": 48
+                }
+              ],
+              "edge_status": "complete_directed",
+              "eligible": true,
+              "eligible_by_retention": true,
+              "eligible_by_stage": true,
+              "expected_directed_edges": 1,
+              "first_stage": 48,
+              "missing_nodes": [],
+              "relation": "48 / 2 -> 24"
+            },
+            "pythagorean_square_sum": {
+              "blocker": null,
+              "candidate_stage": 64,
+              "commutative_normalized_signature": {
+                "inputs": [
+                  36,
+                  64
+                ],
+                "op": "+",
+                "result": 100
+              },
+              "edge_count": 2,
+              "edge_refs": [
+                {
+                  "edge_id": 16018,
+                  "stage": 64
+                },
+                {
+                  "edge_id": 16274,
+                  "stage": 64
+                }
+              ],
+              "edge_status": "complete_directed",
+              "eligible": true,
+              "eligible_by_retention": true,
+              "eligible_by_stage": true,
+              "expected_directed_edges": 2,
+              "first_stage": 64,
+              "missing_nodes": [],
+              "relation": "36 + 64 -> 100"
+            },
+            "semiperimeter": {
+              "blocker": null,
+              "candidate_stage": 24,
+              "commutative_normalized_signature": {
+                "inputs": [
+                  24,
+                  2
+                ],
+                "op": "/",
+                "result": 12
+              },
+              "edge_count": 1,
+              "edge_refs": [
+                {
+                  "edge_id": 2125,
+                  "stage": 24
+                }
+              ],
+              "edge_status": "complete_directed",
+              "eligible": true,
+              "eligible_by_retention": true,
+              "eligible_by_stage": true,
+              "expected_directed_edges": 1,
+              "first_stage": 24,
+              "missing_nodes": [],
+              "relation": "24 / 2 -> 12"
+            },
+            "side_cube_sum_ab": {
+              "blocker": null,
+              "candidate_stage": 512,
+              "commutative_normalized_signature": {
+                "inputs": [
+                  216,
+                  512
+                ],
+                "op": "+",
+                "result": 728
+              },
+              "edge_count": 2,
+              "edge_refs": [
+                {
+                  "edge_id": 1045346,
+                  "stage": 512
+                },
+                {
+                  "edge_id": 1047394,
+                  "stage": 512
+                }
+              ],
+              "edge_status": "complete_directed",
+              "eligible": true,
+              "eligible_by_retention": true,
+              "eligible_by_stage": true,
+              "expected_directed_edges": 2,
+              "first_stage": 512,
+              "missing_nodes": [],
+              "relation": "216 + 512 -> 728"
+            },
+            "side_cube_sum_abc": {
+              "blocker": null,
+              "candidate_stage": 1000,
+              "commutative_normalized_signature": {
+                "inputs": [
+                  728,
+                  1000
+                ],
+                "op": "+",
+                "result": 1728
+              },
+              "edge_count": 2,
+              "edge_refs": [
+                {
+                  "edge_id": 3994914,
+                  "stage": 1000
+                },
+                {
+                  "edge_id": 3998914,
+                  "stage": 1000
+                }
+              ],
+              "edge_status": "complete_directed",
+              "eligible": true,
+              "eligible_by_retention": true,
+              "eligible_by_stage": true,
+              "expected_directed_edges": 2,
+              "first_stage": 1000,
+              "missing_nodes": [],
+              "relation": "728 + 1000 -> 1728"
+            },
+            "surface_6s2": {
+              "blocker": null,
+              "candidate_stage": 144,
+              "commutative_normalized_signature": {
+                "inputs": [
+                  6,
+                  144
+                ],
+                "op": "*",
+                "result": 864
+              },
+              "edge_count": 2,
+              "edge_refs": [
+                {
+                  "edge_id": 81820,
+                  "stage": 144
+                },
+                {
+                  "edge_id": 82396,
+                  "stage": 144
+                }
+              ],
+              "edge_status": "complete_directed",
+              "eligible": true,
+              "eligible_by_retention": true,
+              "eligible_by_stage": true,
+              "expected_directed_edges": 2,
+              "first_stage": 144,
+              "missing_nodes": [],
+              "relation": "6 * 144 -> 864"
+            },
+            "volume_over_surface": {
+              "blocker": "candidate_stage_beyond_corpus",
+              "candidate_stage": 1728,
+              "commutative_normalized_signature": {
+                "inputs": [
+                  1728,
+                  864
+                ],
+                "op": "/",
+                "result": 2
+              },
+              "edge_count": 0,
+              "edge_refs": [],
+              "edge_status": "outside_complete_stage_aperture",
+              "eligible": false,
+              "eligible_by_retention": null,
+              "eligible_by_stage": false,
+              "expected_directed_edges": 1,
+              "first_stage": null,
+              "missing_nodes": [],
+              "relation": "1728 / 864 -> 2"
+            },
+            "volume_s3": {
+              "blocker": null,
+              "candidate_stage": 144,
+              "commutative_normalized_signature": {
+                "inputs": [
+                  12,
+                  144
+                ],
+                "op": "*",
+                "result": 1728
+              },
+              "edge_count": 2,
+              "edge_refs": [
+                {
+                  "edge_id": 81844,
+                  "stage": 144
+                },
+                {
+                  "edge_id": 82420,
+                  "stage": 144
+                }
+              ],
+              "edge_status": "complete_directed",
+              "eligible": true,
+              "eligible_by_retention": true,
+              "eligible_by_stage": true,
+              "expected_directed_edges": 2,
+              "first_stage": 144,
+              "missing_nodes": [],
+              "relation": "144 * 12 -> 1728"
+            }
+          }
+        },
+        {
+          "a_b_c_s_r": [
+            9,
+            12,
+            15,
+            18,
+            3
+          ],
+          "area": 54,
+          "cube_surface": 1944,
+          "cube_volume": 5832,
+          "perimeter": 36,
+          "route_identity": {
+            "assessment": "different_terminal_results_or_witnesses",
+            "named_witness_alias_groups": [],
+            "quotient": "sort operands for + and *; preserve - and / order",
+            "surface_volume_edge_ref_overlap": [],
+            "surface_volume_same_commutative_terminal_witness": false
+          },
+          "scale": 3,
+          "surface_node": {
+            "complete_corpus_stage": 1000,
+            "confirmed_stage": 1944,
+            "first_stage": 54,
+            "incoming_derivation_events": 79,
+            "kind": "positive_integer",
+            "node_id": 2693,
+            "operation_signature": {
+              "*": 22,
+              "+": 57,
+              "-": 0,
+              "/": 0
+            },
+            "present": true,
+            "value": 1944,
+            "visible_in_complete_corpus": true
+          },
+          "volume_node": {
+            "complete_corpus_stage": 1000,
+            "confirmed_stage": 5832,
+            "first_stage": 81,
+            "incoming_derivation_events": 20,
+            "kind": "positive_integer",
+            "node_id": 5961,
+            "operation_signature": {
+              "*": 20,
+              "+": 0,
+              "-": 0,
+              "/": 0
+            },
+            "present": true,
+            "value": 5832,
+            "visible_in_complete_corpus": true
+          },
+          "witnesses": {
+            "area_half": {
+              "blocker": null,
+              "candidate_stage": 108,
+              "commutative_normalized_signature": {
+                "inputs": [
+                  108,
+                  2
+                ],
+                "op": "/",
+                "result": 54
+              },
+              "edge_count": 1,
+              "edge_refs": [
+                {
+                  "edge_id": 45805,
+                  "stage": 108
+                }
+              ],
+              "edge_status": "complete_directed",
+              "eligible": true,
+              "eligible_by_retention": true,
+              "eligible_by_stage": true,
+              "expected_directed_edges": 1,
+              "first_stage": 108,
+              "missing_nodes": [],
+              "relation": "108 / 2 -> 54"
+            },
+            "pythagorean_square_sum": {
+              "blocker": null,
+              "candidate_stage": 144,
+              "commutative_normalized_signature": {
+                "inputs": [
+                  81,
+                  144
+                ],
+                "op": "+",
+                "result": 225
+              },
+              "edge_count": 2,
+              "edge_refs": [
+                {
+                  "edge_id": 82118,
+                  "stage": 144
+                },
+                {
+                  "edge_id": 82694,
+                  "stage": 144
+                }
+              ],
+              "edge_status": "complete_directed",
+              "eligible": true,
+              "eligible_by_retention": true,
+              "eligible_by_stage": true,
+              "expected_directed_edges": 2,
+              "first_stage": 144,
+              "missing_nodes": [],
+              "relation": "81 + 144 -> 225"
+            },
+            "semiperimeter": {
+              "blocker": null,
+              "candidate_stage": 36,
+              "commutative_normalized_signature": {
+                "inputs": [
+                  36,
+                  2
+                ],
+                "op": "/",
+                "result": 18
+              },
+              "edge_count": 1,
+              "edge_refs": [
+                {
+                  "edge_id": 4909,
+                  "stage": 36
+                }
+              ],
+              "edge_status": "complete_directed",
+              "eligible": true,
+              "eligible_by_retention": true,
+              "eligible_by_stage": true,
+              "expected_directed_edges": 1,
+              "first_stage": 36,
+              "missing_nodes": [],
+              "relation": "36 / 2 -> 18"
+            },
+            "side_cube_sum_ab": {
+              "blocker": "candidate_stage_beyond_corpus",
+              "candidate_stage": 1728,
+              "commutative_normalized_signature": {
+                "inputs": [
+                  729,
+                  1728
+                ],
+                "op": "+",
+                "result": 2457
+              },
+              "edge_count": 0,
+              "edge_refs": [],
+              "edge_status": "outside_complete_stage_aperture",
+              "eligible": false,
+              "eligible_by_retention": null,
+              "eligible_by_stage": false,
+              "expected_directed_edges": 2,
+              "first_stage": null,
+              "missing_nodes": [],
+              "relation": "729 + 1728 -> 2457"
+            },
+            "side_cube_sum_abc": {
+              "blocker": "candidate_stage_beyond_corpus",
+              "candidate_stage": 3375,
+              "commutative_normalized_signature": {
+                "inputs": [
+                  2457,
+                  3375
+                ],
+                "op": "+",
+                "result": 5832
+              },
+              "edge_count": 0,
+              "edge_refs": [],
+              "edge_status": "outside_complete_stage_aperture",
+              "eligible": false,
+              "eligible_by_retention": null,
+              "eligible_by_stage": false,
+              "expected_directed_edges": 2,
+              "first_stage": null,
+              "missing_nodes": [],
+              "relation": "2457 + 3375 -> 5832"
+            },
+            "surface_6s2": {
+              "blocker": null,
+              "candidate_stage": 324,
+              "commutative_normalized_signature": {
+                "inputs": [
+                  6,
+                  324
+                ],
+                "op": "*",
+                "result": 1944
+              },
+              "edge_count": 2,
+              "edge_refs": [
+                {
+                  "edge_id": 417340,
+                  "stage": 324
+                },
+                {
+                  "edge_id": 418636,
+                  "stage": 324
+                }
+              ],
+              "edge_status": "complete_directed",
+              "eligible": true,
+              "eligible_by_retention": true,
+              "eligible_by_stage": true,
+              "expected_directed_edges": 2,
+              "first_stage": 324,
+              "missing_nodes": [],
+              "relation": "6 * 324 -> 1944"
+            },
+            "volume_over_surface": {
+              "blocker": "candidate_stage_beyond_corpus",
+              "candidate_stage": 5832,
+              "commutative_normalized_signature": {
+                "inputs": [
+                  5832,
+                  1944
+                ],
+                "op": "/",
+                "result": 3
+              },
+              "edge_count": 0,
+              "edge_refs": [],
+              "edge_status": "outside_complete_stage_aperture",
+              "eligible": false,
+              "eligible_by_retention": null,
+              "eligible_by_stage": false,
+              "expected_directed_edges": 1,
+              "first_stage": null,
+              "missing_nodes": [],
+              "relation": "5832 / 1944 -> 3"
+            },
+            "volume_s3": {
+              "blocker": null,
+              "candidate_stage": 324,
+              "commutative_normalized_signature": {
+                "inputs": [
+                  18,
+                  324
+                ],
+                "op": "*",
+                "result": 5832
+              },
+              "edge_count": 2,
+              "edge_refs": [
+                {
+                  "edge_id": 417388,
+                  "stage": 324
+                },
+                {
+                  "edge_id": 418684,
+                  "stage": 324
+                }
+              ],
+              "edge_status": "complete_directed",
+              "eligible": true,
+              "eligible_by_retention": true,
+              "eligible_by_stage": true,
+              "expected_directed_edges": 2,
+              "first_stage": 324,
+              "missing_nodes": [],
+              "relation": "324 * 18 -> 5832"
+            }
+          }
+        },
+        {
+          "a_b_c_s_r": [
+            12,
+            16,
+            20,
+            24,
+            4
+          ],
+          "area": 96,
+          "cube_surface": 3456,
+          "cube_volume": 13824,
+          "perimeter": 48,
+          "route_identity": {
+            "assessment": "different_terminal_results_or_witnesses",
+            "named_witness_alias_groups": [],
+            "quotient": "sort operands for + and *; preserve - and / order",
+            "surface_volume_edge_ref_overlap": [],
+            "surface_volume_same_commutative_terminal_witness": false
+          },
+          "scale": 4,
+          "surface_node": {
+            "complete_corpus_stage": 1000,
+            "confirmed_stage": 3456,
+            "first_stage": 64,
+            "incoming_derivation_events": 26,
+            "kind": "positive_integer",
+            "node_id": 3746,
+            "operation_signature": {
+              "*": 26,
+              "+": 0,
+              "-": 0,
+              "/": 0
+            },
+            "present": true,
+            "value": 3456,
+            "visible_in_complete_corpus": true
+          },
+          "volume_node": {
+            "complete_corpus_stage": 1000,
+            "confirmed_stage": 13824,
+            "first_stage": 128,
+            "incoming_derivation_events": 24,
+            "kind": "positive_integer",
+            "node_id": 14666,
+            "operation_signature": {
+              "*": 24,
+              "+": 0,
+              "-": 0,
+              "/": 0
+            },
+            "present": true,
+            "value": 13824,
+            "visible_in_complete_corpus": true
+          },
+          "witnesses": {
+            "area_half": {
+              "blocker": null,
+              "candidate_stage": 192,
+              "commutative_normalized_signature": {
+                "inputs": [
+                  192,
+                  2
+                ],
+                "op": "/",
+                "result": 96
+              },
+              "edge_count": 1,
+              "edge_refs": [
+                {
+                  "edge_id": 145933,
+                  "stage": 192
+                }
+              ],
+              "edge_status": "complete_directed",
+              "eligible": true,
+              "eligible_by_retention": true,
+              "eligible_by_stage": true,
+              "expected_directed_edges": 1,
+              "first_stage": 192,
+              "missing_nodes": [],
+              "relation": "192 / 2 -> 96"
+            },
+            "pythagorean_square_sum": {
+              "blocker": null,
+              "candidate_stage": 256,
+              "commutative_normalized_signature": {
+                "inputs": [
+                  144,
+                  256
+                ],
+                "op": "+",
+                "result": 400
+              },
+              "edge_count": 2,
+              "edge_refs": [
+                {
+                  "edge_id": 260674,
+                  "stage": 256
+                },
+                {
+                  "edge_id": 261698,
+                  "stage": 256
+                }
+              ],
+              "edge_status": "complete_directed",
+              "eligible": true,
+              "eligible_by_retention": true,
+              "eligible_by_stage": true,
+              "expected_directed_edges": 2,
+              "first_stage": 256,
+              "missing_nodes": [],
+              "relation": "144 + 256 -> 400"
+            },
+            "semiperimeter": {
+              "blocker": null,
+              "candidate_stage": 48,
+              "commutative_normalized_signature": {
+                "inputs": [
+                  48,
+                  2
+                ],
+                "op": "/",
+                "result": 24
+              },
+              "edge_count": 1,
+              "edge_refs": [
+                {
+                  "edge_id": 8845,
+                  "stage": 48
+                }
+              ],
+              "edge_status": "complete_directed",
+              "eligible": true,
+              "eligible_by_retention": true,
+              "eligible_by_stage": true,
+              "expected_directed_edges": 1,
+              "first_stage": 48,
+              "missing_nodes": [],
+              "relation": "48 / 2 -> 24"
+            },
+            "side_cube_sum_ab": {
+              "blocker": "candidate_stage_beyond_corpus",
+              "candidate_stage": 4096,
+              "commutative_normalized_signature": {
+                "inputs": [
+                  1728,
+                  4096
+                ],
+                "op": "+",
+                "result": 5824
+              },
+              "edge_count": 0,
+              "edge_refs": [],
+              "edge_status": "outside_complete_stage_aperture",
+              "eligible": false,
+              "eligible_by_retention": null,
+              "eligible_by_stage": false,
+              "expected_directed_edges": 2,
+              "first_stage": null,
+              "missing_nodes": [],
+              "relation": "1728 + 4096 -> 5824"
+            },
+            "side_cube_sum_abc": {
+              "blocker": "candidate_stage_beyond_corpus",
+              "candidate_stage": 8000,
+              "commutative_normalized_signature": {
+                "inputs": [
+                  5824,
+                  8000
+                ],
+                "op": "+",
+                "result": 13824
+              },
+              "edge_count": 0,
+              "edge_refs": [],
+              "edge_status": "outside_complete_stage_aperture",
+              "eligible": false,
+              "eligible_by_retention": null,
+              "eligible_by_stage": false,
+              "expected_directed_edges": 2,
+              "first_stage": null,
+              "missing_nodes": [],
+              "relation": "5824 + 8000 -> 13824"
+            },
+            "surface_6s2": {
+              "blocker": null,
+              "candidate_stage": 576,
+              "commutative_normalized_signature": {
+                "inputs": [
+                  6,
+                  576
+                ],
+                "op": "*",
+                "result": 3456
+              },
+              "edge_count": 2,
+              "edge_refs": [
+                {
+                  "edge_id": 1322524,
+                  "stage": 576
+                },
+                {
+                  "edge_id": 1324828,
+                  "stage": 576
+                }
+              ],
+              "edge_status": "complete_directed",
+              "eligible": true,
+              "eligible_by_retention": true,
+              "eligible_by_stage": true,
+              "expected_directed_edges": 2,
+              "first_stage": 576,
+              "missing_nodes": [],
+              "relation": "6 * 576 -> 3456"
+            },
+            "volume_over_surface": {
+              "blocker": "candidate_stage_beyond_corpus",
+              "candidate_stage": 13824,
+              "commutative_normalized_signature": {
+                "inputs": [
+                  13824,
+                  3456
+                ],
+                "op": "/",
+                "result": 4
+              },
+              "edge_count": 0,
+              "edge_refs": [],
+              "edge_status": "outside_complete_stage_aperture",
+              "eligible": false,
+              "eligible_by_retention": null,
+              "eligible_by_stage": false,
+              "expected_directed_edges": 1,
+              "first_stage": null,
+              "missing_nodes": [],
+              "relation": "13824 / 3456 -> 4"
+            },
+            "volume_s3": {
+              "blocker": null,
+              "candidate_stage": 576,
+              "commutative_normalized_signature": {
+                "inputs": [
+                  24,
+                  576
+                ],
+                "op": "*",
+                "result": 13824
+              },
+              "edge_count": 2,
+              "edge_refs": [
+                {
+                  "edge_id": 1322596,
+                  "stage": 576
+                },
+                {
+                  "edge_id": 1324900,
+                  "stage": 576
+                }
+              ],
+              "edge_status": "complete_directed",
+              "eligible": true,
+              "eligible_by_retention": true,
+              "eligible_by_stage": true,
+              "expected_directed_edges": 2,
+              "first_stage": 576,
+              "missing_nodes": [],
+              "relation": "576 * 24 -> 13824"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

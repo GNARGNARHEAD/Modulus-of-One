@@ -1,0 +1,133 @@
+{
+  "amendment_sha256": "68836b8a19ff6ad959befa169723bbeb56c7c30a703ad09b4ed1698b031df9de",
+  "design_sha256": "78626e394f1736679c790531114f080e6d424bc99a2cfdc5d74b1acc29f55fff",
+  "experiment_id": "shell_composition_20260920_current_v1",
+  "generator_source_hashes": {
+    "moo_graph_corpus.py": "66572b7240489e56d45a2b014a27332286ce9766a4b133754a62846c388f33cd",
+    "strict_stage_moo.py": "4e6f7fd44b8220f5bb077ccb2e44a91b32c59f320b3561659a46918a132e0808"
+  },
+  "input_scope": "New current-generator calibration; historical frozen inputs are absent.",
+  "inputs": [
+    {
+      "bytes": 140918784,
+      "generation_summary": {
+        "alignment": {
+          "non_core_operand_edges": 0,
+          "operand_rule": "positive-spine strict corpus: only confirmed positive-spine iterations may be operands",
+          "speculative_input_edges": 0,
+          "speculative_nodes_are_operands": false,
+          "status": "pass"
+        },
+        "config": {
+          "generator": "strict_stage_moo_graph",
+          "max_abs_p": 1000000000,
+          "max_abs_q": 576,
+          "max_abs_value": 1000000000.0,
+          "max_stage": 576,
+          "retain_confirmed_edges": true
+        },
+        "db": "out/scratch/shell_composition_20260920_current_v1/wide_u576.sqlite",
+        "edge_ops": {
+          "*": 331776,
+          "+": 331776,
+          "-": 331776,
+          "/": 331776,
+          "seed": 1
+        },
+        "edges": 1327105,
+        "elapsed_seconds": 44.34158155100067,
+        "final_stage": 576,
+        "max_stage": 576,
+        "node_kinds": {
+          "certainty": 1,
+          "positive_integer": 84798,
+          "rational": 201215,
+          "relational_integer": 576
+        },
+        "nodes": 286590,
+        "requested_max_stage": 576,
+        "stop_reason": "max_stage"
+      },
+      "name": "wide_u576",
+      "path": "out/scratch/shell_composition_20260920_current_v1/wide_u576.sqlite",
+      "sha256": "655e2ba49f53519e7cb3720ad8894579aaf113444afbe56b81a99ae7bbdae2b6"
+    },
+    {
+      "bytes": 1052672,
+      "generation_summary": {
+        "alignment": {
+          "non_core_operand_edges": 0,
+          "operand_rule": "positive-spine strict corpus: only confirmed positive-spine iterations may be operands",
+          "speculative_input_edges": 0,
+          "speculative_nodes_are_operands": false,
+          "status": "pass"
+        },
+        "config": {
+          "generator": "strict_stage_moo_graph",
+          "max_abs_p": 200,
+          "max_abs_q": 200,
+          "max_abs_value": 4.0,
+          "max_stage": 80,
+          "retain_confirmed_edges": true
+        },
+        "db": "out/scratch/shell_composition_20260920_current_v1/narrow_u80.sqlite",
+        "edge_ops": {
+          "*": 160,
+          "+": 6,
+          "-": 3550,
+          "/": 5842,
+          "seed": 1
+        },
+        "edges": 9559,
+        "elapsed_seconds": 0.2592589500000031,
+        "final_stage": 80,
+        "max_stage": 80,
+        "node_kinds": {
+          "certainty": 1,
+          "positive_integer": 79,
+          "rational": 3437,
+          "relational_integer": 5
+        },
+        "nodes": 3522,
+        "requested_max_stage": 80,
+        "stop_reason": "max_stage"
+      },
+      "name": "narrow_u80",
+      "path": "out/scratch/shell_composition_20260920_current_v1/narrow_u80.sqlite",
+      "sha256": "efccebea17d2ab95777b0e8480990d5b3f527eb94bcca68b13bd4ec438702df5"
+    }
+  ],
+  "observations": [
+    {
+      "checkpoint": 16,
+      "path": "out/scratch/shell_composition_20260920_current_v1/wide_u576.sqlite",
+      "role": "current_wide_u16",
+      "sha256": "655e2ba49f53519e7cb3720ad8894579aaf113444afbe56b81a99ae7bbdae2b6"
+    },
+    {
+      "checkpoint": 144,
+      "path": "out/scratch/shell_composition_20260920_current_v1/wide_u576.sqlite",
+      "role": "current_wide_u144",
+      "sha256": "655e2ba49f53519e7cb3720ad8894579aaf113444afbe56b81a99ae7bbdae2b6"
+    },
+    {
+      "checkpoint": 300,
+      "path": "out/scratch/shell_composition_20260920_current_v1/wide_u576.sqlite",
+      "role": "current_wide_u300",
+      "sha256": "655e2ba49f53519e7cb3720ad8894579aaf113444afbe56b81a99ae7bbdae2b6"
+    },
+    {
+      "checkpoint": 576,
+      "path": "out/scratch/shell_composition_20260920_current_v1/wide_u576.sqlite",
+      "role": "current_wide_u576",
+      "sha256": "655e2ba49f53519e7cb3720ad8894579aaf113444afbe56b81a99ae7bbdae2b6"
+    },
+    {
+      "checkpoint": 80,
+      "path": "out/scratch/shell_composition_20260920_current_v1/narrow_u80.sqlite",
+      "role": "current_narrow_u80",
+      "sha256": "efccebea17d2ab95777b0e8480990d5b3f527eb94bcca68b13bd4ec438702df5"
+    }
+  ],
+  "reconstruction_limit": "The recorded generator and settings reconstruct this calibration field; no historical or byte-identical regeneration is claimed."
+}

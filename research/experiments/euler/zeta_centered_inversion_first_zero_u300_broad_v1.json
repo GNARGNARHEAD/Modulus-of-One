@@ -1,0 +1,4829 @@
+{
+  "analytic_obstruction": {
+    "argument": [
+      "The nontrivial zeta zeros include an unbounded sequence of critical-line heights.",
+      "A fixed-radius centered inversion would send those heights to a sequence tending to 0.",
+      "The inversion is injective, so invariance would give distinct transformed zeros accumulating at s=1/2.",
+      "Zeta is analytic and nonzero at s=1/2, so the identity theorem forbids that accumulation."
+    ],
+    "center_binary64_residual_control": 1.4603545088095873,
+    "center_nonzero_analytic_reason": "eta(1/2) is a positive alternating-series sum and zeta(1/2)=eta(1/2)/(1-sqrt(2)) is therefore nonzero",
+    "classification": "global_fixed_radius_zero_set_symmetry_analytically_obstructed",
+    "critical_line_height_action": "t -> 1/(4t)",
+    "fixed_radius": {
+      "frac": "1/2",
+      "p": 1,
+      "q": 2
+    },
+    "scope": "This rules out global invariance of the zeta zero set under any one fixed positive centered radius; it does not challenge the exact coordinate geometry.",
+    "transformed_function_caveat": {
+      "center_status": "s=1/2 becomes an essential singularity because I_R has a pole there and zeta has an essential singularity at infinity",
+      "function": "s -> zeta(I_R(s))",
+      "interpretation": "this is a new representation of zeta after precomposition, not a symmetry or permutation of the original zeta zero set",
+      "zero_accumulation_status": "zeros of the transformed function may accumulate at that singularity"
+    }
+  },
+  "claim_boundary": {
+    "allowed_claim_language": [
+      "The centered Mobius identities and rational shell identities hold exactly externally.",
+      "The strict graph may witness rational precursor edges and component nodes.",
+      "A finite Hasse calculation can reject preservation of the supplied near-zero at its centered-inversion image.",
+      "A fixed-radius global zeta-zero symmetry is analytically obstructed by zero accumulation at the center."
+    ],
+    "disallowed_claim_language": [
+      "Do not claim that the current strict positive-spine runtime contains complex numbers, U(1), Mobius maps, or zeta.",
+      "Do not identify the centered involution with the quarter-turn C4 action; only the four-point set is shared.",
+      "Do not identify all rational-coordinate shell points with roots of unity.",
+      "Do not treat the exact reformulation abs(w(rho))=1 as evidence for RH; it is equivalent to Re(rho)=1/2.",
+      "Do not promote a formal interaction branch without repeated graph-native construction edges and a predictive test."
+    ],
+    "evidence_layer": "exact_external_geometry_plus_read_only_strict_graph_audit"
+  },
+  "complex_calibration": {
+    "c4_orbit": {
+      "binary64_sum_check": {
+        "available": true,
+        "imag": 0.0,
+        "magnitude": 0.0,
+        "phase_turns": null,
+        "real": 0.0
+      },
+      "external_exact_sum": "1 + i - 1 - i = 0",
+      "phase_addition_edge_summary": {
+        "absent_relation_occurrences": 4,
+        "complete_directed_occurrences": 0,
+        "distinct_present_edge_ids": 0,
+        "distinct_relation_signatures": 4,
+        "missing_node_relation_occurrences": 0,
+        "present_relation_occurrences": 0,
+        "relation_occurrences": 4,
+        "stage_aperture_blockers": {
+          "operand_not_positive_spine": 4
+        },
+        "top_level_blockers": {
+          "operand_not_positive_spine": 4
+        }
+      },
+      "phase_addition_edges": [
+        {
+          "added_phase": {
+            "frac": "1/4",
+            "p": 1,
+            "q": 4
+          },
+          "from_phase": {
+            "frac": "0",
+            "p": 0,
+            "q": 1
+          },
+          "from_u1_label": "1",
+          "graph": {
+            "blocker": "operand_not_positive_spine",
+            "candidate_stage": null,
+            "claim_id": "quarter_turn_phase_step",
+            "corpus_stage": 300,
+            "edge_count": 0,
+            "edge_refs": [],
+            "eligible_by_stage": false,
+            "expected_directed_edges": 2,
+            "first_edge_stage": null,
+            "missing_nodes": [],
+            "present": false,
+            "relation": "0 + 1/4 -> 1/4",
+            "stage_aperture": {
+              "blocker": "operand_not_positive_spine",
+              "candidate_stage": null,
+              "corpus_stage": 300,
+              "eligible_by_stage": false
+            },
+            "status": "absent"
+          },
+          "quotient_phase": {
+            "frac": "1/4",
+            "p": 1,
+            "q": 4
+          },
+          "raw_rational_sum": {
+            "frac": "1/4",
+            "p": 1,
+            "q": 4
+          }
+        },
+        {
+          "added_phase": {
+            "frac": "1/4",
+            "p": 1,
+            "q": 4
+          },
+          "from_phase": {
+            "frac": "1/4",
+            "p": 1,
+            "q": 4
+          },
+          "from_u1_label": "i",
+          "graph": {
+            "blocker": "operand_not_positive_spine",
+            "candidate_stage": null,
+            "claim_id": "quarter_turn_phase_step",
+            "corpus_stage": 300,
+            "edge_count": 0,
+            "edge_refs": [],
+            "eligible_by_stage": false,
+            "expected_directed_edges": 1,
+            "first_edge_stage": null,
+            "missing_nodes": [],
+            "present": false,
+            "relation": "1/4 + 1/4 -> 1/2",
+            "stage_aperture": {
+              "blocker": "operand_not_positive_spine",
+              "candidate_stage": null,
+              "corpus_stage": 300,
+              "eligible_by_stage": false
+            },
+            "status": "absent"
+          },
+          "quotient_phase": {
+            "frac": "1/2",
+            "p": 1,
+            "q": 2
+          },
+          "raw_rational_sum": {
+            "frac": "1/2",
+            "p": 1,
+            "q": 2
+          }
+        },
+        {
+          "added_phase": {
+            "frac": "1/4",
+            "p": 1,
+            "q": 4
+          },
+          "from_phase": {
+            "frac": "1/2",
+            "p": 1,
+            "q": 2
+          },
+          "from_u1_label": "-1",
+          "graph": {
+            "blocker": "operand_not_positive_spine",
+            "candidate_stage": null,
+            "claim_id": "quarter_turn_phase_step",
+            "corpus_stage": 300,
+            "edge_count": 0,
+            "edge_refs": [],
+            "eligible_by_stage": false,
+            "expected_directed_edges": 2,
+            "first_edge_stage": null,
+            "missing_nodes": [],
+            "present": false,
+            "relation": "1/2 + 1/4 -> 3/4",
+            "stage_aperture": {
+              "blocker": "operand_not_positive_spine",
+              "candidate_stage": null,
+              "corpus_stage": 300,
+              "eligible_by_stage": false
+            },
+            "status": "absent"
+          },
+          "quotient_phase": {
+            "frac": "3/4",
+            "p": 3,
+            "q": 4
+          },
+          "raw_rational_sum": {
+            "frac": "3/4",
+            "p": 3,
+            "q": 4
+          }
+        },
+        {
+          "added_phase": {
+            "frac": "1/4",
+            "p": 1,
+            "q": 4
+          },
+          "from_phase": {
+            "frac": "3/4",
+            "p": 3,
+            "q": 4
+          },
+          "from_u1_label": "-i",
+          "graph": {
+            "blocker": "operand_not_positive_spine",
+            "candidate_stage": null,
+            "claim_id": "quarter_turn_phase_step",
+            "corpus_stage": 300,
+            "edge_count": 0,
+            "edge_refs": [],
+            "eligible_by_stage": false,
+            "expected_directed_edges": 2,
+            "first_edge_stage": null,
+            "missing_nodes": [],
+            "present": false,
+            "relation": "3/4 + 1/4 -> 1",
+            "stage_aperture": {
+              "blocker": "operand_not_positive_spine",
+              "candidate_stage": null,
+              "corpus_stage": 300,
+              "eligible_by_stage": false
+            },
+            "status": "absent"
+          },
+          "quotient_phase": {
+            "frac": "0",
+            "p": 0,
+            "q": 1
+          },
+          "raw_rational_sum": {
+            "frac": "1",
+            "p": 1,
+            "q": 1
+          }
+        }
+      ],
+      "phase_points": [
+        {
+          "external_u1_label": "1",
+          "graph_node": {
+            "confirmed_stage": null,
+            "first_edge_id": 3,
+            "first_stage": 1,
+            "graph_reading": "speculative_landing_not_operand",
+            "incoming_edge_count": 300,
+            "incoming_operation_counts": {
+              "*": 0,
+              "+": 0,
+              "-": 300,
+              "/": 0,
+              "seed": 0
+            },
+            "key": [
+              0,
+              1
+            ],
+            "kind": "relational_integer",
+            "label": "0",
+            "node_id": 3,
+            "operand_readiness_corpus_stage": 300,
+            "operand_ready_at_corpus_stage": false,
+            "outgoing_edge_count": 0,
+            "p": 0,
+            "present": true,
+            "q": 1,
+            "status": "speculative"
+          },
+          "phase": {
+            "frac": "0",
+            "p": 0,
+            "q": 1
+          }
+        },
+        {
+          "external_u1_label": "i",
+          "graph_node": {
+            "confirmed_stage": null,
+            "first_edge_id": 57,
+            "first_stage": 4,
+            "graph_reading": "speculative_landing_not_operand",
+            "incoming_edge_count": 75,
+            "incoming_operation_counts": {
+              "*": 0,
+              "+": 0,
+              "-": 0,
+              "/": 75,
+              "seed": 0
+            },
+            "key": [
+              1,
+              4
+            ],
+            "kind": "rational",
+            "label": "1/4",
+            "node_id": 21,
+            "operand_readiness_corpus_stage": 300,
+            "operand_ready_at_corpus_stage": false,
+            "outgoing_edge_count": 0,
+            "p": 1,
+            "present": true,
+            "q": 4,
+            "status": "speculative"
+          },
+          "phase": {
+            "frac": "1/4",
+            "p": 1,
+            "q": 4
+          }
+        },
+        {
+          "external_u1_label": "-1",
+          "graph_node": {
+            "confirmed_stage": null,
+            "first_edge_id": 17,
+            "first_stage": 2,
+            "graph_reading": "speculative_landing_not_operand",
+            "incoming_edge_count": 150,
+            "incoming_operation_counts": {
+              "*": 0,
+              "+": 0,
+              "-": 0,
+              "/": 150,
+              "seed": 0
+            },
+            "key": [
+              1,
+              2
+            ],
+            "kind": "rational",
+            "label": "1/2",
+            "node_id": 7,
+            "operand_readiness_corpus_stage": 300,
+            "operand_ready_at_corpus_stage": false,
+            "outgoing_edge_count": 0,
+            "p": 1,
+            "present": true,
+            "q": 2,
+            "status": "speculative"
+          },
+          "phase": {
+            "frac": "1/2",
+            "p": 1,
+            "q": 2
+          }
+        },
+        {
+          "external_u1_label": "-i",
+          "graph_node": {
+            "confirmed_stage": null,
+            "first_edge_id": 65,
+            "first_stage": 4,
+            "graph_reading": "speculative_landing_not_operand",
+            "incoming_edge_count": 75,
+            "incoming_operation_counts": {
+              "*": 0,
+              "+": 0,
+              "-": 0,
+              "/": 75,
+              "seed": 0
+            },
+            "key": [
+              3,
+              4
+            ],
+            "kind": "rational",
+            "label": "3/4",
+            "node_id": 22,
+            "operand_readiness_corpus_stage": 300,
+            "operand_ready_at_corpus_stage": false,
+            "outgoing_edge_count": 0,
+            "p": 3,
+            "present": true,
+            "q": 4,
+            "status": "speculative"
+          },
+          "phase": {
+            "frac": "3/4",
+            "p": 3,
+            "q": 4
+          }
+        }
+      ]
+    },
+    "gaussian_pair_view": {
+      "external_norm_squared": 1,
+      "external_pair": {
+        "imag": 1,
+        "real": 0
+      },
+      "imaginary_component_node": {
+        "confirmed_stage": 1,
+        "first_edge_id": 1,
+        "first_stage": 1,
+        "graph_reading": "positive_spine_operand_available",
+        "incoming_edge_count": 601,
+        "incoming_operation_counts": {
+          "*": 1,
+          "+": 0,
+          "-": 299,
+          "/": 300,
+          "seed": 1
+        },
+        "key": [
+          1,
+          1
+        ],
+        "kind": "certainty",
+        "label": "1",
+        "node_id": 1,
+        "operand_readiness_corpus_stage": 300,
+        "operand_ready_at_corpus_stage": true,
+        "outgoing_edge_count": 2396,
+        "p": 1,
+        "present": true,
+        "q": 1,
+        "status": "certainty"
+      },
+      "pair_is_runtime_node": false,
+      "phase_to_pair_projection_edge": {
+        "present": false,
+        "reason": "the rational graph has no domain-tagged complex pair or projection-edge type"
+      },
+      "real_component_node": {
+        "confirmed_stage": null,
+        "first_edge_id": 3,
+        "first_stage": 1,
+        "graph_reading": "speculative_landing_not_operand",
+        "incoming_edge_count": 300,
+        "incoming_operation_counts": {
+          "*": 0,
+          "+": 0,
+          "-": 300,
+          "/": 0,
+          "seed": 0
+        },
+        "key": [
+          0,
+          1
+        ],
+        "kind": "relational_integer",
+        "label": "0",
+        "node_id": 3,
+        "operand_readiness_corpus_stage": 300,
+        "operand_ready_at_corpus_stage": false,
+        "outgoing_edge_count": 0,
+        "p": 0,
+        "present": true,
+        "q": 1,
+        "status": "speculative"
+      }
+    },
+    "i_squared_calibration": {
+      "external_complex_relation": "i * i = -1",
+      "external_phase_relation": "1/4 + 1/4 = 1/2 mod 1",
+      "graph_phase_addition": {
+        "blocker": "operand_not_positive_spine",
+        "candidate_stage": null,
+        "claim_id": "quarter_turn_phase_step",
+        "corpus_stage": 300,
+        "edge_count": 0,
+        "edge_refs": [],
+        "eligible_by_stage": false,
+        "expected_directed_edges": 1,
+        "first_edge_stage": null,
+        "missing_nodes": [],
+        "present": false,
+        "relation": "1/4 + 1/4 -> 1/2",
+        "stage_aperture": {
+          "blocker": "operand_not_positive_spine",
+          "candidate_stage": null,
+          "corpus_stage": 300,
+          "eligible_by_stage": false
+        },
+        "status": "absent"
+      },
+      "runtime_status": "not_a_graph_witnessed_complex_multiplication"
+    },
+    "quarter_turn": {
+      "direct_quotient_witness": {
+        "blocker": null,
+        "candidate_stage": 4,
+        "claim_id": "quarter_turn_direct_quotient",
+        "corpus_stage": 300,
+        "edge_count": 1,
+        "edge_refs": [
+          {
+            "edge_id": 57,
+            "stage": 4
+          }
+        ],
+        "eligible_by_stage": true,
+        "expected_directed_edges": 1,
+        "first_edge_stage": 4,
+        "missing_nodes": [],
+        "present": true,
+        "relation": "1 / 4 -> 1/4",
+        "stage_aperture": {
+          "blocker": null,
+          "candidate_stage": 4,
+          "corpus_stage": 300,
+          "eligible_by_stage": true
+        },
+        "status": "complete_directed"
+      },
+      "external_identity": "i",
+      "external_map": "exp(2*pi*i*1/4)",
+      "graph_node": {
+        "confirmed_stage": null,
+        "first_edge_id": 57,
+        "first_stage": 4,
+        "graph_reading": "speculative_landing_not_operand",
+        "incoming_edge_count": 75,
+        "incoming_operation_counts": {
+          "*": 0,
+          "+": 0,
+          "-": 0,
+          "/": 75,
+          "seed": 0
+        },
+        "key": [
+          1,
+          4
+        ],
+        "kind": "rational",
+        "label": "1/4",
+        "node_id": 21,
+        "operand_readiness_corpus_stage": 300,
+        "operand_ready_at_corpus_stage": false,
+        "outgoing_edge_count": 0,
+        "p": 1,
+        "present": true,
+        "q": 4,
+        "status": "speculative"
+      },
+      "phase": {
+        "frac": "1/4",
+        "p": 1,
+        "q": 4
+      }
+    },
+    "rational_multiplication_contrast": {
+      "graph": {
+        "blocker": "operand_not_positive_spine",
+        "candidate_stage": null,
+        "claim_id": "rational_multiplication_contrast",
+        "corpus_stage": 300,
+        "edge_count": 0,
+        "edge_refs": [],
+        "eligible_by_stage": false,
+        "expected_directed_edges": 1,
+        "first_edge_stage": null,
+        "missing_nodes": [],
+        "present": false,
+        "relation": "1/4 * 1/4 -> 1/16",
+        "stage_aperture": {
+          "blocker": "operand_not_positive_spine",
+          "candidate_stage": null,
+          "corpus_stage": 300,
+          "eligible_by_stage": false
+        },
+        "status": "absent"
+      },
+      "meaning": "Core rational multiplication of 1/4 by 1/4 targets 1/16; it must not be aliased to i*i."
+    },
+    "representation_status": "external_phase_and_pair_views_not_runtime_complex_number",
+    "unit_modulus_meaning": "absolute value 1 in U(1), not the one-class integer quotient Z/1Z"
+  },
+  "config": {
+    "center": "1/2",
+    "edge_limit": 4,
+    "hasse_terms": 64,
+    "ladder_terms": [
+      32,
+      48,
+      56,
+      60,
+      64
+    ],
+    "near_zero_tolerance": 1e-10,
+    "radius": "1/2",
+    "read_only": true,
+    "shell_max_integer": 8,
+    "stability_tolerance": 1e-12,
+    "t": 14.134725141734693,
+    "target_label": "first_nontrivial_zero_coordinate"
+  },
+  "corpus": {
+    "access_mode": "sqlite_read_only",
+    "alignment": {
+      "non_core_operand_edges": 0,
+      "operand_rule": "positive-spine strict corpus: only confirmed positive-spine iterations may be operands",
+      "speculative_input_edges": 0,
+      "speculative_nodes_are_operands": false,
+      "status": "pass"
+    },
+    "config": {
+      "generator": "strict_stage_moo_graph",
+      "max_abs_p": 1000000000,
+      "max_abs_q": 300,
+      "max_abs_value": 1000000000.0,
+      "max_stage": 300,
+      "retain_confirmed_edges": true
+    },
+    "edges": 360001,
+    "latest_stage": {
+      "candidate_events": 2396,
+      "elapsed_seconds": 0.08029100000021572,
+      "new_edges": 2396,
+      "new_nodes": 236,
+      "retained_events": 2396,
+      "stage": 300,
+      "total_edges": 360001,
+      "total_nodes": 78889
+    },
+    "nodes": 78889,
+    "schema_version": "1"
+  },
+  "exact_centered_geometry": {
+    "binary64_identity_errors": {
+      "critical_line_height_product_error": 0.0,
+      "fixed_point_error": 0.0,
+      "modulus_reciprocity_error": 0.0,
+      "s_involution_error": 0.0,
+      "u_conjugacy_error": 0.0,
+      "w_action_error": 2.2247786310271853e-16
+    },
+    "binary64_identity_tolerance": 1e-12,
+    "classification": "exact_centered_geometry_verified",
+    "coordinate_loci": {
+      "cayley_relation": "w=(u-1)/(u+1) and u=(1+w)/(1-w)",
+      "intersection_in_s_plane": "s=1/2+i/2 and s=1/2-i/2",
+      "u_unit_shell_in_s_plane": "abs(s-1/2)=1/2",
+      "u_unit_shell_in_w_plane": "Re(w)=0, including the projective infinity endpoint",
+      "w_unit_shell_in_s_plane": "Re(s)=1/2 in the extended plane; the finite Mobius action is defined on the punctured line s!=1/2",
+      "w_unit_shell_in_u_plane": "Re(u)=0, including the projective infinity endpoint",
+      "warning": "The centered circle and critical line are different invariant loci; modulus-one is coordinate-dependent, not Mobius-invariant language."
+    },
+    "exact_identities": {
+      "critical_line_action": "the finite punctured line s=1/2+it, t!=0, maps to itself by t->1/(4t); s=1/2 exchanges with projective infinity",
+      "endpoint_exchange": "0<->1 and 1/2<->infinity",
+      "functional_reflection_ratio_action": "w(1-s)=1/w(s)",
+      "modulus": "abs(J(u))=1/abs(u)",
+      "pointwise_fixed_units": "u=+i and u=-i",
+      "ratio_action": "w(I(s))=-1/w(s)",
+      "s_fixed_points": "s=1/2+i/2 and s=1/2-i/2"
+    },
+    "image": {
+      "s": {
+        "sigma": 0.5,
+        "sigma_binary64_hex": "0x1.0000000000000p-1",
+        "t": 0.0176869374885714,
+        "t_binary64_hex": "0x1.21c864851b9dap-6"
+      },
+      "u": {
+        "available": true,
+        "imag": 0.0353738749771428,
+        "magnitude": 0.0353738749771428,
+        "phase_turns": 0.25,
+        "real": 0.0
+      },
+      "w": {
+        "available": true,
+        "imag": 0.07065933315127747,
+        "magnitude": 1.0,
+        "phase_turns": 0.4887448388857599,
+        "real": -0.9975005055831385
+      }
+    },
+    "matrix_lift": {
+      "linear_lift_order": 4,
+      "projective_order": 2,
+      "reading": "The order-four homogeneous lift projects to an involution because a matrix and its negative define the same Mobius map.",
+      "representative_status": "order four belongs to the chosen real determinant-one representative; ordinary matrix order is not invariant under arbitrary complex scalar rescaling",
+      "s_matrix": [
+        [
+          1,
+          -1
+        ],
+        [
+          2,
+          -1
+        ]
+      ],
+      "s_matrix_square": [
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          -1
+        ]
+      ],
+      "u_matrix": [
+        [
+          0,
+          -1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "u_matrix_fourth_power": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "u_matrix_square": [
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          -1
+        ]
+      ]
+    },
+    "normalization": {
+      "center": {
+        "frac": "1/2",
+        "p": 1,
+        "q": 2
+      },
+      "inversion_s": "I(s)=(s-1)/(2s-1)",
+      "inversion_u": "J(u)=-1/u",
+      "radius": {
+        "frac": "1/2",
+        "p": 1,
+        "q": 2
+      },
+      "u_formula": "u=(s-1/2)/(1/2)=2s-1",
+      "w_formula": "w=(s-1)/s"
+    },
+    "source": {
+      "s": {
+        "sigma": 0.5,
+        "sigma_binary64_hex": "0x1.0000000000000p-1",
+        "t": 14.134725141734693,
+        "t_binary64_hex": "0x1.c44fab19b6621p+3"
+      },
+      "u": {
+        "available": true,
+        "imag": 28.269450283469386,
+        "magnitude": 28.269450283469386,
+        "phase_turns": 0.25,
+        "real": 0.0
+      },
+      "w": {
+        "available": true,
+        "imag": 0.07065933315127747,
+        "magnitude": 0.9999999999999999,
+        "phase_turns": 0.011255161114240065,
+        "real": 0.9975005055831384
+      }
+    }
+  },
+  "experiment_id": "centered_reciprocal_first_zero_u300_broad_v1",
+  "graph_shell_audit": {
+    "interaction_classification": "external_projection_only_insufficient_repeated_graph_witnesses",
+    "range": {
+      "n_max": 8,
+      "n_min": 1
+    },
+    "reading": "The current strict positive-spine corpus can witness the rational precursor 1/n. Under its aligned operand policy, the reciprocal landing and shell components are inspected rather than reused as operands, and this runtime has no complex-pair or Mobius edge type.",
+    "rows": [
+      {
+        "U_n": {
+          "imag": {
+            "frac": "1",
+            "p": 1,
+            "q": 1
+          },
+          "real": {
+            "frac": "0",
+            "p": 0,
+            "q": 1
+          }
+        },
+        "U_reciprocal_n": {
+          "imag": {
+            "frac": "1",
+            "p": 1,
+            "q": 1
+          },
+          "real": {
+            "frac": "0",
+            "p": 0,
+            "q": 1
+          }
+        },
+        "both_shell_points_component_nodes_present": true,
+        "direct_parameter_witness_and_both_shell_points_present": true,
+        "direct_unit_fraction_edge": {
+          "blocker": null,
+          "candidate_stage": 1,
+          "claim_id": "direct_unit_fraction",
+          "corpus_stage": 300,
+          "edge_count": 1,
+          "edge_refs": [
+            {
+              "edge_id": 5,
+              "stage": 1
+            }
+          ],
+          "eligible_by_stage": true,
+          "expected_directed_edges": 1,
+          "first_edge_stage": 1,
+          "missing_nodes": [],
+          "present": true,
+          "relation": "1 / 1 -> 1/1",
+          "stage_aperture": {
+            "blocker": null,
+            "candidate_stage": 1,
+            "corpus_stage": 300,
+            "eligible_by_stage": true
+          },
+          "status": "complete_directed"
+        },
+        "exact_shell_identity": true,
+        "n": 1,
+        "parameter_nodes": [
+          {
+            "confirmed_stage": 1,
+            "first_edge_id": 1,
+            "first_stage": 1,
+            "graph_reading": "positive_spine_operand_available",
+            "incoming_edge_count": 601,
+            "incoming_operation_counts": {
+              "*": 1,
+              "+": 0,
+              "-": 299,
+              "/": 300,
+              "seed": 1
+            },
+            "key": [
+              1,
+              1
+            ],
+            "kind": "certainty",
+            "label": "1",
+            "node_id": 1,
+            "operand_readiness_corpus_stage": 300,
+            "operand_ready_at_corpus_stage": true,
+            "outgoing_edge_count": 2396,
+            "p": 1,
+            "present": true,
+            "q": 1,
+            "status": "certainty"
+          },
+          {
+            "confirmed_stage": 1,
+            "first_edge_id": 1,
+            "first_stage": 1,
+            "graph_reading": "positive_spine_operand_available",
+            "incoming_edge_count": 601,
+            "incoming_operation_counts": {
+              "*": 1,
+              "+": 0,
+              "-": 299,
+              "/": 300,
+              "seed": 1
+            },
+            "key": [
+              1,
+              1
+            ],
+            "kind": "certainty",
+            "label": "1",
+            "node_id": 1,
+            "operand_readiness_corpus_stage": 300,
+            "operand_ready_at_corpus_stage": true,
+            "outgoing_edge_count": 2396,
+            "p": 1,
+            "present": true,
+            "q": 1,
+            "status": "certainty"
+          }
+        ],
+        "parameter_pair_present": true,
+        "real_component_opposition_edge": {
+          "blocker": "operand_not_positive_spine",
+          "candidate_stage": null,
+          "claim_id": "shell_real_component_opposition",
+          "corpus_stage": 300,
+          "edge_count": 0,
+          "edge_refs": [],
+          "eligible_by_stage": false,
+          "expected_directed_edges": 2,
+          "first_edge_stage": null,
+          "missing_nodes": [],
+          "present": false,
+          "relation": "-1 * 0 -> 0",
+          "stage_aperture": {
+            "blocker": "operand_not_positive_spine",
+            "candidate_stage": null,
+            "corpus_stage": 300,
+            "eligible_by_stage": false
+          },
+          "status": "absent"
+        },
+        "reciprocal_t": {
+          "frac": "1",
+          "p": 1,
+          "q": 1
+        },
+        "reverse_parameter_edge": {
+          "blocker": null,
+          "candidate_stage": 1,
+          "claim_id": "reverse_reciprocal_parameter",
+          "corpus_stage": 300,
+          "edge_count": 1,
+          "edge_refs": [
+            {
+              "edge_id": 5,
+              "stage": 1
+            }
+          ],
+          "eligible_by_stage": true,
+          "expected_directed_edges": 1,
+          "first_edge_stage": 1,
+          "missing_nodes": [],
+          "present": true,
+          "relation": "1 / (1/1) -> 1",
+          "stage_aperture": {
+            "blocker": null,
+            "candidate_stage": 1,
+            "corpus_stage": 300,
+            "eligible_by_stage": true
+          },
+          "status": "complete_directed"
+        },
+        "runtime_complex_pair_or_mobius_edge": false,
+        "shell_component_nodes": [
+          {
+            "confirmed_stage": null,
+            "first_edge_id": 3,
+            "first_stage": 1,
+            "graph_reading": "speculative_landing_not_operand",
+            "incoming_edge_count": 300,
+            "incoming_operation_counts": {
+              "*": 0,
+              "+": 0,
+              "-": 300,
+              "/": 0,
+              "seed": 0
+            },
+            "key": [
+              0,
+              1
+            ],
+            "kind": "relational_integer",
+            "label": "0",
+            "node_id": 3,
+            "operand_readiness_corpus_stage": 300,
+            "operand_ready_at_corpus_stage": false,
+            "outgoing_edge_count": 0,
+            "p": 0,
+            "present": true,
+            "q": 1,
+            "status": "speculative"
+          },
+          {
+            "confirmed_stage": 1,
+            "first_edge_id": 1,
+            "first_stage": 1,
+            "graph_reading": "positive_spine_operand_available",
+            "incoming_edge_count": 601,
+            "incoming_operation_counts": {
+              "*": 1,
+              "+": 0,
+              "-": 299,
+              "/": 300,
+              "seed": 1
+            },
+            "key": [
+              1,
+              1
+            ],
+            "kind": "certainty",
+            "label": "1",
+            "node_id": 1,
+            "operand_readiness_corpus_stage": 300,
+            "operand_ready_at_corpus_stage": true,
+            "outgoing_edge_count": 2396,
+            "p": 1,
+            "present": true,
+            "q": 1,
+            "status": "certainty"
+          },
+          {
+            "confirmed_stage": null,
+            "first_edge_id": 3,
+            "first_stage": 1,
+            "graph_reading": "speculative_landing_not_operand",
+            "incoming_edge_count": 300,
+            "incoming_operation_counts": {
+              "*": 0,
+              "+": 0,
+              "-": 300,
+              "/": 0,
+              "seed": 0
+            },
+            "key": [
+              0,
+              1
+            ],
+            "kind": "relational_integer",
+            "label": "0",
+            "node_id": 3,
+            "operand_readiness_corpus_stage": 300,
+            "operand_ready_at_corpus_stage": false,
+            "outgoing_edge_count": 0,
+            "p": 0,
+            "present": true,
+            "q": 1,
+            "status": "speculative"
+          },
+          {
+            "confirmed_stage": 1,
+            "first_edge_id": 1,
+            "first_stage": 1,
+            "graph_reading": "positive_spine_operand_available",
+            "incoming_edge_count": 601,
+            "incoming_operation_counts": {
+              "*": 1,
+              "+": 0,
+              "-": 299,
+              "/": 300,
+              "seed": 1
+            },
+            "key": [
+              1,
+              1
+            ],
+            "kind": "certainty",
+            "label": "1",
+            "node_id": 1,
+            "operand_readiness_corpus_stage": 300,
+            "operand_ready_at_corpus_stage": true,
+            "outgoing_edge_count": 2396,
+            "p": 1,
+            "present": true,
+            "q": 1,
+            "status": "certainty"
+          }
+        ],
+        "t": {
+          "frac": "1",
+          "p": 1,
+          "q": 1
+        }
+      },
+      {
+        "U_n": {
+          "imag": {
+            "frac": "4/5",
+            "p": 4,
+            "q": 5
+          },
+          "real": {
+            "frac": "-3/5",
+            "p": -3,
+            "q": 5
+          }
+        },
+        "U_reciprocal_n": {
+          "imag": {
+            "frac": "4/5",
+            "p": 4,
+            "q": 5
+          },
+          "real": {
+            "frac": "3/5",
+            "p": 3,
+            "q": 5
+          }
+        },
+        "both_shell_points_component_nodes_present": false,
+        "direct_parameter_witness_and_both_shell_points_present": false,
+        "direct_unit_fraction_edge": {
+          "blocker": null,
+          "candidate_stage": 2,
+          "claim_id": "direct_unit_fraction",
+          "corpus_stage": 300,
+          "edge_count": 1,
+          "edge_refs": [
+            {
+              "edge_id": 17,
+              "stage": 2
+            }
+          ],
+          "eligible_by_stage": true,
+          "expected_directed_edges": 1,
+          "first_edge_stage": 2,
+          "missing_nodes": [],
+          "present": true,
+          "relation": "1 / 2 -> 1/2",
+          "stage_aperture": {
+            "blocker": null,
+            "candidate_stage": 2,
+            "corpus_stage": 300,
+            "eligible_by_stage": true
+          },
+          "status": "complete_directed"
+        },
+        "exact_shell_identity": true,
+        "n": 2,
+        "parameter_nodes": [
+          {
+            "confirmed_stage": 2,
+            "first_edge_id": 2,
+            "first_stage": 1,
+            "graph_reading": "positive_spine_operand_available",
+            "incoming_edge_count": 451,
+            "incoming_operation_counts": {
+              "*": 2,
+              "+": 1,
+              "-": 298,
+              "/": 150,
+              "seed": 0
+            },
+            "key": [
+              2,
+              1
+            ],
+            "kind": "positive_integer",
+            "label": "2",
+            "node_id": 2,
+            "operand_readiness_corpus_stage": 300,
+            "operand_ready_at_corpus_stage": true,
+            "outgoing_edge_count": 2396,
+            "p": 2,
+            "present": true,
+            "q": 1,
+            "status": "speculative_until_confirmed"
+          },
+          {
+            "confirmed_stage": null,
+            "first_edge_id": 17,
+            "first_stage": 2,
+            "graph_reading": "speculative_landing_not_operand",
+            "incoming_edge_count": 150,
+            "incoming_operation_counts": {
+              "*": 0,
+              "+": 0,
+              "-": 0,
+              "/": 150,
+              "seed": 0
+            },
+            "key": [
+              1,
+              2
+            ],
+            "kind": "rational",
+            "label": "1/2",
+            "node_id": 7,
+            "operand_readiness_corpus_stage": 300,
+            "operand_ready_at_corpus_stage": false,
+            "outgoing_edge_count": 0,
+            "p": 1,
+            "present": true,
+            "q": 2,
+            "status": "speculative"
+          }
+        ],
+        "parameter_pair_present": true,
+        "real_component_opposition_edge": {
+          "blocker": "missing_nodes",
+          "candidate_stage": null,
+          "claim_id": "shell_real_component_opposition",
+          "corpus_stage": 300,
+          "edge_count": 0,
+          "edge_refs": [],
+          "eligible_by_stage": false,
+          "expected_directed_edges": 2,
+          "first_edge_stage": null,
+          "missing_nodes": [
+            "result"
+          ],
+          "present": false,
+          "relation": "-1 * 3/5 -> -3/5",
+          "stage_aperture": {
+            "blocker": "operand_not_positive_spine",
+            "candidate_stage": null,
+            "corpus_stage": 300,
+            "eligible_by_stage": false
+          },
+          "status": "absent"
+        },
+        "reciprocal_t": {
+          "frac": "1/2",
+          "p": 1,
+          "q": 2
+        },
+        "reverse_parameter_edge": {
+          "blocker": "operand_not_positive_spine",
+          "candidate_stage": null,
+          "claim_id": "reverse_reciprocal_parameter",
+          "corpus_stage": 300,
+          "edge_count": 0,
+          "edge_refs": [],
+          "eligible_by_stage": false,
+          "expected_directed_edges": 1,
+          "first_edge_stage": null,
+          "missing_nodes": [],
+          "present": false,
+          "relation": "1 / (1/2) -> 2",
+          "stage_aperture": {
+            "blocker": "operand_not_positive_spine",
+            "candidate_stage": null,
+            "corpus_stage": 300,
+            "eligible_by_stage": false
+          },
+          "status": "absent"
+        },
+        "runtime_complex_pair_or_mobius_edge": false,
+        "shell_component_nodes": [
+          {
+            "graph_reading": "not_present_in_selected_corpus",
+            "key": [
+              -3,
+              5
+            ],
+            "label": "-3/5",
+            "p": -3,
+            "present": false,
+            "q": 5
+          },
+          {
+            "confirmed_stage": null,
+            "first_edge_id": 101,
+            "first_stage": 5,
+            "graph_reading": "speculative_landing_not_operand",
+            "incoming_edge_count": 60,
+            "incoming_operation_counts": {
+              "*": 0,
+              "+": 0,
+              "-": 0,
+              "/": 60,
+              "seed": 0
+            },
+            "key": [
+              4,
+              5
+            ],
+            "kind": "rational",
+            "label": "4/5",
+            "node_id": 34,
+            "operand_readiness_corpus_stage": 300,
+            "operand_ready_at_corpus_stage": false,
+            "outgoing_edge_count": 0,
+            "p": 4,
+            "present": true,
+            "q": 5,
+            "status": "speculative"
+          },
+          {
+            "confirmed_stage": null,
+            "first_edge_id": 97,
+            "first_stage": 5,
+            "graph_reading": "speculative_landing_not_operand",
+            "incoming_edge_count": 60,
+            "incoming_operation_counts": {
+              "*": 0,
+              "+": 0,
+              "-": 0,
+              "/": 60,
+              "seed": 0
+            },
+            "key": [
+              3,
+              5
+            ],
+            "kind": "rational",
+            "label": "3/5",
+            "node_id": 33,
+            "operand_readiness_corpus_stage": 300,
+            "operand_ready_at_corpus_stage": false,
+            "outgoing_edge_count": 0,
+            "p": 3,
+            "present": true,
+            "q": 5,
+            "status": "speculative"
+          },
+          {
+            "confirmed_stage": null,
+            "first_edge_id": 101,
+            "first_stage": 5,
+            "graph_reading": "speculative_landing_not_operand",
+            "incoming_edge_count": 60,
+            "incoming_operation_counts": {
+              "*": 0,
+              "+": 0,
+              "-": 0,
+              "/": 60,
+              "seed": 0
+            },
+            "key": [
+              4,
+              5
+            ],
+            "kind": "rational",
+            "label": "4/5",
+            "node_id": 34,
+            "operand_readiness_corpus_stage": 300,
+            "operand_ready_at_corpus_stage": false,
+            "outgoing_edge_count": 0,
+            "p": 4,
+            "present": true,
+            "q": 5,
+            "status": "speculative"
+          }
+        ],
+        "t": {
+          "frac": "2",
+          "p": 2,
+          "q": 1
+        }
+      },
+      {
+        "U_n": {
+          "imag": {
+            "frac": "3/5",
+            "p": 3,
+            "q": 5
+          },
+          "real": {
+            "frac": "-4/5",
+            "p": -4,
+            "q": 5
+          }
+        },
+        "U_reciprocal_n": {
+          "imag": {
+            "frac": "3/5",
+            "p": 3,
+            "q": 5
+          },
+          "real": {
+            "frac": "4/5",
+            "p": 4,
+            "q": 5
+          }
+        },
+        "both_shell_points_component_nodes_present": false,
+        "direct_parameter_witness_and_both_shell_points_present": false,
+        "direct_unit_fraction_edge": {
+          "blocker": null,
+          "candidate_stage": 3,
+          "claim_id": "direct_unit_fraction",
+          "corpus_stage": 300,
+          "edge_count": 1,
+          "edge_refs": [
+            {
+              "edge_id": 33,
+              "stage": 3
+            }
+          ],
+          "eligible_by_stage": true,
+          "expected_directed_edges": 1,
+          "first_edge_stage": 3,
+          "missing_nodes": [],
+          "present": true,
+          "relation": "1 / 3 -> 1/3",
+          "stage_aperture": {
+            "blocker": null,
+            "candidate_stage": 3,
+            "corpus_stage": 300,
+            "eligible_by_stage": true
+          },
+          "status": "complete_directed"
+        },
+        "exact_shell_identity": true,
+        "n": 3,
+        "parameter_nodes": [
+          {
+            "confirmed_stage": 3,
+            "first_edge_id": 6,
+            "first_stage": 2,
+            "graph_reading": "positive_spine_operand_available",
+            "incoming_edge_count": 401,
+            "incoming_operation_counts": {
+              "*": 2,
+              "+": 2,
+              "-": 297,
+              "/": 100,
+              "seed": 0
+            },
+            "key": [
+              3,
+              1
+            ],
+            "kind": "positive_integer",
+            "label": "3",
+            "node_id": 4,
+            "operand_readiness_corpus_stage": 300,
+            "operand_ready_at_corpus_stage": true,
+            "outgoing_edge_count": 2396,
+            "p": 3,
+            "present": true,
+            "q": 1,
+            "status": "speculative_until_confirmed"
+          },
+          {
+            "confirmed_stage": null,
+            "first_edge_id": 33,
+            "first_stage": 3,
+            "graph_reading": "speculative_landing_not_operand",
+            "incoming_edge_count": 100,
+            "incoming_operation_counts": {
+              "*": 0,
+              "+": 0,
+              "-": 0,
+              "/": 100,
+              "seed": 0
+            },
+            "key": [
+              1,
+              3
+            ],
+            "kind": "rational",
+            "label": "1/3",
+            "node_id": 13,
+            "operand_readiness_corpus_stage": 300,
+            "operand_ready_at_corpus_stage": false,
+            "outgoing_edge_count": 0,
+            "p": 1,
+            "present": true,
+            "q": 3,
+            "status": "speculative"
+          }
+        ],
+        "parameter_pair_present": true,
+        "real_component_opposition_edge": {
+          "blocker": "missing_nodes",
+          "candidate_stage": null,
+          "claim_id": "shell_real_component_opposition",
+          "corpus_stage": 300,
+          "edge_count": 0,
+          "edge_refs": [],
+          "eligible_by_stage": false,
+          "expected_directed_edges": 2,
+          "first_edge_stage": null,
+          "missing_nodes": [
+            "result"
+          ],
+          "present": false,
+          "relation": "-1 * 4/5 -> -4/5",
+          "stage_aperture": {
+            "blocker": "operand_not_positive_spine",
+            "candidate_stage": null,
+            "corpus_stage": 300,
+            "eligible_by_stage": false
+          },
+          "status": "absent"
+        },
+        "reciprocal_t": {
+          "frac": "1/3",
+          "p": 1,
+          "q": 3
+        },
+        "reverse_parameter_edge": {
+          "blocker": "operand_not_positive_spine",
+          "candidate_stage": null,
+          "claim_id": "reverse_reciprocal_parameter",
+          "corpus_stage": 300,
+          "edge_count": 0,
+          "edge_refs": [],
+          "eligible_by_stage": false,
+          "expected_directed_edges": 1,
+          "first_edge_stage": null,
+          "missing_nodes": [],
+          "present": false,
+          "relation": "1 / (1/3) -> 3",
+          "stage_aperture": {
+            "blocker": "operand_not_positive_spine",
+            "candidate_stage": null,
+            "corpus_stage": 300,
+            "eligible_by_stage": false
+          },
+          "status": "absent"
+        },
+        "runtime_complex_pair_or_mobius_edge": false,
+        "shell_component_nodes": [
+          {
+            "graph_reading": "not_present_in_selected_corpus",
+            "key": [
+              -4,
+              5
+            ],
+            "label": "-4/5",
+            "p": -4,
+            "present": false,
+            "q": 5
+          },
+          {
+            "confirmed_stage": null,
+            "first_edge_id": 97,
+            "first_stage": 5,
+            "graph_reading": "speculative_landing_not_operand",
+            "incoming_edge_count": 60,
+            "incoming_operation_counts": {
+              "*": 0,
+              "+": 0,
+              "-": 0,
+              "/": 60,
+              "seed": 0
+            },
+            "key": [
+              3,
+              5
+            ],
+            "kind": "rational",
+            "label": "3/5",
+            "node_id": 33,
+            "operand_readiness_corpus_stage": 300,
+            "operand_ready_at_corpus_stage": false,
+            "outgoing_edge_count": 0,
+            "p": 3,
+            "present": true,
+            "q": 5,
+            "status": "speculative"
+          },
+          {
+            "confirmed_stage": null,
+            "first_edge_id": 101,
+            "first_stage": 5,
+            "graph_reading": "speculative_landing_not_operand",
+            "incoming_edge_count": 60,
+            "incoming_operation_counts": {
+              "*": 0,
+              "+": 0,
+              "-": 0,
+              "/": 60,
+              "seed": 0
+            },
+            "key": [
+              4,
+              5
+            ],
+            "kind": "rational",
+            "label": "4/5",
+            "node_id": 34,
+            "operand_readiness_corpus_stage": 300,
+            "operand_ready_at_corpus_stage": false,
+            "outgoing_edge_count": 0,
+            "p": 4,
+            "present": true,
+            "q": 5,
+            "status": "speculative"
+          },
+          {
+            "confirmed_stage": null,
+            "first_edge_id": 97,
+            "first_stage": 5,
+            "graph_reading": "speculative_landing_not_operand",
+            "incoming_edge_count": 60,
+            "incoming_operation_counts": {
+              "*": 0,
+              "+": 0,
+              "-": 0,
+              "/": 60,
+              "seed": 0
+            },
+            "key": [
+              3,
+              5
+            ],
+            "kind": "rational",
+            "label": "3/5",
+            "node_id": 33,
+            "operand_readiness_corpus_stage": 300,
+            "operand_ready_at_corpus_stage": false,
+            "outgoing_edge_count": 0,
+            "p": 3,
+            "present": true,
+            "q": 5,
+            "status": "speculative"
+          }
+        ],
+        "t": {
+          "frac": "3",
+          "p": 3,
+          "q": 1
+        }
+      },
+      {
+        "U_n": {
+          "imag": {
+            "frac": "8/17",
+            "p": 8,
+            "q": 17
+          },
+          "real": {
+            "frac": "-15/17",
+            "p": -15,
+            "q": 17
+          }
+        },
+        "U_reciprocal_n": {
+          "imag": {
+            "frac": "8/17",
+            "p": 8,
+            "q": 17
+          },
+          "real": {
+            "frac": "15/17",
+            "p": 15,
+            "q": 17
+          }
+        },
+        "both_shell_points_component_nodes_present": false,
+        "direct_parameter_witness_and_both_shell_points_present": false,
+        "direct_unit_fraction_edge": {
+          "blocker": null,
+          "candidate_stage": 4,
+          "claim_id": "direct_unit_fraction",
+          "corpus_stage": 300,
+          "edge_count": 1,
+          "edge_refs": [
+            {
+              "edge_id": 57,
+              "stage": 4
+            }
+          ],
+          "eligible_by_stage": true,
+          "expected_directed_edges": 1,
+          "first_edge_stage": 4,
+          "missing_nodes": [],
+          "present": true,
+          "relation": "1 / 4 -> 1/4",
+          "stage_aperture": {
+            "blocker": null,
+            "candidate_stage": 4,
+            "corpus_stage": 300,
+            "eligible_by_stage": true
+          },
+          "status": "complete_directed"
+        },
+        "exact_shell_identity": true,
+        "n": 4,
+        "parameter_nodes": [
+          {
+            "confirmed_stage": 4,
+            "first_edge_id": 10,
+            "first_stage": 2,
+            "graph_reading": "positive_spine_operand_available",
+            "incoming_edge_count": 377,
+            "incoming_operation_counts": {
+              "*": 3,
+              "+": 3,
+              "-": 296,
+              "/": 75,
+              "seed": 0
+            },
+            "key": [
+              4,
+              1
+            ],
+            "kind": "positive_integer",
+            "label": "4",
+            "node_id": 5,
+            "operand_readiness_corpus_stage": 300,
+            "operand_ready_at_corpus_stage": true,
+            "outgoing_edge_count": 2396,
+            "p": 4,
+            "present": true,
+            "q": 1,
+            "status": "speculative_until_confirmed"
+          },
+          {
+            "confirmed_stage": null,
+            "first_edge_id": 57,
+            "first_stage": 4,
+            "graph_reading": "speculative_landing_not_operand",
+            "incoming_edge_count": 75,
+            "incoming_operation_counts": {
+              "*": 0,
+              "+": 0,
+              "-": 0,
+              "/": 75,
+              "seed": 0
+            },
+            "key": [
+              1,
+              4
+            ],
+            "kind": "rational",
+            "label": "1/4",
+            "node_id": 21,
+            "operand_readiness_corpus_stage": 300,
+            "operand_ready_at_corpus_stage": false,
+            "outgoing_edge_count": 0,
+            "p": 1,
+            "present": true,
+            "q": 4,
+            "status": "speculative"
+          }
+        ],
+        "parameter_pair_present": true,
+        "real_component_opposition_edge": {
+          "blocker": "missing_nodes",
+          "candidate_stage": null,
+          "claim_id": "shell_real_component_opposition",
+          "corpus_stage": 300,
+          "edge_count": 0,
+          "edge_refs": [],
+          "eligible_by_stage": false,
+          "expected_directed_edges": 2,
+          "first_edge_stage": null,
+          "missing_nodes": [
+            "result"
+          ],
+          "present": false,
+          "relation": "-1 * 15/17 -> -15/17",
+          "stage_aperture": {
+            "blocker": "operand_not_positive_spine",
+            "candidate_stage": null,
+            "corpus_stage": 300,
+            "eligible_by_stage": false
+          },
+          "status": "absent"
+        },
+        "reciprocal_t": {
+          "frac": "1/4",
+          "p": 1,
+          "q": 4
+        },
+        "reverse_parameter_edge": {
+          "blocker": "operand_not_positive_spine",
+          "candidate_stage": null,
+          "claim_id": "reverse_reciprocal_parameter",
+          "corpus_stage": 300,
+          "edge_count": 0,
+          "edge_refs": [],
+          "eligible_by_stage": false,
+          "expected_directed_edges": 1,
+          "first_edge_stage": null,
+          "missing_nodes": [],
+          "present": false,
+          "relation": "1 / (1/4) -> 4",
+          "stage_aperture": {
+            "blocker": "operand_not_positive_spine",
+            "candidate_stage": null,
+            "corpus_stage": 300,
+            "eligible_by_stage": false
+          },
+          "status": "absent"
+        },
+        "runtime_complex_pair_or_mobius_edge": false,
+        "shell_component_nodes": [
+          {
+            "graph_reading": "not_present_in_selected_corpus",
+            "key": [
+              -15,
+              17
+            ],
+            "label": "-15/17",
+            "p": -15,
+            "present": false,
+            "q": 17
+          },
+          {
+            "confirmed_stage": null,
+            "first_edge_id": 1125,
+            "first_stage": 17,
+            "graph_reading": "speculative_landing_not_operand",
+            "incoming_edge_count": 17,
+            "incoming_operation_counts": {
+              "*": 0,
+              "+": 0,
+              "-": 0,
+              "/": 17,
+              "seed": 0
+            },
+            "key": [
+              8,
+              17
+            ],
+            "kind": "rational",
+            "label": "8/17",
+            "node_id": 301,
+            "operand_readiness_corpus_stage": 300,
+            "operand_ready_at_corpus_stage": false,
+            "outgoing_edge_count": 0,
+            "p": 8,
+            "present": true,
+            "q": 17,
+            "status": "speculative"
+          },
+          {
+            "confirmed_stage": null,
+            "first_edge_id": 1153,
+            "first_stage": 17,
+            "graph_reading": "speculative_landing_not_operand",
+            "incoming_edge_count": 17,
+            "incoming_operation_counts": {
+              "*": 0,
+              "+": 0,
+              "-": 0,
+              "/": 17,
+              "seed": 0
+            },
+            "key": [
+              15,
+              17
+            ],
+            "kind": "rational",
+            "label": "15/17",
+            "node_id": 308,
+            "operand_readiness_corpus_stage": 300,
+            "operand_ready_at_corpus_stage": false,
+            "outgoing_edge_count": 0,
+            "p": 15,
+            "present": true,
+            "q": 17,
+            "status": "speculative"
+          },
+          {
+            "confirmed_stage": null,
+            "first_edge_id": 1125,
+            "first_stage": 17,
+            "graph_reading": "speculative_landing_not_operand",
+            "incoming_edge_count": 17,
+            "incoming_operation_counts": {
+              "*": 0,
+              "+": 0,
+              "-": 0,
+              "/": 17,
+              "seed": 0
+            },
+            "key": [
+              8,
+              17
+            ],
+            "kind": "rational",
+            "label": "8/17",
+            "node_id": 301,
+            "operand_readiness_corpus_stage": 300,
+            "operand_ready_at_corpus_stage": false,
+            "outgoing_edge_count": 0,
+            "p": 8,
+            "present": true,
+            "q": 17,
+            "status": "speculative"
+          }
+        ],
+        "t": {
+          "frac": "4",
+          "p": 4,
+          "q": 1
+        }
+      },
+      {
+        "U_n": {
+          "imag": {
+            "frac": "5/13",
+            "p": 5,
+            "q": 13
+          },
+          "real": {
+            "frac": "-12/13",
+            "p": -12,
+            "q": 13
+          }
+        },
+        "U_reciprocal_n": {
+          "imag": {
+            "frac": "5/13",
+            "p": 5,
+            "q": 13
+          },
+          "real": {
+            "frac": "12/13",
+            "p": 12,
+            "q": 13
+          }
+        },
+        "both_shell_points_component_nodes_present": false,
+        "direct_parameter_witness_and_both_shell_points_present": false,
+        "direct_unit_fraction_edge": {
+          "blocker": null,
+          "candidate_stage": 5,
+          "claim_id": "direct_unit_fraction",
+          "corpus_stage": 300,
+          "edge_count": 1,
+          "edge_refs": [
+            {
+              "edge_id": 89,
+              "stage": 5
+            }
+          ],
+          "eligible_by_stage": true,
+          "expected_directed_edges": 1,
+          "first_edge_stage": 5,
+          "missing_nodes": [],
+          "present": true,
+          "relation": "1 / 5 -> 1/5",
+          "stage_aperture": {
+            "blocker": null,
+            "candidate_stage": 5,
+            "corpus_stage": 300,
+            "eligible_by_stage": true
+          },
+          "status": "complete_directed"
+        },
+        "exact_shell_identity": true,
+        "n": 5,
+        "parameter_nodes": [
+          {
+            "confirmed_stage": 5,
+            "first_edge_id": 22,
+            "first_stage": 3,
+            "graph_reading": "positive_spine_operand_available",
+            "incoming_edge_count": 361,
+            "incoming_operation_counts": {
+              "*": 2,
+              "+": 4,
+              "-": 295,
+              "/": 60,
+              "seed": 0
+            },
+            "key": [
+              5,
+              1
+            ],
+            "kind": "positive_integer",
+            "label": "5",
+            "node_id": 8,
+            "operand_readiness_corpus_stage": 300,
+            "operand_ready_at_corpus_stage": true,
+            "outgoing_edge_count": 2396,
+            "p": 5,
+            "present": true,
+            "q": 1,
+            "status": "speculative_until_confirmed"
+          },
+          {
+            "confirmed_stage": null,
+            "first_edge_id": 89,
+            "first_stage": 5,
+            "graph_reading": "speculative_landing_not_operand",
+            "incoming_edge_count": 60,
+            "incoming_operation_counts": {
+              "*": 0,
+              "+": 0,
+              "-": 0,
+              "/": 60,
+              "seed": 0
+            },
+            "key": [
+              1,
+              5
+            ],
+            "kind": "rational",
+            "label": "1/5",
+            "node_id": 31,
+            "operand_readiness_corpus_stage": 300,
+            "operand_ready_at_corpus_stage": false,
+            "outgoing_edge_count": 0,
+            "p": 1,
+            "present": true,
+            "q": 5,
+            "status": "speculative"
+          }
+        ],
+        "parameter_pair_present": true,
+        "real_component_opposition_edge": {
+          "blocker": "missing_nodes",
+          "candidate_stage": null,
+          "claim_id": "shell_real_component_opposition",
+          "corpus_stage": 300,
+          "edge_count": 0,
+          "edge_refs": [],
+          "eligible_by_stage": false,
+          "expected_directed_edges": 2,
+          "first_edge_stage": null,
+          "missing_nodes": [
+            "result"
+          ],
+          "present": false,
+          "relation": "-1 * 12/13 -> -12/13",
+          "stage_aperture": {
+            "blocker": "operand_not_positive_spine",
+            "candidate_stage": null,
+            "corpus_stage": 300,
+            "eligible_by_stage": false
+          },
+          "status": "absent"
+        },
+        "reciprocal_t": {
+          "frac": "1/5",
+          "p": 1,
+          "q": 5
+        },
+        "reverse_parameter_edge": {
+          "blocker": "operand_not_positive_spine",
+          "candidate_stage": null,
+          "claim_id": "reverse_reciprocal_parameter",
+          "corpus_stage": 300,
+          "edge_count": 0,
+          "edge_refs": [],
+          "eligible_by_stage": false,
+          "expected_directed_edges": 1,
+          "first_edge_stage": null,
+          "missing_nodes": [],
+          "present": false,
+          "relation": "1 / (1/5) -> 5",
+          "stage_aperture": {
+            "blocker": "operand_not_positive_spine",
+            "candidate_stage": null,
+            "corpus_stage": 300,
+            "eligible_by_stage": false
+          },
+          "status": "absent"
+        },
+        "runtime_complex_pair_or_mobius_edge": false,
+        "shell_component_nodes": [
+          {
+            "graph_reading": "not_present_in_selected_corpus",
+            "key": [
+              -12,
+              13
+            ],
+            "label": "-12/13",
+            "p": -12,
+            "present": false,
+            "q": 13
+          },
+          {
+            "confirmed_stage": null,
+            "first_edge_id": 649,
+            "first_stage": 13,
+            "graph_reading": "speculative_landing_not_operand",
+            "incoming_edge_count": 23,
+            "incoming_operation_counts": {
+              "*": 0,
+              "+": 0,
+              "-": 0,
+              "/": 23,
+              "seed": 0
+            },
+            "key": [
+              5,
+              13
+            ],
+            "kind": "rational",
+            "label": "5/13",
+            "node_id": 183,
+            "operand_readiness_corpus_stage": 300,
+            "operand_ready_at_corpus_stage": false,
+            "outgoing_edge_count": 0,
+            "p": 5,
+            "present": true,
+            "q": 13,
+            "status": "speculative"
+          },
+          {
+            "confirmed_stage": null,
+            "first_edge_id": 677,
+            "first_stage": 13,
+            "graph_reading": "speculative_landing_not_operand",
+            "incoming_edge_count": 23,
+            "incoming_operation_counts": {
+              "*": 0,
+              "+": 0,
+              "-": 0,
+              "/": 23,
+              "seed": 0
+            },
+            "key": [
+              12,
+              13
+            ],
+            "kind": "rational",
+            "label": "12/13",
+            "node_id": 190,
+            "operand_readiness_corpus_stage": 300,
+            "operand_ready_at_corpus_stage": false,
+            "outgoing_edge_count": 0,
+            "p": 12,
+            "present": true,
+            "q": 13,
+            "status": "speculative"
+          },
+          {
+            "confirmed_stage": null,
+            "first_edge_id": 649,
+            "first_stage": 13,
+            "graph_reading": "speculative_landing_not_operand",
+            "incoming_edge_count": 23,
+            "incoming_operation_counts": {
+              "*": 0,
+              "+": 0,
+              "-": 0,
+              "/": 23,
+              "seed": 0
+            },
+            "key": [
+              5,
+              13
+            ],
+            "kind": "rational",
+            "label": "5/13",
+            "node_id": 183,
+            "operand_readiness_corpus_stage": 300,
+            "operand_ready_at_corpus_stage": false,
+            "outgoing_edge_count": 0,
+            "p": 5,
+            "present": true,
+            "q": 13,
+            "status": "speculative"
+          }
+        ],
+        "t": {
+          "frac": "5",
+          "p": 5,
+          "q": 1
+        }
+      },
+      {
+        "U_n": {
+          "imag": {
+            "frac": "12/37",
+            "p": 12,
+            "q": 37
+          },
+          "real": {
+            "frac": "-35/37",
+            "p": -35,
+            "q": 37
+          }
+        },
+        "U_reciprocal_n": {
+          "imag": {
+            "frac": "12/37",
+            "p": 12,
+            "q": 37
+          },
+          "real": {
+            "frac": "35/37",
+            "p": 35,
+            "q": 37
+          }
+        },
+        "both_shell_points_component_nodes_present": false,
+        "direct_parameter_witness_and_both_shell_points_present": false,
+        "direct_unit_fraction_edge": {
+          "blocker": null,
+          "candidate_stage": 6,
+          "claim_id": "direct_unit_fraction",
+          "corpus_stage": 300,
+          "edge_count": 1,
+          "edge_refs": [
+            {
+              "edge_id": 129,
+              "stage": 6
+            }
+          ],
+          "eligible_by_stage": true,
+          "expected_directed_edges": 1,
+          "first_edge_stage": 6,
+          "missing_nodes": [],
+          "present": true,
+          "relation": "1 / 6 -> 1/6",
+          "stage_aperture": {
+            "blocker": null,
+            "candidate_stage": 6,
+            "corpus_stage": 300,
+            "eligible_by_stage": true
+          },
+          "status": "complete_directed"
+        },
+        "exact_shell_identity": true,
+        "n": 6,
+        "parameter_nodes": [
+          {
+            "confirmed_stage": 6,
+            "first_edge_id": 24,
+            "first_stage": 3,
+            "graph_reading": "positive_spine_operand_available",
+            "incoming_edge_count": 353,
+            "incoming_operation_counts": {
+              "*": 4,
+              "+": 5,
+              "-": 294,
+              "/": 50,
+              "seed": 0
+            },
+            "key": [
+              6,
+              1
+            ],
+            "kind": "positive_integer",
+            "label": "6",
+            "node_id": 9,
+            "operand_readiness_corpus_stage": 300,
+            "operand_ready_at_corpus_stage": true,
+            "outgoing_edge_count": 2396,
+            "p": 6,
+            "present": true,
+            "q": 1,
+            "status": "speculative_until_confirmed"
+          },
+          {
+            "confirmed_stage": null,
+            "first_edge_id": 129,
+            "first_stage": 6,
+            "graph_reading": "speculative_landing_not_operand",
+            "incoming_edge_count": 50,
+            "incoming_operation_counts": {
+              "*": 0,
+              "+": 0,
+              "-": 0,
+              "/": 50,
+              "seed": 0
+            },
+            "key": [
+              1,
+              6
+            ],
+            "kind": "rational",
+            "label": "1/6",
+            "node_id": 42,
+            "operand_readiness_corpus_stage": 300,
+            "operand_ready_at_corpus_stage": false,
+            "outgoing_edge_count": 0,
+            "p": 1,
+            "present": true,
+            "q": 6,
+            "status": "speculative"
+          }
+        ],
+        "parameter_pair_present": true,
+        "real_component_opposition_edge": {
+          "blocker": "missing_nodes",
+          "candidate_stage": null,
+          "claim_id": "shell_real_component_opposition",
+          "corpus_stage": 300,
+          "edge_count": 0,
+          "edge_refs": [],
+          "eligible_by_stage": false,
+          "expected_directed_edges": 2,
+          "first_edge_stage": null,
+          "missing_nodes": [
+            "result"
+          ],
+          "present": false,
+          "relation": "-1 * 35/37 -> -35/37",
+          "stage_aperture": {
+            "blocker": "operand_not_positive_spine",
+            "candidate_stage": null,
+            "corpus_stage": 300,
+            "eligible_by_stage": false
+          },
+          "status": "absent"
+        },
+        "reciprocal_t": {
+          "frac": "1/6",
+          "p": 1,
+          "q": 6
+        },
+        "reverse_parameter_edge": {
+          "blocker": "operand_not_positive_spine",
+          "candidate_stage": null,
+          "claim_id": "reverse_reciprocal_parameter",
+          "corpus_stage": 300,
+          "edge_count": 0,
+          "edge_refs": [],
+          "eligible_by_stage": false,
+          "expected_directed_edges": 1,
+          "first_edge_stage": null,
+          "missing_nodes": [],
+          "present": false,
+          "relation": "1 / (1/6) -> 6",
+          "stage_aperture": {
+            "blocker": "operand_not_positive_spine",
+            "candidate_stage": null,
+            "corpus_stage": 300,
+            "eligible_by_stage": false
+          },
+          "status": "absent"
+        },
+        "runtime_complex_pair_or_mobius_edge": false,
+        "shell_component_nodes": [
+          {
+            "graph_reading": "not_present_in_selected_corpus",
+            "key": [
+              -35,
+              37
+            ],
+            "label": "-35/37",
+            "p": -35,
+            "present": false,
+            "q": 37
+          },
+          {
+            "confirmed_stage": null,
+            "first_edge_id": 5381,
+            "first_stage": 37,
+            "graph_reading": "speculative_landing_not_operand",
+            "incoming_edge_count": 8,
+            "incoming_operation_counts": {
+              "*": 0,
+              "+": 0,
+              "-": 0,
+              "/": 8,
+              "seed": 0
+            },
+            "key": [
+              12,
+              37
+            ],
+            "kind": "rational",
+            "label": "12/37",
+            "node_id": 1308,
+            "operand_readiness_corpus_stage": 300,
+            "operand_ready_at_corpus_stage": false,
+            "outgoing_edge_count": 0,
+            "p": 12,
+            "present": true,
+            "q": 37,
+            "status": "speculative"
+          },
+          {
+            "confirmed_stage": null,
+            "first_edge_id": 5473,
+            "first_stage": 37,
+            "graph_reading": "speculative_landing_not_operand",
+            "incoming_edge_count": 8,
+            "incoming_operation_counts": {
+              "*": 0,
+              "+": 0,
+              "-": 0,
+              "/": 8,
+              "seed": 0
+            },
+            "key": [
+              35,
+              37
+            ],
+            "kind": "rational",
+            "label": "35/37",
+            "node_id": 1331,
+            "operand_readiness_corpus_stage": 300,
+            "operand_ready_at_corpus_stage": false,
+            "outgoing_edge_count": 0,
+            "p": 35,
+            "present": true,
+            "q": 37,
+            "status": "speculative"
+          },
+          {
+            "confirmed_stage": null,
+            "first_edge_id": 5381,
+            "first_stage": 37,
+            "graph_reading": "speculative_landing_not_operand",
+            "incoming_edge_count": 8,
+            "incoming_operation_counts": {
+              "*": 0,
+              "+": 0,
+              "-": 0,
+              "/": 8,
+              "seed": 0
+            },
+            "key": [
+              12,
+              37
+            ],
+            "kind": "rational",
+            "label": "12/37",
+            "node_id": 1308,
+            "operand_readiness_corpus_stage": 300,
+            "operand_ready_at_corpus_stage": false,
+            "outgoing_edge_count": 0,
+            "p": 12,
+            "present": true,
+            "q": 37,
+            "status": "speculative"
+          }
+        ],
+        "t": {
+          "frac": "6",
+          "p": 6,
+          "q": 1
+        }
+      },
+      {
+        "U_n": {
+          "imag": {
+            "frac": "7/25",
+            "p": 7,
+            "q": 25
+          },
+          "real": {
+            "frac": "-24/25",
+            "p": -24,
+            "q": 25
+          }
+        },
+        "U_reciprocal_n": {
+          "imag": {
+            "frac": "7/25",
+            "p": 7,
+            "q": 25
+          },
+          "real": {
+            "frac": "24/25",
+            "p": 24,
+            "q": 25
+          }
+        },
+        "both_shell_points_component_nodes_present": false,
+        "direct_parameter_witness_and_both_shell_points_present": false,
+        "direct_unit_fraction_edge": {
+          "blocker": null,
+          "candidate_stage": 7,
+          "claim_id": "direct_unit_fraction",
+          "corpus_stage": 300,
+          "edge_count": 1,
+          "edge_refs": [
+            {
+              "edge_id": 177,
+              "stage": 7
+            }
+          ],
+          "eligible_by_stage": true,
+          "expected_directed_edges": 1,
+          "first_edge_stage": 7,
+          "missing_nodes": [],
+          "present": true,
+          "relation": "1 / 7 -> 1/7",
+          "stage_aperture": {
+            "blocker": null,
+            "candidate_stage": 7,
+            "corpus_stage": 300,
+            "eligible_by_stage": true
+          },
+          "status": "complete_directed"
+        },
+        "exact_shell_identity": true,
+        "n": 7,
+        "parameter_nodes": [
+          {
+            "confirmed_stage": 7,
+            "first_edge_id": 46,
+            "first_stage": 4,
+            "graph_reading": "positive_spine_operand_available",
+            "incoming_edge_count": 343,
+            "incoming_operation_counts": {
+              "*": 2,
+              "+": 6,
+              "-": 293,
+              "/": 42,
+              "seed": 0
+            },
+            "key": [
+              7,
+              1
+            ],
+            "kind": "positive_integer",
+            "label": "7",
+            "node_id": 16,
+            "operand_readiness_corpus_stage": 300,
+            "operand_ready_at_corpus_stage": true,
+            "outgoing_edge_count": 2396,
+            "p": 7,
+            "present": true,
+            "q": 1,
+            "status": "speculative_until_confirmed"
+          },
+          {
+            "confirmed_stage": null,
+            "first_edge_id": 177,
+            "first_stage": 7,
+            "graph_reading": "speculative_landing_not_operand",
+            "incoming_edge_count": 42,
+            "incoming_operation_counts": {
+              "*": 0,
+              "+": 0,
+              "-": 0,
+              "/": 42,
+              "seed": 0
+            },
+            "key": [
+              1,
+              7
+            ],
+            "kind": "rational",
+            "label": "1/7",
+            "node_id": 57,
+            "operand_readiness_corpus_stage": 300,
+            "operand_ready_at_corpus_stage": false,
+            "outgoing_edge_count": 0,
+            "p": 1,
+            "present": true,
+            "q": 7,
+            "status": "speculative"
+          }
+        ],
+        "parameter_pair_present": true,
+        "real_component_opposition_edge": {
+          "blocker": "missing_nodes",
+          "candidate_stage": null,
+          "claim_id": "shell_real_component_opposition",
+          "corpus_stage": 300,
+          "edge_count": 0,
+          "edge_refs": [],
+          "eligible_by_stage": false,
+          "expected_directed_edges": 2,
+          "first_edge_stage": null,
+          "missing_nodes": [
+            "result"
+          ],
+          "present": false,
+          "relation": "-1 * 24/25 -> -24/25",
+          "stage_aperture": {
+            "blocker": "operand_not_positive_spine",
+            "candidate_stage": null,
+            "corpus_stage": 300,
+            "eligible_by_stage": false
+          },
+          "status": "absent"
+        },
+        "reciprocal_t": {
+          "frac": "1/7",
+          "p": 1,
+          "q": 7
+        },
+        "reverse_parameter_edge": {
+          "blocker": "operand_not_positive_spine",
+          "candidate_stage": null,
+          "claim_id": "reverse_reciprocal_parameter",
+          "corpus_stage": 300,
+          "edge_count": 0,
+          "edge_refs": [],
+          "eligible_by_stage": false,
+          "expected_directed_edges": 1,
+          "first_edge_stage": null,
+          "missing_nodes": [],
+          "present": false,
+          "relation": "1 / (1/7) -> 7",
+          "stage_aperture": {
+            "blocker": "operand_not_positive_spine",
+            "candidate_stage": null,
+            "corpus_stage": 300,
+            "eligible_by_stage": false
+          },
+          "status": "absent"
+        },
+        "runtime_complex_pair_or_mobius_edge": false,
+        "shell_component_nodes": [
+          {
+            "graph_reading": "not_present_in_selected_corpus",
+            "key": [
+              -24,
+              25
+            ],
+            "label": "-24/25",
+            "p": -24,
+            "present": false,
+            "q": 25
+          },
+          {
+            "confirmed_stage": null,
+            "first_edge_id": 2433,
+            "first_stage": 25,
+            "graph_reading": "speculative_landing_not_operand",
+            "incoming_edge_count": 12,
+            "incoming_operation_counts": {
+              "*": 0,
+              "+": 0,
+              "-": 0,
+              "/": 12,
+              "seed": 0
+            },
+            "key": [
+              7,
+              25
+            ],
+            "kind": "rational",
+            "label": "7/25",
+            "node_id": 616,
+            "operand_readiness_corpus_stage": 300,
+            "operand_ready_at_corpus_stage": false,
+            "outgoing_edge_count": 0,
+            "p": 7,
+            "present": true,
+            "q": 25,
+            "status": "speculative"
+          },
+          {
+            "confirmed_stage": null,
+            "first_edge_id": 2501,
+            "first_stage": 25,
+            "graph_reading": "speculative_landing_not_operand",
+            "incoming_edge_count": 12,
+            "incoming_operation_counts": {
+              "*": 0,
+              "+": 0,
+              "-": 0,
+              "/": 12,
+              "seed": 0
+            },
+            "key": [
+              24,
+              25
+            ],
+            "kind": "rational",
+            "label": "24/25",
+            "node_id": 630,
+            "operand_readiness_corpus_stage": 300,
+            "operand_ready_at_corpus_stage": false,
+            "outgoing_edge_count": 0,
+            "p": 24,
+            "present": true,
+            "q": 25,
+            "status": "speculative"
+          },
+          {
+            "confirmed_stage": null,
+            "first_edge_id": 2433,
+            "first_stage": 25,
+            "graph_reading": "speculative_landing_not_operand",
+            "incoming_edge_count": 12,
+            "incoming_operation_counts": {
+              "*": 0,
+              "+": 0,
+              "-": 0,
+              "/": 12,
+              "seed": 0
+            },
+            "key": [
+              7,
+              25
+            ],
+            "kind": "rational",
+            "label": "7/25",
+            "node_id": 616,
+            "operand_readiness_corpus_stage": 300,
+            "operand_ready_at_corpus_stage": false,
+            "outgoing_edge_count": 0,
+            "p": 7,
+            "present": true,
+            "q": 25,
+            "status": "speculative"
+          }
+        ],
+        "t": {
+          "frac": "7",
+          "p": 7,
+          "q": 1
+        }
+      },
+      {
+        "U_n": {
+          "imag": {
+            "frac": "16/65",
+            "p": 16,
+            "q": 65
+          },
+          "real": {
+            "frac": "-63/65",
+            "p": -63,
+            "q": 65
+          }
+        },
+        "U_reciprocal_n": {
+          "imag": {
+            "frac": "16/65",
+            "p": 16,
+            "q": 65
+          },
+          "real": {
+            "frac": "63/65",
+            "p": 63,
+            "q": 65
+          }
+        },
+        "both_shell_points_component_nodes_present": false,
+        "direct_parameter_witness_and_both_shell_points_present": false,
+        "direct_unit_fraction_edge": {
+          "blocker": null,
+          "candidate_stage": 8,
+          "claim_id": "direct_unit_fraction",
+          "corpus_stage": 300,
+          "edge_count": 1,
+          "edge_refs": [
+            {
+              "edge_id": 233,
+              "stage": 8
+            }
+          ],
+          "eligible_by_stage": true,
+          "expected_directed_edges": 1,
+          "first_edge_stage": 8,
+          "missing_nodes": [],
+          "present": true,
+          "relation": "1 / 8 -> 1/8",
+          "stage_aperture": {
+            "blocker": null,
+            "candidate_stage": 8,
+            "corpus_stage": 300,
+            "eligible_by_stage": true
+          },
+          "status": "complete_directed"
+        },
+        "exact_shell_identity": true,
+        "n": 8,
+        "parameter_nodes": [
+          {
+            "confirmed_stage": 8,
+            "first_edge_id": 44,
+            "first_stage": 4,
+            "graph_reading": "positive_spine_operand_available",
+            "incoming_edge_count": 340,
+            "incoming_operation_counts": {
+              "*": 4,
+              "+": 7,
+              "-": 292,
+              "/": 37,
+              "seed": 0
+            },
+            "key": [
+              8,
+              1
+            ],
+            "kind": "positive_integer",
+            "label": "8",
+            "node_id": 15,
+            "operand_readiness_corpus_stage": 300,
+            "operand_ready_at_corpus_stage": true,
+            "outgoing_edge_count": 2396,
+            "p": 8,
+            "present": true,
+            "q": 1,
+            "status": "speculative_until_confirmed"
+          },
+          {
+            "confirmed_stage": null,
+            "first_edge_id": 233,
+            "first_stage": 8,
+            "graph_reading": "speculative_landing_not_operand",
+            "incoming_edge_count": 37,
+            "incoming_operation_counts": {
+              "*": 0,
+              "+": 0,
+              "-": 0,
+              "/": 37,
+              "seed": 0
+            },
+            "key": [
+              1,
+              8
+            ],
+            "kind": "rational",
+            "label": "1/8",
+            "node_id": 72,
+            "operand_readiness_corpus_stage": 300,
+            "operand_ready_at_corpus_stage": false,
+            "outgoing_edge_count": 0,
+            "p": 1,
+            "present": true,
+            "q": 8,
+            "status": "speculative"
+          }
+        ],
+        "parameter_pair_present": true,
+        "real_component_opposition_edge": {
+          "blocker": "missing_nodes",
+          "candidate_stage": null,
+          "claim_id": "shell_real_component_opposition",
+          "corpus_stage": 300,
+          "edge_count": 0,
+          "edge_refs": [],
+          "eligible_by_stage": false,
+          "expected_directed_edges": 2,
+          "first_edge_stage": null,
+          "missing_nodes": [
+            "result"
+          ],
+          "present": false,
+          "relation": "-1 * 63/65 -> -63/65",
+          "stage_aperture": {
+            "blocker": "operand_not_positive_spine",
+            "candidate_stage": null,
+            "corpus_stage": 300,
+            "eligible_by_stage": false
+          },
+          "status": "absent"
+        },
+        "reciprocal_t": {
+          "frac": "1/8",
+          "p": 1,
+          "q": 8
+        },
+        "reverse_parameter_edge": {
+          "blocker": "operand_not_positive_spine",
+          "candidate_stage": null,
+          "claim_id": "reverse_reciprocal_parameter",
+          "corpus_stage": 300,
+          "edge_count": 0,
+          "edge_refs": [],
+          "eligible_by_stage": false,
+          "expected_directed_edges": 1,
+          "first_edge_stage": null,
+          "missing_nodes": [],
+          "present": false,
+          "relation": "1 / (1/8) -> 8",
+          "stage_aperture": {
+            "blocker": "operand_not_positive_spine",
+            "candidate_stage": null,
+            "corpus_stage": 300,
+            "eligible_by_stage": false
+          },
+          "status": "absent"
+        },
+        "runtime_complex_pair_or_mobius_edge": false,
+        "shell_component_nodes": [
+          {
+            "graph_reading": "not_present_in_selected_corpus",
+            "key": [
+              -63,
+              65
+            ],
+            "label": "-63/65",
+            "p": -63,
+            "present": false,
+            "q": 65
+          },
+          {
+            "confirmed_stage": null,
+            "first_edge_id": 16709,
+            "first_stage": 65,
+            "graph_reading": "speculative_landing_not_operand",
+            "incoming_edge_count": 4,
+            "incoming_operation_counts": {
+              "*": 0,
+              "+": 0,
+              "-": 0,
+              "/": 4,
+              "seed": 0
+            },
+            "key": [
+              16,
+              65
+            ],
+            "kind": "rational",
+            "label": "16/65",
+            "node_id": 3891,
+            "operand_readiness_corpus_stage": 300,
+            "operand_ready_at_corpus_stage": false,
+            "outgoing_edge_count": 0,
+            "p": 16,
+            "present": true,
+            "q": 65,
+            "status": "speculative"
+          },
+          {
+            "confirmed_stage": null,
+            "first_edge_id": 16897,
+            "first_stage": 65,
+            "graph_reading": "speculative_landing_not_operand",
+            "incoming_edge_count": 4,
+            "incoming_operation_counts": {
+              "*": 0,
+              "+": 0,
+              "-": 0,
+              "/": 4,
+              "seed": 0
+            },
+            "key": [
+              63,
+              65
+            ],
+            "kind": "rational",
+            "label": "63/65",
+            "node_id": 3926,
+            "operand_readiness_corpus_stage": 300,
+            "operand_ready_at_corpus_stage": false,
+            "outgoing_edge_count": 0,
+            "p": 63,
+            "present": true,
+            "q": 65,
+            "status": "speculative"
+          },
+          {
+            "confirmed_stage": null,
+            "first_edge_id": 16709,
+            "first_stage": 65,
+            "graph_reading": "speculative_landing_not_operand",
+            "incoming_edge_count": 4,
+            "incoming_operation_counts": {
+              "*": 0,
+              "+": 0,
+              "-": 0,
+              "/": 4,
+              "seed": 0
+            },
+            "key": [
+              16,
+              65
+            ],
+            "kind": "rational",
+            "label": "16/65",
+            "node_id": 3891,
+            "operand_readiness_corpus_stage": 300,
+            "operand_ready_at_corpus_stage": false,
+            "outgoing_edge_count": 0,
+            "p": 16,
+            "present": true,
+            "q": 65,
+            "status": "speculative"
+          }
+        ],
+        "t": {
+          "frac": "8",
+          "p": 8,
+          "q": 1
+        }
+      }
+    ],
+    "summary": {
+      "all_external_shell_identities_exact": true,
+      "co_presence_is_transformation_witness": false,
+      "direct_unit_fraction_edges": {
+        "absent_relation_occurrences": 0,
+        "complete_directed_occurrences": 8,
+        "distinct_present_edge_ids": 8,
+        "distinct_relation_signatures": 8,
+        "missing_node_relation_occurrences": 0,
+        "present_relation_occurrences": 8,
+        "relation_occurrences": 8,
+        "stage_aperture_blockers": {},
+        "top_level_blockers": {}
+      },
+      "direct_witness_and_both_shell_points_present_count": 1,
+      "direct_witness_and_both_shell_points_present_n": [
+        1
+      ],
+      "graph_evidence_depends_on_zeta_target": false,
+      "parameter_nodes": {
+        "distinct_expected_nodes": 15,
+        "missing_distinct_nodes": 0,
+        "operand_ready_distinct_nodes": 8,
+        "operand_ready_row_occurrences": 9,
+        "present_distinct_nodes": 15,
+        "present_not_operand_ready_distinct_nodes": 7,
+        "present_row_occurrences": 16,
+        "row_occurrences": 16,
+        "status_counts_by_row": {
+          "certainty": 2,
+          "speculative": 7,
+          "speculative_until_confirmed": 7
+        }
+      },
+      "real_component_opposition_edges": {
+        "absent_relation_occurrences": 8,
+        "complete_directed_occurrences": 0,
+        "distinct_present_edge_ids": 0,
+        "distinct_relation_signatures": 8,
+        "missing_node_relation_occurrences": 7,
+        "present_relation_occurrences": 0,
+        "relation_occurrences": 8,
+        "stage_aperture_blockers": {
+          "operand_not_positive_spine": 8
+        },
+        "top_level_blockers": {
+          "missing_nodes": 7,
+          "operand_not_positive_spine": 1
+        }
+      },
+      "reverse_parameter_edges": {
+        "absent_relation_occurrences": 7,
+        "complete_directed_occurrences": 1,
+        "distinct_present_edge_ids": 1,
+        "distinct_relation_signatures": 8,
+        "missing_node_relation_occurrences": 0,
+        "present_relation_occurrences": 1,
+        "relation_occurrences": 8,
+        "stage_aperture_blockers": {
+          "operand_not_positive_spine": 7
+        },
+        "top_level_blockers": {
+          "operand_not_positive_spine": 7
+        }
+      },
+      "runtime_mobius_transformation_edges": 0,
+      "runtime_pair_projection_edges": 0,
+      "shell_component_nodes": {
+        "distinct_expected_nodes": 21,
+        "missing_distinct_nodes": 7,
+        "operand_ready_distinct_nodes": 1,
+        "operand_ready_row_occurrences": 2,
+        "present_distinct_nodes": 14,
+        "present_not_operand_ready_distinct_nodes": 13,
+        "present_row_occurrences": 25,
+        "row_occurrences": 32,
+        "status_counts_by_row": {
+          "certainty": 2,
+          "missing": 7,
+          "speculative": 23
+        }
+      }
+    }
+  },
+  "report_metadata": {
+    "checksums_included": true,
+    "command": "moo_zeta_centered_inversion_probe.py --db out/experiments/pascal_edge_probe_u300.sqlite --t 14.134725141734693 --hasse-terms 64 --shell-max-integer 8 --near-zero-tolerance 1e-10 --stability-tolerance 1e-12 --target-label first_nontrivial_zero_coordinate --experiment-id centered_reciprocal_first_zero_u300_broad_v1 --pretty --write out/experiments/euler/zeta_centered_inversion_first_zero_u300_broad_v1.json",
+    "db_path": "out\\experiments\\pascal_edge_probe_u300.sqlite",
+    "db_sha256": "3d23228ea2a1926918d49bbdc89d9f7bf85ecfe4729ec96c7bd6e9f97e54b097",
+    "generated_at_utc": "2026-08-27T23:04:36Z",
+    "schema_version": "moo_zeta_centered_inversion_probe.v1",
+    "tool": "moo_zeta_centered_inversion_probe.py",
+    "tool_path": "C:\\Users\\USER\\Documents\\MoO\\moo_zeta_centered_inversion_probe.py",
+    "tool_sha256": "4613471d324f8cdaab4c12c750cc9403442a57286cc76398c3a68310050c82c5"
+  },
+  "report_type": "zeta_centered_inversion_external_probe",
+  "summary": {
+    "exact_geometry": "exact_centered_geometry_verified",
+    "formal_branch_status": "candidate_centered_reciprocal_shell_lens_not_promoted",
+    "global_zeta_zero_set": "global_fixed_radius_zero_set_symmetry_analytically_obstructed",
+    "graph_interaction": "external_projection_only_insufficient_repeated_graph_witnesses",
+    "rh_status": "abs(w(rho))=1 is an exact restatement of critical-line membership, not new evidence for the Riemann hypothesis",
+    "supplied_point": "supplied_near_zero_not_preserved_by_centered_inversion"
+  },
+  "unit_shell_domain_separation": {
+    "q_mod_z_phase_model": {
+      "action_cycle_type": "(1 -1)(i)(-i)",
+      "c4_action": [
+        {
+          "image_phase": {
+            "frac": "1/2",
+            "p": 1,
+            "q": 2
+          },
+          "phase": {
+            "frac": "0",
+            "p": 0,
+            "q": 1
+          },
+          "unit_label": "1"
+        },
+        {
+          "image_phase": {
+            "frac": "1/4",
+            "p": 1,
+            "q": 4
+          },
+          "phase": {
+            "frac": "1/4",
+            "p": 1,
+            "q": 4
+          },
+          "unit_label": "i"
+        },
+        {
+          "image_phase": {
+            "frac": "0",
+            "p": 0,
+            "q": 1
+          },
+          "phase": {
+            "frac": "1/2",
+            "p": 1,
+            "q": 2
+          },
+          "unit_label": "-1"
+        },
+        {
+          "image_phase": {
+            "frac": "3/4",
+            "p": 3,
+            "q": 4
+          },
+          "phase": {
+            "frac": "3/4",
+            "p": 3,
+            "q": 4
+          },
+          "unit_label": "-i"
+        }
+      ],
+      "centered_inversion_action": "r -> 1/2-r mod 1",
+      "coordinate_status": "the four units are landmarks in the normalized external w/U(1) plane; the raw s-plane map does not preserve the raw set {1,i,-1,-i}",
+      "group_homomorphism": false,
+      "order_change_example": "phase 1/3 has order 3 and maps to phase 1/6 of order 6",
+      "projection": "r -> exp(2*pi*i*r)",
+      "quarter_turn_cycle_type": "(1 i -1 -i)",
+      "warning": "Centered inversion preserves the C4 set but is not the existing quarter-turn C4 action."
+    },
+    "rational_coordinate_shell": {
+      "action": "-1/U(t)=U(1/t)",
+      "example": {
+        "U_reciprocal_t": [
+          {
+            "frac": "-3/5",
+            "p": -3,
+            "q": 5
+          },
+          {
+            "frac": "4/5",
+            "p": 4,
+            "q": 5
+          }
+        ],
+        "U_t": [
+          {
+            "frac": "3/5",
+            "p": 3,
+            "q": 5
+          },
+          {
+            "frac": "4/5",
+            "p": 4,
+            "q": 5
+          }
+        ],
+        "reason": "3/5+4i/5 is not an algebraic integer, hence cannot be a root of unity.",
+        "reciprocal_t": {
+          "frac": "2",
+          "p": 2,
+          "q": 1
+        },
+        "root_of_unity": false,
+        "t": {
+          "frac": "1/2",
+          "p": 1,
+          "q": 2
+        }
+      },
+      "parameterization": "U(t)=((1-t^2)/(1+t^2)) + i*(2t/(1+t^2))",
+      "projective_endpoints_and_fixed_parameters": {
+        "endpoint_pair": "t=0 <-> infinity projects to 1 <-> -1",
+        "fixed_minus": "t=-1 projects to -i",
+        "fixed_plus": "t=1 projects to i"
+      }
+    },
+    "set_relation": {
+      "both_dense_on_unit_circle": true,
+      "exact_intersection": [
+        "1",
+        "i",
+        "-1",
+        "-i"
+      ],
+      "rational_coordinate_points": "U(Q union {infinity})",
+      "rational_phase_roots_of_unity": "exp(2*pi*i*(Q/Z))",
+      "reading": "The inversion preserves both rational skeletons separately; generic rational-coordinate shell points are not roots of unity.",
+      "sets_equal": false
+    }
+  },
+  "zeta_evaluations": {
+    "centered_inversion_image_cutoff_stable": true,
+    "functional_reflection_conjugation_error": 0.0,
+    "functional_reflection_on_critical_line_control": {
+      "conjugation_tolerance": 1.0000000000000022e-12,
+      "meaning": "at sigma=1/2, s->1-s equals complex conjugation; this is a conjugation control, not an independent evaluation of the full functional equation",
+      "passes": true,
+      "source_and_reflection_cutoff_stability_status_match": true,
+      "source_and_reflection_near_zero_status_match": true
+    },
+    "method": "finite external binary64 Hasse/eta approximation; cutoff comparisons are empirical and are not rigorous error bounds",
+    "points": {
+      "center_control": {
+        "absolute_contribution_mass": 9.919610385629227,
+        "binary64_roundoff_proxy": 5.3175370609988215e-15,
+        "cancellation_reading": "small ratios indicate strong finite weighted cancellation; this is not an error bound",
+        "cutoff_stability": {
+          "checkpoints": [
+            32,
+            48,
+            56,
+            60,
+            64
+          ],
+          "rows": [
+            {
+              "absolute_contribution_mass": 6.633300288997448,
+              "binary64_roundoff_proxy": 3.555867494007495e-15,
+              "cancellation_reading": "small ratios indicate strong finite weighted cancellation; this is not an error bound",
+              "change_from_previous_zeta": null,
+              "eta_bridge_amplification": 2.414213562373096,
+              "eta_bridge_denominator": {
+                "available": true,
+                "imag": 0.0,
+                "magnitude": 0.4142135623730949,
+                "phase_turns": 0.5,
+                "real": -0.4142135623730949
+              },
+              "eta_numerator": {
+                "available": true,
+                "imag": 0.0,
+                "magnitude": 0.6048986434196595,
+                "phase_turns": 0.0,
+                "real": 0.6048986434196595
+              },
+              "eta_to_absolute_mass_ratio": 0.09119120453856061,
+              "hasse_terms": 32,
+              "roundoff_proxy_status": "conditioning_indicator_only_not_a_rigorous_error_bound",
+              "s": {
+                "sigma": 0.5,
+                "sigma_binary64_hex": "0x1.0000000000000p-1",
+                "t": 0.0,
+                "t_binary64_hex": "0x0.0p+0"
+              },
+              "source_term_count": 32,
+              "status": "finite_external_approximation",
+              "triangle_cell_count": 528,
+              "zeta": {
+                "available": true,
+                "imag": -0.0,
+                "magnitude": 1.460354508804829,
+                "phase_turns": 0.5,
+                "real": -1.460354508804829
+              }
+            },
+            {
+              "absolute_contribution_mass": 8.414097937288277,
+              "binary64_roundoff_proxy": 4.510487395878304e-15,
+              "cancellation_reading": "small ratios indicate strong finite weighted cancellation; this is not an error bound",
+              "change_from_previous_zeta": 4.758193838938496e-12,
+              "eta_bridge_amplification": 2.414213562373096,
+              "eta_bridge_denominator": {
+                "available": true,
+                "imag": 0.0,
+                "magnitude": 0.4142135623730949,
+                "phase_turns": 0.5,
+                "real": -0.4142135623730949
+              },
+              "eta_numerator": {
+                "available": true,
+                "imag": 0.0,
+                "magnitude": 0.6048986434216304,
+                "phase_turns": 0.0,
+                "real": 0.6048986434216304
+              },
+              "eta_to_absolute_mass_ratio": 0.07189108659419516,
+              "hasse_terms": 48,
+              "roundoff_proxy_status": "conditioning_indicator_only_not_a_rigorous_error_bound",
+              "s": {
+                "sigma": 0.5,
+                "sigma_binary64_hex": "0x1.0000000000000p-1",
+                "t": 0.0,
+                "t_binary64_hex": "0x0.0p+0"
+              },
+              "source_term_count": 48,
+              "status": "finite_external_approximation",
+              "triangle_cell_count": 1176,
+              "zeta": {
+                "available": true,
+                "imag": -0.0,
+                "magnitude": 1.4603545088095873,
+                "phase_turns": 0.5,
+                "real": -1.4603545088095873
+              }
+            },
+            {
+              "absolute_contribution_mass": 9.193476678878064,
+              "binary64_roundoff_proxy": 4.928283577567291e-15,
+              "cancellation_reading": "small ratios indicate strong finite weighted cancellation; this is not an error bound",
+              "change_from_previous_zeta": 2.220446049250313e-16,
+              "eta_bridge_amplification": 2.414213562373096,
+              "eta_bridge_denominator": {
+                "available": true,
+                "imag": 0.0,
+                "magnitude": 0.4142135623730949,
+                "phase_turns": 0.5,
+                "real": -0.4142135623730949
+              },
+              "eta_numerator": {
+                "available": true,
+                "imag": 0.0,
+                "magnitude": 0.6048986434216305,
+                "phase_turns": 0.0,
+                "real": 0.6048986434216305
+              },
+              "eta_to_absolute_mass_ratio": 0.06579650599553705,
+              "hasse_terms": 56,
+              "roundoff_proxy_status": "conditioning_indicator_only_not_a_rigorous_error_bound",
+              "s": {
+                "sigma": 0.5,
+                "sigma_binary64_hex": "0x1.0000000000000p-1",
+                "t": 0.0,
+                "t_binary64_hex": "0x0.0p+0"
+              },
+              "source_term_count": 56,
+              "status": "finite_external_approximation",
+              "triangle_cell_count": 1596,
+              "zeta": {
+                "available": true,
+                "imag": -0.0,
+                "magnitude": 1.4603545088095875,
+                "phase_turns": 0.5,
+                "real": -1.4603545088095875
+              }
+            },
+            {
+              "absolute_contribution_mass": 9.562523636369189,
+              "binary64_roundoff_proxy": 5.1261160324135946e-15,
+              "cancellation_reading": "small ratios indicate strong finite weighted cancellation; this is not an error bound",
+              "change_from_previous_zeta": 2.220446049250313e-16,
+              "eta_bridge_amplification": 2.414213562373096,
+              "eta_bridge_denominator": {
+                "available": true,
+                "imag": 0.0,
+                "magnitude": 0.4142135623730949,
+                "phase_turns": 0.5,
+                "real": -0.4142135623730949
+              },
+              "eta_numerator": {
+                "available": true,
+                "imag": 0.0,
+                "magnitude": 0.6048986434216306,
+                "phase_turns": 0.0,
+                "real": 0.6048986434216306
+              },
+              "eta_to_absolute_mass_ratio": 0.06325721811771705,
+              "hasse_terms": 60,
+              "roundoff_proxy_status": "conditioning_indicator_only_not_a_rigorous_error_bound",
+              "s": {
+                "sigma": 0.5,
+                "sigma_binary64_hex": "0x1.0000000000000p-1",
+                "t": 0.0,
+                "t_binary64_hex": "0x0.0p+0"
+              },
+              "source_term_count": 60,
+              "status": "finite_external_approximation",
+              "triangle_cell_count": 1830,
+              "zeta": {
+                "available": true,
+                "imag": -0.0,
+                "magnitude": 1.4603545088095877,
+                "phase_turns": 0.5,
+                "real": -1.4603545088095877
+              }
+            },
+            {
+              "absolute_contribution_mass": 9.919610385629227,
+              "binary64_roundoff_proxy": 5.3175370609988215e-15,
+              "cancellation_reading": "small ratios indicate strong finite weighted cancellation; this is not an error bound",
+              "change_from_previous_zeta": 4.440892098500626e-16,
+              "eta_bridge_amplification": 2.414213562373096,
+              "eta_bridge_denominator": {
+                "available": true,
+                "imag": 0.0,
+                "magnitude": 0.4142135623730949,
+                "phase_turns": 0.5,
+                "real": -0.4142135623730949
+              },
+              "eta_numerator": {
+                "available": true,
+                "imag": 0.0,
+                "magnitude": 0.6048986434216304,
+                "phase_turns": 0.0,
+                "real": 0.6048986434216304
+              },
+              "eta_to_absolute_mass_ratio": 0.06098008086063151,
+              "hasse_terms": 64,
+              "roundoff_proxy_status": "conditioning_indicator_only_not_a_rigorous_error_bound",
+              "s": {
+                "sigma": 0.5,
+                "sigma_binary64_hex": "0x1.0000000000000p-1",
+                "t": 0.0,
+                "t_binary64_hex": "0x0.0p+0"
+              },
+              "source_term_count": 64,
+              "status": "finite_external_approximation",
+              "triangle_cell_count": 2080,
+              "zeta": {
+                "available": true,
+                "imag": -0.0,
+                "magnitude": 1.4603545088095873,
+                "phase_turns": 0.5,
+                "real": -1.4603545088095873
+              }
+            }
+          ],
+          "stability_status": "empirical_cutoff_comparison_not_error_bound",
+          "terminal_change": 4.440892098500626e-16
+        },
+        "diagnostic": {
+          "absolute_residual": 1.4603545088095873,
+          "below_near_zero_tolerance": false,
+          "certification_status": "not_attempted_no_interval_error_bound",
+          "certified_zero": false,
+          "near_zero_tolerance": 1e-10,
+          "roundoff_proxy_below_residual_tolerance": true,
+          "stability_absolute_threshold": 2.460354508809587e-12,
+          "stability_tolerance": 1e-12,
+          "two_terminal_changes_below_threshold": true,
+          "two_terminal_cutoff_changes": [
+            2.220446049250313e-16,
+            4.440892098500626e-16
+          ]
+        },
+        "eta_bridge_amplification": 2.414213562373096,
+        "eta_bridge_denominator": {
+          "available": true,
+          "imag": 0.0,
+          "magnitude": 0.4142135623730949,
+          "phase_turns": 0.5,
+          "real": -0.4142135623730949
+        },
+        "eta_numerator": {
+          "available": true,
+          "imag": 0.0,
+          "magnitude": 0.6048986434216304,
+          "phase_turns": 0.0,
+          "real": 0.6048986434216304
+        },
+        "eta_to_absolute_mass_ratio": 0.06098008086063151,
+        "hasse_terms": 64,
+        "numeric_preflight": {
+          "configured_hasse_terms": 64,
+          "configured_meets_empirical_recommendation": true,
+          "empirical_recommended_hasse_terms": 64,
+          "status": "heuristic_from_binary64_calibration_not_an_error_bound"
+        },
+        "roundoff_proxy_status": "conditioning_indicator_only_not_a_rigorous_error_bound",
+        "s": {
+          "sigma": 0.5,
+          "sigma_binary64_hex": "0x1.0000000000000p-1",
+          "t": 0.0,
+          "t_binary64_hex": "0x0.0p+0"
+        },
+        "source_term_count": 64,
+        "status": "finite_external_approximation",
+        "triangle_cell_count": 2080,
+        "zeta": {
+          "available": true,
+          "imag": -0.0,
+          "magnitude": 1.4603545088095873,
+          "phase_reliability": "ordinary_binary64_phase",
+          "phase_turns": 0.5,
+          "real": -1.4603545088095873
+        }
+      },
+      "centered_inversion_image": {
+        "absolute_contribution_mass": 9.919610385629227,
+        "binary64_roundoff_proxy": 5.3142463149103e-15,
+        "cancellation_reading": "small ratios indicate strong finite weighted cancellation; this is not an error bound",
+        "cutoff_stability": {
+          "checkpoints": [
+            32,
+            48,
+            56,
+            60,
+            64
+          ],
+          "rows": [
+            {
+              "absolute_contribution_mass": 6.633300288997448,
+              "binary64_roundoff_proxy": 3.553666953247182e-15,
+              "cancellation_reading": "small ratios indicate strong finite weighted cancellation; this is not an error bound",
+              "change_from_previous_zeta": null,
+              "eta_bridge_amplification": 2.412719531631777,
+              "eta_bridge_denominator": {
+                "available": true,
+                "imag": 0.017337330201230988,
+                "magnitude": 0.41447005625377326,
+                "phase_turns": 0.4933405873710049,
+                "real": -0.4141072862344968
+              },
+              "eta_numerator": {
+                "available": true,
+                "imag": 0.003418690242575292,
+                "magnitude": 0.6049188268616507,
+                "phase_turns": 0.0008994667106653999,
+                "real": 0.6049091664446002
+              },
+              "eta_to_absolute_mass_ratio": 0.09119424728366664,
+              "hasse_terms": 32,
+              "roundoff_proxy_status": "conditioning_indicator_only_not_a_rigorous_error_bound",
+              "s": {
+                "sigma": 0.5,
+                "sigma_binary64_hex": "0x1.0000000000000p-1",
+                "t": 0.0176869374885714,
+                "t_binary64_hex": "0x1.21c864851b9dap-6"
+              },
+              "source_term_count": 32,
+              "status": "finite_external_approximation",
+              "triangle_cell_count": 528,
+              "zeta": {
+                "available": true,
+                "imag": -0.06929117719884709,
+                "magnitude": 1.4594994686208858,
+                "phase_turns": 0.5075588793396605,
+                "real": -1.457853707224098
+              }
+            },
+            {
+              "absolute_contribution_mass": 8.414097937288277,
+              "binary64_roundoff_proxy": 4.507696090696028e-15,
+              "cancellation_reading": "small ratios indicate strong finite weighted cancellation; this is not an error bound",
+              "change_from_previous_zeta": 4.758673959362279e-12,
+              "eta_bridge_amplification": 2.412719531631777,
+              "eta_bridge_denominator": {
+                "available": true,
+                "imag": 0.017337330201230988,
+                "magnitude": 0.41447005625377326,
+                "phase_turns": 0.4933405873710049,
+                "real": -0.4141072862344968
+              },
+              "eta_numerator": {
+                "available": true,
+                "imag": 0.003418690242690023,
+                "magnitude": 0.6049188268636203,
+                "phase_turns": 0.0008994667106926575,
+                "real": 0.6049091664465692
+              },
+              "eta_to_absolute_mass_ratio": 0.07189348535899923,
+              "hasse_terms": 48,
+              "roundoff_proxy_status": "conditioning_indicator_only_not_a_rigorous_error_bound",
+              "s": {
+                "sigma": 0.5,
+                "sigma_binary64_hex": "0x1.0000000000000p-1",
+                "t": 0.0176869374885714,
+                "t_binary64_hex": "0x1.21c864851b9dap-6"
+              },
+              "source_term_count": 48,
+              "status": "finite_external_approximation",
+              "triangle_cell_count": 1176,
+              "zeta": {
+                "available": true,
+                "imag": -0.06929117719932237,
+                "magnitude": 1.459499468625638,
+                "phase_turns": 0.5075588793396877,
+                "real": -1.457853707228833
+              }
+            },
+            {
+              "absolute_contribution_mass": 9.193476678878064,
+              "binary64_roundoff_proxy": 4.925233720138943e-15,
+              "cancellation_reading": "small ratios indicate strong finite weighted cancellation; this is not an error bound",
+              "change_from_previous_zeta": 4.443059973708341e-16,
+              "eta_bridge_amplification": 2.412719531631777,
+              "eta_bridge_denominator": {
+                "available": true,
+                "imag": 0.017337330201230988,
+                "magnitude": 0.41447005625377326,
+                "phase_turns": 0.4933405873710049,
+                "real": -0.4141072862344968
+              },
+              "eta_numerator": {
+                "available": true,
+                "imag": 0.003418690242690027,
+                "magnitude": 0.6049188268636204,
+                "phase_turns": 0.0008994667106926585,
+                "real": 0.6049091664465693
+              },
+              "eta_to_absolute_mass_ratio": 0.06579870140459664,
+              "hasse_terms": 56,
+              "roundoff_proxy_status": "conditioning_indicator_only_not_a_rigorous_error_bound",
+              "s": {
+                "sigma": 0.5,
+                "sigma_binary64_hex": "0x1.0000000000000p-1",
+                "t": 0.0176869374885714,
+                "t_binary64_hex": "0x1.21c864851b9dap-6"
+              },
+              "source_term_count": 56,
+              "status": "finite_external_approximation",
+              "triangle_cell_count": 1596,
+              "zeta": {
+                "available": true,
+                "imag": -0.06929117719932239,
+                "magnitude": 1.4594994686256384,
+                "phase_turns": 0.5075588793396877,
+                "real": -1.4578537072288333
+              }
+            },
+            {
+              "absolute_contribution_mass": 9.562523636369189,
+              "binary64_roundoff_proxy": 5.122943746806655e-15,
+              "cancellation_reading": "small ratios indicate strong finite weighted cancellation; this is not an error bound",
+              "change_from_previous_zeta": 4.443059973708341e-16,
+              "eta_bridge_amplification": 2.412719531631777,
+              "eta_bridge_denominator": {
+                "available": true,
+                "imag": 0.017337330201230988,
+                "magnitude": 0.41447005625377326,
+                "phase_turns": 0.4933405873710049,
+                "real": -0.4141072862344968
+              },
+              "eta_numerator": {
+                "available": true,
+                "imag": 0.003418690242690024,
+                "magnitude": 0.6049188268636203,
+                "phase_turns": 0.0008994667106926579,
+                "real": 0.6049091664465692
+              },
+              "eta_to_absolute_mass_ratio": 0.06325932879924394,
+              "hasse_terms": 60,
+              "roundoff_proxy_status": "conditioning_indicator_only_not_a_rigorous_error_bound",
+              "s": {
+                "sigma": 0.5,
+                "sigma_binary64_hex": "0x1.0000000000000p-1",
+                "t": 0.0176869374885714,
+                "t_binary64_hex": "0x1.21c864851b9dap-6"
+              },
+              "source_term_count": 60,
+              "status": "finite_external_approximation",
+              "triangle_cell_count": 1830,
+              "zeta": {
+                "available": true,
+                "imag": -0.06929117719932237,
+                "magnitude": 1.459499468625638,
+                "phase_turns": 0.5075588793396877,
+                "real": -1.457853707228833
+              }
+            },
+            {
+              "absolute_contribution_mass": 9.919610385629227,
+              "binary64_roundoff_proxy": 5.3142463149103e-15,
+              "cancellation_reading": "small ratios indicate strong finite weighted cancellation; this is not an error bound",
+              "change_from_previous_zeta": 1.3877787807814457e-17,
+              "eta_bridge_amplification": 2.412719531631777,
+              "eta_bridge_denominator": {
+                "available": true,
+                "imag": 0.017337330201230988,
+                "magnitude": 0.41447005625377326,
+                "phase_turns": 0.4933405873710049,
+                "real": -0.4141072862344968
+              },
+              "eta_numerator": {
+                "available": true,
+                "imag": 0.003418690242690028,
+                "magnitude": 0.6049188268636203,
+                "phase_turns": 0.0008994667106926589,
+                "real": 0.6049091664465692
+              },
+              "eta_to_absolute_mass_ratio": 0.06098211556171404,
+              "hasse_terms": 64,
+              "roundoff_proxy_status": "conditioning_indicator_only_not_a_rigorous_error_bound",
+              "s": {
+                "sigma": 0.5,
+                "sigma_binary64_hex": "0x1.0000000000000p-1",
+                "t": 0.0176869374885714,
+                "t_binary64_hex": "0x1.21c864851b9dap-6"
+              },
+              "source_term_count": 64,
+              "status": "finite_external_approximation",
+              "triangle_cell_count": 2080,
+              "zeta": {
+                "available": true,
+                "imag": -0.06929117719932239,
+                "magnitude": 1.459499468625638,
+                "phase_turns": 0.5075588793396877,
+                "real": -1.457853707228833
+              }
+            }
+          ],
+          "stability_status": "empirical_cutoff_comparison_not_error_bound",
+          "terminal_change": 1.3877787807814457e-17
+        },
+        "diagnostic": {
+          "absolute_residual": 1.459499468625638,
+          "below_near_zero_tolerance": false,
+          "certification_status": "not_attempted_no_interval_error_bound",
+          "certified_zero": false,
+          "near_zero_tolerance": 1e-10,
+          "roundoff_proxy_below_residual_tolerance": true,
+          "stability_absolute_threshold": 2.459499468625638e-12,
+          "stability_tolerance": 1e-12,
+          "two_terminal_changes_below_threshold": true,
+          "two_terminal_cutoff_changes": [
+            4.443059973708341e-16,
+            1.3877787807814457e-17
+          ]
+        },
+        "eta_bridge_amplification": 2.412719531631777,
+        "eta_bridge_denominator": {
+          "available": true,
+          "imag": 0.017337330201230988,
+          "magnitude": 0.41447005625377326,
+          "phase_turns": 0.4933405873710049,
+          "real": -0.4141072862344968
+        },
+        "eta_numerator": {
+          "available": true,
+          "imag": 0.003418690242690028,
+          "magnitude": 0.6049188268636203,
+          "phase_turns": 0.0008994667106926589,
+          "real": 0.6049091664465692
+        },
+        "eta_to_absolute_mass_ratio": 0.06098211556171404,
+        "hasse_terms": 64,
+        "numeric_preflight": {
+          "configured_hasse_terms": 64,
+          "configured_meets_empirical_recommendation": true,
+          "empirical_recommended_hasse_terms": 64,
+          "status": "heuristic_from_binary64_calibration_not_an_error_bound"
+        },
+        "roundoff_proxy_status": "conditioning_indicator_only_not_a_rigorous_error_bound",
+        "s": {
+          "sigma": 0.5,
+          "sigma_binary64_hex": "0x1.0000000000000p-1",
+          "t": 0.0176869374885714,
+          "t_binary64_hex": "0x1.21c864851b9dap-6"
+        },
+        "source_term_count": 64,
+        "status": "finite_external_approximation",
+        "triangle_cell_count": 2080,
+        "zeta": {
+          "available": true,
+          "imag": -0.06929117719932239,
+          "magnitude": 1.459499468625638,
+          "phase_reliability": "ordinary_binary64_phase",
+          "phase_turns": 0.5075588793396877,
+          "real": -1.457853707228833
+        }
+      },
+      "fixed_point_minus": {
+        "absolute_contribution_mass": 9.919610385629227,
+        "binary64_roundoff_proxy": 3.778837146016198e-15,
+        "cancellation_reading": "small ratios indicate strong finite weighted cancellation; this is not an error bound",
+        "cutoff_stability": {
+          "checkpoints": [
+            32,
+            48,
+            56,
+            60,
+            64
+          ],
+          "rows": [
+            {
+              "absolute_contribution_mass": 6.633300288997448,
+              "binary64_roundoff_proxy": 2.5269300464721358e-15,
+              "cancellation_reading": "small ratios indicate strong finite weighted cancellation; this is not an error bound",
+              "change_from_previous_zeta": null,
+              "eta_bridge_amplification": 1.7156288302761622,
+              "eta_bridge_denominator": {
+                "available": true,
+                "imag": -0.48037599714809626,
+                "magnitude": 0.5828766586062974,
+                "phase_turns": 0.6541724893607344,
+                "real": -0.33012740042597866
+              },
+              "eta_numerator": {
+                "available": true,
+                "imag": -0.09669829414623687,
+                "magnitude": 0.620967189226275,
+                "phase_turns": 0.9751147884657331,
+                "real": 0.6133919546299808
+              },
+              "eta_to_absolute_mass_ratio": 0.09361361044610986,
+              "hasse_terms": 32,
+              "roundoff_proxy_status": "conditioning_indicator_only_not_a_rigorous_error_bound",
+              "s": {
+                "sigma": 0.5,
+                "sigma_binary64_hex": "0x1.0000000000000p-1",
+                "t": -0.5,
+                "t_binary64_hex": "-0x1.0000000000000p-1"
+              },
+              "source_term_count": 32,
+              "status": "finite_external_approximation",
+              "triangle_cell_count": 528,
+              "zeta": {
+                "available": true,
+                "imag": 0.9612542845022348,
+                "magnitude": 1.0653492124921504,
+                "phase_turns": 0.32094229910499883,
+                "real": -0.4593028903498669
+              }
+            },
+            {
+              "absolute_contribution_mass": 8.414097937288277,
+              "binary64_roundoff_proxy": 3.205318011451953e-15,
+              "cancellation_reading": "small ratios indicate strong finite weighted cancellation; this is not an error bound",
+              "change_from_previous_zeta": 5.299770577600983e-12,
+              "eta_bridge_amplification": 1.7156288302761622,
+              "eta_bridge_denominator": {
+                "available": true,
+                "imag": -0.48037599714809626,
+                "magnitude": 0.5828766586062974,
+                "phase_turns": 0.6541724893607344,
+                "real": -0.33012740042597866
+              },
+              "eta_numerator": {
+                "available": true,
+                "imag": -0.0966982941492884,
+                "magnitude": 0.6209671892272246,
+                "phase_turns": 0.9751147884649797,
+                "real": 0.6133919546304609
+              },
+              "eta_to_absolute_mass_ratio": 0.07380080358648071,
+              "hasse_terms": 48,
+              "roundoff_proxy_status": "conditioning_indicator_only_not_a_rigorous_error_bound",
+              "s": {
+                "sigma": 0.5,
+                "sigma_binary64_hex": "0x1.0000000000000p-1",
+                "t": -0.5,
+                "t_binary64_hex": "-0x1.0000000000000p-1"
+              },
+              "source_term_count": 48,
+              "status": "finite_external_approximation",
+              "triangle_cell_count": 1176,
+              "zeta": {
+                "available": true,
+                "imag": 0.9612542845058789,
+                "magnitude": 1.0653492124937796,
+                "phase_turns": 0.32094229910424543,
+                "real": -0.45930289034601873
+              }
+            },
+            {
+              "absolute_contribution_mass": 9.193476678878064,
+              "binary64_roundoff_proxy": 3.502219323604449e-15,
+              "cancellation_reading": "small ratios indicate strong finite weighted cancellation; this is not an error bound",
+              "change_from_previous_zeta": 2.0014830212433605e-16,
+              "eta_bridge_amplification": 1.7156288302761622,
+              "eta_bridge_denominator": {
+                "available": true,
+                "imag": -0.48037599714809626,
+                "magnitude": 0.5828766586062974,
+                "phase_turns": 0.6541724893607344,
+                "real": -0.33012740042597866
+              },
+              "eta_numerator": {
+                "available": true,
+                "imag": -0.09669829414928853,
+                "magnitude": 0.6209671892272246,
+                "phase_turns": 0.9751147884649797,
+                "real": 0.6133919546304609
+              },
+              "eta_to_absolute_mass_ratio": 0.06754432636500744,
+              "hasse_terms": 56,
+              "roundoff_proxy_status": "conditioning_indicator_only_not_a_rigorous_error_bound",
+              "s": {
+                "sigma": 0.5,
+                "sigma_binary64_hex": "0x1.0000000000000p-1",
+                "t": -0.5,
+                "t_binary64_hex": "-0x1.0000000000000p-1"
+              },
+              "source_term_count": 56,
+              "status": "finite_external_approximation",
+              "triangle_cell_count": 1596,
+              "zeta": {
+                "available": true,
+                "imag": 0.961254284505879,
+                "magnitude": 1.0653492124937796,
+                "phase_turns": 0.3209422991042454,
+                "real": -0.45930289034601857
+              }
+            },
+            {
+              "absolute_contribution_mass": 9.562523636369189,
+              "binary64_roundoff_proxy": 3.6428063323051206e-15,
+              "cancellation_reading": "small ratios indicate strong finite weighted cancellation; this is not an error bound",
+              "change_from_previous_zeta": 1.1102230246251565e-16,
+              "eta_bridge_amplification": 1.7156288302761622,
+              "eta_bridge_denominator": {
+                "available": true,
+                "imag": -0.48037599714809626,
+                "magnitude": 0.5828766586062974,
+                "phase_turns": 0.6541724893607344,
+                "real": -0.33012740042597866
+              },
+              "eta_numerator": {
+                "available": true,
+                "imag": -0.09669829414928847,
+                "magnitude": 0.6209671892272246,
+                "phase_turns": 0.9751147884649797,
+                "real": 0.6133919546304609
+              },
+              "eta_to_absolute_mass_ratio": 0.0649375847674245,
+              "hasse_terms": 60,
+              "roundoff_proxy_status": "conditioning_indicator_only_not_a_rigorous_error_bound",
+              "s": {
+                "sigma": 0.5,
+                "sigma_binary64_hex": "0x1.0000000000000p-1",
+                "t": -0.5,
+                "t_binary64_hex": "-0x1.0000000000000p-1"
+              },
+              "source_term_count": 60,
+              "status": "finite_external_approximation",
+              "triangle_cell_count": 1830,
+              "zeta": {
+                "available": true,
+                "imag": 0.961254284505879,
+                "magnitude": 1.0653492124937796,
+                "phase_turns": 0.32094229910424543,
+                "real": -0.4593028903460187
+              }
+            },
+            {
+              "absolute_contribution_mass": 9.919610385629227,
+              "binary64_roundoff_proxy": 3.778837146016198e-15,
+              "cancellation_reading": "small ratios indicate strong finite weighted cancellation; this is not an error bound",
+              "change_from_previous_zeta": 1.5700924586837752e-16,
+              "eta_bridge_amplification": 1.7156288302761622,
+              "eta_bridge_denominator": {
+                "available": true,
+                "imag": -0.48037599714809626,
+                "magnitude": 0.5828766586062974,
+                "phase_turns": 0.6541724893607344,
+                "real": -0.33012740042597866
+              },
+              "eta_numerator": {
+                "available": true,
+                "imag": -0.09669829414928857,
+                "magnitude": 0.6209671892272246,
+                "phase_turns": 0.9751147884649797,
+                "real": 0.6133919546304609
+              },
+              "eta_to_absolute_mass_ratio": 0.06259995756757084,
+              "hasse_terms": 64,
+              "roundoff_proxy_status": "conditioning_indicator_only_not_a_rigorous_error_bound",
+              "s": {
+                "sigma": 0.5,
+                "sigma_binary64_hex": "0x1.0000000000000p-1",
+                "t": -0.5,
+                "t_binary64_hex": "-0x1.0000000000000p-1"
+              },
+              "source_term_count": 64,
+              "status": "finite_external_approximation",
+              "triangle_cell_count": 2080,
+              "zeta": {
+                "available": true,
+                "imag": 0.9612542845058791,
+                "magnitude": 1.0653492124937796,
+                "phase_turns": 0.3209422991042454,
+                "real": -0.45930289034601857
+              }
+            }
+          ],
+          "stability_status": "empirical_cutoff_comparison_not_error_bound",
+          "terminal_change": 1.5700924586837752e-16
+        },
+        "diagnostic": {
+          "absolute_residual": 1.0653492124937796,
+          "below_near_zero_tolerance": false,
+          "certification_status": "not_attempted_no_interval_error_bound",
+          "certified_zero": false,
+          "near_zero_tolerance": 1e-10,
+          "roundoff_proxy_below_residual_tolerance": true,
+          "stability_absolute_threshold": 2.0653492124937794e-12,
+          "stability_tolerance": 1e-12,
+          "two_terminal_changes_below_threshold": true,
+          "two_terminal_cutoff_changes": [
+            1.1102230246251565e-16,
+            1.5700924586837752e-16
+          ]
+        },
+        "eta_bridge_amplification": 1.7156288302761622,
+        "eta_bridge_denominator": {
+          "available": true,
+          "imag": -0.48037599714809626,
+          "magnitude": 0.5828766586062974,
+          "phase_turns": 0.6541724893607344,
+          "real": -0.33012740042597866
+        },
+        "eta_numerator": {
+          "available": true,
+          "imag": -0.09669829414928857,
+          "magnitude": 0.6209671892272246,
+          "phase_turns": 0.9751147884649797,
+          "real": 0.6133919546304609
+        },
+        "eta_to_absolute_mass_ratio": 0.06259995756757084,
+        "hasse_terms": 64,
+        "numeric_preflight": {
+          "configured_hasse_terms": 64,
+          "configured_meets_empirical_recommendation": true,
+          "empirical_recommended_hasse_terms": 64,
+          "status": "heuristic_from_binary64_calibration_not_an_error_bound"
+        },
+        "roundoff_proxy_status": "conditioning_indicator_only_not_a_rigorous_error_bound",
+        "s": {
+          "sigma": 0.5,
+          "sigma_binary64_hex": "0x1.0000000000000p-1",
+          "t": -0.5,
+          "t_binary64_hex": "-0x1.0000000000000p-1"
+        },
+        "source_term_count": 64,
+        "status": "finite_external_approximation",
+        "triangle_cell_count": 2080,
+        "zeta": {
+          "available": true,
+          "imag": 0.9612542845058791,
+          "magnitude": 1.0653492124937796,
+          "phase_reliability": "ordinary_binary64_phase",
+          "phase_turns": 0.3209422991042454,
+          "real": -0.45930289034601857
+        }
+      },
+      "fixed_point_plus": {
+        "absolute_contribution_mass": 9.919610385629227,
+        "binary64_roundoff_proxy": 3.778837146016198e-15,
+        "cancellation_reading": "small ratios indicate strong finite weighted cancellation; this is not an error bound",
+        "cutoff_stability": {
+          "checkpoints": [
+            32,
+            48,
+            56,
+            60,
+            64
+          ],
+          "rows": [
+            {
+              "absolute_contribution_mass": 6.633300288997448,
+              "binary64_roundoff_proxy": 2.5269300464721358e-15,
+              "cancellation_reading": "small ratios indicate strong finite weighted cancellation; this is not an error bound",
+              "change_from_previous_zeta": null,
+              "eta_bridge_amplification": 1.7156288302761622,
+              "eta_bridge_denominator": {
+                "available": true,
+                "imag": 0.48037599714809626,
+                "magnitude": 0.5828766586062974,
+                "phase_turns": 0.3458275106392657,
+                "real": -0.33012740042597866
+              },
+              "eta_numerator": {
+                "available": true,
+                "imag": 0.09669829414623687,
+                "magnitude": 0.620967189226275,
+                "phase_turns": 0.024885211534266906,
+                "real": 0.6133919546299808
+              },
+              "eta_to_absolute_mass_ratio": 0.09361361044610986,
+              "hasse_terms": 32,
+              "roundoff_proxy_status": "conditioning_indicator_only_not_a_rigorous_error_bound",
+              "s": {
+                "sigma": 0.5,
+                "sigma_binary64_hex": "0x1.0000000000000p-1",
+                "t": 0.5,
+                "t_binary64_hex": "0x1.0000000000000p-1"
+              },
+              "source_term_count": 32,
+              "status": "finite_external_approximation",
+              "triangle_cell_count": 528,
+              "zeta": {
+                "available": true,
+                "imag": -0.9612542845022348,
+                "magnitude": 1.0653492124921504,
+                "phase_turns": 0.6790577008950012,
+                "real": -0.4593028903498669
+              }
+            },
+            {
+              "absolute_contribution_mass": 8.414097937288277,
+              "binary64_roundoff_proxy": 3.205318011451953e-15,
+              "cancellation_reading": "small ratios indicate strong finite weighted cancellation; this is not an error bound",
+              "change_from_previous_zeta": 5.299770577600983e-12,
+              "eta_bridge_amplification": 1.7156288302761622,
+              "eta_bridge_denominator": {
+                "available": true,
+                "imag": 0.48037599714809626,
+                "magnitude": 0.5828766586062974,
+                "phase_turns": 0.3458275106392657,
+                "real": -0.33012740042597866
+              },
+              "eta_numerator": {
+                "available": true,
+                "imag": 0.0966982941492884,
+                "magnitude": 0.6209671892272246,
+                "phase_turns": 0.024885211535020314,
+                "real": 0.6133919546304609
+              },
+              "eta_to_absolute_mass_ratio": 0.07380080358648071,
+              "hasse_terms": 48,
+              "roundoff_proxy_status": "conditioning_indicator_only_not_a_rigorous_error_bound",
+              "s": {
+                "sigma": 0.5,
+                "sigma_binary64_hex": "0x1.0000000000000p-1",
+                "t": 0.5,
+                "t_binary64_hex": "0x1.0000000000000p-1"
+              },
+              "source_term_count": 48,
+              "status": "finite_external_approximation",
+              "triangle_cell_count": 1176,
+              "zeta": {
+                "available": true,
+                "imag": -0.9612542845058789,
+                "magnitude": 1.0653492124937796,
+                "phase_turns": 0.6790577008957546,
+                "real": -0.45930289034601873
+              }
+            },
+            {
+              "absolute_contribution_mass": 9.193476678878064,
+              "binary64_roundoff_proxy": 3.502219323604449e-15,
+              "cancellation_reading": "small ratios indicate strong finite weighted cancellation; this is not an error bound",
+              "change_from_previous_zeta": 2.0014830212433605e-16,
+              "eta_bridge_amplification": 1.7156288302761622,
+              "eta_bridge_denominator": {
+                "available": true,
+                "imag": 0.48037599714809626,
+                "magnitude": 0.5828766586062974,
+                "phase_turns": 0.3458275106392657,
+                "real": -0.33012740042597866
+              },
+              "eta_numerator": {
+                "available": true,
+                "imag": 0.09669829414928853,
+                "magnitude": 0.6209671892272246,
+                "phase_turns": 0.024885211535020345,
+                "real": 0.6133919546304609
+              },
+              "eta_to_absolute_mass_ratio": 0.06754432636500744,
+              "hasse_terms": 56,
+              "roundoff_proxy_status": "conditioning_indicator_only_not_a_rigorous_error_bound",
+              "s": {
+                "sigma": 0.5,
+                "sigma_binary64_hex": "0x1.0000000000000p-1",
+                "t": 0.5,
+                "t_binary64_hex": "0x1.0000000000000p-1"
+              },
+              "source_term_count": 56,
+              "status": "finite_external_approximation",
+              "triangle_cell_count": 1596,
+              "zeta": {
+                "available": true,
+                "imag": -0.961254284505879,
+                "magnitude": 1.0653492124937796,
+                "phase_turns": 0.6790577008957546,
+                "real": -0.45930289034601857
+              }
+            },
+            {
+              "absolute_contribution_mass": 9.562523636369189,
+              "binary64_roundoff_proxy": 3.6428063323051206e-15,
+              "cancellation_reading": "small ratios indicate strong finite weighted cancellation; this is not an error bound",
+              "change_from_previous_zeta": 1.1102230246251565e-16,
+              "eta_bridge_amplification": 1.7156288302761622,
+              "eta_bridge_denominator": {
+                "available": true,
+                "imag": 0.48037599714809626,
+                "magnitude": 0.5828766586062974,
+                "phase_turns": 0.3458275106392657,
+                "real": -0.33012740042597866
+              },
+              "eta_numerator": {
+                "available": true,
+                "imag": 0.09669829414928847,
+                "magnitude": 0.6209671892272246,
+                "phase_turns": 0.02488521153502033,
+                "real": 0.6133919546304609
+              },
+              "eta_to_absolute_mass_ratio": 0.0649375847674245,
+              "hasse_terms": 60,
+              "roundoff_proxy_status": "conditioning_indicator_only_not_a_rigorous_error_bound",
+              "s": {
+                "sigma": 0.5,
+                "sigma_binary64_hex": "0x1.0000000000000p-1",
+                "t": 0.5,
+                "t_binary64_hex": "0x1.0000000000000p-1"
+              },
+              "source_term_count": 60,
+              "status": "finite_external_approximation",
+              "triangle_cell_count": 1830,
+              "zeta": {
+                "available": true,
+                "imag": -0.961254284505879,
+                "magnitude": 1.0653492124937796,
+                "phase_turns": 0.6790577008957546,
+                "real": -0.4593028903460187
+              }
+            },
+            {
+              "absolute_contribution_mass": 9.919610385629227,
+              "binary64_roundoff_proxy": 3.778837146016198e-15,
+              "cancellation_reading": "small ratios indicate strong finite weighted cancellation; this is not an error bound",
+              "change_from_previous_zeta": 1.5700924586837752e-16,
+              "eta_bridge_amplification": 1.7156288302761622,
+              "eta_bridge_denominator": {
+                "available": true,
+                "imag": 0.48037599714809626,
+                "magnitude": 0.5828766586062974,
+                "phase_turns": 0.3458275106392657,
+                "real": -0.33012740042597866
+              },
+              "eta_numerator": {
+                "available": true,
+                "imag": 0.09669829414928857,
+                "magnitude": 0.6209671892272246,
+                "phase_turns": 0.02488521153502036,
+                "real": 0.6133919546304609
+              },
+              "eta_to_absolute_mass_ratio": 0.06259995756757084,
+              "hasse_terms": 64,
+              "roundoff_proxy_status": "conditioning_indicator_only_not_a_rigorous_error_bound",
+              "s": {
+                "sigma": 0.5,
+                "sigma_binary64_hex": "0x1.0000000000000p-1",
+                "t": 0.5,
+                "t_binary64_hex": "0x1.0000000000000p-1"
+              },
+              "source_term_count": 64,
+              "status": "finite_external_approximation",
+              "triangle_cell_count": 2080,
+              "zeta": {
+                "available": true,
+                "imag": -0.9612542845058791,
+                "magnitude": 1.0653492124937796,
+                "phase_turns": 0.6790577008957546,
+                "real": -0.45930289034601857
+              }
+            }
+          ],
+          "stability_status": "empirical_cutoff_comparison_not_error_bound",
+          "terminal_change": 1.5700924586837752e-16
+        },
+        "diagnostic": {
+          "absolute_residual": 1.0653492124937796,
+          "below_near_zero_tolerance": false,
+          "certification_status": "not_attempted_no_interval_error_bound",
+          "certified_zero": false,
+          "near_zero_tolerance": 1e-10,
+          "roundoff_proxy_below_residual_tolerance": true,
+          "stability_absolute_threshold": 2.0653492124937794e-12,
+          "stability_tolerance": 1e-12,
+          "two_terminal_changes_below_threshold": true,
+          "two_terminal_cutoff_changes": [
+            1.1102230246251565e-16,
+            1.5700924586837752e-16
+          ]
+        },
+        "eta_bridge_amplification": 1.7156288302761622,
+        "eta_bridge_denominator": {
+          "available": true,
+          "imag": 0.48037599714809626,
+          "magnitude": 0.5828766586062974,
+          "phase_turns": 0.3458275106392657,
+          "real": -0.33012740042597866
+        },
+        "eta_numerator": {
+          "available": true,
+          "imag": 0.09669829414928857,
+          "magnitude": 0.6209671892272246,
+          "phase_turns": 0.02488521153502036,
+          "real": 0.6133919546304609
+        },
+        "eta_to_absolute_mass_ratio": 0.06259995756757084,
+        "hasse_terms": 64,
+        "numeric_preflight": {
+          "configured_hasse_terms": 64,
+          "configured_meets_empirical_recommendation": true,
+          "empirical_recommended_hasse_terms": 64,
+          "status": "heuristic_from_binary64_calibration_not_an_error_bound"
+        },
+        "roundoff_proxy_status": "conditioning_indicator_only_not_a_rigorous_error_bound",
+        "s": {
+          "sigma": 0.5,
+          "sigma_binary64_hex": "0x1.0000000000000p-1",
+          "t": 0.5,
+          "t_binary64_hex": "0x1.0000000000000p-1"
+        },
+        "source_term_count": 64,
+        "status": "finite_external_approximation",
+        "triangle_cell_count": 2080,
+        "zeta": {
+          "available": true,
+          "imag": -0.9612542845058791,
+          "magnitude": 1.0653492124937796,
+          "phase_reliability": "ordinary_binary64_phase",
+          "phase_turns": 0.6790577008957546,
+          "real": -0.45930289034601857
+        }
+      },
+      "functional_reflection": {
+        "absolute_contribution_mass": 9.919610385629227,
+        "binary64_roundoff_proxy": 9.279306448540272e-16,
+        "cancellation_reading": "small ratios indicate strong finite weighted cancellation; this is not an error bound",
+        "cutoff_stability": {
+          "checkpoints": [
+            32,
+            48,
+            56,
+            60,
+            64
+          ],
+          "rows": [
+            {
+              "absolute_contribution_mass": 6.633300288997448,
+              "binary64_roundoff_proxy": 6.205125378308256e-16,
+              "cancellation_reading": "small ratios indicate strong finite weighted cancellation; this is not an error bound",
+              "change_from_previous_zeta": null,
+              "eta_bridge_amplification": 0.42128954101307414,
+              "eta_bridge_denominator": {
+                "available": true,
+                "imag": 0.5149159850108372,
+                "magnitude": 2.3736644341924604,
+                "phase_turns": 0.03480196014185473,
+                "real": 2.3171414230751073
+              },
+              "eta_numerator": {
+                "available": true,
+                "imag": 5.356075712900014e-07,
+                "magnitude": 5.223266576213446e-06,
+                "phase_turns": 0.483651093873233,
+                "real": -5.195732696720007e-06
+              },
+              "eta_to_absolute_mass_ratio": 7.874310446757847e-07,
+              "hasse_terms": 32,
+              "roundoff_proxy_status": "conditioning_indicator_only_not_a_rigorous_error_bound",
+              "s": {
+                "sigma": 0.5,
+                "sigma_binary64_hex": "0x1.0000000000000p-1",
+                "t": -14.134725141734693,
+                "t_binary64_hex": "-0x1.c44fab19b6621p+3"
+              },
+              "source_term_count": 32,
+              "status": "finite_external_approximation",
+              "triangle_cell_count": 528,
+              "zeta": {
+                "available": true,
+                "imag": 6.951096379567339e-07,
+                "magnitude": 2.2005075784818932e-06,
+                "phase_turns": 0.44884913373137825,
+                "real": -2.0878352890436317e-06
+              }
+            },
+            {
+              "absolute_contribution_mass": 8.414097937288277,
+              "binary64_roundoff_proxy": 7.870973779498485e-16,
+              "cancellation_reading": "small ratios indicate strong finite weighted cancellation; this is not an error bound",
+              "change_from_previous_zeta": 2.2004975324171763e-06,
+              "eta_bridge_amplification": 0.42128954101307414,
+              "eta_bridge_denominator": {
+                "available": true,
+                "imag": 0.5149159850108372,
+                "magnitude": 2.3736644341924604,
+                "phase_turns": 0.03480196014185473,
+                "real": 2.3171414230751073
+              },
+              "eta_numerator": {
+                "available": true,
+                "imag": 1.7578041532094031e-10,
+                "magnitude": 1.7587789147331354e-10,
+                "phase_turns": 0.25529905898185395,
+                "real": -5.854767176958289e-12
+              },
+              "eta_to_absolute_mass_ratio": 2.0902762575877034e-11,
+              "hasse_terms": 48,
+              "roundoff_proxy_status": "conditioning_indicator_only_not_a_rigorous_error_bound",
+              "s": {
+                "sigma": 0.5,
+                "sigma_binary64_hex": "0x1.0000000000000p-1",
+                "t": -14.134725141734693,
+                "t_binary64_hex": "-0x1.c44fab19b6621p+3"
+              },
+              "source_term_count": 48,
+              "status": "finite_external_approximation",
+              "triangle_cell_count": 1176,
+              "zeta": {
+                "available": true,
+                "imag": 7.282609093609749e-11,
+                "magnitude": 7.409551617313953e-11,
+                "phase_turns": 0.2204970988399992,
+                "real": 1.3656719808623194e-11
+              }
+            },
+            {
+              "absolute_contribution_mass": 9.193476678878064,
+              "binary64_roundoff_proxy": 8.600044166493383e-16,
+              "cancellation_reading": "small ratios indicate strong finite weighted cancellation; this is not an error bound",
+              "change_from_previous_zeta": 7.378542817466131e-11,
+              "eta_bridge_amplification": 0.42128954101307414,
+              "eta_bridge_denominator": {
+                "available": true,
+                "imag": 0.5149159850108372,
+                "magnitude": 2.3736644341924604,
+                "phase_turns": 0.03480196014185473,
+                "real": 2.3171414230751073
+              },
+              "eta_numerator": {
+                "available": true,
+                "imag": 7.510645659836856e-13,
+                "magnitude": 8.613050218077579e-13,
+                "phase_turns": 0.16859107200458998,
+                "real": 4.2160213272112397e-13
+              },
+              "eta_to_absolute_mass_ratio": 9.368654012976386e-14,
+              "hasse_terms": 56,
+              "roundoff_proxy_status": "conditioning_indicator_only_not_a_rigorous_error_bound",
+              "s": {
+                "sigma": 0.5,
+                "sigma_binary64_hex": "0x1.0000000000000p-1",
+                "t": -14.134725141734693,
+                "t_binary64_hex": "-0x1.c44fab19b6621p+3"
+              },
+              "source_term_count": 56,
+              "status": "finite_external_approximation",
+              "triangle_cell_count": 1596,
+              "zeta": {
+                "available": true,
+                "imag": 2.7035084701733614e-13,
+                "magnitude": 3.628587973096461e-13,
+                "phase_turns": 0.13378911186273526,
+                "real": 2.4202670576201246e-13
+              }
+            },
+            {
+              "absolute_contribution_mass": 9.562523636369189,
+              "binary64_roundoff_proxy": 8.945269400079443e-16,
+              "cancellation_reading": "small ratios indicate strong finite weighted cancellation; this is not an error bound",
+              "change_from_previous_zeta": 3.3822620033034757e-13,
+              "eta_bridge_amplification": 0.42128954101307414,
+              "eta_bridge_denominator": {
+                "available": true,
+                "imag": 0.5149159850108372,
+                "magnitude": 2.3736644341924604,
+                "phase_turns": 0.03480196014185473,
+                "real": 2.3171414230751073
+              },
+              "eta_numerator": {
+                "available": true,
+                "imag": 4.459287937458804e-14,
+                "magnitude": 6.005996757793189e-14,
+                "phase_turns": 0.13317352774228725,
+                "real": 4.023275797836473e-14
+              },
+              "eta_to_absolute_mass_ratio": 6.2807653985298975e-15,
+              "hasse_terms": 60,
+              "roundoff_proxy_status": "conditioning_indicator_only_not_a_rigorous_error_bound",
+              "s": {
+                "sigma": 0.5,
+                "sigma_binary64_hex": "0x1.0000000000000p-1",
+                "t": -14.134725141734693,
+                "t_binary64_hex": "-0x1.c44fab19b6621p+3"
+              },
+              "source_term_count": 60,
+              "status": "finite_external_approximation",
+              "triangle_cell_count": 1830,
+              "zeta": {
+                "available": true,
+                "imag": 1.4662295100318568e-14,
+                "magnitude": 2.530263617416704e-14,
+                "phase_turns": 0.09837156760043253,
+                "real": 2.062136027893021e-14
+              }
+            },
+            {
+              "absolute_contribution_mass": 9.919610385629227,
+              "binary64_roundoff_proxy": 9.279306448540272e-16,
+              "cancellation_reading": "small ratios indicate strong finite weighted cancellation; this is not an error bound",
+              "change_from_previous_zeta": 2.3149187697142205e-14,
+              "eta_bridge_amplification": 0.42128954101307414,
+              "eta_bridge_denominator": {
+                "available": true,
+                "imag": 0.5149159850108372,
+                "magnitude": 2.3736644341924604,
+                "phase_turns": 0.03480196014185473,
+                "real": 2.3171414230751073
+              },
+              "eta_numerator": {
+                "available": true,
+                "imag": 3.984160826123141e-15,
+                "magnitude": 5.120016870839192e-15,
+                "phase_turns": 0.14192181336093182,
+                "real": 3.215748010846578e-15
+              },
+              "eta_to_absolute_mass_ratio": 5.161510051097048e-16,
+              "hasse_terms": 64,
+              "roundoff_proxy_status": "conditioning_indicator_only_not_a_rigorous_error_bound",
+              "s": {
+                "sigma": 0.5,
+                "sigma_binary64_hex": "0x1.0000000000000p-1",
+                "t": -14.134725141734693,
+                "t_binary64_hex": "-0x1.c44fab19b6621p+3"
+              },
+              "source_term_count": 64,
+              "status": "finite_external_approximation",
+              "triangle_cell_count": 2080,
+              "zeta": {
+                "available": true,
+                "imag": 1.3446296962226346e-15,
+                "magnitude": 2.1570095574950392e-15,
+                "phase_turns": 0.10711985321907709,
+                "real": 1.6866123476250167e-15
+              }
+            }
+          ],
+          "stability_status": "empirical_cutoff_comparison_not_error_bound",
+          "terminal_change": 2.3149187697142205e-14
+        },
+        "diagnostic": {
+          "absolute_residual": 2.1570095574950392e-15,
+          "below_near_zero_tolerance": true,
+          "certification_status": "not_attempted_no_interval_error_bound",
+          "certified_zero": false,
+          "near_zero_tolerance": 1e-10,
+          "roundoff_proxy_below_residual_tolerance": true,
+          "stability_absolute_threshold": 1.0000000000000022e-12,
+          "stability_tolerance": 1e-12,
+          "two_terminal_changes_below_threshold": true,
+          "two_terminal_cutoff_changes": [
+            3.3822620033034757e-13,
+            2.3149187697142205e-14
+          ]
+        },
+        "eta_bridge_amplification": 0.42128954101307414,
+        "eta_bridge_denominator": {
+          "available": true,
+          "imag": 0.5149159850108372,
+          "magnitude": 2.3736644341924604,
+          "phase_turns": 0.03480196014185473,
+          "real": 2.3171414230751073
+        },
+        "eta_numerator": {
+          "available": true,
+          "imag": 3.984160826123141e-15,
+          "magnitude": 5.120016870839192e-15,
+          "phase_turns": 0.14192181336093182,
+          "real": 3.215748010846578e-15
+        },
+        "eta_to_absolute_mass_ratio": 5.161510051097048e-16,
+        "hasse_terms": 64,
+        "numeric_preflight": {
+          "configured_hasse_terms": 64,
+          "configured_meets_empirical_recommendation": true,
+          "empirical_recommended_hasse_terms": 64,
+          "status": "heuristic_from_binary64_calibration_not_an_error_bound"
+        },
+        "roundoff_proxy_status": "conditioning_indicator_only_not_a_rigorous_error_bound",
+        "s": {
+          "sigma": 0.5,
+          "sigma_binary64_hex": "0x1.0000000000000p-1",
+          "t": -14.134725141734693,
+          "t_binary64_hex": "-0x1.c44fab19b6621p+3"
+        },
+        "source_term_count": 64,
+        "status": "finite_external_approximation",
+        "triangle_cell_count": 2080,
+        "zeta": {
+          "available": true,
+          "imag": 1.3446296962226346e-15,
+          "magnitude": 2.1570095574950392e-15,
+          "phase_reliability": "undefined_below_configured_zero_tolerance",
+          "phase_turns": null,
+          "real": 1.6866123476250167e-15
+        }
+      },
+      "source": {
+        "absolute_contribution_mass": 9.919610385629227,
+        "binary64_roundoff_proxy": 9.279306448540272e-16,
+        "cancellation_reading": "small ratios indicate strong finite weighted cancellation; this is not an error bound",
+        "cutoff_stability": {
+          "checkpoints": [
+            32,
+            48,
+            56,
+            60,
+            64
+          ],
+          "rows": [
+            {
+              "absolute_contribution_mass": 6.633300288997448,
+              "binary64_roundoff_proxy": 6.205125378308256e-16,
+              "cancellation_reading": "small ratios indicate strong finite weighted cancellation; this is not an error bound",
+              "change_from_previous_zeta": null,
+              "eta_bridge_amplification": 0.42128954101307414,
+              "eta_bridge_denominator": {
+                "available": true,
+                "imag": -0.5149159850108372,
+                "magnitude": 2.3736644341924604,
+                "phase_turns": 0.9651980398581452,
+                "real": 2.3171414230751073
+              },
+              "eta_numerator": {
+                "available": true,
+                "imag": -5.356075712900014e-07,
+                "magnitude": 5.223266576213446e-06,
+                "phase_turns": 0.516348906126767,
+                "real": -5.195732696720007e-06
+              },
+              "eta_to_absolute_mass_ratio": 7.874310446757847e-07,
+              "hasse_terms": 32,
+              "roundoff_proxy_status": "conditioning_indicator_only_not_a_rigorous_error_bound",
+              "s": {
+                "sigma": 0.5,
+                "sigma_binary64_hex": "0x1.0000000000000p-1",
+                "t": 14.134725141734693,
+                "t_binary64_hex": "0x1.c44fab19b6621p+3"
+              },
+              "source_term_count": 32,
+              "status": "finite_external_approximation",
+              "triangle_cell_count": 528,
+              "zeta": {
+                "available": true,
+                "imag": -6.951096379567339e-07,
+                "magnitude": 2.2005075784818932e-06,
+                "phase_turns": 0.5511508662686218,
+                "real": -2.0878352890436317e-06
+              }
+            },
+            {
+              "absolute_contribution_mass": 8.414097937288277,
+              "binary64_roundoff_proxy": 7.870973779498485e-16,
+              "cancellation_reading": "small ratios indicate strong finite weighted cancellation; this is not an error bound",
+              "change_from_previous_zeta": 2.2004975324171763e-06,
+              "eta_bridge_amplification": 0.42128954101307414,
+              "eta_bridge_denominator": {
+                "available": true,
+                "imag": -0.5149159850108372,
+                "magnitude": 2.3736644341924604,
+                "phase_turns": 0.9651980398581452,
+                "real": 2.3171414230751073
+              },
+              "eta_numerator": {
+                "available": true,
+                "imag": -1.7578041532094031e-10,
+                "magnitude": 1.7587789147331354e-10,
+                "phase_turns": 0.744700941018146,
+                "real": -5.854767176958289e-12
+              },
+              "eta_to_absolute_mass_ratio": 2.0902762575877034e-11,
+              "hasse_terms": 48,
+              "roundoff_proxy_status": "conditioning_indicator_only_not_a_rigorous_error_bound",
+              "s": {
+                "sigma": 0.5,
+                "sigma_binary64_hex": "0x1.0000000000000p-1",
+                "t": 14.134725141734693,
+                "t_binary64_hex": "0x1.c44fab19b6621p+3"
+              },
+              "source_term_count": 48,
+              "status": "finite_external_approximation",
+              "triangle_cell_count": 1176,
+              "zeta": {
+                "available": true,
+                "imag": -7.282609093609749e-11,
+                "magnitude": 7.409551617313953e-11,
+                "phase_turns": 0.7795029011600008,
+                "real": 1.3656719808623194e-11
+              }
+            },
+            {
+              "absolute_contribution_mass": 9.193476678878064,
+              "binary64_roundoff_proxy": 8.600044166493383e-16,
+              "cancellation_reading": "small ratios indicate strong finite weighted cancellation; this is not an error bound",
+              "change_from_previous_zeta": 7.378542817466131e-11,
+              "eta_bridge_amplification": 0.42128954101307414,
+              "eta_bridge_denominator": {
+                "available": true,
+                "imag": -0.5149159850108372,
+                "magnitude": 2.3736644341924604,
+                "phase_turns": 0.9651980398581452,
+                "real": 2.3171414230751073
+              },
+              "eta_numerator": {
+                "available": true,
+                "imag": -7.510645659836856e-13,
+                "magnitude": 8.613050218077579e-13,
+                "phase_turns": 0.83140892799541,
+                "real": 4.2160213272112397e-13
+              },
+              "eta_to_absolute_mass_ratio": 9.368654012976386e-14,
+              "hasse_terms": 56,
+              "roundoff_proxy_status": "conditioning_indicator_only_not_a_rigorous_error_bound",
+              "s": {
+                "sigma": 0.5,
+                "sigma_binary64_hex": "0x1.0000000000000p-1",
+                "t": 14.134725141734693,
+                "t_binary64_hex": "0x1.c44fab19b6621p+3"
+              },
+              "source_term_count": 56,
+              "status": "finite_external_approximation",
+              "triangle_cell_count": 1596,
+              "zeta": {
+                "available": true,
+                "imag": -2.7035084701733614e-13,
+                "magnitude": 3.628587973096461e-13,
+                "phase_turns": 0.8662108881372648,
+                "real": 2.4202670576201246e-13
+              }
+            },
+            {
+              "absolute_contribution_mass": 9.562523636369189,
+              "binary64_roundoff_proxy": 8.945269400079443e-16,
+              "cancellation_reading": "small ratios indicate strong finite weighted cancellation; this is not an error bound",
+              "change_from_previous_zeta": 3.3822620033034757e-13,
+              "eta_bridge_amplification": 0.42128954101307414,
+              "eta_bridge_denominator": {
+                "available": true,
+                "imag": -0.5149159850108372,
+                "magnitude": 2.3736644341924604,
+                "phase_turns": 0.9651980398581452,
+                "real": 2.3171414230751073
+              },
+              "eta_numerator": {
+                "available": true,
+                "imag": -4.459287937458804e-14,
+                "magnitude": 6.005996757793189e-14,
+                "phase_turns": 0.8668264722577128,
+                "real": 4.023275797836473e-14
+              },
+              "eta_to_absolute_mass_ratio": 6.2807653985298975e-15,
+              "hasse_terms": 60,
+              "roundoff_proxy_status": "conditioning_indicator_only_not_a_rigorous_error_bound",
+              "s": {
+                "sigma": 0.5,
+                "sigma_binary64_hex": "0x1.0000000000000p-1",
+                "t": 14.134725141734693,
+                "t_binary64_hex": "0x1.c44fab19b6621p+3"
+              },
+              "source_term_count": 60,
+              "status": "finite_external_approximation",
+              "triangle_cell_count": 1830,
+              "zeta": {
+                "available": true,
+                "imag": -1.4662295100318568e-14,
+                "magnitude": 2.530263617416704e-14,
+                "phase_turns": 0.9016284323995675,
+                "real": 2.062136027893021e-14
+              }
+            },
+            {
+              "absolute_contribution_mass": 9.919610385629227,
+              "binary64_roundoff_proxy": 9.279306448540272e-16,
+              "cancellation_reading": "small ratios indicate strong finite weighted cancellation; this is not an error bound",
+              "change_from_previous_zeta": 2.3149187697142205e-14,
+              "eta_bridge_amplification": 0.42128954101307414,
+              "eta_bridge_denominator": {
+                "available": true,
+                "imag": -0.5149159850108372,
+                "magnitude": 2.3736644341924604,
+                "phase_turns": 0.9651980398581452,
+                "real": 2.3171414230751073
+              },
+              "eta_numerator": {
+                "available": true,
+                "imag": -3.984160826123141e-15,
+                "magnitude": 5.120016870839192e-15,
+                "phase_turns": 0.8580781866390682,
+                "real": 3.215748010846578e-15
+              },
+              "eta_to_absolute_mass_ratio": 5.161510051097048e-16,
+              "hasse_terms": 64,
+              "roundoff_proxy_status": "conditioning_indicator_only_not_a_rigorous_error_bound",
+              "s": {
+                "sigma": 0.5,
+                "sigma_binary64_hex": "0x1.0000000000000p-1",
+                "t": 14.134725141734693,
+                "t_binary64_hex": "0x1.c44fab19b6621p+3"
+              },
+              "source_term_count": 64,
+              "status": "finite_external_approximation",
+              "triangle_cell_count": 2080,
+              "zeta": {
+                "available": true,
+                "imag": -1.3446296962226346e-15,
+                "magnitude": 2.1570095574950392e-15,
+                "phase_turns": 0.8928801467809229,
+                "real": 1.6866123476250167e-15
+              }
+            }
+          ],
+          "stability_status": "empirical_cutoff_comparison_not_error_bound",
+          "terminal_change": 2.3149187697142205e-14
+        },
+        "diagnostic": {
+          "absolute_residual": 2.1570095574950392e-15,
+          "below_near_zero_tolerance": true,
+          "certification_status": "not_attempted_no_interval_error_bound",
+          "certified_zero": false,
+          "near_zero_tolerance": 1e-10,
+          "roundoff_proxy_below_residual_tolerance": true,
+          "stability_absolute_threshold": 1.0000000000000022e-12,
+          "stability_tolerance": 1e-12,
+          "two_terminal_changes_below_threshold": true,
+          "two_terminal_cutoff_changes": [
+            3.3822620033034757e-13,
+            2.3149187697142205e-14
+          ]
+        },
+        "eta_bridge_amplification": 0.42128954101307414,
+        "eta_bridge_denominator": {
+          "available": true,
+          "imag": -0.5149159850108372,
+          "magnitude": 2.3736644341924604,
+          "phase_turns": 0.9651980398581452,
+          "real": 2.3171414230751073
+        },
+        "eta_numerator": {
+          "available": true,
+          "imag": -3.984160826123141e-15,
+          "magnitude": 5.120016870839192e-15,
+          "phase_turns": 0.8580781866390682,
+          "real": 3.215748010846578e-15
+        },
+        "eta_to_absolute_mass_ratio": 5.161510051097048e-16,
+        "hasse_terms": 64,
+        "numeric_preflight": {
+          "configured_hasse_terms": 64,
+          "configured_meets_empirical_recommendation": true,
+          "empirical_recommended_hasse_terms": 64,
+          "status": "heuristic_from_binary64_calibration_not_an_error_bound"
+        },
+        "roundoff_proxy_status": "conditioning_indicator_only_not_a_rigorous_error_bound",
+        "s": {
+          "sigma": 0.5,
+          "sigma_binary64_hex": "0x1.0000000000000p-1",
+          "t": 14.134725141734693,
+          "t_binary64_hex": "0x1.c44fab19b6621p+3"
+        },
+        "source_term_count": 64,
+        "status": "finite_external_approximation",
+        "triangle_cell_count": 2080,
+        "zeta": {
+          "available": true,
+          "imag": -1.3446296962226346e-15,
+          "magnitude": 2.1570095574950392e-15,
+          "phase_reliability": "undefined_below_configured_zero_tolerance",
+          "phase_turns": null,
+          "real": 1.6866123476250167e-15
+        }
+      }
+    },
+    "pointwise_classification": "supplied_near_zero_not_preserved_by_centered_inversion",
+    "target_label": "first_nontrivial_zero_coordinate",
+    "zeta_inversion_symmetry_supported_at_supplied_point": false
+  }
+}

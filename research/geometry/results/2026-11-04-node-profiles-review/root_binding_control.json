@@ -1,0 +1,587 @@
+{
+  "controlled_copy_sha256": "aac7f3b15a694944d5d802619bf8b26d258b05d837fe624b7e6f4c8ad0443b13",
+  "literal_square": {
+    "association_id": "square:9",
+    "criterion": "literal_self_product",
+    "id": "literal",
+    "label": "Literal self-product",
+    "parameters": {},
+    "ref": "square:9#literal",
+    "sources": [
+      "BRANCH_FORMALIZATION_NOTE.md"
+    ],
+    "support": {
+      "blockers": [],
+      "clock": "positive_spine_stage",
+      "criterion": "literal_self_product",
+      "dependencies": [],
+      "first_supported_stage": 9,
+      "local_first_supported_stage": 9,
+      "local_requests_complete": true,
+      "requests": [
+        {
+          "blocker": null,
+          "candidate_stage": 9,
+          "edge_refs": [
+            {
+              "edge_id": 292,
+              "stage": 9
+            }
+          ],
+          "eligible_by_retention": true,
+          "eligible_by_stage": true,
+          "first_stage": 9,
+          "left": "9",
+          "op": "*",
+          "result": "81",
+          "right": "9",
+          "role": "self_product",
+          "source_edge_count": 1,
+          "source_edge_refs_truncated": false,
+          "witnessed": true
+        }
+      ],
+      "status": "witnessed"
+    }
+  },
+  "method": "Delete only the named root-binding event in a temporary source copy, independently confirm both values remain, and inspect the adapted certificate outcome. No test helpers used.",
+  "original_source_unchanged": true,
+  "removed_edge": {
+    "edge_id": 150,
+    "request": "7 + 2 -> 9",
+    "stage": 7
+  },
+  "retained_value_nodes": {
+    "81": [
+      87,
+      9
+    ],
+    "9": [
+      11,
+      3
+    ]
+  },
+  "routes": {
+    "generic_expanded_left": {
+      "association_id": "square:9",
+      "criterion": "fixed_square_route_certificate",
+      "id": "route:generic_expanded_left",
+      "label": "Fixed expanded_left certificate at X=7, Y=2.",
+      "parameters": {
+        "ac_expression": [
+          "op",
+          "+",
+          [
+            [
+              "op",
+              "*",
+              [
+                [
+                  "leaf",
+                  2,
+                  1
+                ],
+                [
+                  "leaf",
+                  2,
+                  1
+                ]
+              ]
+            ],
+            [
+              "op",
+              "*",
+              [
+                [
+                  "leaf",
+                  2,
+                  1
+                ],
+                [
+                  "leaf",
+                  7,
+                  1
+                ]
+              ]
+            ],
+            [
+              "op",
+              "*",
+              [
+                [
+                  "leaf",
+                  2,
+                  1
+                ],
+                [
+                  "leaf",
+                  7,
+                  1
+                ]
+              ]
+            ],
+            [
+              "op",
+              "*",
+              [
+                [
+                  "leaf",
+                  7,
+                  1
+                ],
+                [
+                  "leaf",
+                  7,
+                  1
+                ]
+              ]
+            ]
+          ]
+        ],
+        "association_binding": {
+          "added_by_adapter": true,
+          "request_role": "binding:root_sum",
+          "root": "9",
+          "source_route_id": "generic_factored"
+        },
+        "dependency_tags": [
+          "generic_binomial_norm_identity"
+        ],
+        "description": "Fixed expanded_left certificate at X=7, Y=2.",
+        "expression_scope": "construction steps only; original and association-binding premises separately retained",
+        "external_family": "generic",
+        "interpretation_limit": "Declared dependent certificate; repeated uses share witnesses.",
+        "route_id": "generic_expanded_left",
+        "target": "81"
+      },
+      "ref": "square:9#route:generic_expanded_left",
+      "sources": [
+        "research/strict_stage/PASCAL_SHELL_CERTIFICATE_NOTE.md",
+        "research/strict_stage/route_identity/pascal_shell_calibration.py",
+        "moo_route_identity_probe.py"
+      ],
+      "support": {
+        "blockers": [
+          "edge_absent"
+        ],
+        "clock": "positive_spine_stage",
+        "criterion": "fixed_square_route_certificate",
+        "dependencies": [],
+        "first_supported_stage": null,
+        "local_first_supported_stage": null,
+        "local_requests_complete": false,
+        "requests": [
+          {
+            "blocker": null,
+            "candidate_stage": 7,
+            "edge_refs": [
+              {
+                "edge_id": 172,
+                "stage": 7
+              }
+            ],
+            "eligible_by_retention": true,
+            "eligible_by_stage": true,
+            "first_stage": 7,
+            "left": "7",
+            "op": "*",
+            "result": "49",
+            "right": "7",
+            "role": "step:xx",
+            "source_edge_count": 1,
+            "source_edge_refs_truncated": false,
+            "witnessed": true
+          },
+          {
+            "blocker": null,
+            "candidate_stage": 7,
+            "edge_refs": [
+              {
+                "edge_id": 152,
+                "stage": 7
+              }
+            ],
+            "eligible_by_retention": true,
+            "eligible_by_stage": true,
+            "first_stage": 7,
+            "left": "7",
+            "op": "*",
+            "result": "14",
+            "right": "2",
+            "role": "step:xy",
+            "source_edge_count": 1,
+            "source_edge_refs_truncated": false,
+            "witnessed": true
+          },
+          {
+            "blocker": null,
+            "candidate_stage": 2,
+            "edge_refs": [
+              {
+                "edge_id": 12,
+                "stage": 2
+              }
+            ],
+            "eligible_by_retention": true,
+            "eligible_by_stage": true,
+            "first_stage": 2,
+            "left": "2",
+            "op": "*",
+            "result": "4",
+            "right": "2",
+            "role": "step:yy",
+            "source_edge_count": 1,
+            "source_edge_refs_truncated": false,
+            "witnessed": true
+          },
+          {
+            "blocker": null,
+            "candidate_stage": 49,
+            "edge_refs": [
+              {
+                "edge_id": 9270,
+                "stage": 49
+              }
+            ],
+            "eligible_by_retention": true,
+            "eligible_by_stage": true,
+            "first_stage": 49,
+            "left": "49",
+            "op": "+",
+            "result": "63",
+            "right": "14",
+            "role": "step:sum1",
+            "source_edge_count": 1,
+            "source_edge_refs_truncated": false,
+            "witnessed": true
+          },
+          {
+            "blocker": null,
+            "candidate_stage": 63,
+            "edge_refs": [
+              {
+                "edge_id": 15430,
+                "stage": 63
+              }
+            ],
+            "eligible_by_retention": true,
+            "eligible_by_stage": true,
+            "first_stage": 63,
+            "left": "63",
+            "op": "+",
+            "result": "77",
+            "right": "14",
+            "role": "step:sum2",
+            "source_edge_count": 1,
+            "source_edge_refs_truncated": false,
+            "witnessed": true
+          },
+          {
+            "blocker": null,
+            "candidate_stage": 77,
+            "edge_refs": [
+              {
+                "edge_id": 23118,
+                "stage": 77
+              }
+            ],
+            "eligible_by_retention": true,
+            "eligible_by_stage": true,
+            "first_stage": 77,
+            "left": "77",
+            "op": "+",
+            "result": "81",
+            "right": "4",
+            "role": "step:sum3",
+            "source_edge_count": 1,
+            "source_edge_refs_truncated": false,
+            "witnessed": true
+          },
+          {
+            "blocker": "edge_absent",
+            "candidate_stage": 7,
+            "edge_refs": [],
+            "eligible_by_retention": true,
+            "eligible_by_stage": true,
+            "first_stage": null,
+            "left": "7",
+            "op": "+",
+            "result": "9",
+            "right": "2",
+            "role": "binding:root_sum",
+            "source_edge_count": 0,
+            "source_edge_refs_truncated": false,
+            "witnessed": false
+          }
+        ],
+        "status": "partial"
+      }
+    },
+    "generic_expanded_paired": {
+      "association_id": "square:9",
+      "criterion": "fixed_square_route_certificate",
+      "id": "route:generic_expanded_paired",
+      "label": "Fixed expanded_paired certificate at X=7, Y=2.",
+      "parameters": {
+        "ac_expression": [
+          "op",
+          "+",
+          [
+            [
+              "op",
+              "*",
+              [
+                [
+                  "leaf",
+                  2,
+                  1
+                ],
+                [
+                  "leaf",
+                  2,
+                  1
+                ]
+              ]
+            ],
+            [
+              "op",
+              "*",
+              [
+                [
+                  "leaf",
+                  2,
+                  1
+                ],
+                [
+                  "leaf",
+                  7,
+                  1
+                ]
+              ]
+            ],
+            [
+              "op",
+              "*",
+              [
+                [
+                  "leaf",
+                  2,
+                  1
+                ],
+                [
+                  "leaf",
+                  7,
+                  1
+                ]
+              ]
+            ],
+            [
+              "op",
+              "*",
+              [
+                [
+                  "leaf",
+                  7,
+                  1
+                ],
+                [
+                  "leaf",
+                  7,
+                  1
+                ]
+              ]
+            ]
+          ]
+        ],
+        "association_binding": {
+          "added_by_adapter": true,
+          "request_role": "binding:root_sum",
+          "root": "9",
+          "source_route_id": "generic_factored"
+        },
+        "dependency_tags": [
+          "generic_binomial_norm_identity"
+        ],
+        "description": "Fixed expanded_paired certificate at X=7, Y=2.",
+        "expression_scope": "construction steps only; original and association-binding premises separately retained",
+        "external_family": "generic",
+        "interpretation_limit": "Declared dependent certificate; repeated uses share witnesses.",
+        "route_id": "generic_expanded_paired",
+        "target": "81"
+      },
+      "ref": "square:9#route:generic_expanded_paired",
+      "sources": [
+        "research/strict_stage/PASCAL_SHELL_CERTIFICATE_NOTE.md",
+        "research/strict_stage/route_identity/pascal_shell_calibration.py",
+        "moo_route_identity_probe.py"
+      ],
+      "support": {
+        "blockers": [
+          "edge_absent"
+        ],
+        "clock": "positive_spine_stage",
+        "criterion": "fixed_square_route_certificate",
+        "dependencies": [],
+        "first_supported_stage": null,
+        "local_first_supported_stage": null,
+        "local_requests_complete": false,
+        "requests": [
+          {
+            "blocker": null,
+            "candidate_stage": 7,
+            "edge_refs": [
+              {
+                "edge_id": 172,
+                "stage": 7
+              }
+            ],
+            "eligible_by_retention": true,
+            "eligible_by_stage": true,
+            "first_stage": 7,
+            "left": "7",
+            "op": "*",
+            "result": "49",
+            "right": "7",
+            "role": "step:xx",
+            "source_edge_count": 1,
+            "source_edge_refs_truncated": false,
+            "witnessed": true
+          },
+          {
+            "blocker": null,
+            "candidate_stage": 7,
+            "edge_refs": [
+              {
+                "edge_id": 152,
+                "stage": 7
+              }
+            ],
+            "eligible_by_retention": true,
+            "eligible_by_stage": true,
+            "first_stage": 7,
+            "left": "7",
+            "op": "*",
+            "result": "14",
+            "right": "2",
+            "role": "step:xy",
+            "source_edge_count": 1,
+            "source_edge_refs_truncated": false,
+            "witnessed": true
+          },
+          {
+            "blocker": null,
+            "candidate_stage": 2,
+            "edge_refs": [
+              {
+                "edge_id": 12,
+                "stage": 2
+              }
+            ],
+            "eligible_by_retention": true,
+            "eligible_by_stage": true,
+            "first_stage": 2,
+            "left": "2",
+            "op": "*",
+            "result": "4",
+            "right": "2",
+            "role": "step:yy",
+            "source_edge_count": 1,
+            "source_edge_refs_truncated": false,
+            "witnessed": true
+          },
+          {
+            "blocker": null,
+            "candidate_stage": 49,
+            "edge_refs": [
+              {
+                "edge_id": 9230,
+                "stage": 49
+              }
+            ],
+            "eligible_by_retention": true,
+            "eligible_by_stage": true,
+            "first_stage": 49,
+            "left": "49",
+            "op": "+",
+            "result": "53",
+            "right": "4",
+            "role": "step:extremes",
+            "source_edge_count": 1,
+            "source_edge_refs_truncated": false,
+            "witnessed": true
+          },
+          {
+            "blocker": null,
+            "candidate_stage": 14,
+            "edge_refs": [
+              {
+                "edge_id": 730,
+                "stage": 14
+              }
+            ],
+            "eligible_by_retention": true,
+            "eligible_by_stage": true,
+            "first_stage": 14,
+            "left": "14",
+            "op": "+",
+            "result": "28",
+            "right": "14",
+            "role": "step:middle",
+            "source_edge_count": 1,
+            "source_edge_refs_truncated": false,
+            "witnessed": true
+          },
+          {
+            "blocker": null,
+            "candidate_stage": 53,
+            "edge_refs": [
+              {
+                "edge_id": 10926,
+                "stage": 53
+              }
+            ],
+            "eligible_by_retention": true,
+            "eligible_by_stage": true,
+            "first_stage": 53,
+            "left": "53",
+            "op": "+",
+            "result": "81",
+            "right": "28",
+            "role": "step:sum",
+            "source_edge_count": 1,
+            "source_edge_refs_truncated": false,
+            "witnessed": true
+          },
+          {
+            "blocker": "edge_absent",
+            "candidate_stage": 7,
+            "edge_refs": [],
+            "eligible_by_retention": true,
+            "eligible_by_stage": true,
+            "first_stage": null,
+            "left": "7",
+            "op": "+",
+            "result": "9",
+            "right": "2",
+            "role": "binding:root_sum",
+            "source_edge_count": 0,
+            "source_edge_refs_truncated": false,
+            "witnessed": false
+          }
+        ],
+        "status": "partial"
+      }
+    }
+  },
+  "rule_source_hashes": {
+    "moo_association_families.py": "0261e0f28f00f9ba6e86299f3c544c1afdf5f936bf6f49cdff8fbd20cf62b580",
+    "moo_graph_corpus.py": "66572b7240489e56d45a2b014a27332286ce9766a4b133754a62846c388f33cd",
+    "moo_graph_evidence.py": "7cd1dc4da5e15b50b709316ec0250a32ca66b7608586a29601ee8c9606572720",
+    "moo_node_profiles.py": "a7e3c96bbd78906d0bd216834c2c667b5ca0fc4625ce5ec2da489d0bd116e4e4",
+    "moo_profile_certificates.py": "9511f1f74e56eb64ea39fed8ef3a0b48890ac2946d0244cb67f970fc84bdb16e",
+    "moo_research_utils.py": "f672cc60007a1368d21ec90353403f4aa21c0bae3936781cd589a171e559019e"
+  },
+  "source_path": "/home/USER/Documents/MoO/out/scratch/shell_composition_20260920_current_v1/wide_u576.sqlite",
+  "source_sha256": "655e2ba49f53519e7cb3720ad8894579aaf113444afbe56b81a99ae7bbdae2b6",
+  "temporary_copy_removed_after_review": true
+}

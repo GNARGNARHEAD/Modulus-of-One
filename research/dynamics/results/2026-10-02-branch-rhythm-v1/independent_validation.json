@@ -1,0 +1,13 @@
+{
+  "status": "pass",
+  "report_sha256": "b844283b70fbedfa1c98e387c18ffbb4d1547e86c1dc32fd3c0ffa7c32452563",
+  "verifier_sha256": "fefc4a668cc0bc9ac3de417864ed590b3db7035e03b85fd4aa51fff23d353de1",
+  "arithmetic_requests_checked": 1013,
+  "sqlite_edges_reread": 648,
+  "independent_integer_pairs_tested": 262656,
+  "near_pairs": 8,
+  "rational_windows_checked": 30,
+  "inverse_recurrence_checks": true,
+  "source_hashes_match": true,
+  "corpus_unchanged": true
+}

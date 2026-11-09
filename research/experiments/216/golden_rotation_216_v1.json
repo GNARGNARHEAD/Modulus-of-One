@@ -1,0 +1,1472 @@
+{
+  "constant_comparison": [
+    {
+      "continued_fraction_prefix": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "name": "phi",
+      "target_step_ranks": [
+        {
+          "distance_to_half_turn": 0.0015528100075670181,
+          "distance_to_identity": 0.498447189992433,
+          "frac": 0.498447189992433,
+          "half_turn_rank": 4,
+          "identity_rank": 997,
+          "n": 72
+        },
+        {
+          "distance_to_half_turn": 0.49689437998486596,
+          "distance_to_identity": 0.0031056200151340363,
+          "frac": 0.996894379984866,
+          "half_turn_rank": 994,
+          "identity_rank": 7,
+          "n": 144
+        },
+        {
+          "distance_to_half_turn": 0.004658430022686844,
+          "distance_to_identity": 0.49534156997731316,
+          "frac": 0.49534156997731316,
+          "half_turn_rank": 10,
+          "identity_rank": 991,
+          "n": 216
+        },
+        {
+          "distance_to_half_turn": 0.2658514012257456,
+          "distance_to_identity": 0.23414859877425442,
+          "frac": 0.7658514012257456,
+          "half_turn_rank": 532,
+          "identity_rank": 469,
+          "n": 231
+        },
+        {
+          "distance_to_half_turn": 0.4980806212744824,
+          "distance_to_identity": 0.0019193787255176176,
+          "frac": 0.0019193787255176176,
+          "half_turn_rank": 997,
+          "identity_rank": 4,
+          "n": 233
+        }
+      ],
+      "top_half_turns": [
+        {
+          "distance_to_half_turn": 0.00036656871793638857,
+          "distance_to_identity": 0.4996334312820636,
+          "frac": 0.5003665687179364,
+          "n": 305
+        },
+        {
+          "distance_to_half_turn": 0.0008196725716516085,
+          "distance_to_identity": 0.4991803274283484,
+          "frac": 0.4991803274283484,
+          "n": 682
+        },
+        {
+          "distance_to_half_turn": 0.0010997061538091657,
+          "distance_to_identity": 0.49890029384619083,
+          "frac": 0.5010997061538092,
+          "n": 915
+        },
+        {
+          "distance_to_half_turn": 0.0015528100075670181,
+          "distance_to_identity": 0.498447189992433,
+          "frac": 0.498447189992433,
+          "n": 72
+        },
+        {
+          "distance_to_half_turn": 0.0022859474435108496,
+          "distance_to_identity": 0.49771405255648915,
+          "frac": 0.5022859474435108,
+          "n": 538
+        },
+        {
+          "distance_to_half_turn": 0.0027390512972260694,
+          "distance_to_identity": 0.49726094870277393,
+          "frac": 0.49726094870277393,
+          "n": 449
+        },
+        {
+          "distance_to_half_turn": 0.0034721887330988466,
+          "distance_to_identity": 0.49652781126690115,
+          "frac": 0.5034721887330988,
+          "n": 161
+        },
+        {
+          "distance_to_half_turn": 0.00392529258670038,
+          "distance_to_identity": 0.4960747074132996,
+          "frac": 0.4960747074132996,
+          "n": 826
+        }
+      ],
+      "top_identity_returns": [
+        {
+          "distance_to_half_turn": 0.4995468961462848,
+          "distance_to_identity": 0.0004531038537152199,
+          "frac": 0.9995468961462848,
+          "n": 987
+        },
+        {
+          "distance_to_half_turn": 0.4992668625641272,
+          "distance_to_identity": 0.0007331374358727771,
+          "frac": 0.0007331374358727771,
+          "n": 610
+        },
+        {
+          "distance_to_half_turn": 0.498813758710412,
+          "distance_to_identity": 0.001186241289587997,
+          "frac": 0.998813758710412,
+          "n": 377
+        },
+        {
+          "distance_to_half_turn": 0.4980806212744824,
+          "distance_to_identity": 0.0019193787255176176,
+          "frac": 0.0019193787255176176,
+          "n": 233
+        },
+        {
+          "distance_to_half_turn": 0.497627517420824,
+          "distance_to_identity": 0.002372482579175994,
+          "frac": 0.997627517420824,
+          "n": 754
+        },
+        {
+          "distance_to_half_turn": 0.49734748383866645,
+          "distance_to_identity": 0.0026525161613335513,
+          "frac": 0.0026525161613335513,
+          "n": 843
+        },
+        {
+          "distance_to_half_turn": 0.49689437998486596,
+          "distance_to_identity": 0.0031056200151340363,
+          "frac": 0.996894379984866,
+          "n": 144
+        },
+        {
+          "distance_to_half_turn": 0.49616124254896476,
+          "distance_to_identity": 0.003838757451035235,
+          "frac": 0.003838757451035235,
+          "n": 466
+        }
+      ],
+      "value": 1.618033988749895
+    },
+    {
+      "continued_fraction_prefix": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "name": "sqrt2",
+      "target_step_ranks": [
+        {
+          "distance_to_half_turn": 0.3233764908628558,
+          "distance_to_identity": 0.1766235091371442,
+          "frac": 0.8233764908628558,
+          "half_turn_rank": 648,
+          "identity_rank": 353,
+          "n": 72
+        },
+        {
+          "distance_to_half_turn": 0.1467529817257116,
+          "distance_to_identity": 0.3532470182742884,
+          "frac": 0.6467529817257116,
+          "half_turn_rank": 294,
+          "identity_rank": 707,
+          "n": 144
+        },
+        {
+          "distance_to_half_turn": 0.0298705274114468,
+          "distance_to_identity": 0.4701294725885532,
+          "frac": 0.4701294725885532,
+          "half_turn_rank": 60,
+          "identity_rank": 941,
+          "n": 216
+        },
+        {
+          "distance_to_half_turn": 0.18333290818497971,
+          "distance_to_identity": 0.3166670918150203,
+          "frac": 0.6833329081849797,
+          "half_turn_rank": 367,
+          "identity_rank": 634,
+          "n": 231
+        },
+        {
+          "distance_to_half_turn": 0.011760032931192654,
+          "distance_to_identity": 0.48823996706880735,
+          "frac": 0.5117600329311927,
+          "half_turn_rank": 24,
+          "identity_rank": 977,
+          "n": 233
+        }
+      ],
+      "top_half_turns": [
+        {
+          "distance_to_half_turn": 0.0004332758886107513,
+          "distance_to_identity": 0.49956672411138925,
+          "frac": 0.49956672411138925,
+          "n": 204
+        },
+        {
+          "distance_to_half_turn": 0.000792213387285301,
+          "distance_to_identity": 0.4992077866127147,
+          "frac": 0.5007922133872853,
+          "n": 781
+        },
+        {
+          "distance_to_half_turn": 0.0012998276657754104,
+          "distance_to_identity": 0.4987001723342246,
+          "frac": 0.4987001723342246,
+          "n": 612
+        },
+        {
+          "distance_to_half_turn": 0.0016587651645068036,
+          "distance_to_identity": 0.4983412348354932,
+          "frac": 0.5016587651645068,
+          "n": 373
+        },
+        {
+          "distance_to_half_turn": 0.0025253169416714627,
+          "distance_to_identity": 0.49747468305832854,
+          "frac": 0.49747468305832854,
+          "n": 35
+        },
+        {
+          "distance_to_half_turn": 0.0028842544404596993,
+          "distance_to_identity": 0.4971157455595403,
+          "frac": 0.5028842544404597,
+          "n": 950
+        },
+        {
+          "distance_to_half_turn": 0.003391868718836122,
+          "distance_to_identity": 0.4966081312811639,
+          "frac": 0.4966081312811639,
+          "n": 443
+        },
+        {
+          "distance_to_half_turn": 0.003750806217567515,
+          "distance_to_identity": 0.4962491937824325,
+          "frac": 0.5037508062175675,
+          "n": 542
+        }
+      ],
+      "top_identity_returns": [
+        {
+          "distance_to_half_turn": 0.4996410625012686,
+          "distance_to_identity": 0.00035893749873139313,
+          "frac": 0.00035893749873139313,
+          "n": 985
+        },
+        {
+          "distance_to_half_turn": 0.4991334482227785,
+          "distance_to_identity": 0.0008665517772215026,
+          "frac": 0.9991334482227785,
+          "n": 408
+        },
+        {
+          "distance_to_half_turn": 0.4987745107240471,
+          "distance_to_identity": 0.0012254892759528957,
+          "frac": 0.0012254892759528957,
+          "n": 577
+        },
+        {
+          "distance_to_half_turn": 0.498266896445557,
+          "distance_to_identity": 0.0017331035544430051,
+          "frac": 0.998266896445557,
+          "n": 816
+        },
+        {
+          "distance_to_half_turn": 0.49790795894691087,
+          "distance_to_identity": 0.002092041053089133,
+          "frac": 0.002092041053089133,
+          "n": 169
+        },
+        {
+          "distance_to_half_turn": 0.4970414071697178,
+          "distance_to_identity": 0.002958592830282214,
+          "frac": 0.9970414071697178,
+          "n": 239
+        },
+        {
+          "distance_to_half_turn": 0.4966824696709864,
+          "distance_to_identity": 0.003317530329013607,
+          "frac": 0.003317530329013607,
+          "n": 746
+        },
+        {
+          "distance_to_half_turn": 0.49617485539260997,
+          "distance_to_identity": 0.0038251446073900297,
+          "frac": 0.99617485539261,
+          "n": 647
+        }
+      ],
+      "value": 1.4142135623730951
+    },
+    {
+      "continued_fraction_prefix": [
+        1,
+        1,
+        2,
+        1,
+        2,
+        1,
+        2,
+        1,
+        2,
+        1,
+        2,
+        1,
+        2,
+        1
+      ],
+      "name": "sqrt3",
+      "target_step_ranks": [
+        {
+          "distance_to_half_turn": 0.20765814495915436,
+          "distance_to_identity": 0.29234185504084564,
+          "frac": 0.7076581449591544,
+          "half_turn_rank": 416,
+          "identity_rank": 585,
+          "n": 72
+        },
+        {
+          "distance_to_half_turn": 0.08468371008169129,
+          "distance_to_identity": 0.4153162899183087,
+          "frac": 0.4153162899183087,
+          "half_turn_rank": 169,
+          "identity_rank": 832,
+          "n": 144
+        },
+        {
+          "distance_to_half_turn": 0.37702556512255114,
+          "distance_to_identity": 0.12297443487744886,
+          "frac": 0.12297443487744886,
+          "half_turn_rank": 755,
+          "identity_rank": 246,
+          "n": 216
+        },
+        {
+          "distance_to_half_turn": 0.396263451589391,
+          "distance_to_identity": 0.10373654841060898,
+          "frac": 0.10373654841060898,
+          "half_turn_rank": 794,
+          "identity_rank": 207,
+          "n": 231
+        },
+        {
+          "distance_to_half_turn": 0.06783816354840155,
+          "distance_to_identity": 0.43216183645159845,
+          "frac": 0.5678381635484016,
+          "half_turn_rank": 135,
+          "identity_rank": 866,
+          "n": 233
+        }
+      ],
+      "top_half_turns": [
+        {
+          "distance_to_half_turn": 0.00018504813795061636,
+          "distance_to_identity": 0.4998149518620494,
+          "frac": 0.4998149518620494,
+          "n": 390
+        },
+        {
+          "distance_to_half_turn": 0.0008260736910870037,
+          "distance_to_identity": 0.499173926308913,
+          "frac": 0.500826073691087,
+          "n": 961
+        },
+        {
+          "distance_to_half_turn": 0.0011961699667608627,
+          "distance_to_identity": 0.49880383003323914,
+          "frac": 0.5011961699667609,
+          "n": 181
+        },
+        {
+          "distance_to_half_turn": 0.0015662662426620955,
+          "distance_to_identity": 0.4984337337573379,
+          "frac": 0.4984337337573379,
+          "n": 599
+        },
+        {
+          "distance_to_half_turn": 0.002207291795684796,
+          "distance_to_identity": 0.4977927082043152,
+          "frac": 0.5022072917956848,
+          "n": 752
+        },
+        {
+          "distance_to_half_turn": 0.0025773880714368147,
+          "distance_to_identity": 0.4974226119285632,
+          "frac": 0.4974226119285632,
+          "n": 28
+        },
+        {
+          "distance_to_half_turn": 0.0029474843472598877,
+          "distance_to_identity": 0.4970525156527401,
+          "frac": 0.4970525156527401,
+          "n": 808
+        },
+        {
+          "distance_to_half_turn": 0.003588509900282588,
+          "distance_to_identity": 0.4964114900997174,
+          "frac": 0.5035885099002826,
+          "n": 543
+        }
+      ],
+      "top_identity_returns": [
+        {
+          "distance_to_half_turn": 0.49962990372409877,
+          "distance_to_identity": 0.00037009627590123273,
+          "frac": 0.9996299037240988,
+          "n": 780
+        },
+        {
+          "distance_to_half_turn": 0.49898887817107607,
+          "distance_to_identity": 0.0010111218289239332,
+          "frac": 0.0010111218289239332,
+          "n": 571
+        },
+        {
+          "distance_to_half_turn": 0.49861878189534536,
+          "distance_to_identity": 0.0013812181046546357,
+          "frac": 0.9986187818953454,
+          "n": 209
+        },
+        {
+          "distance_to_half_turn": 0.498248685619501,
+          "distance_to_identity": 0.001751314380499025,
+          "frac": 0.998248685619501,
+          "n": 989
+        },
+        {
+          "distance_to_half_turn": 0.4976076600664783,
+          "distance_to_identity": 0.0023923399335217255,
+          "frac": 0.0023923399335217255,
+          "n": 362
+        },
+        {
+          "distance_to_half_turn": 0.49723756379069073,
+          "distance_to_identity": 0.0027624362093092714,
+          "frac": 0.9972375637906907,
+          "n": 418
+        },
+        {
+          "distance_to_half_turn": 0.49659653823755434,
+          "distance_to_identity": 0.0034034617624456587,
+          "frac": 0.0034034617624456587,
+          "n": 933
+        },
+        {
+          "distance_to_half_turn": 0.4962264419617668,
+          "distance_to_identity": 0.0037735580382332046,
+          "frac": 0.0037735580382332046,
+          "n": 153
+        }
+      ],
+      "value": 1.7320508075688772
+    },
+    {
+      "continued_fraction_prefix": [
+        2,
+        1,
+        2,
+        1,
+        1,
+        4,
+        1,
+        1,
+        6,
+        1,
+        1,
+        8,
+        1,
+        1
+      ],
+      "name": "e",
+      "target_step_ranks": [
+        {
+          "distance_to_half_turn": 0.21629164905124298,
+          "distance_to_identity": 0.283708350948757,
+          "frac": 0.716291649051243,
+          "half_turn_rank": 434,
+          "identity_rank": 567,
+          "n": 72
+        },
+        {
+          "distance_to_half_turn": 0.06741670189751403,
+          "distance_to_identity": 0.43258329810248597,
+          "frac": 0.43258329810248597,
+          "half_turn_rank": 135,
+          "identity_rank": 866,
+          "n": 144
+        },
+        {
+          "distance_to_half_turn": 0.3511250528462142,
+          "distance_to_identity": 0.1488749471537858,
+          "frac": 0.1488749471537858,
+          "half_turn_rank": 703,
+          "identity_rank": 298,
+          "n": 216
+        },
+        {
+          "distance_to_half_turn": 0.42310237403944484,
+          "distance_to_identity": 0.07689762596055516,
+          "frac": 0.9231023740394448,
+          "half_turn_rank": 848,
+          "identity_rank": 153,
+          "n": 231
+        },
+        {
+          "distance_to_half_turn": 0.14033396904244455,
+          "distance_to_identity": 0.35966603095755545,
+          "frac": 0.35966603095755545,
+          "half_turn_rank": 281,
+          "identity_rank": 720,
+          "n": 233
+        }
+      ],
+      "top_half_turns": [
+        {
+          "distance_to_half_turn": 0.000469972975906785,
+          "distance_to_identity": 0.4995300270240932,
+          "frac": 0.4995300270240932,
+          "n": 268
+        },
+        {
+          "distance_to_half_turn": 0.0005802604800919653,
+          "distance_to_identity": 0.49941973951990803,
+          "frac": 0.500580260480092,
+          "n": 733
+        },
+        {
+          "distance_to_half_turn": 0.0014099189279477287,
+          "distance_to_identity": 0.49859008107205227,
+          "frac": 0.49859008107205227,
+          "n": 804
+        },
+        {
+          "distance_to_half_turn": 0.0015202064319055353,
+          "distance_to_identity": 0.49847979356809446,
+          "frac": 0.5015202064319055,
+          "n": 197
+        },
+        {
+          "distance_to_half_turn": 0.0024601523837191053,
+          "distance_to_identity": 0.4975398476162809,
+          "frac": 0.4975398476162809,
+          "n": 339
+        },
+        {
+          "distance_to_half_turn": 0.0025704398879042856,
+          "distance_to_identity": 0.4974295601120957,
+          "frac": 0.5025704398879043,
+          "n": 662
+        },
+        {
+          "distance_to_half_turn": 0.0034000983355326753,
+          "distance_to_identity": 0.4965999016644673,
+          "frac": 0.4965999016644673,
+          "n": 875
+        },
+        {
+          "distance_to_half_turn": 0.003510385839661012,
+          "distance_to_identity": 0.496489614160339,
+          "frac": 0.503510385839661,
+          "n": 126
+        }
+      ],
+      "top_identity_returns": [
+        {
+          "distance_to_half_turn": 0.49906005404818643,
+          "distance_to_identity": 0.00093994595181357,
+          "frac": 0.9990600540481864,
+          "n": 536
+        },
+        {
+          "distance_to_half_turn": 0.49894976654400125,
+          "distance_to_identity": 0.0010502334559987503,
+          "frac": 0.0010502334559987503,
+          "n": 465
+        },
+        {
+          "distance_to_half_turn": 0.4980098205921877,
+          "distance_to_identity": 0.0019901794078123203,
+          "frac": 0.9980098205921877,
+          "n": 71
+        },
+        {
+          "distance_to_half_turn": 0.4978995330880025,
+          "distance_to_identity": 0.0021004669119975006,
+          "frac": 0.0021004669119975006,
+          "n": 930
+        },
+        {
+          "distance_to_half_turn": 0.4970698746403741,
+          "distance_to_identity": 0.0029301253596258903,
+          "frac": 0.9970698746403741,
+          "n": 607
+        },
+        {
+          "distance_to_half_turn": 0.49695958713618893,
+          "distance_to_identity": 0.0030404128638110706,
+          "frac": 0.0030404128638110706,
+          "n": 394
+        },
+        {
+          "distance_to_half_turn": 0.49601964118437536,
+          "distance_to_identity": 0.0039803588156246406,
+          "frac": 0.9960196411843754,
+          "n": 142
+        },
+        {
+          "distance_to_half_turn": 0.49590935368041755,
+          "distance_to_identity": 0.004090646319582447,
+          "frac": 0.004090646319582447,
+          "n": 859
+        }
+      ],
+      "value": 2.718281828459045
+    },
+    {
+      "continued_fraction_prefix": [
+        3,
+        7,
+        15,
+        1,
+        292,
+        1,
+        1,
+        1,
+        2,
+        1,
+        3,
+        1,
+        14,
+        3
+      ],
+      "name": "pi",
+      "target_step_ranks": [
+        {
+          "distance_to_half_turn": 0.30532894153489565,
+          "distance_to_identity": 0.19467105846510435,
+          "frac": 0.19467105846510435,
+          "half_turn_rank": 613,
+          "identity_rank": 388,
+          "n": 72
+        },
+        {
+          "distance_to_half_turn": 0.1106578830697913,
+          "distance_to_identity": 0.3893421169302087,
+          "frac": 0.3893421169302087,
+          "half_turn_rank": 223,
+          "identity_rank": 778,
+          "n": 144
+        },
+        {
+          "distance_to_half_turn": 0.08401317539528463,
+          "distance_to_identity": 0.41598682460471537,
+          "frac": 0.5840131753952846,
+          "half_turn_rank": 166,
+          "identity_rank": 835,
+          "n": 216
+        },
+        {
+          "distance_to_half_turn": 0.20790297924224888,
+          "distance_to_identity": 0.2920970207577511,
+          "frac": 0.7079029792422489,
+          "half_turn_rank": 416,
+          "identity_rank": 585,
+          "n": 231
+        },
+        {
+          "distance_to_half_turn": 0.4910882864218138,
+          "distance_to_identity": 0.008911713578186209,
+          "frac": 0.9910882864218138,
+          "half_turn_rank": 982,
+          "identity_rank": 19,
+          "n": 233
+        }
+      ],
+      "top_half_turns": [
+        {
+          "distance_to_half_turn": 0.004169485432157671,
+          "distance_to_identity": 0.49583051456784233,
+          "frac": 0.5041694854321577,
+          "n": 957
+        },
+        {
+          "distance_to_half_turn": 0.004199629785489378,
+          "distance_to_identity": 0.4958003702145106,
+          "frac": 0.5041996297854894,
+          "n": 844
+        },
+        {
+          "distance_to_half_turn": 0.004229774138821085,
+          "distance_to_identity": 0.4957702258611789,
+          "frac": 0.5042297741388211,
+          "n": 731
+        },
+        {
+          "distance_to_half_turn": 0.004259918492152792,
+          "distance_to_identity": 0.4957400815078472,
+          "frac": 0.5042599184921528,
+          "n": 618
+        },
+        {
+          "distance_to_half_turn": 0.004290062845484499,
+          "distance_to_identity": 0.4957099371545155,
+          "frac": 0.5042900628454845,
+          "n": 505
+        },
+        {
+          "distance_to_half_turn": 0.004320207198816206,
+          "distance_to_identity": 0.4956797928011838,
+          "frac": 0.5043202071988162,
+          "n": 392
+        },
+        {
+          "distance_to_half_turn": 0.0043503515522616,
+          "distance_to_identity": 0.4956496484477384,
+          "frac": 0.5043503515522616,
+          "n": 279
+        },
+        {
+          "distance_to_half_turn": 0.004380495905706994,
+          "distance_to_identity": 0.495619504094293,
+          "frac": 0.504380495905707,
+          "n": 166
+        }
+      ],
+      "top_identity_returns": [
+        {
+          "distance_to_half_turn": 0.49996985564661145,
+          "distance_to_identity": 3.014435338855037e-05,
+          "frac": 0.9999698556466114,
+          "n": 113
+        },
+        {
+          "distance_to_half_turn": 0.4999397112932229,
+          "distance_to_identity": 6.028870677710074e-05,
+          "frac": 0.9999397112932229,
+          "n": 226
+        },
+        {
+          "distance_to_half_turn": 0.4999095669397775,
+          "distance_to_identity": 9.043306022249453e-05,
+          "frac": 0.9999095669397775,
+          "n": 339
+        },
+        {
+          "distance_to_half_turn": 0.4998794225864458,
+          "distance_to_identity": 0.00012057741355420148,
+          "frac": 0.9998794225864458,
+          "n": 452
+        },
+        {
+          "distance_to_half_turn": 0.4998492782331141,
+          "distance_to_identity": 0.00015072176688590844,
+          "frac": 0.9998492782331141,
+          "n": 565
+        },
+        {
+          "distance_to_half_turn": 0.499819133879555,
+          "distance_to_identity": 0.00018086612044498906,
+          "frac": 0.999819133879555,
+          "n": 678
+        },
+        {
+          "distance_to_half_turn": 0.4997889895262233,
+          "distance_to_identity": 0.00021101047377669602,
+          "frac": 0.9997889895262233,
+          "n": 791
+        },
+        {
+          "distance_to_half_turn": 0.4997588451728916,
+          "distance_to_identity": 0.00024115482710840297,
+          "frac": 0.9997588451728916,
+          "n": 904
+        }
+      ],
+      "value": 3.141592653589793
+    },
+    {
+      "continued_fraction_prefix": [
+        6,
+        3,
+        1,
+        1,
+        7,
+        2,
+        146,
+        3,
+        6,
+        1,
+        1,
+        2,
+        7,
+        6
+      ],
+      "name": "tau",
+      "target_step_ranks": [
+        {
+          "distance_to_half_turn": 0.1106578830697913,
+          "distance_to_identity": 0.3893421169302087,
+          "frac": 0.3893421169302087,
+          "half_turn_rank": 221,
+          "identity_rank": 780,
+          "n": 72
+        },
+        {
+          "distance_to_half_turn": 0.2786842338604174,
+          "distance_to_identity": 0.2213157661395826,
+          "frac": 0.7786842338604174,
+          "half_turn_rank": 556,
+          "identity_rank": 445,
+          "n": 144
+        },
+        {
+          "distance_to_half_turn": 0.33197364920943073,
+          "distance_to_identity": 0.16802635079056927,
+          "frac": 0.16802635079056927,
+          "half_turn_rank": 667,
+          "identity_rank": 334,
+          "n": 216
+        },
+        {
+          "distance_to_half_turn": 0.08419404151550225,
+          "distance_to_identity": 0.41580595848449775,
+          "frac": 0.41580595848449775,
+          "half_turn_rank": 170,
+          "identity_rank": 831,
+          "n": 231
+        },
+        {
+          "distance_to_half_turn": 0.4821765728436276,
+          "distance_to_identity": 0.017823427156372418,
+          "frac": 0.9821765728436276,
+          "half_turn_rank": 964,
+          "identity_rank": 37,
+          "n": 233
+        }
+      ],
+      "top_half_turns": [
+        {
+          "distance_to_half_turn": 0.0038981862517175614,
+          "distance_to_identity": 0.49610181374828244,
+          "frac": 0.5038981862517176,
+          "n": 987
+        },
+        {
+          "distance_to_half_turn": 0.003958474958380975,
+          "distance_to_identity": 0.496041525041619,
+          "frac": 0.503958474958381,
+          "n": 874
+        },
+        {
+          "distance_to_half_turn": 0.004018763665044389,
+          "distance_to_identity": 0.4959812363349556,
+          "frac": 0.5040187636650444,
+          "n": 761
+        },
+        {
+          "distance_to_half_turn": 0.004079052371707803,
+          "distance_to_identity": 0.4959209476282922,
+          "frac": 0.5040790523717078,
+          "n": 648
+        },
+        {
+          "distance_to_half_turn": 0.004139341078825964,
+          "distance_to_identity": 0.49586065892117404,
+          "frac": 0.504139341078826,
+          "n": 535
+        },
+        {
+          "distance_to_half_turn": 0.004199629785489378,
+          "distance_to_identity": 0.4958003702145106,
+          "frac": 0.5041996297854894,
+          "n": 422
+        },
+        {
+          "distance_to_half_turn": 0.004259918492152792,
+          "distance_to_identity": 0.4957400815078472,
+          "frac": 0.5042599184921528,
+          "n": 309
+        },
+        {
+          "distance_to_half_turn": 0.004320207198816206,
+          "distance_to_identity": 0.4956797928011838,
+          "frac": 0.5043202071988162,
+          "n": 196
+        }
+      ],
+      "top_identity_returns": [
+        {
+          "distance_to_half_turn": 0.4999397112932229,
+          "distance_to_identity": 6.028870677710074e-05,
+          "frac": 0.9999397112932229,
+          "n": 113
+        },
+        {
+          "distance_to_half_turn": 0.4998794225864458,
+          "distance_to_identity": 0.00012057741355420148,
+          "frac": 0.9998794225864458,
+          "n": 226
+        },
+        {
+          "distance_to_half_turn": 0.499819133879555,
+          "distance_to_identity": 0.00018086612044498906,
+          "frac": 0.999819133879555,
+          "n": 339
+        },
+        {
+          "distance_to_half_turn": 0.4997588451728916,
+          "distance_to_identity": 0.00024115482710840297,
+          "frac": 0.9997588451728916,
+          "n": 452
+        },
+        {
+          "distance_to_half_turn": 0.4996985564662282,
+          "distance_to_identity": 0.0003014435337718169,
+          "frac": 0.9996985564662282,
+          "n": 565
+        },
+        {
+          "distance_to_half_turn": 0.49963826775911,
+          "distance_to_identity": 0.00036173224088997813,
+          "frac": 0.99963826775911,
+          "n": 678
+        },
+        {
+          "distance_to_half_turn": 0.4995779790524466,
+          "distance_to_identity": 0.00042202094755339203,
+          "frac": 0.9995779790524466,
+          "n": 791
+        },
+        {
+          "distance_to_half_turn": 0.4995176903457832,
+          "distance_to_identity": 0.00048230965421680594,
+          "frac": 0.9995176903457832,
+          "n": 904
+        }
+      ],
+      "value": 6.283185307179586
+    },
+    {
+      "continued_fraction_prefix": [
+        0,
+        1,
+        2,
+        3,
+        1,
+        6,
+        3,
+        1,
+        1,
+        2,
+        1,
+        1,
+        1,
+        1
+      ],
+      "name": "ln2",
+      "target_step_ranks": [
+        {
+          "distance_to_half_turn": 0.4065970003160615,
+          "distance_to_identity": 0.0934029996839385,
+          "frac": 0.9065970003160615,
+          "half_turn_rank": 814,
+          "identity_rank": 187,
+          "n": 72
+        },
+        {
+          "distance_to_half_turn": 0.313194000632123,
+          "distance_to_identity": 0.186805999367877,
+          "frac": 0.813194000632123,
+          "half_turn_rank": 627,
+          "identity_rank": 374,
+          "n": 144
+        },
+        {
+          "distance_to_half_turn": 0.2197910009481916,
+          "distance_to_identity": 0.2802089990518084,
+          "frac": 0.7197910009481916,
+          "half_turn_rank": 440,
+          "identity_rank": 561,
+          "n": 216
+        },
+        {
+          "distance_to_half_turn": 0.3830012906526292,
+          "distance_to_identity": 0.11699870934737078,
+          "frac": 0.11699870934737078,
+          "half_turn_rank": 767,
+          "identity_rank": 234,
+          "n": 231
+        },
+        {
+          "distance_to_half_turn": 0.0032930704672651245,
+          "distance_to_identity": 0.4967069295327349,
+          "frac": 0.5032930704672651,
+          "half_turn_rank": 7,
+          "identity_rank": 994,
+          "n": 233
+        }
+      ],
+      "top_half_turns": [
+        {
+          "distance_to_half_turn": 0.0002449597424458716,
+          "distance_to_identity": 0.49975504025755413,
+          "frac": 0.5002449597424459,
+          "n": 321
+        },
+        {
+          "distance_to_half_turn": 0.0007348792273660365,
+          "distance_to_identity": 0.49926512077263396,
+          "frac": 0.500734879227366,
+          "n": 963
+        },
+        {
+          "distance_to_half_turn": 0.001034135877546305,
+          "distance_to_identity": 0.4989658641224537,
+          "frac": 0.4989658641224537,
+          "n": 686
+        },
+        {
+          "distance_to_half_turn": 0.0015240553624060738,
+          "distance_to_identity": 0.4984759446375939,
+          "frac": 0.4984759446375939,
+          "n": 44
+        },
+        {
+          "distance_to_half_turn": 0.002013974847272948,
+          "distance_to_identity": 0.49798602515272705,
+          "frac": 0.502013974847273,
+          "n": 598
+        },
+        {
+          "distance_to_half_turn": 0.002803150982401803,
+          "distance_to_identity": 0.4971968490175982,
+          "frac": 0.4971968490175982,
+          "n": 409
+        },
+        {
+          "distance_to_half_turn": 0.0032930704672651245,
+          "distance_to_identity": 0.4967069295327349,
+          "frac": 0.5032930704672651,
+          "n": 233
+        },
+        {
+          "distance_to_half_turn": 0.003782989952128446,
+          "distance_to_identity": 0.49621701004787155,
+          "frac": 0.5037829899521284,
+          "n": 875
+        }
+      ],
+      "top_identity_returns": [
+        {
+          "distance_to_half_turn": 0.49951008051510826,
+          "distance_to_identity": 0.0004899194848917432,
+          "frac": 0.0004899194848917432,
+          "n": 642
+        },
+        {
+          "distance_to_half_turn": 0.49872090438003625,
+          "distance_to_identity": 0.0012790956199637549,
+          "frac": 0.9987209043800362,
+          "n": 365
+        },
+        {
+          "distance_to_half_turn": 0.4982309848951445,
+          "distance_to_identity": 0.001769015104855498,
+          "frac": 0.001769015104855498,
+          "n": 277
+        },
+        {
+          "distance_to_half_turn": 0.4977410654103096,
+          "distance_to_identity": 0.002258934589690398,
+          "frac": 0.002258934589690398,
+          "n": 919
+        },
+        {
+          "distance_to_half_turn": 0.4974418087600725,
+          "distance_to_identity": 0.0025581912399275097,
+          "frac": 0.9974418087600725,
+          "n": 730
+        },
+        {
+          "distance_to_half_turn": 0.49695188927518785,
+          "distance_to_identity": 0.0030481107248121475,
+          "frac": 0.9969518892751879,
+          "n": 88
+        },
+        {
+          "distance_to_half_turn": 0.496461969790289,
+          "distance_to_identity": 0.003538030209710996,
+          "frac": 0.003538030209710996,
+          "n": 554
+        },
+        {
+          "distance_to_half_turn": 0.495672793655217,
+          "distance_to_identity": 0.004327206344783008,
+          "frac": 0.995672793655217,
+          "n": 453
+        }
+      ],
+      "value": 0.6931471805599453
+    }
+  ],
+  "limit": 1000,
+  "phi": {
+    "fibonacci_convergents": [
+      {
+        "denominator": 1,
+        "fraction": "1/1",
+        "index": 1,
+        "numerator": 1
+      },
+      {
+        "denominator": 1,
+        "fraction": "2/1",
+        "index": 2,
+        "numerator": 2
+      },
+      {
+        "denominator": 2,
+        "fraction": "3/2",
+        "index": 3,
+        "numerator": 3
+      },
+      {
+        "denominator": 3,
+        "fraction": "5/3",
+        "index": 4,
+        "numerator": 5
+      },
+      {
+        "denominator": 5,
+        "fraction": "8/5",
+        "index": 5,
+        "numerator": 8
+      },
+      {
+        "denominator": 8,
+        "fraction": "13/8",
+        "index": 6,
+        "numerator": 13
+      },
+      {
+        "denominator": 13,
+        "fraction": "21/13",
+        "index": 7,
+        "numerator": 21
+      },
+      {
+        "denominator": 21,
+        "fraction": "34/21",
+        "index": 8,
+        "numerator": 34
+      },
+      {
+        "denominator": 34,
+        "fraction": "55/34",
+        "index": 9,
+        "numerator": 55
+      },
+      {
+        "denominator": 55,
+        "fraction": "89/55",
+        "index": 10,
+        "numerator": 89
+      },
+      {
+        "denominator": 89,
+        "fraction": "144/89",
+        "index": 11,
+        "numerator": 144
+      },
+      {
+        "denominator": 144,
+        "fraction": "233/144",
+        "index": 12,
+        "numerator": 233
+      },
+      {
+        "denominator": 233,
+        "fraction": "377/233",
+        "index": 13,
+        "numerator": 377
+      },
+      {
+        "denominator": 377,
+        "fraction": "610/377",
+        "index": 14,
+        "numerator": 610
+      },
+      {
+        "denominator": 610,
+        "fraction": "987/610",
+        "index": 15,
+        "numerator": 987
+      },
+      {
+        "denominator": 987,
+        "fraction": "1597/987",
+        "index": 16,
+        "numerator": 1597
+      }
+    ],
+    "identity_144": "144*phi = 233 - phi^-12",
+    "phi_inverse_12": 0.0031056200151418573,
+    "target_points": [
+      {
+        "distance_to_half_turn": 0.0015528100075670181,
+        "distance_to_identity": 0.498447189992433,
+        "frac": 0.498447189992433,
+        "n": 72
+      },
+      {
+        "distance_to_half_turn": 0.49689437998486596,
+        "distance_to_identity": 0.0031056200151340363,
+        "frac": 0.996894379984866,
+        "n": 144
+      },
+      {
+        "distance_to_half_turn": 0.004658430022686844,
+        "distance_to_identity": 0.49534156997731316,
+        "frac": 0.49534156997731316,
+        "n": 216
+      },
+      {
+        "distance_to_half_turn": 0.2658514012257456,
+        "distance_to_identity": 0.23414859877425442,
+        "frac": 0.7658514012257456,
+        "n": 231
+      },
+      {
+        "distance_to_half_turn": 0.4980806212744824,
+        "distance_to_identity": 0.0019193787255176176,
+        "frac": 0.0019193787255176176,
+        "n": 233
+      }
+    ],
+    "target_step_ranks": [
+      {
+        "distance_to_half_turn": 0.0015528100075670181,
+        "distance_to_identity": 0.498447189992433,
+        "frac": 0.498447189992433,
+        "half_turn_rank": 4,
+        "identity_rank": 997,
+        "n": 72
+      },
+      {
+        "distance_to_half_turn": 0.49689437998486596,
+        "distance_to_identity": 0.0031056200151340363,
+        "frac": 0.996894379984866,
+        "half_turn_rank": 994,
+        "identity_rank": 7,
+        "n": 144
+      },
+      {
+        "distance_to_half_turn": 0.004658430022686844,
+        "distance_to_identity": 0.49534156997731316,
+        "frac": 0.49534156997731316,
+        "half_turn_rank": 10,
+        "identity_rank": 991,
+        "n": 216
+      },
+      {
+        "distance_to_half_turn": 0.2658514012257456,
+        "distance_to_identity": 0.23414859877425442,
+        "frac": 0.7658514012257456,
+        "half_turn_rank": 532,
+        "identity_rank": 469,
+        "n": 231
+      },
+      {
+        "distance_to_half_turn": 0.4980806212744824,
+        "distance_to_identity": 0.0019193787255176176,
+        "frac": 0.0019193787255176176,
+        "half_turn_rank": 997,
+        "identity_rank": 4,
+        "n": 233
+      }
+    ],
+    "top_half_turns": [
+      {
+        "distance_to_half_turn": 0.00036656871793638857,
+        "distance_to_identity": 0.4996334312820636,
+        "frac": 0.5003665687179364,
+        "n": 305
+      },
+      {
+        "distance_to_half_turn": 0.0008196725716516085,
+        "distance_to_identity": 0.4991803274283484,
+        "frac": 0.4991803274283484,
+        "n": 682
+      },
+      {
+        "distance_to_half_turn": 0.0010997061538091657,
+        "distance_to_identity": 0.49890029384619083,
+        "frac": 0.5010997061538092,
+        "n": 915
+      },
+      {
+        "distance_to_half_turn": 0.0015528100075670181,
+        "distance_to_identity": 0.498447189992433,
+        "frac": 0.498447189992433,
+        "n": 72
+      },
+      {
+        "distance_to_half_turn": 0.0022859474435108496,
+        "distance_to_identity": 0.49771405255648915,
+        "frac": 0.5022859474435108,
+        "n": 538
+      },
+      {
+        "distance_to_half_turn": 0.0027390512972260694,
+        "distance_to_identity": 0.49726094870277393,
+        "frac": 0.49726094870277393,
+        "n": 449
+      },
+      {
+        "distance_to_half_turn": 0.0034721887330988466,
+        "distance_to_identity": 0.49652781126690115,
+        "frac": 0.5034721887330988,
+        "n": 161
+      },
+      {
+        "distance_to_half_turn": 0.00392529258670038,
+        "distance_to_identity": 0.4960747074132996,
+        "frac": 0.4960747074132996,
+        "n": 826
+      },
+      {
+        "distance_to_half_turn": 0.004205326168857937,
+        "distance_to_identity": 0.49579467383114206,
+        "frac": 0.5042053261688579,
+        "n": 771
+      },
+      {
+        "distance_to_half_turn": 0.004658430022686844,
+        "distance_to_identity": 0.49534156997731316,
+        "frac": 0.49534156997731316,
+        "n": 216
+      },
+      {
+        "distance_to_half_turn": 0.005391567458559621,
+        "distance_to_identity": 0.4946084325414404,
+        "frac": 0.5053915674585596,
+        "n": 394
+      },
+      {
+        "distance_to_half_turn": 0.005844671312274841,
+        "distance_to_identity": 0.49415532868772516,
+        "frac": 0.49415532868772516,
+        "n": 593
+      }
+    ],
+    "top_identity_returns": [
+      {
+        "distance_to_half_turn": 0.4995468961462848,
+        "distance_to_identity": 0.0004531038537152199,
+        "frac": 0.9995468961462848,
+        "n": 987
+      },
+      {
+        "distance_to_half_turn": 0.4992668625641272,
+        "distance_to_identity": 0.0007331374358727771,
+        "frac": 0.0007331374358727771,
+        "n": 610
+      },
+      {
+        "distance_to_half_turn": 0.498813758710412,
+        "distance_to_identity": 0.001186241289587997,
+        "frac": 0.998813758710412,
+        "n": 377
+      },
+      {
+        "distance_to_half_turn": 0.4980806212744824,
+        "distance_to_identity": 0.0019193787255176176,
+        "frac": 0.0019193787255176176,
+        "n": 233
+      },
+      {
+        "distance_to_half_turn": 0.497627517420824,
+        "distance_to_identity": 0.002372482579175994,
+        "frac": 0.997627517420824,
+        "n": 754
+      },
+      {
+        "distance_to_half_turn": 0.49734748383866645,
+        "distance_to_identity": 0.0026525161613335513,
+        "frac": 0.0026525161613335513,
+        "n": 843
+      },
+      {
+        "distance_to_half_turn": 0.49689437998486596,
+        "distance_to_identity": 0.0031056200151340363,
+        "frac": 0.996894379984866,
+        "n": 144
+      },
+      {
+        "distance_to_half_turn": 0.49616124254896476,
+        "distance_to_identity": 0.003838757451035235,
+        "frac": 0.003838757451035235,
+        "n": 466
+      },
+      {
+        "distance_to_half_turn": 0.49570813869524954,
+        "distance_to_identity": 0.004291861304750455,
+        "frac": 0.9957081386952495,
+        "n": 521
+      },
+      {
+        "distance_to_half_turn": 0.49497500125934835,
+        "distance_to_identity": 0.005024998740651654,
+        "frac": 0.005024998740651654,
+        "n": 89
+      },
+      {
+        "distance_to_half_turn": 0.49452189740554786,
+        "distance_to_identity": 0.005478102594452139,
+        "frac": 0.9945218974055479,
+        "n": 898
+      },
+      {
+        "distance_to_half_turn": 0.4942418638233903,
+        "distance_to_identity": 0.005758136176609696,
+        "frac": 0.005758136176609696,
+        "n": 699
+      }
+    ],
+    "value": 1.618033988749895
+  },
+  "plot": "plot_skipped: matplotlib unavailable (No module named 'matplotlib')",
+  "target_steps": [
+    72,
+    144,
+    216,
+    231,
+    233
+  ]
+}

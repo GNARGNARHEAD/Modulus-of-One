@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# OS / editor
+.DS_Store
+.vscode/
+.codex
+
+# Raw conversations remain local. Public provenance notices retain their hashes.
+archive/source_conversations/
+
+# Generated output types
+*.dot
+*.svg
+*.png
+*.csv
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+*.sqlite-journal
+
+# Retain the figures linked by these completed research notes.
+!research/dynamics/results/2026-10-02-branch-rhythm-v1/branch_rhythm_clocks.png
+!research/dynamics/results/2026-10-02-branch-rhythm-v1/branch_rhythm_clocks.svg
+!research/geometry/results/2026-10-01-area-branch-comparison-v1/area_inspection_comparison.png
+!research/geometry/results/2026-10-01-area-branch-comparison-v1/area_inspection_comparison.svg
+
+# Local generation, release preparation, and databases remain outside Git.
+# Some ignored inputs under out/scratch are retained research sources: consult
+# research/experiments/CORPUS_INVENTORY.md before removing anything.
+out/
+
+# Saved experimental evidence is reviewed and retained in this tree.
+!research/experiments/**/*.csv
+!research/experiments/**/*.png
+!research/experiments/**/*.svg
+!research/experiments/*.csv
+!research/experiments/*.png
+!research/experiments/*.svg

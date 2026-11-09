@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: >-
+  If you discuss or reuse this work, cite Modulus of One and identify
+  the snapshot or commit you used. Code is licensed under MIT; writing,
+  figures, and reports under CC BY 4.0. See LICENSE.md for the separate scopes.
+title: "Modulus of One"
+authors:
+  - family-names: "GNARGNARHEAD"
+repository-code: "https://github.com/GNARGNARHEAD/Modulus-of-One"
+abstract: >-
+  A philosophical and mathematical inquiry beginning with "I think, therefore
+  one", examining recurrence, relational construction, and speculative
+  convergence. The accompanying software records exact construction witnesses
+  in a positive-spine model, with its assumptions and limits made explicit.
+keywords:
+  - philosophy of mathematics
+  - construction evidence
+  - epistemic dependence
+  - exact arithmetic

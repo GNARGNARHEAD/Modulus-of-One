@@ -1,0 +1,14 @@
+{
+  "report_sha256": "512126ea7e4db9671710af7a2df4a51368d8e388a3c45366bd89f98b1023ab9d",
+  "verifier_sha256": "58f14550299cf39943be34cb961fd356da7217353f6ce5fefacfd70095596283",
+  "arithmetic_edges_checked": 10468,
+  "sqlite_edges_reread": 1790,
+  "exact_intervals_checked": 98,
+  "candidate_comparisons_checked": 63504,
+  "grid_cell_enumeration": "All levels including N64",
+  "nested_intervals": true,
+  "persistent_classification": true,
+  "source_hashes_match": true,
+  "corpus_unchanged": true,
+  "status": "pass"
+}

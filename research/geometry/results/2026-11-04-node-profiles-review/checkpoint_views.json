@@ -1,0 +1,451 @@
+{
+  "conclusion": "Previously mixed scopes are now separated; v1/v2 snapshots remain readable without mutation.",
+  "input_hashes": {
+    "/home/USER/Documents/MoO/out/scratch/node_profiles_20261104/associations.sqlite": "d20482a8708856f3905b8c221776fe80ce0e663007198290151c78161f425bea",
+    "/home/USER/Documents/MoO/out/scratch/node_profiles_20261104_certificates/associations.sqlite": "45e4ce993ecbb5447948eddeb467500ee1b40e6fc95393319b713f33f765689b",
+    "/home/USER/Documents/MoO/out/scratch/shell_composition_20260920_current_v1/wide_u576.sqlite": "655e2ba49f53519e7cb3720ad8894579aaf113444afbe56b81a99ae7bbdae2b6",
+    "/tmp/moo-evidence-review-it8ocvfd/at-u16.sqlite": "ad0dcb845aad89ab0c52137c3173b243e9d90286955f790caee916682d1033f1"
+  },
+  "inputs_unchanged": true,
+  "integrated_289": {
+    "native_found": true,
+    "native_node": {
+      "confirmed_stage": 289,
+      "first_stage": 17,
+      "frac": "289",
+      "kind": "positive_integer",
+      "node_id": 292,
+      "p": 289,
+      "q": 1,
+      "status": "speculative_until_confirmed"
+    },
+    "profile_node": {
+      "checkpoint": 16,
+      "confirmation_threshold": 289,
+      "confirmation_threshold_scope": "Positive-spine schedule; not an observed confirmation until the checkpoint reaches it.",
+      "confirmed_stage": null,
+      "first_edge_id": null,
+      "first_stage": null,
+      "in_saved_corpus": true,
+      "key": [
+        289,
+        1
+      ],
+      "kind": null,
+      "label": "289",
+      "node_id": null,
+      "p": 289,
+      "present": false,
+      "q": 1,
+      "saved_source_node": {
+        "confirmed_stage": 289,
+        "first_edge_id": 1092,
+        "first_stage": 17,
+        "key": [
+          289,
+          1
+        ],
+        "kind": "positive_integer",
+        "label": "289",
+        "node_id": 292,
+        "p": 289,
+        "present": true,
+        "q": 1,
+        "status": "speculative_until_confirmed"
+      },
+      "status": "not_observed",
+      "status_at_checkpoint": "not_observed"
+    },
+    "query_scope": {
+      "association_checkpoint": 16,
+      "native_graph": "Entire saved corpus; neighborhoods and statistics are not filtered to the association checkpoint.",
+      "recorded_source_stage": 576,
+      "same_source_sha256": "655e2ba49f53519e7cb3720ad8894579aaf113444afbe56b81a99ae7bbdae2b6"
+    }
+  },
+  "method": "Read corrected API/CLI output over unchanged real v1/v2 snapshots and compare to the originally observed U16/full-source cases; no test framework used.",
+  "readings": [
+    {
+      "index_path": "/tmp/moo-evidence-review-it8ocvfd/at-u16.sqlite",
+      "index_version": "moo_node_profiles.v2",
+      "node": {
+        "checkpoint": 16,
+        "confirmation_threshold": 25,
+        "confirmation_threshold_scope": "Positive-spine schedule; not an observed confirmation until the checkpoint reaches it.",
+        "confirmed_stage": null,
+        "first_edge_id": 84,
+        "first_stage": 5,
+        "in_saved_corpus": true,
+        "key": [
+          25,
+          1
+        ],
+        "kind": "positive_integer",
+        "label": "25",
+        "node_id": 29,
+        "p": 25,
+        "present": true,
+        "q": 1,
+        "saved_source_node": {
+          "confirmed_stage": 25,
+          "first_edge_id": 84,
+          "first_stage": 5,
+          "key": [
+            25,
+            1
+          ],
+          "kind": "positive_integer",
+          "label": "25",
+          "node_id": 29,
+          "p": 25,
+          "present": true,
+          "q": 1,
+          "status": "speculative_until_confirmed"
+        },
+        "status": "speculative",
+        "status_at_checkpoint": "speculative"
+      },
+      "value": "25"
+    },
+    {
+      "index_path": "/tmp/moo-evidence-review-it8ocvfd/at-u16.sqlite",
+      "index_version": "moo_node_profiles.v2",
+      "node": {
+        "checkpoint": 16,
+        "confirmation_threshold": 289,
+        "confirmation_threshold_scope": "Positive-spine schedule; not an observed confirmation until the checkpoint reaches it.",
+        "confirmed_stage": null,
+        "first_edge_id": null,
+        "first_stage": null,
+        "in_saved_corpus": true,
+        "key": [
+          289,
+          1
+        ],
+        "kind": null,
+        "label": "289",
+        "node_id": null,
+        "p": 289,
+        "present": false,
+        "q": 1,
+        "saved_source_node": {
+          "confirmed_stage": 289,
+          "first_edge_id": 1092,
+          "first_stage": 17,
+          "key": [
+            289,
+            1
+          ],
+          "kind": "positive_integer",
+          "label": "289",
+          "node_id": 292,
+          "p": 289,
+          "present": true,
+          "q": 1,
+          "status": "speculative_until_confirmed"
+        },
+        "status": "not_observed",
+        "status_at_checkpoint": "not_observed"
+      },
+      "value": "289"
+    },
+    {
+      "index_path": "/tmp/moo-evidence-review-it8ocvfd/at-u16.sqlite",
+      "index_version": "moo_node_profiles.v2",
+      "node": {
+        "checkpoint": 16,
+        "confirmation_threshold": 625,
+        "confirmation_threshold_scope": "Positive-spine schedule; not an observed confirmation until the checkpoint reaches it.",
+        "confirmed_stage": null,
+        "first_edge_id": null,
+        "first_stage": null,
+        "in_saved_corpus": true,
+        "key": [
+          625,
+          1
+        ],
+        "kind": null,
+        "label": "625",
+        "node_id": null,
+        "p": 625,
+        "present": false,
+        "q": 1,
+        "saved_source_node": {
+          "confirmed_stage": 625,
+          "first_edge_id": 2404,
+          "first_stage": 25,
+          "key": [
+            625,
+            1
+          ],
+          "kind": "positive_integer",
+          "label": "625",
+          "node_id": 609,
+          "p": 625,
+          "present": true,
+          "q": 1,
+          "status": "speculative_until_confirmed"
+        },
+        "status": "not_observed",
+        "status_at_checkpoint": "not_observed"
+      },
+      "value": "625"
+    },
+    {
+      "index_path": "/home/USER/Documents/MoO/out/scratch/node_profiles_20261104/associations.sqlite",
+      "index_version": "moo_node_profiles.v1",
+      "node": {
+        "checkpoint": 576,
+        "confirmation_threshold": 25,
+        "confirmation_threshold_scope": "Positive-spine schedule; not an observed confirmation until the checkpoint reaches it.",
+        "confirmed_stage": 25,
+        "first_edge_id": 84,
+        "first_stage": 5,
+        "in_saved_corpus": true,
+        "key": [
+          25,
+          1
+        ],
+        "kind": "positive_integer",
+        "label": "25",
+        "node_id": 29,
+        "p": 25,
+        "present": true,
+        "q": 1,
+        "saved_source_node": {
+          "confirmed_stage": 25,
+          "first_edge_id": 84,
+          "first_stage": 5,
+          "key": [
+            25,
+            1
+          ],
+          "kind": "positive_integer",
+          "label": "25",
+          "node_id": 29,
+          "p": 25,
+          "present": true,
+          "q": 1,
+          "status": "speculative_until_confirmed"
+        },
+        "status": "confirmed",
+        "status_at_checkpoint": "confirmed"
+      },
+      "value": "25"
+    },
+    {
+      "index_path": "/home/USER/Documents/MoO/out/scratch/node_profiles_20261104/associations.sqlite",
+      "index_version": "moo_node_profiles.v1",
+      "node": {
+        "checkpoint": 576,
+        "confirmation_threshold": 289,
+        "confirmation_threshold_scope": "Positive-spine schedule; not an observed confirmation until the checkpoint reaches it.",
+        "confirmed_stage": 289,
+        "first_edge_id": 1092,
+        "first_stage": 17,
+        "in_saved_corpus": true,
+        "key": [
+          289,
+          1
+        ],
+        "kind": "positive_integer",
+        "label": "289",
+        "node_id": 292,
+        "p": 289,
+        "present": true,
+        "q": 1,
+        "saved_source_node": {
+          "confirmed_stage": 289,
+          "first_edge_id": 1092,
+          "first_stage": 17,
+          "key": [
+            289,
+            1
+          ],
+          "kind": "positive_integer",
+          "label": "289",
+          "node_id": 292,
+          "p": 289,
+          "present": true,
+          "q": 1,
+          "status": "speculative_until_confirmed"
+        },
+        "status": "confirmed",
+        "status_at_checkpoint": "confirmed"
+      },
+      "value": "289"
+    },
+    {
+      "index_path": "/home/USER/Documents/MoO/out/scratch/node_profiles_20261104/associations.sqlite",
+      "index_version": "moo_node_profiles.v1",
+      "node": {
+        "checkpoint": 576,
+        "confirmation_threshold": 625,
+        "confirmation_threshold_scope": "Positive-spine schedule; not an observed confirmation until the checkpoint reaches it.",
+        "confirmed_stage": null,
+        "first_edge_id": 2404,
+        "first_stage": 25,
+        "in_saved_corpus": true,
+        "key": [
+          625,
+          1
+        ],
+        "kind": "positive_integer",
+        "label": "625",
+        "node_id": 609,
+        "p": 625,
+        "present": true,
+        "q": 1,
+        "saved_source_node": {
+          "confirmed_stage": 625,
+          "first_edge_id": 2404,
+          "first_stage": 25,
+          "key": [
+            625,
+            1
+          ],
+          "kind": "positive_integer",
+          "label": "625",
+          "node_id": 609,
+          "p": 625,
+          "present": true,
+          "q": 1,
+          "status": "speculative_until_confirmed"
+        },
+        "status": "speculative",
+        "status_at_checkpoint": "speculative"
+      },
+      "value": "625"
+    },
+    {
+      "index_path": "/home/USER/Documents/MoO/out/scratch/node_profiles_20261104_certificates/associations.sqlite",
+      "index_version": "moo_node_profiles.v2",
+      "node": {
+        "checkpoint": 576,
+        "confirmation_threshold": 25,
+        "confirmation_threshold_scope": "Positive-spine schedule; not an observed confirmation until the checkpoint reaches it.",
+        "confirmed_stage": 25,
+        "first_edge_id": 84,
+        "first_stage": 5,
+        "in_saved_corpus": true,
+        "key": [
+          25,
+          1
+        ],
+        "kind": "positive_integer",
+        "label": "25",
+        "node_id": 29,
+        "p": 25,
+        "present": true,
+        "q": 1,
+        "saved_source_node": {
+          "confirmed_stage": 25,
+          "first_edge_id": 84,
+          "first_stage": 5,
+          "key": [
+            25,
+            1
+          ],
+          "kind": "positive_integer",
+          "label": "25",
+          "node_id": 29,
+          "p": 25,
+          "present": true,
+          "q": 1,
+          "status": "speculative_until_confirmed"
+        },
+        "status": "confirmed",
+        "status_at_checkpoint": "confirmed"
+      },
+      "value": "25"
+    },
+    {
+      "index_path": "/home/USER/Documents/MoO/out/scratch/node_profiles_20261104_certificates/associations.sqlite",
+      "index_version": "moo_node_profiles.v2",
+      "node": {
+        "checkpoint": 576,
+        "confirmation_threshold": 289,
+        "confirmation_threshold_scope": "Positive-spine schedule; not an observed confirmation until the checkpoint reaches it.",
+        "confirmed_stage": 289,
+        "first_edge_id": 1092,
+        "first_stage": 17,
+        "in_saved_corpus": true,
+        "key": [
+          289,
+          1
+        ],
+        "kind": "positive_integer",
+        "label": "289",
+        "node_id": 292,
+        "p": 289,
+        "present": true,
+        "q": 1,
+        "saved_source_node": {
+          "confirmed_stage": 289,
+          "first_edge_id": 1092,
+          "first_stage": 17,
+          "key": [
+            289,
+            1
+          ],
+          "kind": "positive_integer",
+          "label": "289",
+          "node_id": 292,
+          "p": 289,
+          "present": true,
+          "q": 1,
+          "status": "speculative_until_confirmed"
+        },
+        "status": "confirmed",
+        "status_at_checkpoint": "confirmed"
+      },
+      "value": "289"
+    },
+    {
+      "index_path": "/home/USER/Documents/MoO/out/scratch/node_profiles_20261104_certificates/associations.sqlite",
+      "index_version": "moo_node_profiles.v2",
+      "node": {
+        "checkpoint": 576,
+        "confirmation_threshold": 625,
+        "confirmation_threshold_scope": "Positive-spine schedule; not an observed confirmation until the checkpoint reaches it.",
+        "confirmed_stage": null,
+        "first_edge_id": 2404,
+        "first_stage": 25,
+        "in_saved_corpus": true,
+        "key": [
+          625,
+          1
+        ],
+        "kind": "positive_integer",
+        "label": "625",
+        "node_id": 609,
+        "p": 625,
+        "present": true,
+        "q": 1,
+        "saved_source_node": {
+          "confirmed_stage": 625,
+          "first_edge_id": 2404,
+          "first_stage": 25,
+          "key": [
+            625,
+            1
+          ],
+          "kind": "positive_integer",
+          "label": "625",
+          "node_id": 609,
+          "p": 625,
+          "present": true,
+          "q": 1,
+          "status": "speculative_until_confirmed"
+        },
+        "status": "speculative",
+        "status_at_checkpoint": "speculative"
+      },
+      "value": "625"
+    }
+  ],
+  "reviewed_code_sha256": {
+    "moo_graph_query.py": "b6ec04e85a571d364ca3ee49a6c1b430891750ec8c9245872411e752aeba3fd1",
+    "moo_node_profiles.py": "a7e3c96bbd78906d0bd216834c2c667b5ca0fc4625ce5ec2da489d0bd116e4e4"
+  }
+}

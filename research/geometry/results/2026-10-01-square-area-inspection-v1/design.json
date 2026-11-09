@@ -1,0 +1,61 @@
+{
+  "evidence_layer": "external_probe",
+  "claim_status": "observation",
+  "scope": "Fixed worked-example calibration; no new invariant or general branch claim.",
+  "cases": [
+    [
+      "base",
+      3,
+      4,
+      5
+    ],
+    [
+      "rescaled",
+      6,
+      8,
+      10
+    ],
+    [
+      "exchanged",
+      4,
+      3,
+      5
+    ],
+    [
+      "nearby_failure",
+      3,
+      4,
+      6
+    ]
+  ],
+  "config": {
+    "max_stage": 160,
+    "max_abs_p": 25600,
+    "max_abs_q": 25600,
+    "max_abs_value": 25600,
+    "max_edges": null,
+    "time_limit_seconds": null,
+    "commit_every": 40,
+    "retain_confirmed_edges": true,
+    "verbose": false
+  },
+  "selection": "Known small shell, common rescaling, exchanged legs, nearby nonshell.",
+  "prediction": "Equivalent representations have identical normalized areas but route-dependent stages.",
+  "controls": "Require a shared square node; reject (3,4,6) before interpreting bounds.",
+  "holdout": "None: these fixed examples calibrate the inspection, not a predictive claim.",
+  "primary_metric": "Completeness and earliest stage of each specified witness bundle.",
+  "failure_rule": "Any missing or inadmissible witness, wrong shared-node test, or disagreement with shoelace fails this encoding.",
+  "limits": [
+    "No intrinsic MoO geometry, area measure, or completed irrational is defined.",
+    "Cleared-denominator witnesses are not fractional self-product edges.",
+    "Readiness is route-specific; no minimal construction-cost claim.",
+    "No pi, trigonometry, or irrational constant is a numerical input."
+  ],
+  "source_hashes": {
+    "research/geometry/square_area_inspection.py": "fddcdbd7912a1bc6762bbe7f4d2ded98fb1f62c46bcecd7e04ed943a9a1894f6",
+    "strict_stage_moo.py": "4e6f7fd44b8220f5bb077ccb2e44a91b32c59f320b3561659a46918a132e0808",
+    "moo_graph_corpus.py": "66572b7240489e56d45a2b014a27332286ce9766a4b133754a62846c388f33cd",
+    "moo_research_utils.py": "f672cc60007a1368d21ec90353403f4aa21c0bae3936781cd589a171e559019e",
+    "moo_shell_branch_search.py": "1e134bddb869aa46afb29668b5abb1fa38a6cf8733bffa3c38555ad831c5c4d9"
+  }
+}

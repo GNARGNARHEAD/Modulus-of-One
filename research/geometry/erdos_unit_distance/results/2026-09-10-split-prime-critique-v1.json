@@ -1,0 +1,76 @@
+{
+  "arithmetic": "independent multiquadratic Fraction basis and division solver",
+  "comparison_rows": 512,
+  "cyclotomic_maximum_degree": 64,
+  "first_crossovers": {
+    "24": 259,
+    "8": 18
+  },
+  "input_report": "2026-09-10-split-prime-branch-v1.json",
+  "input_sha256": "bdfd376e6ade16ace777a6ebe3a5378f62a66e6b777a5b24010537f8094bb19e",
+  "levels": [
+    {
+      "direction_edges": 20,
+      "directions": 12,
+      "integer_span_unit_count": 2,
+      "max_direction_coefficient": 241,
+      "rational_span_unit_count": 2,
+      "root_order": 4,
+      "roots_mod_241": [
+        64,
+        177
+      ],
+      "small_points": 3,
+      "small_unit_pairs": 2
+    },
+    {
+      "direction_edges": 168,
+      "directions": 72,
+      "integer_span_unit_count": 4,
+      "max_direction_coefficient": 241,
+      "rational_span_unit_count": 8,
+      "root_order": 8,
+      "roots_mod_241": [
+        8,
+        30,
+        211,
+        233
+      ],
+      "small_points": 9,
+      "small_unit_pairs": 12
+    },
+    {
+      "direction_edges": 7128,
+      "directions": 1944,
+      "integer_span_unit_count": 8,
+      "max_direction_coefficient": 255,
+      "rational_span_unit_count": 8,
+      "root_order": 24,
+      "roots_mod_241": [
+        2,
+        32,
+        113,
+        120,
+        121,
+        128,
+        209,
+        239
+      ],
+      "small_points": 81,
+      "small_unit_pairs": 216
+    }
+  ],
+  "limits": "Numerical witnesses checked. Completeness and infinite-tail proofs are reviewed separately; no infinite family is certified.",
+  "permanent_direction_cap_thresholds": {
+    "24": 259,
+    "8": 18
+  },
+  "refinement_identities": 3,
+  "repeated_branch_square": {
+    "imaginary_numerator": -50160,
+    "minimal_denominator_in_Zi": 58081,
+    "real_numerator": 29281
+  },
+  "status": "passed",
+  "verifier_sha256": "f762b9f23fa41fc47219ccc169fb2ed2f78f4ba098c72201905f0ee9f22f29ef"
+}

@@ -1,0 +1,25 @@
+{
+  "default_association_specifications_unchanged": true,
+  "default_specifications_sha256": "8db46af87b4d500e9dca657e79aaedc06fdfe8e2ccf55bbd3eb4553f3c9c7701",
+  "independent_request_comparisons": 89,
+  "independent_split_comparisons": 18,
+  "independent_sql_sha256": "84caf0552f2bbf624a5bbc82d9450c923bc7ea698a8d2cdd151d228ca752faaf",
+  "independent_step_comparisons": 10,
+  "production_hashes_match_fresh_indexes": true,
+  "profile_report_sha256": "96c47acbfeb208522c941fd3eb1d9927858689ea976caf13786c2ad583191f0d",
+  "scope": "Readbacks and finite cross-comparison; general interpretations require the separate algebraic arguments. No test suite used.",
+  "source_and_old_index_hashes_unchanged": true,
+  "unselected_square_continuation": {
+    "edge_stage_left_op_right_result": [
+      [
+        261124,
+        256,
+        256,
+        "*",
+        256,
+        65536
+      ]
+    ],
+    "equation": "256*256 -> 65536"
+  }
+}

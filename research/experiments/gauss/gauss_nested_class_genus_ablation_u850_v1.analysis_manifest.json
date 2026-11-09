@@ -1,0 +1,24 @@
+{
+  "analysis_cli_args": [
+    "--write",
+    "out/experiments/gauss/gauss_nested_class_genus_ablation_u850_v1.json",
+    "--pretty",
+    "--quiet",
+    "--with-checksums"
+  ],
+  "experiment_id": "gauss_nested_class_genus_ablation_u850_v1",
+  "frozen_at_utc": "2026-08-28T00:01:14Z",
+  "python_executable": "C:\\Users\\USER\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "python_version": "3.12.13",
+  "schema_version": "moo_analysis_preflight_manifest.v1",
+  "source_sha256": {
+    "moo_graph_invariants.py": "9478588a66d5b2f8e3dc7e902820699402cd29bfc44e7f82b5293734ca41bb2b",
+    "moo_quadratic_form_nested_math.py": "dbead35be9e82ed1cea66f369ab5d1608b83573db897ca534f9f53af347ba8bb",
+    "moo_quadratic_form_nested_probe.py": "70cc59001e863ca43b5775f01f98dfac410ac7e1c14cb9955b20458b5be33360",
+    "moo_quadratic_form_probe.py": "75f80ed39d14c962535d1a83a93b313236bd2e7153ed4a1c4581367d73f7c306",
+    "moo_quadratic_form_recovery.py": "0f6281e888bf32aa7997eb93e1226ec52536ad97e8124d12cc8346222867758c",
+    "moo_research_utils.py": "21d5290c62ed2cf9d9c096f1cf0affefe5fe47e77802bb4c22ee4bccef3e0e7d",
+    "out/experiments/gauss/gauss_nested_class_genus_ablation_u850_v1.pre.md": "710e1e3ba10c27372d11339dfb3720cc0e27eb3c22f7457da2418a54eefe8f07",
+    "rational_baselines.py": "ad27c7315dbafa54e51b188e312a6b86a0816771125ec0279e4cca641b9f2070"
+  }
+}

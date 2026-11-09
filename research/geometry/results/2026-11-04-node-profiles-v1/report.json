@@ -1,0 +1,5565 @@
+{
+  "build": {
+    "association_counts": {
+      "shell": 30,
+      "spiral": 5,
+      "square": 400
+    },
+    "index": "/home/USER/Documents/MoO/out/scratch/node_profiles_20261104/associations.sqlite",
+    "indexed_values": 809,
+    "manifest": {
+      "interpretation": {
+        "absence": "No association means no match in this bounded selection, not mathematical nonmembership. Unknown/uninspected qualities are not negative tags.",
+        "membership": "Exact arithmetic in the selected external families.",
+        "partial": "Some supporting requests or dependencies are witnessed; the complete criterion is not.",
+        "snapshot": "Queries read this saved snapshot; they do not silently recompute against a changed or missing source.",
+        "spiral": "A witnessed scalar lineage does not require the later direct target-shell certificate; complex multiplication remains an external interpretation.",
+        "unwitnessed": "No selected scalar request or dependency has supporting witnesses; mathematical membership remains exact.",
+        "witnessed": "All named scalar requests and dependencies are witnessed by the selected checkpoint."
+      },
+      "schema_version": "moo_node_profiles.v1",
+      "scope": {
+        "max_radius": 25,
+        "shells": "Ordered positive integer shells up to max_radius; their unit normalizations; plus selected signed spiral shells and their unit normalizations.",
+        "spiral": "Fixed-seed pair powers (4+3i)^n, n=1..spiral_steps; radius 5^n. No general spiral discovery.",
+        "spiral_seed": [
+          4,
+          3,
+          5
+        ],
+        "spiral_steps": 5,
+        "square_height": 25,
+        "squares": "Nonnegative reduced roots p/q with p,q <= square_height; q >= 1."
+      },
+      "source": {
+        "alignment": {
+          "non_core_operand_edges": 0,
+          "operand_rule": "positive-spine strict corpus: only confirmed positive-spine iterations may be operands",
+          "speculative_input_edges": 0,
+          "speculative_nodes_are_operands": false,
+          "status": "pass"
+        },
+        "checkpoint": 576,
+        "complete_stage": 576,
+        "config": {
+          "generator": "strict_stage_moo_graph",
+          "max_abs_p": 1000000000,
+          "max_abs_q": 576,
+          "max_abs_value": 1000000000.0,
+          "max_stage": 576,
+          "retain_confirmed_edges": true
+        },
+        "path": "/home/USER/Documents/MoO/out/scratch/shell_composition_20260920_current_v1/wide_u576.sqlite",
+        "recorded_stage": 576,
+        "requested_stage": null,
+        "sha256": "655e2ba49f53519e7cb3720ad8894579aaf113444afbe56b81a99ae7bbdae2b6"
+      },
+      "source_hashes": {
+        "moo_association_families.py": "86cd97925012d776d229ec0c9bcfbe09a072a09ef2007c0594bf8b9bf5b4c4c5",
+        "moo_graph_corpus.py": "66572b7240489e56d45a2b014a27332286ce9766a4b133754a62846c388f33cd",
+        "moo_graph_evidence.py": "7cd1dc4da5e15b50b709316ec0250a32ca66b7608586a29601ee8c9606572720",
+        "moo_node_profiles.py": "4fa6bedf2bfcea457d99e7052b3e533617697b703bcb1a83234361726a6af1d9",
+        "moo_research_utils.py": "f672cc60007a1368d21ec90353403f4aa21c0bae3936781cd589a171e559019e"
+      }
+    },
+    "support_counts": {
+      "shell": {
+        "partial": 13,
+        "unwitnessed": 1,
+        "witnessed": 16
+      },
+      "spiral": {
+        "partial": 2,
+        "witnessed": 3
+      },
+      "square": {
+        "unwitnessed": 375,
+        "witnessed": 25
+      }
+    }
+  },
+  "comparisons": [
+    {
+      "common_associations": [
+        "shell:3,4,5",
+        "shell:4,3,5",
+        "square:3"
+      ],
+      "common_families": [
+        "shell",
+        "square"
+      ],
+      "common_family_roles": [
+        {
+          "family": "shell",
+          "role": "x"
+        },
+        {
+          "family": "shell",
+          "role": "y"
+        },
+        {
+          "family": "square",
+          "role": "root"
+        }
+      ],
+      "scope": {
+        "max_radius": 25,
+        "shells": "Ordered positive integer shells up to max_radius; their unit normalizations; plus selected signed spiral shells and their unit normalizations.",
+        "spiral": "Fixed-seed pair powers (4+3i)^n, n=1..spiral_steps; radius 5^n. No general spiral discovery.",
+        "spiral_seed": [
+          4,
+          3,
+          5
+        ],
+        "spiral_steps": 5,
+        "square_height": 25,
+        "squares": "Nonnegative reduced roots p/q with p,q <= square_height; q >= 1."
+      },
+      "source": {
+        "alignment": {
+          "non_core_operand_edges": 0,
+          "operand_rule": "positive-spine strict corpus: only confirmed positive-spine iterations may be operands",
+          "speculative_input_edges": 0,
+          "speculative_nodes_are_operands": false,
+          "status": "pass"
+        },
+        "checkpoint": 576,
+        "complete_stage": 576,
+        "config": {
+          "generator": "strict_stage_moo_graph",
+          "max_abs_p": 1000000000,
+          "max_abs_q": 576,
+          "max_abs_value": 1000000000.0,
+          "max_stage": 576,
+          "retain_confirmed_edges": true
+        },
+        "path": "/home/USER/Documents/MoO/out/scratch/shell_composition_20260920_current_v1/wide_u576.sqlite",
+        "recorded_stage": 576,
+        "requested_stage": null,
+        "sha256": "655e2ba49f53519e7cb3720ad8894579aaf113444afbe56b81a99ae7bbdae2b6"
+      },
+      "values": [
+        "3",
+        "9"
+      ],
+      "witnessed_only": true
+    },
+    {
+      "common_associations": [
+        "shell:15,20,25",
+        "shell:20,15,25",
+        "shell:24,7,25",
+        "shell:7,24,25",
+        "square:25"
+      ],
+      "common_families": [
+        "shell",
+        "square"
+      ],
+      "common_family_roles": [
+        {
+          "family": "shell",
+          "role": "r_square"
+        },
+        {
+          "family": "square",
+          "role": "square"
+        }
+      ],
+      "scope": {
+        "max_radius": 25,
+        "shells": "Ordered positive integer shells up to max_radius; their unit normalizations; plus selected signed spiral shells and their unit normalizations.",
+        "spiral": "Fixed-seed pair powers (4+3i)^n, n=1..spiral_steps; radius 5^n. No general spiral discovery.",
+        "spiral_seed": [
+          4,
+          3,
+          5
+        ],
+        "spiral_steps": 5,
+        "square_height": 25,
+        "squares": "Nonnegative reduced roots p/q with p,q <= square_height; q >= 1."
+      },
+      "source": {
+        "alignment": {
+          "non_core_operand_edges": 0,
+          "operand_rule": "positive-spine strict corpus: only confirmed positive-spine iterations may be operands",
+          "speculative_input_edges": 0,
+          "speculative_nodes_are_operands": false,
+          "status": "pass"
+        },
+        "checkpoint": 576,
+        "complete_stage": 576,
+        "config": {
+          "generator": "strict_stage_moo_graph",
+          "max_abs_p": 1000000000,
+          "max_abs_q": 576,
+          "max_abs_value": 1000000000.0,
+          "max_stage": 576,
+          "retain_confirmed_edges": true
+        },
+        "path": "/home/USER/Documents/MoO/out/scratch/shell_composition_20260920_current_v1/wide_u576.sqlite",
+        "recorded_stage": 576,
+        "requested_stage": null,
+        "sha256": "655e2ba49f53519e7cb3720ad8894579aaf113444afbe56b81a99ae7bbdae2b6"
+      },
+      "values": [
+        "25",
+        "625"
+      ],
+      "witnessed_only": true
+    }
+  ],
+  "profiles": [
+    {
+      "association_count": 5,
+      "associations": [
+        {
+          "family": "square",
+          "id": "square:3",
+          "label": "Self-product of 3",
+          "parameters": {
+            "root": "3",
+            "square": "9"
+          },
+          "participants": [
+            {
+              "role": "root",
+              "value": "3"
+            },
+            {
+              "role": "square",
+              "value": "9"
+            }
+          ],
+          "roles": [
+            "root"
+          ],
+          "support": {
+            "blockers": [],
+            "criterion": "literal_self_product",
+            "dependencies": [],
+            "first_supported_stage": 3,
+            "local_first_supported_stage": 3,
+            "local_requests_complete": true,
+            "mathematical_membership": "exact",
+            "requests": [
+              {
+                "blocker": null,
+                "candidate_stage": 3,
+                "edge_refs": [
+                  {
+                    "edge_id": 28,
+                    "stage": 3
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 3,
+                "left": "3",
+                "op": "*",
+                "result": "9",
+                "right": "3",
+                "role": "self_product",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              }
+            ],
+            "status": "witnessed"
+          }
+        },
+        {
+          "family": "shell",
+          "id": "shell:3,4,5",
+          "label": "Shell (3, 4, 5)",
+          "parameters": {
+            "r": "5",
+            "x": "3",
+            "y": "4"
+          },
+          "participants": [
+            {
+              "role": "r",
+              "value": "5"
+            },
+            {
+              "role": "r_square",
+              "value": "25"
+            },
+            {
+              "role": "x",
+              "value": "3"
+            },
+            {
+              "role": "x_square",
+              "value": "9"
+            },
+            {
+              "role": "y",
+              "value": "4"
+            },
+            {
+              "role": "y_square",
+              "value": "16"
+            }
+          ],
+          "roles": [
+            "x"
+          ],
+          "support": {
+            "blockers": [],
+            "criterion": "three_literal_self_products_and_direct_sum",
+            "dependencies": [],
+            "first_supported_stage": 16,
+            "local_first_supported_stage": 16,
+            "local_requests_complete": true,
+            "mathematical_membership": "exact",
+            "requests": [
+              {
+                "blocker": null,
+                "candidate_stage": 3,
+                "edge_refs": [
+                  {
+                    "edge_id": 28,
+                    "stage": 3
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 3,
+                "left": "3",
+                "op": "*",
+                "result": "9",
+                "right": "3",
+                "role": "x_square",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              },
+              {
+                "blocker": null,
+                "candidate_stage": 4,
+                "edge_refs": [
+                  {
+                    "edge_id": 52,
+                    "stage": 4
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 4,
+                "left": "4",
+                "op": "*",
+                "result": "16",
+                "right": "4",
+                "role": "y_square",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              },
+              {
+                "blocker": null,
+                "candidate_stage": 5,
+                "edge_refs": [
+                  {
+                    "edge_id": 84,
+                    "stage": 5
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 5,
+                "left": "5",
+                "op": "*",
+                "result": "25",
+                "right": "5",
+                "role": "r_square",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              },
+              {
+                "blocker": null,
+                "candidate_stage": 16,
+                "edge_refs": [
+                  {
+                    "edge_id": 998,
+                    "stage": 16
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 16,
+                "left": "9",
+                "op": "+",
+                "result": "25",
+                "right": "16",
+                "role": "shell_sum",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              }
+            ],
+            "status": "witnessed"
+          }
+        },
+        {
+          "family": "shell",
+          "id": "shell:4,3,5",
+          "label": "Shell (4, 3, 5)",
+          "parameters": {
+            "r": "5",
+            "x": "4",
+            "y": "3"
+          },
+          "participants": [
+            {
+              "role": "r",
+              "value": "5"
+            },
+            {
+              "role": "r_square",
+              "value": "25"
+            },
+            {
+              "role": "x",
+              "value": "4"
+            },
+            {
+              "role": "x_square",
+              "value": "16"
+            },
+            {
+              "role": "y",
+              "value": "3"
+            },
+            {
+              "role": "y_square",
+              "value": "9"
+            }
+          ],
+          "roles": [
+            "y"
+          ],
+          "support": {
+            "blockers": [],
+            "criterion": "three_literal_self_products_and_direct_sum",
+            "dependencies": [],
+            "first_supported_stage": 16,
+            "local_first_supported_stage": 16,
+            "local_requests_complete": true,
+            "mathematical_membership": "exact",
+            "requests": [
+              {
+                "blocker": null,
+                "candidate_stage": 4,
+                "edge_refs": [
+                  {
+                    "edge_id": 52,
+                    "stage": 4
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 4,
+                "left": "4",
+                "op": "*",
+                "result": "16",
+                "right": "4",
+                "role": "x_square",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              },
+              {
+                "blocker": null,
+                "candidate_stage": 3,
+                "edge_refs": [
+                  {
+                    "edge_id": 28,
+                    "stage": 3
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 3,
+                "left": "3",
+                "op": "*",
+                "result": "9",
+                "right": "3",
+                "role": "y_square",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              },
+              {
+                "blocker": null,
+                "candidate_stage": 5,
+                "edge_refs": [
+                  {
+                    "edge_id": 84,
+                    "stage": 5
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 5,
+                "left": "5",
+                "op": "*",
+                "result": "25",
+                "right": "5",
+                "role": "r_square",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              },
+              {
+                "blocker": null,
+                "candidate_stage": 16,
+                "edge_refs": [
+                  {
+                    "edge_id": 934,
+                    "stage": 16
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 16,
+                "left": "16",
+                "op": "+",
+                "result": "25",
+                "right": "9",
+                "role": "shell_sum",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              }
+            ],
+            "status": "witnessed"
+          }
+        },
+        {
+          "family": "spiral",
+          "id": "spiral:4,3,5:1",
+          "label": "Seed (4, 3, 5), iteration 1",
+          "parameters": {
+            "iteration": 1,
+            "r": "5",
+            "seed": [
+              4,
+              3,
+              5
+            ],
+            "x": "4",
+            "y": "3"
+          },
+          "participants": [
+            {
+              "role": "r",
+              "value": "5"
+            },
+            {
+              "role": "x",
+              "value": "4"
+            },
+            {
+              "role": "y",
+              "value": "3"
+            }
+          ],
+          "roles": [
+            "y"
+          ],
+          "support": {
+            "blockers": [],
+            "criterion": "seed_shell_and_linked_scalar_transitions",
+            "dependencies": [
+              {
+                "first_supported_stage": 16,
+                "id": "shell:4,3,5",
+                "status": "witnessed"
+              }
+            ],
+            "first_supported_stage": 16,
+            "local_first_supported_stage": null,
+            "local_requests_complete": null,
+            "mathematical_membership": "exact",
+            "requests": [],
+            "status": "witnessed"
+          }
+        },
+        {
+          "family": "spiral",
+          "id": "spiral:4,3,5:2",
+          "label": "Seed (4, 3, 5), iteration 2",
+          "parameters": {
+            "iteration": 2,
+            "r": "25",
+            "seed": [
+              4,
+              3,
+              5
+            ],
+            "x": "7",
+            "y": "24"
+          },
+          "participants": [
+            {
+              "role": "previous_r",
+              "value": "5"
+            },
+            {
+              "role": "previous_x",
+              "value": "4"
+            },
+            {
+              "role": "previous_y",
+              "value": "3"
+            },
+            {
+              "role": "r",
+              "value": "25"
+            },
+            {
+              "role": "x",
+              "value": "7"
+            },
+            {
+              "role": "y",
+              "value": "24"
+            }
+          ],
+          "roles": [
+            "previous_y"
+          ],
+          "support": {
+            "blockers": [],
+            "criterion": "seed_shell_and_linked_scalar_transitions",
+            "dependencies": [
+              {
+                "first_supported_stage": 16,
+                "id": "shell:4,3,5",
+                "status": "witnessed"
+              },
+              {
+                "first_supported_stage": 16,
+                "id": "spiral:4,3,5:1",
+                "status": "witnessed"
+              }
+            ],
+            "first_supported_stage": 16,
+            "local_first_supported_stage": 16,
+            "local_requests_complete": true,
+            "mathematical_membership": "exact",
+            "requests": [
+              {
+                "blocker": null,
+                "candidate_stage": 4,
+                "edge_refs": [
+                  {
+                    "edge_id": 52,
+                    "stage": 4
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 4,
+                "left": "4",
+                "op": "*",
+                "result": "16",
+                "right": "4",
+                "role": "ac",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              },
+              {
+                "blocker": null,
+                "candidate_stage": 3,
+                "edge_refs": [
+                  {
+                    "edge_id": 28,
+                    "stage": 3
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 3,
+                "left": "3",
+                "op": "*",
+                "result": "9",
+                "right": "3",
+                "role": "bd",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              },
+              {
+                "blocker": null,
+                "candidate_stage": 4,
+                "edge_refs": [
+                  {
+                    "edge_id": 48,
+                    "stage": 4
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 4,
+                "left": "4",
+                "op": "*",
+                "result": "12",
+                "right": "3",
+                "role": "ad",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              },
+              {
+                "blocker": null,
+                "candidate_stage": 4,
+                "edge_refs": [
+                  {
+                    "edge_id": 64,
+                    "stage": 4
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 4,
+                "left": "3",
+                "op": "*",
+                "result": "12",
+                "right": "4",
+                "role": "bc",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              },
+              {
+                "blocker": null,
+                "candidate_stage": 16,
+                "edge_refs": [
+                  {
+                    "edge_id": 935,
+                    "stage": 16
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 16,
+                "left": "16",
+                "op": "-",
+                "result": "7",
+                "right": "9",
+                "role": "x",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              },
+              {
+                "blocker": null,
+                "candidate_stage": 12,
+                "edge_refs": [
+                  {
+                    "edge_id": 530,
+                    "stage": 12
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 12,
+                "left": "12",
+                "op": "+",
+                "result": "24",
+                "right": "12",
+                "role": "y",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              },
+              {
+                "blocker": null,
+                "candidate_stage": 5,
+                "edge_refs": [
+                  {
+                    "edge_id": 84,
+                    "stage": 5
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 5,
+                "left": "5",
+                "op": "*",
+                "result": "25",
+                "right": "5",
+                "role": "r",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              }
+            ],
+            "status": "witnessed"
+          }
+        }
+      ],
+      "filters": {
+        "family": null,
+        "witnessed_only": false
+      },
+      "interpretation": {
+        "absence": "No association means no match in this bounded selection, not mathematical nonmembership. Unknown/uninspected qualities are not negative tags.",
+        "membership": "Exact arithmetic in the selected external families.",
+        "partial": "Some supporting requests or dependencies are witnessed; the complete criterion is not.",
+        "snapshot": "Queries read this saved snapshot; they do not silently recompute against a changed or missing source.",
+        "spiral": "A witnessed scalar lineage does not require the later direct target-shell certificate; complex multiplication remains an external interpretation.",
+        "unwitnessed": "No selected scalar request or dependency has supporting witnesses; mathematical membership remains exact.",
+        "witnessed": "All named scalar requests and dependencies are witnessed by the selected checkpoint."
+      },
+      "node": {
+        "confirmed_stage": 3,
+        "first_edge_id": 6,
+        "first_stage": 2,
+        "in_saved_corpus": true,
+        "key": [
+          3,
+          1
+        ],
+        "kind": "positive_integer",
+        "label": "3",
+        "node_id": 4,
+        "p": 3,
+        "present": true,
+        "q": 1,
+        "status": "speculative_until_confirmed",
+        "status_at_checkpoint": "confirmed"
+      },
+      "scope": {
+        "max_radius": 25,
+        "shells": "Ordered positive integer shells up to max_radius; their unit normalizations; plus selected signed spiral shells and their unit normalizations.",
+        "spiral": "Fixed-seed pair powers (4+3i)^n, n=1..spiral_steps; radius 5^n. No general spiral discovery.",
+        "spiral_seed": [
+          4,
+          3,
+          5
+        ],
+        "spiral_steps": 5,
+        "square_height": 25,
+        "squares": "Nonnegative reduced roots p/q with p,q <= square_height; q >= 1."
+      },
+      "source": {
+        "alignment": {
+          "non_core_operand_edges": 0,
+          "operand_rule": "positive-spine strict corpus: only confirmed positive-spine iterations may be operands",
+          "speculative_input_edges": 0,
+          "speculative_nodes_are_operands": false,
+          "status": "pass"
+        },
+        "checkpoint": 576,
+        "complete_stage": 576,
+        "config": {
+          "generator": "strict_stage_moo_graph",
+          "max_abs_p": 1000000000,
+          "max_abs_q": 576,
+          "max_abs_value": 1000000000.0,
+          "max_stage": 576,
+          "retain_confirmed_edges": true
+        },
+        "path": "/home/USER/Documents/MoO/out/scratch/shell_composition_20260920_current_v1/wide_u576.sqlite",
+        "recorded_stage": 576,
+        "requested_stage": null,
+        "sha256": "655e2ba49f53519e7cb3720ad8894579aaf113444afbe56b81a99ae7bbdae2b6"
+      },
+      "value": "3"
+    },
+    {
+      "association_count": 6,
+      "associations": [
+        {
+          "family": "square",
+          "id": "square:3",
+          "label": "Self-product of 3",
+          "parameters": {
+            "root": "3",
+            "square": "9"
+          },
+          "participants": [
+            {
+              "role": "root",
+              "value": "3"
+            },
+            {
+              "role": "square",
+              "value": "9"
+            }
+          ],
+          "roles": [
+            "square"
+          ],
+          "support": {
+            "blockers": [],
+            "criterion": "literal_self_product",
+            "dependencies": [],
+            "first_supported_stage": 3,
+            "local_first_supported_stage": 3,
+            "local_requests_complete": true,
+            "mathematical_membership": "exact",
+            "requests": [
+              {
+                "blocker": null,
+                "candidate_stage": 3,
+                "edge_refs": [
+                  {
+                    "edge_id": 28,
+                    "stage": 3
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 3,
+                "left": "3",
+                "op": "*",
+                "result": "9",
+                "right": "3",
+                "role": "self_product",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              }
+            ],
+            "status": "witnessed"
+          }
+        },
+        {
+          "family": "square",
+          "id": "square:9",
+          "label": "Self-product of 9",
+          "parameters": {
+            "root": "9",
+            "square": "81"
+          },
+          "participants": [
+            {
+              "role": "root",
+              "value": "9"
+            },
+            {
+              "role": "square",
+              "value": "81"
+            }
+          ],
+          "roles": [
+            "root"
+          ],
+          "support": {
+            "blockers": [],
+            "criterion": "literal_self_product",
+            "dependencies": [],
+            "first_supported_stage": 9,
+            "local_first_supported_stage": 9,
+            "local_requests_complete": true,
+            "mathematical_membership": "exact",
+            "requests": [
+              {
+                "blocker": null,
+                "candidate_stage": 9,
+                "edge_refs": [
+                  {
+                    "edge_id": 292,
+                    "stage": 9
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 9,
+                "left": "9",
+                "op": "*",
+                "result": "81",
+                "right": "9",
+                "role": "self_product",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              }
+            ],
+            "status": "witnessed"
+          }
+        },
+        {
+          "family": "shell",
+          "id": "shell:12,9,15",
+          "label": "Shell (12, 9, 15)",
+          "parameters": {
+            "r": "15",
+            "x": "12",
+            "y": "9"
+          },
+          "participants": [
+            {
+              "role": "r",
+              "value": "15"
+            },
+            {
+              "role": "r_square",
+              "value": "225"
+            },
+            {
+              "role": "x",
+              "value": "12"
+            },
+            {
+              "role": "x_square",
+              "value": "144"
+            },
+            {
+              "role": "y",
+              "value": "9"
+            },
+            {
+              "role": "y_square",
+              "value": "81"
+            }
+          ],
+          "roles": [
+            "y"
+          ],
+          "support": {
+            "blockers": [],
+            "criterion": "three_literal_self_products_and_direct_sum",
+            "dependencies": [],
+            "first_supported_stage": 144,
+            "local_first_supported_stage": 144,
+            "local_requests_complete": true,
+            "mathematical_membership": "exact",
+            "requests": [
+              {
+                "blocker": null,
+                "candidate_stage": 12,
+                "edge_refs": [
+                  {
+                    "edge_id": 532,
+                    "stage": 12
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 12,
+                "left": "12",
+                "op": "*",
+                "result": "144",
+                "right": "12",
+                "role": "x_square",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              },
+              {
+                "blocker": null,
+                "candidate_stage": 9,
+                "edge_refs": [
+                  {
+                    "edge_id": 292,
+                    "stage": 9
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 9,
+                "left": "9",
+                "op": "*",
+                "result": "81",
+                "right": "9",
+                "role": "y_square",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              },
+              {
+                "blocker": null,
+                "candidate_stage": 15,
+                "edge_refs": [
+                  {
+                    "edge_id": 844,
+                    "stage": 15
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 15,
+                "left": "15",
+                "op": "*",
+                "result": "225",
+                "right": "15",
+                "role": "r_square",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              },
+              {
+                "blocker": null,
+                "candidate_stage": 144,
+                "edge_refs": [
+                  {
+                    "edge_id": 82118,
+                    "stage": 144
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 144,
+                "left": "144",
+                "op": "+",
+                "result": "225",
+                "right": "81",
+                "role": "shell_sum",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              }
+            ],
+            "status": "witnessed"
+          }
+        },
+        {
+          "family": "shell",
+          "id": "shell:3,4,5",
+          "label": "Shell (3, 4, 5)",
+          "parameters": {
+            "r": "5",
+            "x": "3",
+            "y": "4"
+          },
+          "participants": [
+            {
+              "role": "r",
+              "value": "5"
+            },
+            {
+              "role": "r_square",
+              "value": "25"
+            },
+            {
+              "role": "x",
+              "value": "3"
+            },
+            {
+              "role": "x_square",
+              "value": "9"
+            },
+            {
+              "role": "y",
+              "value": "4"
+            },
+            {
+              "role": "y_square",
+              "value": "16"
+            }
+          ],
+          "roles": [
+            "x_square"
+          ],
+          "support": {
+            "blockers": [],
+            "criterion": "three_literal_self_products_and_direct_sum",
+            "dependencies": [],
+            "first_supported_stage": 16,
+            "local_first_supported_stage": 16,
+            "local_requests_complete": true,
+            "mathematical_membership": "exact",
+            "requests": [
+              {
+                "blocker": null,
+                "candidate_stage": 3,
+                "edge_refs": [
+                  {
+                    "edge_id": 28,
+                    "stage": 3
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 3,
+                "left": "3",
+                "op": "*",
+                "result": "9",
+                "right": "3",
+                "role": "x_square",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              },
+              {
+                "blocker": null,
+                "candidate_stage": 4,
+                "edge_refs": [
+                  {
+                    "edge_id": 52,
+                    "stage": 4
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 4,
+                "left": "4",
+                "op": "*",
+                "result": "16",
+                "right": "4",
+                "role": "y_square",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              },
+              {
+                "blocker": null,
+                "candidate_stage": 5,
+                "edge_refs": [
+                  {
+                    "edge_id": 84,
+                    "stage": 5
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 5,
+                "left": "5",
+                "op": "*",
+                "result": "25",
+                "right": "5",
+                "role": "r_square",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              },
+              {
+                "blocker": null,
+                "candidate_stage": 16,
+                "edge_refs": [
+                  {
+                    "edge_id": 998,
+                    "stage": 16
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 16,
+                "left": "9",
+                "op": "+",
+                "result": "25",
+                "right": "16",
+                "role": "shell_sum",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              }
+            ],
+            "status": "witnessed"
+          }
+        },
+        {
+          "family": "shell",
+          "id": "shell:4,3,5",
+          "label": "Shell (4, 3, 5)",
+          "parameters": {
+            "r": "5",
+            "x": "4",
+            "y": "3"
+          },
+          "participants": [
+            {
+              "role": "r",
+              "value": "5"
+            },
+            {
+              "role": "r_square",
+              "value": "25"
+            },
+            {
+              "role": "x",
+              "value": "4"
+            },
+            {
+              "role": "x_square",
+              "value": "16"
+            },
+            {
+              "role": "y",
+              "value": "3"
+            },
+            {
+              "role": "y_square",
+              "value": "9"
+            }
+          ],
+          "roles": [
+            "y_square"
+          ],
+          "support": {
+            "blockers": [],
+            "criterion": "three_literal_self_products_and_direct_sum",
+            "dependencies": [],
+            "first_supported_stage": 16,
+            "local_first_supported_stage": 16,
+            "local_requests_complete": true,
+            "mathematical_membership": "exact",
+            "requests": [
+              {
+                "blocker": null,
+                "candidate_stage": 4,
+                "edge_refs": [
+                  {
+                    "edge_id": 52,
+                    "stage": 4
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 4,
+                "left": "4",
+                "op": "*",
+                "result": "16",
+                "right": "4",
+                "role": "x_square",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              },
+              {
+                "blocker": null,
+                "candidate_stage": 3,
+                "edge_refs": [
+                  {
+                    "edge_id": 28,
+                    "stage": 3
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 3,
+                "left": "3",
+                "op": "*",
+                "result": "9",
+                "right": "3",
+                "role": "y_square",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              },
+              {
+                "blocker": null,
+                "candidate_stage": 5,
+                "edge_refs": [
+                  {
+                    "edge_id": 84,
+                    "stage": 5
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 5,
+                "left": "5",
+                "op": "*",
+                "result": "25",
+                "right": "5",
+                "role": "r_square",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              },
+              {
+                "blocker": null,
+                "candidate_stage": 16,
+                "edge_refs": [
+                  {
+                    "edge_id": 934,
+                    "stage": 16
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 16,
+                "left": "16",
+                "op": "+",
+                "result": "25",
+                "right": "9",
+                "role": "shell_sum",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              }
+            ],
+            "status": "witnessed"
+          }
+        },
+        {
+          "family": "shell",
+          "id": "shell:9,12,15",
+          "label": "Shell (9, 12, 15)",
+          "parameters": {
+            "r": "15",
+            "x": "9",
+            "y": "12"
+          },
+          "participants": [
+            {
+              "role": "r",
+              "value": "15"
+            },
+            {
+              "role": "r_square",
+              "value": "225"
+            },
+            {
+              "role": "x",
+              "value": "9"
+            },
+            {
+              "role": "x_square",
+              "value": "81"
+            },
+            {
+              "role": "y",
+              "value": "12"
+            },
+            {
+              "role": "y_square",
+              "value": "144"
+            }
+          ],
+          "roles": [
+            "x"
+          ],
+          "support": {
+            "blockers": [],
+            "criterion": "three_literal_self_products_and_direct_sum",
+            "dependencies": [],
+            "first_supported_stage": 144,
+            "local_first_supported_stage": 144,
+            "local_requests_complete": true,
+            "mathematical_membership": "exact",
+            "requests": [
+              {
+                "blocker": null,
+                "candidate_stage": 9,
+                "edge_refs": [
+                  {
+                    "edge_id": 292,
+                    "stage": 9
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 9,
+                "left": "9",
+                "op": "*",
+                "result": "81",
+                "right": "9",
+                "role": "x_square",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              },
+              {
+                "blocker": null,
+                "candidate_stage": 12,
+                "edge_refs": [
+                  {
+                    "edge_id": 532,
+                    "stage": 12
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 12,
+                "left": "12",
+                "op": "*",
+                "result": "144",
+                "right": "12",
+                "role": "y_square",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              },
+              {
+                "blocker": null,
+                "candidate_stage": 15,
+                "edge_refs": [
+                  {
+                    "edge_id": 844,
+                    "stage": 15
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 15,
+                "left": "15",
+                "op": "*",
+                "result": "225",
+                "right": "15",
+                "role": "r_square",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              },
+              {
+                "blocker": null,
+                "candidate_stage": 144,
+                "edge_refs": [
+                  {
+                    "edge_id": 82694,
+                    "stage": 144
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 144,
+                "left": "81",
+                "op": "+",
+                "result": "225",
+                "right": "144",
+                "role": "shell_sum",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              }
+            ],
+            "status": "witnessed"
+          }
+        }
+      ],
+      "filters": {
+        "family": null,
+        "witnessed_only": false
+      },
+      "interpretation": {
+        "absence": "No association means no match in this bounded selection, not mathematical nonmembership. Unknown/uninspected qualities are not negative tags.",
+        "membership": "Exact arithmetic in the selected external families.",
+        "partial": "Some supporting requests or dependencies are witnessed; the complete criterion is not.",
+        "snapshot": "Queries read this saved snapshot; they do not silently recompute against a changed or missing source.",
+        "spiral": "A witnessed scalar lineage does not require the later direct target-shell certificate; complex multiplication remains an external interpretation.",
+        "unwitnessed": "No selected scalar request or dependency has supporting witnesses; mathematical membership remains exact.",
+        "witnessed": "All named scalar requests and dependencies are witnessed by the selected checkpoint."
+      },
+      "node": {
+        "confirmed_stage": 9,
+        "first_edge_id": 28,
+        "first_stage": 3,
+        "in_saved_corpus": true,
+        "key": [
+          9,
+          1
+        ],
+        "kind": "positive_integer",
+        "label": "9",
+        "node_id": 11,
+        "p": 9,
+        "present": true,
+        "q": 1,
+        "status": "speculative_until_confirmed",
+        "status_at_checkpoint": "confirmed"
+      },
+      "scope": {
+        "max_radius": 25,
+        "shells": "Ordered positive integer shells up to max_radius; their unit normalizations; plus selected signed spiral shells and their unit normalizations.",
+        "spiral": "Fixed-seed pair powers (4+3i)^n, n=1..spiral_steps; radius 5^n. No general spiral discovery.",
+        "spiral_seed": [
+          4,
+          3,
+          5
+        ],
+        "spiral_steps": 5,
+        "square_height": 25,
+        "squares": "Nonnegative reduced roots p/q with p,q <= square_height; q >= 1."
+      },
+      "source": {
+        "alignment": {
+          "non_core_operand_edges": 0,
+          "operand_rule": "positive-spine strict corpus: only confirmed positive-spine iterations may be operands",
+          "speculative_input_edges": 0,
+          "speculative_nodes_are_operands": false,
+          "status": "pass"
+        },
+        "checkpoint": 576,
+        "complete_stage": 576,
+        "config": {
+          "generator": "strict_stage_moo_graph",
+          "max_abs_p": 1000000000,
+          "max_abs_q": 576,
+          "max_abs_value": 1000000000.0,
+          "max_stage": 576,
+          "retain_confirmed_edges": true
+        },
+        "path": "/home/USER/Documents/MoO/out/scratch/shell_composition_20260920_current_v1/wide_u576.sqlite",
+        "recorded_stage": 576,
+        "requested_stage": null,
+        "sha256": "655e2ba49f53519e7cb3720ad8894579aaf113444afbe56b81a99ae7bbdae2b6"
+      },
+      "value": "9"
+    },
+    {
+      "association_count": 12,
+      "associations": [
+        {
+          "family": "square",
+          "id": "square:25",
+          "label": "Self-product of 25",
+          "parameters": {
+            "root": "25",
+            "square": "625"
+          },
+          "participants": [
+            {
+              "role": "root",
+              "value": "25"
+            },
+            {
+              "role": "square",
+              "value": "625"
+            }
+          ],
+          "roles": [
+            "root"
+          ],
+          "support": {
+            "blockers": [],
+            "criterion": "literal_self_product",
+            "dependencies": [],
+            "first_supported_stage": 25,
+            "local_first_supported_stage": 25,
+            "local_requests_complete": true,
+            "mathematical_membership": "exact",
+            "requests": [
+              {
+                "blocker": null,
+                "candidate_stage": 25,
+                "edge_refs": [
+                  {
+                    "edge_id": 2404,
+                    "stage": 25
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 25,
+                "left": "25",
+                "op": "*",
+                "result": "625",
+                "right": "25",
+                "role": "self_product",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              }
+            ],
+            "status": "witnessed"
+          }
+        },
+        {
+          "family": "square",
+          "id": "square:5",
+          "label": "Self-product of 5",
+          "parameters": {
+            "root": "5",
+            "square": "25"
+          },
+          "participants": [
+            {
+              "role": "root",
+              "value": "5"
+            },
+            {
+              "role": "square",
+              "value": "25"
+            }
+          ],
+          "roles": [
+            "square"
+          ],
+          "support": {
+            "blockers": [],
+            "criterion": "literal_self_product",
+            "dependencies": [],
+            "first_supported_stage": 5,
+            "local_first_supported_stage": 5,
+            "local_requests_complete": true,
+            "mathematical_membership": "exact",
+            "requests": [
+              {
+                "blocker": null,
+                "candidate_stage": 5,
+                "edge_refs": [
+                  {
+                    "edge_id": 84,
+                    "stage": 5
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 5,
+                "left": "5",
+                "op": "*",
+                "result": "25",
+                "right": "5",
+                "role": "self_product",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              }
+            ],
+            "status": "witnessed"
+          }
+        },
+        {
+          "family": "shell",
+          "id": "shell:12,5,13",
+          "label": "Shell (12, 5, 13)",
+          "parameters": {
+            "r": "13",
+            "x": "12",
+            "y": "5"
+          },
+          "participants": [
+            {
+              "role": "r",
+              "value": "13"
+            },
+            {
+              "role": "r_square",
+              "value": "169"
+            },
+            {
+              "role": "x",
+              "value": "12"
+            },
+            {
+              "role": "x_square",
+              "value": "144"
+            },
+            {
+              "role": "y",
+              "value": "5"
+            },
+            {
+              "role": "y_square",
+              "value": "25"
+            }
+          ],
+          "roles": [
+            "y_square"
+          ],
+          "support": {
+            "blockers": [],
+            "criterion": "three_literal_self_products_and_direct_sum",
+            "dependencies": [],
+            "first_supported_stage": 144,
+            "local_first_supported_stage": 144,
+            "local_requests_complete": true,
+            "mathematical_membership": "exact",
+            "requests": [
+              {
+                "blocker": null,
+                "candidate_stage": 12,
+                "edge_refs": [
+                  {
+                    "edge_id": 532,
+                    "stage": 12
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 12,
+                "left": "12",
+                "op": "*",
+                "result": "144",
+                "right": "12",
+                "role": "x_square",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              },
+              {
+                "blocker": null,
+                "candidate_stage": 5,
+                "edge_refs": [
+                  {
+                    "edge_id": 84,
+                    "stage": 5
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 5,
+                "left": "5",
+                "op": "*",
+                "result": "25",
+                "right": "5",
+                "role": "y_square",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              },
+              {
+                "blocker": null,
+                "candidate_stage": 13,
+                "edge_refs": [
+                  {
+                    "edge_id": 628,
+                    "stage": 13
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 13,
+                "left": "13",
+                "op": "*",
+                "result": "169",
+                "right": "13",
+                "role": "r_square",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              },
+              {
+                "blocker": null,
+                "candidate_stage": 144,
+                "edge_refs": [
+                  {
+                    "edge_id": 81894,
+                    "stage": 144
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 144,
+                "left": "144",
+                "op": "+",
+                "result": "169",
+                "right": "25",
+                "role": "shell_sum",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              }
+            ],
+            "status": "witnessed"
+          }
+        },
+        {
+          "family": "shell",
+          "id": "shell:15,20,25",
+          "label": "Shell (15, 20, 25)",
+          "parameters": {
+            "r": "25",
+            "x": "15",
+            "y": "20"
+          },
+          "participants": [
+            {
+              "role": "r",
+              "value": "25"
+            },
+            {
+              "role": "r_square",
+              "value": "625"
+            },
+            {
+              "role": "x",
+              "value": "15"
+            },
+            {
+              "role": "x_square",
+              "value": "225"
+            },
+            {
+              "role": "y",
+              "value": "20"
+            },
+            {
+              "role": "y_square",
+              "value": "400"
+            }
+          ],
+          "roles": [
+            "r"
+          ],
+          "support": {
+            "blockers": [],
+            "criterion": "three_literal_self_products_and_direct_sum",
+            "dependencies": [],
+            "first_supported_stage": 400,
+            "local_first_supported_stage": 400,
+            "local_requests_complete": true,
+            "mathematical_membership": "exact",
+            "requests": [
+              {
+                "blocker": null,
+                "candidate_stage": 15,
+                "edge_refs": [
+                  {
+                    "edge_id": 844,
+                    "stage": 15
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 15,
+                "left": "15",
+                "op": "*",
+                "result": "225",
+                "right": "15",
+                "role": "x_square",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              },
+              {
+                "blocker": null,
+                "candidate_stage": 20,
+                "edge_refs": [
+                  {
+                    "edge_id": 1524,
+                    "stage": 20
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 20,
+                "left": "20",
+                "op": "*",
+                "result": "400",
+                "right": "20",
+                "role": "y_square",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              },
+              {
+                "blocker": null,
+                "candidate_stage": 25,
+                "edge_refs": [
+                  {
+                    "edge_id": 2404,
+                    "stage": 25
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 25,
+                "left": "25",
+                "op": "*",
+                "result": "625",
+                "right": "25",
+                "role": "r_square",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              },
+              {
+                "blocker": null,
+                "candidate_stage": 400,
+                "edge_refs": [
+                  {
+                    "edge_id": 639302,
+                    "stage": 400
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 400,
+                "left": "225",
+                "op": "+",
+                "result": "625",
+                "right": "400",
+                "role": "shell_sum",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              }
+            ],
+            "status": "witnessed"
+          }
+        },
+        {
+          "family": "shell",
+          "id": "shell:20,15,25",
+          "label": "Shell (20, 15, 25)",
+          "parameters": {
+            "r": "25",
+            "x": "20",
+            "y": "15"
+          },
+          "participants": [
+            {
+              "role": "r",
+              "value": "25"
+            },
+            {
+              "role": "r_square",
+              "value": "625"
+            },
+            {
+              "role": "x",
+              "value": "20"
+            },
+            {
+              "role": "x_square",
+              "value": "400"
+            },
+            {
+              "role": "y",
+              "value": "15"
+            },
+            {
+              "role": "y_square",
+              "value": "225"
+            }
+          ],
+          "roles": [
+            "r"
+          ],
+          "support": {
+            "blockers": [],
+            "criterion": "three_literal_self_products_and_direct_sum",
+            "dependencies": [],
+            "first_supported_stage": 400,
+            "local_first_supported_stage": 400,
+            "local_requests_complete": true,
+            "mathematical_membership": "exact",
+            "requests": [
+              {
+                "blocker": null,
+                "candidate_stage": 20,
+                "edge_refs": [
+                  {
+                    "edge_id": 1524,
+                    "stage": 20
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 20,
+                "left": "20",
+                "op": "*",
+                "result": "400",
+                "right": "20",
+                "role": "x_square",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              },
+              {
+                "blocker": null,
+                "candidate_stage": 15,
+                "edge_refs": [
+                  {
+                    "edge_id": 844,
+                    "stage": 15
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 15,
+                "left": "15",
+                "op": "*",
+                "result": "225",
+                "right": "15",
+                "role": "y_square",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              },
+              {
+                "blocker": null,
+                "candidate_stage": 25,
+                "edge_refs": [
+                  {
+                    "edge_id": 2404,
+                    "stage": 25
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 25,
+                "left": "25",
+                "op": "*",
+                "result": "625",
+                "right": "25",
+                "role": "r_square",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              },
+              {
+                "blocker": null,
+                "candidate_stage": 400,
+                "edge_refs": [
+                  {
+                    "edge_id": 637702,
+                    "stage": 400
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 400,
+                "left": "400",
+                "op": "+",
+                "result": "625",
+                "right": "225",
+                "role": "shell_sum",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              }
+            ],
+            "status": "witnessed"
+          }
+        },
+        {
+          "family": "shell",
+          "id": "shell:24,7,25",
+          "label": "Shell (24, 7, 25)",
+          "parameters": {
+            "r": "25",
+            "x": "24",
+            "y": "7"
+          },
+          "participants": [
+            {
+              "role": "r",
+              "value": "25"
+            },
+            {
+              "role": "r_square",
+              "value": "625"
+            },
+            {
+              "role": "x",
+              "value": "24"
+            },
+            {
+              "role": "x_square",
+              "value": "576"
+            },
+            {
+              "role": "y",
+              "value": "7"
+            },
+            {
+              "role": "y_square",
+              "value": "49"
+            }
+          ],
+          "roles": [
+            "r"
+          ],
+          "support": {
+            "blockers": [],
+            "criterion": "three_literal_self_products_and_direct_sum",
+            "dependencies": [],
+            "first_supported_stage": 576,
+            "local_first_supported_stage": 576,
+            "local_requests_complete": true,
+            "mathematical_membership": "exact",
+            "requests": [
+              {
+                "blocker": null,
+                "candidate_stage": 24,
+                "edge_refs": [
+                  {
+                    "edge_id": 2212,
+                    "stage": 24
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 24,
+                "left": "24",
+                "op": "*",
+                "result": "576",
+                "right": "24",
+                "role": "x_square",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              },
+              {
+                "blocker": null,
+                "candidate_stage": 7,
+                "edge_refs": [
+                  {
+                    "edge_id": 172,
+                    "stage": 7
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 7,
+                "left": "7",
+                "op": "*",
+                "result": "49",
+                "right": "7",
+                "role": "y_square",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              },
+              {
+                "blocker": null,
+                "candidate_stage": 25,
+                "edge_refs": [
+                  {
+                    "edge_id": 2404,
+                    "stage": 25
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 25,
+                "left": "25",
+                "op": "*",
+                "result": "625",
+                "right": "25",
+                "role": "r_square",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              },
+              {
+                "blocker": null,
+                "candidate_stage": 576,
+                "edge_refs": [
+                  {
+                    "edge_id": 1322694,
+                    "stage": 576
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 576,
+                "left": "576",
+                "op": "+",
+                "result": "625",
+                "right": "49",
+                "role": "shell_sum",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              }
+            ],
+            "status": "witnessed"
+          }
+        },
+        {
+          "family": "shell",
+          "id": "shell:3,4,5",
+          "label": "Shell (3, 4, 5)",
+          "parameters": {
+            "r": "5",
+            "x": "3",
+            "y": "4"
+          },
+          "participants": [
+            {
+              "role": "r",
+              "value": "5"
+            },
+            {
+              "role": "r_square",
+              "value": "25"
+            },
+            {
+              "role": "x",
+              "value": "3"
+            },
+            {
+              "role": "x_square",
+              "value": "9"
+            },
+            {
+              "role": "y",
+              "value": "4"
+            },
+            {
+              "role": "y_square",
+              "value": "16"
+            }
+          ],
+          "roles": [
+            "r_square"
+          ],
+          "support": {
+            "blockers": [],
+            "criterion": "three_literal_self_products_and_direct_sum",
+            "dependencies": [],
+            "first_supported_stage": 16,
+            "local_first_supported_stage": 16,
+            "local_requests_complete": true,
+            "mathematical_membership": "exact",
+            "requests": [
+              {
+                "blocker": null,
+                "candidate_stage": 3,
+                "edge_refs": [
+                  {
+                    "edge_id": 28,
+                    "stage": 3
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 3,
+                "left": "3",
+                "op": "*",
+                "result": "9",
+                "right": "3",
+                "role": "x_square",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              },
+              {
+                "blocker": null,
+                "candidate_stage": 4,
+                "edge_refs": [
+                  {
+                    "edge_id": 52,
+                    "stage": 4
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 4,
+                "left": "4",
+                "op": "*",
+                "result": "16",
+                "right": "4",
+                "role": "y_square",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              },
+              {
+                "blocker": null,
+                "candidate_stage": 5,
+                "edge_refs": [
+                  {
+                    "edge_id": 84,
+                    "stage": 5
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 5,
+                "left": "5",
+                "op": "*",
+                "result": "25",
+                "right": "5",
+                "role": "r_square",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              },
+              {
+                "blocker": null,
+                "candidate_stage": 16,
+                "edge_refs": [
+                  {
+                    "edge_id": 998,
+                    "stage": 16
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 16,
+                "left": "9",
+                "op": "+",
+                "result": "25",
+                "right": "16",
+                "role": "shell_sum",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              }
+            ],
+            "status": "witnessed"
+          }
+        },
+        {
+          "family": "shell",
+          "id": "shell:4,3,5",
+          "label": "Shell (4, 3, 5)",
+          "parameters": {
+            "r": "5",
+            "x": "4",
+            "y": "3"
+          },
+          "participants": [
+            {
+              "role": "r",
+              "value": "5"
+            },
+            {
+              "role": "r_square",
+              "value": "25"
+            },
+            {
+              "role": "x",
+              "value": "4"
+            },
+            {
+              "role": "x_square",
+              "value": "16"
+            },
+            {
+              "role": "y",
+              "value": "3"
+            },
+            {
+              "role": "y_square",
+              "value": "9"
+            }
+          ],
+          "roles": [
+            "r_square"
+          ],
+          "support": {
+            "blockers": [],
+            "criterion": "three_literal_self_products_and_direct_sum",
+            "dependencies": [],
+            "first_supported_stage": 16,
+            "local_first_supported_stage": 16,
+            "local_requests_complete": true,
+            "mathematical_membership": "exact",
+            "requests": [
+              {
+                "blocker": null,
+                "candidate_stage": 4,
+                "edge_refs": [
+                  {
+                    "edge_id": 52,
+                    "stage": 4
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 4,
+                "left": "4",
+                "op": "*",
+                "result": "16",
+                "right": "4",
+                "role": "x_square",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              },
+              {
+                "blocker": null,
+                "candidate_stage": 3,
+                "edge_refs": [
+                  {
+                    "edge_id": 28,
+                    "stage": 3
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 3,
+                "left": "3",
+                "op": "*",
+                "result": "9",
+                "right": "3",
+                "role": "y_square",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              },
+              {
+                "blocker": null,
+                "candidate_stage": 5,
+                "edge_refs": [
+                  {
+                    "edge_id": 84,
+                    "stage": 5
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 5,
+                "left": "5",
+                "op": "*",
+                "result": "25",
+                "right": "5",
+                "role": "r_square",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              },
+              {
+                "blocker": null,
+                "candidate_stage": 16,
+                "edge_refs": [
+                  {
+                    "edge_id": 934,
+                    "stage": 16
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 16,
+                "left": "16",
+                "op": "+",
+                "result": "25",
+                "right": "9",
+                "role": "shell_sum",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              }
+            ],
+            "status": "witnessed"
+          }
+        },
+        {
+          "family": "shell",
+          "id": "shell:5,12,13",
+          "label": "Shell (5, 12, 13)",
+          "parameters": {
+            "r": "13",
+            "x": "5",
+            "y": "12"
+          },
+          "participants": [
+            {
+              "role": "r",
+              "value": "13"
+            },
+            {
+              "role": "r_square",
+              "value": "169"
+            },
+            {
+              "role": "x",
+              "value": "5"
+            },
+            {
+              "role": "x_square",
+              "value": "25"
+            },
+            {
+              "role": "y",
+              "value": "12"
+            },
+            {
+              "role": "y_square",
+              "value": "144"
+            }
+          ],
+          "roles": [
+            "x_square"
+          ],
+          "support": {
+            "blockers": [],
+            "criterion": "three_literal_self_products_and_direct_sum",
+            "dependencies": [],
+            "first_supported_stage": 144,
+            "local_first_supported_stage": 144,
+            "local_requests_complete": true,
+            "mathematical_membership": "exact",
+            "requests": [
+              {
+                "blocker": null,
+                "candidate_stage": 5,
+                "edge_refs": [
+                  {
+                    "edge_id": 84,
+                    "stage": 5
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 5,
+                "left": "5",
+                "op": "*",
+                "result": "25",
+                "right": "5",
+                "role": "x_square",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              },
+              {
+                "blocker": null,
+                "candidate_stage": 12,
+                "edge_refs": [
+                  {
+                    "edge_id": 532,
+                    "stage": 12
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 12,
+                "left": "12",
+                "op": "*",
+                "result": "144",
+                "right": "12",
+                "role": "y_square",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              },
+              {
+                "blocker": null,
+                "candidate_stage": 13,
+                "edge_refs": [
+                  {
+                    "edge_id": 628,
+                    "stage": 13
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 13,
+                "left": "13",
+                "op": "*",
+                "result": "169",
+                "right": "13",
+                "role": "r_square",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              },
+              {
+                "blocker": null,
+                "candidate_stage": 144,
+                "edge_refs": [
+                  {
+                    "edge_id": 82470,
+                    "stage": 144
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 144,
+                "left": "25",
+                "op": "+",
+                "result": "169",
+                "right": "144",
+                "role": "shell_sum",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              }
+            ],
+            "status": "witnessed"
+          }
+        },
+        {
+          "family": "shell",
+          "id": "shell:7,24,25",
+          "label": "Shell (7, 24, 25)",
+          "parameters": {
+            "r": "25",
+            "x": "7",
+            "y": "24"
+          },
+          "participants": [
+            {
+              "role": "r",
+              "value": "25"
+            },
+            {
+              "role": "r_square",
+              "value": "625"
+            },
+            {
+              "role": "x",
+              "value": "7"
+            },
+            {
+              "role": "x_square",
+              "value": "49"
+            },
+            {
+              "role": "y",
+              "value": "24"
+            },
+            {
+              "role": "y_square",
+              "value": "576"
+            }
+          ],
+          "roles": [
+            "r"
+          ],
+          "support": {
+            "blockers": [],
+            "criterion": "three_literal_self_products_and_direct_sum",
+            "dependencies": [],
+            "first_supported_stage": 576,
+            "local_first_supported_stage": 576,
+            "local_requests_complete": true,
+            "mathematical_membership": "exact",
+            "requests": [
+              {
+                "blocker": null,
+                "candidate_stage": 7,
+                "edge_refs": [
+                  {
+                    "edge_id": 172,
+                    "stage": 7
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 7,
+                "left": "7",
+                "op": "*",
+                "result": "49",
+                "right": "7",
+                "role": "x_square",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              },
+              {
+                "blocker": null,
+                "candidate_stage": 24,
+                "edge_refs": [
+                  {
+                    "edge_id": 2212,
+                    "stage": 24
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 24,
+                "left": "24",
+                "op": "*",
+                "result": "576",
+                "right": "24",
+                "role": "y_square",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              },
+              {
+                "blocker": null,
+                "candidate_stage": 25,
+                "edge_refs": [
+                  {
+                    "edge_id": 2404,
+                    "stage": 25
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 25,
+                "left": "25",
+                "op": "*",
+                "result": "625",
+                "right": "25",
+                "role": "r_square",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              },
+              {
+                "blocker": null,
+                "candidate_stage": 576,
+                "edge_refs": [
+                  {
+                    "edge_id": 1324998,
+                    "stage": 576
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 576,
+                "left": "49",
+                "op": "+",
+                "result": "625",
+                "right": "576",
+                "role": "shell_sum",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              }
+            ],
+            "status": "witnessed"
+          }
+        },
+        {
+          "family": "spiral",
+          "id": "spiral:4,3,5:2",
+          "label": "Seed (4, 3, 5), iteration 2",
+          "parameters": {
+            "iteration": 2,
+            "r": "25",
+            "seed": [
+              4,
+              3,
+              5
+            ],
+            "x": "7",
+            "y": "24"
+          },
+          "participants": [
+            {
+              "role": "previous_r",
+              "value": "5"
+            },
+            {
+              "role": "previous_x",
+              "value": "4"
+            },
+            {
+              "role": "previous_y",
+              "value": "3"
+            },
+            {
+              "role": "r",
+              "value": "25"
+            },
+            {
+              "role": "x",
+              "value": "7"
+            },
+            {
+              "role": "y",
+              "value": "24"
+            }
+          ],
+          "roles": [
+            "r"
+          ],
+          "support": {
+            "blockers": [],
+            "criterion": "seed_shell_and_linked_scalar_transitions",
+            "dependencies": [
+              {
+                "first_supported_stage": 16,
+                "id": "shell:4,3,5",
+                "status": "witnessed"
+              },
+              {
+                "first_supported_stage": 16,
+                "id": "spiral:4,3,5:1",
+                "status": "witnessed"
+              }
+            ],
+            "first_supported_stage": 16,
+            "local_first_supported_stage": 16,
+            "local_requests_complete": true,
+            "mathematical_membership": "exact",
+            "requests": [
+              {
+                "blocker": null,
+                "candidate_stage": 4,
+                "edge_refs": [
+                  {
+                    "edge_id": 52,
+                    "stage": 4
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 4,
+                "left": "4",
+                "op": "*",
+                "result": "16",
+                "right": "4",
+                "role": "ac",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              },
+              {
+                "blocker": null,
+                "candidate_stage": 3,
+                "edge_refs": [
+                  {
+                    "edge_id": 28,
+                    "stage": 3
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 3,
+                "left": "3",
+                "op": "*",
+                "result": "9",
+                "right": "3",
+                "role": "bd",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              },
+              {
+                "blocker": null,
+                "candidate_stage": 4,
+                "edge_refs": [
+                  {
+                    "edge_id": 48,
+                    "stage": 4
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 4,
+                "left": "4",
+                "op": "*",
+                "result": "12",
+                "right": "3",
+                "role": "ad",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              },
+              {
+                "blocker": null,
+                "candidate_stage": 4,
+                "edge_refs": [
+                  {
+                    "edge_id": 64,
+                    "stage": 4
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 4,
+                "left": "3",
+                "op": "*",
+                "result": "12",
+                "right": "4",
+                "role": "bc",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              },
+              {
+                "blocker": null,
+                "candidate_stage": 16,
+                "edge_refs": [
+                  {
+                    "edge_id": 935,
+                    "stage": 16
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 16,
+                "left": "16",
+                "op": "-",
+                "result": "7",
+                "right": "9",
+                "role": "x",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              },
+              {
+                "blocker": null,
+                "candidate_stage": 12,
+                "edge_refs": [
+                  {
+                    "edge_id": 530,
+                    "stage": 12
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 12,
+                "left": "12",
+                "op": "+",
+                "result": "24",
+                "right": "12",
+                "role": "y",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              },
+              {
+                "blocker": null,
+                "candidate_stage": 5,
+                "edge_refs": [
+                  {
+                    "edge_id": 84,
+                    "stage": 5
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 5,
+                "left": "5",
+                "op": "*",
+                "result": "25",
+                "right": "5",
+                "role": "r",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              }
+            ],
+            "status": "witnessed"
+          }
+        },
+        {
+          "family": "spiral",
+          "id": "spiral:4,3,5:3",
+          "label": "Seed (4, 3, 5), iteration 3",
+          "parameters": {
+            "iteration": 3,
+            "r": "125",
+            "seed": [
+              4,
+              3,
+              5
+            ],
+            "x": "-44",
+            "y": "117"
+          },
+          "participants": [
+            {
+              "role": "previous_r",
+              "value": "25"
+            },
+            {
+              "role": "previous_x",
+              "value": "7"
+            },
+            {
+              "role": "previous_y",
+              "value": "24"
+            },
+            {
+              "role": "r",
+              "value": "125"
+            },
+            {
+              "role": "x",
+              "value": "-44"
+            },
+            {
+              "role": "y",
+              "value": "117"
+            }
+          ],
+          "roles": [
+            "previous_r"
+          ],
+          "support": {
+            "blockers": [],
+            "criterion": "seed_shell_and_linked_scalar_transitions",
+            "dependencies": [
+              {
+                "first_supported_stage": 16,
+                "id": "shell:4,3,5",
+                "status": "witnessed"
+              },
+              {
+                "first_supported_stage": 16,
+                "id": "spiral:4,3,5:2",
+                "status": "witnessed"
+              }
+            ],
+            "first_supported_stage": 96,
+            "local_first_supported_stage": 96,
+            "local_requests_complete": true,
+            "mathematical_membership": "exact",
+            "requests": [
+              {
+                "blocker": null,
+                "candidate_stage": 7,
+                "edge_refs": [
+                  {
+                    "edge_id": 160,
+                    "stage": 7
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 7,
+                "left": "7",
+                "op": "*",
+                "result": "28",
+                "right": "4",
+                "role": "ac",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              },
+              {
+                "blocker": null,
+                "candidate_stage": 24,
+                "edge_refs": [
+                  {
+                    "edge_id": 2128,
+                    "stage": 24
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 24,
+                "left": "24",
+                "op": "*",
+                "result": "72",
+                "right": "3",
+                "role": "bd",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              },
+              {
+                "blocker": null,
+                "candidate_stage": 7,
+                "edge_refs": [
+                  {
+                    "edge_id": 156,
+                    "stage": 7
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 7,
+                "left": "7",
+                "op": "*",
+                "result": "21",
+                "right": "3",
+                "role": "ad",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              },
+              {
+                "blocker": null,
+                "candidate_stage": 24,
+                "edge_refs": [
+                  {
+                    "edge_id": 2132,
+                    "stage": 24
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 24,
+                "left": "24",
+                "op": "*",
+                "result": "96",
+                "right": "4",
+                "role": "bc",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              },
+              {
+                "blocker": null,
+                "candidate_stage": 72,
+                "edge_refs": [
+                  {
+                    "edge_id": 20563,
+                    "stage": 72
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 72,
+                "left": "28",
+                "op": "-",
+                "result": "-44",
+                "right": "72",
+                "role": "x",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              },
+              {
+                "blocker": null,
+                "candidate_stage": 96,
+                "edge_refs": [
+                  {
+                    "edge_id": 36566,
+                    "stage": 96
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 96,
+                "left": "21",
+                "op": "+",
+                "result": "117",
+                "right": "96",
+                "role": "y",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              },
+              {
+                "blocker": null,
+                "candidate_stage": 25,
+                "edge_refs": [
+                  {
+                    "edge_id": 2324,
+                    "stage": 25
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 25,
+                "left": "25",
+                "op": "*",
+                "result": "125",
+                "right": "5",
+                "role": "r",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              }
+            ],
+            "status": "witnessed"
+          }
+        }
+      ],
+      "filters": {
+        "family": null,
+        "witnessed_only": false
+      },
+      "interpretation": {
+        "absence": "No association means no match in this bounded selection, not mathematical nonmembership. Unknown/uninspected qualities are not negative tags.",
+        "membership": "Exact arithmetic in the selected external families.",
+        "partial": "Some supporting requests or dependencies are witnessed; the complete criterion is not.",
+        "snapshot": "Queries read this saved snapshot; they do not silently recompute against a changed or missing source.",
+        "spiral": "A witnessed scalar lineage does not require the later direct target-shell certificate; complex multiplication remains an external interpretation.",
+        "unwitnessed": "No selected scalar request or dependency has supporting witnesses; mathematical membership remains exact.",
+        "witnessed": "All named scalar requests and dependencies are witnessed by the selected checkpoint."
+      },
+      "node": {
+        "confirmed_stage": 25,
+        "first_edge_id": 84,
+        "first_stage": 5,
+        "in_saved_corpus": true,
+        "key": [
+          25,
+          1
+        ],
+        "kind": "positive_integer",
+        "label": "25",
+        "node_id": 29,
+        "p": 25,
+        "present": true,
+        "q": 1,
+        "status": "speculative_until_confirmed",
+        "status_at_checkpoint": "confirmed"
+      },
+      "scope": {
+        "max_radius": 25,
+        "shells": "Ordered positive integer shells up to max_radius; their unit normalizations; plus selected signed spiral shells and their unit normalizations.",
+        "spiral": "Fixed-seed pair powers (4+3i)^n, n=1..spiral_steps; radius 5^n. No general spiral discovery.",
+        "spiral_seed": [
+          4,
+          3,
+          5
+        ],
+        "spiral_steps": 5,
+        "square_height": 25,
+        "squares": "Nonnegative reduced roots p/q with p,q <= square_height; q >= 1."
+      },
+      "source": {
+        "alignment": {
+          "non_core_operand_edges": 0,
+          "operand_rule": "positive-spine strict corpus: only confirmed positive-spine iterations may be operands",
+          "speculative_input_edges": 0,
+          "speculative_nodes_are_operands": false,
+          "status": "pass"
+        },
+        "checkpoint": 576,
+        "complete_stage": 576,
+        "config": {
+          "generator": "strict_stage_moo_graph",
+          "max_abs_p": 1000000000,
+          "max_abs_q": 576,
+          "max_abs_value": 1000000000.0,
+          "max_stage": 576,
+          "retain_confirmed_edges": true
+        },
+        "path": "/home/USER/Documents/MoO/out/scratch/shell_composition_20260920_current_v1/wide_u576.sqlite",
+        "recorded_stage": 576,
+        "requested_stage": null,
+        "sha256": "655e2ba49f53519e7cb3720ad8894579aaf113444afbe56b81a99ae7bbdae2b6"
+      },
+      "value": "25"
+    },
+    {
+      "association_count": 8,
+      "associations": [
+        {
+          "family": "square",
+          "id": "square:25",
+          "label": "Self-product of 25",
+          "parameters": {
+            "root": "25",
+            "square": "625"
+          },
+          "participants": [
+            {
+              "role": "root",
+              "value": "25"
+            },
+            {
+              "role": "square",
+              "value": "625"
+            }
+          ],
+          "roles": [
+            "square"
+          ],
+          "support": {
+            "blockers": [],
+            "criterion": "literal_self_product",
+            "dependencies": [],
+            "first_supported_stage": 25,
+            "local_first_supported_stage": 25,
+            "local_requests_complete": true,
+            "mathematical_membership": "exact",
+            "requests": [
+              {
+                "blocker": null,
+                "candidate_stage": 25,
+                "edge_refs": [
+                  {
+                    "edge_id": 2404,
+                    "stage": 25
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 25,
+                "left": "25",
+                "op": "*",
+                "result": "625",
+                "right": "25",
+                "role": "self_product",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              }
+            ],
+            "status": "witnessed"
+          }
+        },
+        {
+          "family": "shell",
+          "id": "shell:-527,336,625",
+          "label": "Shell (-527, 336, 625)",
+          "parameters": {
+            "r": "625",
+            "x": "-527",
+            "y": "336"
+          },
+          "participants": [
+            {
+              "role": "r",
+              "value": "625"
+            },
+            {
+              "role": "r_square",
+              "value": "390625"
+            },
+            {
+              "role": "x",
+              "value": "-527"
+            },
+            {
+              "role": "x_square",
+              "value": "277729"
+            },
+            {
+              "role": "y",
+              "value": "336"
+            },
+            {
+              "role": "y_square",
+              "value": "112896"
+            }
+          ],
+          "roles": [
+            "r"
+          ],
+          "support": {
+            "blockers": [
+              "candidate_stage_beyond_corpus",
+              "operand_not_positive_spine"
+            ],
+            "criterion": "three_literal_self_products_and_direct_sum",
+            "dependencies": [],
+            "first_supported_stage": null,
+            "local_first_supported_stage": null,
+            "local_requests_complete": false,
+            "mathematical_membership": "exact",
+            "requests": [
+              {
+                "blocker": "operand_not_positive_spine",
+                "candidate_stage": null,
+                "edge_refs": [],
+                "eligible_by_retention": null,
+                "eligible_by_stage": false,
+                "first_stage": null,
+                "left": "-527",
+                "op": "*",
+                "result": "277729",
+                "right": "-527",
+                "role": "x_square",
+                "source_edge_count": 0,
+                "source_edge_refs_truncated": false,
+                "witnessed": false
+              },
+              {
+                "blocker": null,
+                "candidate_stage": 336,
+                "edge_refs": [
+                  {
+                    "edge_id": 450244,
+                    "stage": 336
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 336,
+                "left": "336",
+                "op": "*",
+                "result": "112896",
+                "right": "336",
+                "role": "y_square",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              },
+              {
+                "blocker": "candidate_stage_beyond_corpus",
+                "candidate_stage": 625,
+                "edge_refs": [],
+                "eligible_by_retention": null,
+                "eligible_by_stage": false,
+                "first_stage": null,
+                "left": "625",
+                "op": "*",
+                "result": "390625",
+                "right": "625",
+                "role": "r_square",
+                "source_edge_count": 0,
+                "source_edge_refs_truncated": false,
+                "witnessed": false
+              },
+              {
+                "blocker": "candidate_stage_beyond_corpus",
+                "candidate_stage": 277729,
+                "edge_refs": [],
+                "eligible_by_retention": null,
+                "eligible_by_stage": false,
+                "first_stage": null,
+                "left": "277729",
+                "op": "+",
+                "result": "390625",
+                "right": "112896",
+                "role": "shell_sum",
+                "source_edge_count": 0,
+                "source_edge_refs_truncated": false,
+                "witnessed": false
+              }
+            ],
+            "status": "partial"
+          }
+        },
+        {
+          "family": "shell",
+          "id": "shell:15,20,25",
+          "label": "Shell (15, 20, 25)",
+          "parameters": {
+            "r": "25",
+            "x": "15",
+            "y": "20"
+          },
+          "participants": [
+            {
+              "role": "r",
+              "value": "25"
+            },
+            {
+              "role": "r_square",
+              "value": "625"
+            },
+            {
+              "role": "x",
+              "value": "15"
+            },
+            {
+              "role": "x_square",
+              "value": "225"
+            },
+            {
+              "role": "y",
+              "value": "20"
+            },
+            {
+              "role": "y_square",
+              "value": "400"
+            }
+          ],
+          "roles": [
+            "r_square"
+          ],
+          "support": {
+            "blockers": [],
+            "criterion": "three_literal_self_products_and_direct_sum",
+            "dependencies": [],
+            "first_supported_stage": 400,
+            "local_first_supported_stage": 400,
+            "local_requests_complete": true,
+            "mathematical_membership": "exact",
+            "requests": [
+              {
+                "blocker": null,
+                "candidate_stage": 15,
+                "edge_refs": [
+                  {
+                    "edge_id": 844,
+                    "stage": 15
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 15,
+                "left": "15",
+                "op": "*",
+                "result": "225",
+                "right": "15",
+                "role": "x_square",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              },
+              {
+                "blocker": null,
+                "candidate_stage": 20,
+                "edge_refs": [
+                  {
+                    "edge_id": 1524,
+                    "stage": 20
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 20,
+                "left": "20",
+                "op": "*",
+                "result": "400",
+                "right": "20",
+                "role": "y_square",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              },
+              {
+                "blocker": null,
+                "candidate_stage": 25,
+                "edge_refs": [
+                  {
+                    "edge_id": 2404,
+                    "stage": 25
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 25,
+                "left": "25",
+                "op": "*",
+                "result": "625",
+                "right": "25",
+                "role": "r_square",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              },
+              {
+                "blocker": null,
+                "candidate_stage": 400,
+                "edge_refs": [
+                  {
+                    "edge_id": 639302,
+                    "stage": 400
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 400,
+                "left": "225",
+                "op": "+",
+                "result": "625",
+                "right": "400",
+                "role": "shell_sum",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              }
+            ],
+            "status": "witnessed"
+          }
+        },
+        {
+          "family": "shell",
+          "id": "shell:20,15,25",
+          "label": "Shell (20, 15, 25)",
+          "parameters": {
+            "r": "25",
+            "x": "20",
+            "y": "15"
+          },
+          "participants": [
+            {
+              "role": "r",
+              "value": "25"
+            },
+            {
+              "role": "r_square",
+              "value": "625"
+            },
+            {
+              "role": "x",
+              "value": "20"
+            },
+            {
+              "role": "x_square",
+              "value": "400"
+            },
+            {
+              "role": "y",
+              "value": "15"
+            },
+            {
+              "role": "y_square",
+              "value": "225"
+            }
+          ],
+          "roles": [
+            "r_square"
+          ],
+          "support": {
+            "blockers": [],
+            "criterion": "three_literal_self_products_and_direct_sum",
+            "dependencies": [],
+            "first_supported_stage": 400,
+            "local_first_supported_stage": 400,
+            "local_requests_complete": true,
+            "mathematical_membership": "exact",
+            "requests": [
+              {
+                "blocker": null,
+                "candidate_stage": 20,
+                "edge_refs": [
+                  {
+                    "edge_id": 1524,
+                    "stage": 20
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 20,
+                "left": "20",
+                "op": "*",
+                "result": "400",
+                "right": "20",
+                "role": "x_square",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              },
+              {
+                "blocker": null,
+                "candidate_stage": 15,
+                "edge_refs": [
+                  {
+                    "edge_id": 844,
+                    "stage": 15
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 15,
+                "left": "15",
+                "op": "*",
+                "result": "225",
+                "right": "15",
+                "role": "y_square",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              },
+              {
+                "blocker": null,
+                "candidate_stage": 25,
+                "edge_refs": [
+                  {
+                    "edge_id": 2404,
+                    "stage": 25
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 25,
+                "left": "25",
+                "op": "*",
+                "result": "625",
+                "right": "25",
+                "role": "r_square",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              },
+              {
+                "blocker": null,
+                "candidate_stage": 400,
+                "edge_refs": [
+                  {
+                    "edge_id": 637702,
+                    "stage": 400
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 400,
+                "left": "400",
+                "op": "+",
+                "result": "625",
+                "right": "225",
+                "role": "shell_sum",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              }
+            ],
+            "status": "witnessed"
+          }
+        },
+        {
+          "family": "shell",
+          "id": "shell:24,7,25",
+          "label": "Shell (24, 7, 25)",
+          "parameters": {
+            "r": "25",
+            "x": "24",
+            "y": "7"
+          },
+          "participants": [
+            {
+              "role": "r",
+              "value": "25"
+            },
+            {
+              "role": "r_square",
+              "value": "625"
+            },
+            {
+              "role": "x",
+              "value": "24"
+            },
+            {
+              "role": "x_square",
+              "value": "576"
+            },
+            {
+              "role": "y",
+              "value": "7"
+            },
+            {
+              "role": "y_square",
+              "value": "49"
+            }
+          ],
+          "roles": [
+            "r_square"
+          ],
+          "support": {
+            "blockers": [],
+            "criterion": "three_literal_self_products_and_direct_sum",
+            "dependencies": [],
+            "first_supported_stage": 576,
+            "local_first_supported_stage": 576,
+            "local_requests_complete": true,
+            "mathematical_membership": "exact",
+            "requests": [
+              {
+                "blocker": null,
+                "candidate_stage": 24,
+                "edge_refs": [
+                  {
+                    "edge_id": 2212,
+                    "stage": 24
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 24,
+                "left": "24",
+                "op": "*",
+                "result": "576",
+                "right": "24",
+                "role": "x_square",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              },
+              {
+                "blocker": null,
+                "candidate_stage": 7,
+                "edge_refs": [
+                  {
+                    "edge_id": 172,
+                    "stage": 7
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 7,
+                "left": "7",
+                "op": "*",
+                "result": "49",
+                "right": "7",
+                "role": "y_square",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              },
+              {
+                "blocker": null,
+                "candidate_stage": 25,
+                "edge_refs": [
+                  {
+                    "edge_id": 2404,
+                    "stage": 25
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 25,
+                "left": "25",
+                "op": "*",
+                "result": "625",
+                "right": "25",
+                "role": "r_square",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              },
+              {
+                "blocker": null,
+                "candidate_stage": 576,
+                "edge_refs": [
+                  {
+                    "edge_id": 1322694,
+                    "stage": 576
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 576,
+                "left": "576",
+                "op": "+",
+                "result": "625",
+                "right": "49",
+                "role": "shell_sum",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              }
+            ],
+            "status": "witnessed"
+          }
+        },
+        {
+          "family": "shell",
+          "id": "shell:7,24,25",
+          "label": "Shell (7, 24, 25)",
+          "parameters": {
+            "r": "25",
+            "x": "7",
+            "y": "24"
+          },
+          "participants": [
+            {
+              "role": "r",
+              "value": "25"
+            },
+            {
+              "role": "r_square",
+              "value": "625"
+            },
+            {
+              "role": "x",
+              "value": "7"
+            },
+            {
+              "role": "x_square",
+              "value": "49"
+            },
+            {
+              "role": "y",
+              "value": "24"
+            },
+            {
+              "role": "y_square",
+              "value": "576"
+            }
+          ],
+          "roles": [
+            "r_square"
+          ],
+          "support": {
+            "blockers": [],
+            "criterion": "three_literal_self_products_and_direct_sum",
+            "dependencies": [],
+            "first_supported_stage": 576,
+            "local_first_supported_stage": 576,
+            "local_requests_complete": true,
+            "mathematical_membership": "exact",
+            "requests": [
+              {
+                "blocker": null,
+                "candidate_stage": 7,
+                "edge_refs": [
+                  {
+                    "edge_id": 172,
+                    "stage": 7
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 7,
+                "left": "7",
+                "op": "*",
+                "result": "49",
+                "right": "7",
+                "role": "x_square",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              },
+              {
+                "blocker": null,
+                "candidate_stage": 24,
+                "edge_refs": [
+                  {
+                    "edge_id": 2212,
+                    "stage": 24
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 24,
+                "left": "24",
+                "op": "*",
+                "result": "576",
+                "right": "24",
+                "role": "y_square",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              },
+              {
+                "blocker": null,
+                "candidate_stage": 25,
+                "edge_refs": [
+                  {
+                    "edge_id": 2404,
+                    "stage": 25
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 25,
+                "left": "25",
+                "op": "*",
+                "result": "625",
+                "right": "25",
+                "role": "r_square",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              },
+              {
+                "blocker": null,
+                "candidate_stage": 576,
+                "edge_refs": [
+                  {
+                    "edge_id": 1324998,
+                    "stage": 576
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 576,
+                "left": "49",
+                "op": "+",
+                "result": "625",
+                "right": "576",
+                "role": "shell_sum",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              }
+            ],
+            "status": "witnessed"
+          }
+        },
+        {
+          "family": "spiral",
+          "id": "spiral:4,3,5:4",
+          "label": "Seed (4, 3, 5), iteration 4",
+          "parameters": {
+            "iteration": 4,
+            "r": "625",
+            "seed": [
+              4,
+              3,
+              5
+            ],
+            "x": "-527",
+            "y": "336"
+          },
+          "participants": [
+            {
+              "role": "previous_r",
+              "value": "125"
+            },
+            {
+              "role": "previous_x",
+              "value": "-44"
+            },
+            {
+              "role": "previous_y",
+              "value": "117"
+            },
+            {
+              "role": "r",
+              "value": "625"
+            },
+            {
+              "role": "x",
+              "value": "-527"
+            },
+            {
+              "role": "y",
+              "value": "336"
+            }
+          ],
+          "roles": [
+            "r"
+          ],
+          "support": {
+            "blockers": [
+              "operand_not_positive_spine"
+            ],
+            "criterion": "seed_shell_and_linked_scalar_transitions",
+            "dependencies": [
+              {
+                "first_supported_stage": 16,
+                "id": "shell:4,3,5",
+                "status": "witnessed"
+              },
+              {
+                "first_supported_stage": 96,
+                "id": "spiral:4,3,5:3",
+                "status": "witnessed"
+              }
+            ],
+            "first_supported_stage": null,
+            "local_first_supported_stage": null,
+            "local_requests_complete": false,
+            "mathematical_membership": "exact",
+            "requests": [
+              {
+                "blocker": "operand_not_positive_spine",
+                "candidate_stage": null,
+                "edge_refs": [],
+                "eligible_by_retention": null,
+                "eligible_by_stage": false,
+                "first_stage": null,
+                "left": "-44",
+                "op": "*",
+                "result": "-176",
+                "right": "4",
+                "role": "ac",
+                "source_edge_count": 0,
+                "source_edge_refs_truncated": false,
+                "witnessed": false
+              },
+              {
+                "blocker": null,
+                "candidate_stage": 117,
+                "edge_refs": [
+                  {
+                    "edge_id": 53836,
+                    "stage": 117
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 117,
+                "left": "117",
+                "op": "*",
+                "result": "351",
+                "right": "3",
+                "role": "bd",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              },
+              {
+                "blocker": "operand_not_positive_spine",
+                "candidate_stage": null,
+                "edge_refs": [],
+                "eligible_by_retention": null,
+                "eligible_by_stage": false,
+                "first_stage": null,
+                "left": "-44",
+                "op": "*",
+                "result": "-132",
+                "right": "3",
+                "role": "ad",
+                "source_edge_count": 0,
+                "source_edge_refs_truncated": false,
+                "witnessed": false
+              },
+              {
+                "blocker": null,
+                "candidate_stage": 117,
+                "edge_refs": [
+                  {
+                    "edge_id": 53840,
+                    "stage": 117
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 117,
+                "left": "117",
+                "op": "*",
+                "result": "468",
+                "right": "4",
+                "role": "bc",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              },
+              {
+                "blocker": "operand_not_positive_spine",
+                "candidate_stage": null,
+                "edge_refs": [],
+                "eligible_by_retention": null,
+                "eligible_by_stage": false,
+                "first_stage": null,
+                "left": "-176",
+                "op": "-",
+                "result": "-527",
+                "right": "351",
+                "role": "x",
+                "source_edge_count": 0,
+                "source_edge_refs_truncated": false,
+                "witnessed": false
+              },
+              {
+                "blocker": "operand_not_positive_spine",
+                "candidate_stage": null,
+                "edge_refs": [],
+                "eligible_by_retention": null,
+                "eligible_by_stage": false,
+                "first_stage": null,
+                "left": "-132",
+                "op": "+",
+                "result": "336",
+                "right": "468",
+                "role": "y",
+                "source_edge_count": 0,
+                "source_edge_refs_truncated": false,
+                "witnessed": false
+              },
+              {
+                "blocker": null,
+                "candidate_stage": 125,
+                "edge_refs": [
+                  {
+                    "edge_id": 61524,
+                    "stage": 125
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 125,
+                "left": "125",
+                "op": "*",
+                "result": "625",
+                "right": "5",
+                "role": "r",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              }
+            ],
+            "status": "partial"
+          }
+        },
+        {
+          "family": "spiral",
+          "id": "spiral:4,3,5:5",
+          "label": "Seed (4, 3, 5), iteration 5",
+          "parameters": {
+            "iteration": 5,
+            "r": "3125",
+            "seed": [
+              4,
+              3,
+              5
+            ],
+            "x": "-3116",
+            "y": "-237"
+          },
+          "participants": [
+            {
+              "role": "previous_r",
+              "value": "625"
+            },
+            {
+              "role": "previous_x",
+              "value": "-527"
+            },
+            {
+              "role": "previous_y",
+              "value": "336"
+            },
+            {
+              "role": "r",
+              "value": "3125"
+            },
+            {
+              "role": "x",
+              "value": "-3116"
+            },
+            {
+              "role": "y",
+              "value": "-237"
+            }
+          ],
+          "roles": [
+            "previous_r"
+          ],
+          "support": {
+            "blockers": [
+              "candidate_stage_beyond_corpus",
+              "dependency_not_witnessed:spiral:4,3,5:4",
+              "operand_not_positive_spine"
+            ],
+            "criterion": "seed_shell_and_linked_scalar_transitions",
+            "dependencies": [
+              {
+                "first_supported_stage": 16,
+                "id": "shell:4,3,5",
+                "status": "witnessed"
+              },
+              {
+                "first_supported_stage": null,
+                "id": "spiral:4,3,5:4",
+                "status": "partial"
+              }
+            ],
+            "first_supported_stage": null,
+            "local_first_supported_stage": null,
+            "local_requests_complete": false,
+            "mathematical_membership": "exact",
+            "requests": [
+              {
+                "blocker": "operand_not_positive_spine",
+                "candidate_stage": null,
+                "edge_refs": [],
+                "eligible_by_retention": null,
+                "eligible_by_stage": false,
+                "first_stage": null,
+                "left": "-527",
+                "op": "*",
+                "result": "-2108",
+                "right": "4",
+                "role": "ac",
+                "source_edge_count": 0,
+                "source_edge_refs_truncated": false,
+                "witnessed": false
+              },
+              {
+                "blocker": null,
+                "candidate_stage": 336,
+                "edge_refs": [
+                  {
+                    "edge_id": 448912,
+                    "stage": 336
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 336,
+                "left": "336",
+                "op": "*",
+                "result": "1008",
+                "right": "3",
+                "role": "bd",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              },
+              {
+                "blocker": "operand_not_positive_spine",
+                "candidate_stage": null,
+                "edge_refs": [],
+                "eligible_by_retention": null,
+                "eligible_by_stage": false,
+                "first_stage": null,
+                "left": "-527",
+                "op": "*",
+                "result": "-1581",
+                "right": "3",
+                "role": "ad",
+                "source_edge_count": 0,
+                "source_edge_refs_truncated": false,
+                "witnessed": false
+              },
+              {
+                "blocker": null,
+                "candidate_stage": 336,
+                "edge_refs": [
+                  {
+                    "edge_id": 448916,
+                    "stage": 336
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 336,
+                "left": "336",
+                "op": "*",
+                "result": "1344",
+                "right": "4",
+                "role": "bc",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              },
+              {
+                "blocker": "operand_not_positive_spine",
+                "candidate_stage": null,
+                "edge_refs": [],
+                "eligible_by_retention": null,
+                "eligible_by_stage": false,
+                "first_stage": null,
+                "left": "-2108",
+                "op": "-",
+                "result": "-3116",
+                "right": "1008",
+                "role": "x",
+                "source_edge_count": 0,
+                "source_edge_refs_truncated": false,
+                "witnessed": false
+              },
+              {
+                "blocker": "operand_not_positive_spine",
+                "candidate_stage": null,
+                "edge_refs": [],
+                "eligible_by_retention": null,
+                "eligible_by_stage": false,
+                "first_stage": null,
+                "left": "-1581",
+                "op": "+",
+                "result": "-237",
+                "right": "1344",
+                "role": "y",
+                "source_edge_count": 0,
+                "source_edge_refs_truncated": false,
+                "witnessed": false
+              },
+              {
+                "blocker": "candidate_stage_beyond_corpus",
+                "candidate_stage": 625,
+                "edge_refs": [],
+                "eligible_by_retention": null,
+                "eligible_by_stage": false,
+                "first_stage": null,
+                "left": "625",
+                "op": "*",
+                "result": "3125",
+                "right": "5",
+                "role": "r",
+                "source_edge_count": 0,
+                "source_edge_refs_truncated": false,
+                "witnessed": false
+              }
+            ],
+            "status": "partial"
+          }
+        }
+      ],
+      "filters": {
+        "family": null,
+        "witnessed_only": false
+      },
+      "interpretation": {
+        "absence": "No association means no match in this bounded selection, not mathematical nonmembership. Unknown/uninspected qualities are not negative tags.",
+        "membership": "Exact arithmetic in the selected external families.",
+        "partial": "Some supporting requests or dependencies are witnessed; the complete criterion is not.",
+        "snapshot": "Queries read this saved snapshot; they do not silently recompute against a changed or missing source.",
+        "spiral": "A witnessed scalar lineage does not require the later direct target-shell certificate; complex multiplication remains an external interpretation.",
+        "unwitnessed": "No selected scalar request or dependency has supporting witnesses; mathematical membership remains exact.",
+        "witnessed": "All named scalar requests and dependencies are witnessed by the selected checkpoint."
+      },
+      "node": {
+        "confirmed_stage": 625,
+        "first_edge_id": 2404,
+        "first_stage": 25,
+        "in_saved_corpus": true,
+        "key": [
+          625,
+          1
+        ],
+        "kind": "positive_integer",
+        "label": "625",
+        "node_id": 609,
+        "p": 625,
+        "present": true,
+        "q": 1,
+        "status": "speculative_until_confirmed",
+        "status_at_checkpoint": "speculative"
+      },
+      "scope": {
+        "max_radius": 25,
+        "shells": "Ordered positive integer shells up to max_radius; their unit normalizations; plus selected signed spiral shells and their unit normalizations.",
+        "spiral": "Fixed-seed pair powers (4+3i)^n, n=1..spiral_steps; radius 5^n. No general spiral discovery.",
+        "spiral_seed": [
+          4,
+          3,
+          5
+        ],
+        "spiral_steps": 5,
+        "square_height": 25,
+        "squares": "Nonnegative reduced roots p/q with p,q <= square_height; q >= 1."
+      },
+      "source": {
+        "alignment": {
+          "non_core_operand_edges": 0,
+          "operand_rule": "positive-spine strict corpus: only confirmed positive-spine iterations may be operands",
+          "speculative_input_edges": 0,
+          "speculative_nodes_are_operands": false,
+          "status": "pass"
+        },
+        "checkpoint": 576,
+        "complete_stage": 576,
+        "config": {
+          "generator": "strict_stage_moo_graph",
+          "max_abs_p": 1000000000,
+          "max_abs_q": 576,
+          "max_abs_value": 1000000000.0,
+          "max_stage": 576,
+          "retain_confirmed_edges": true
+        },
+        "path": "/home/USER/Documents/MoO/out/scratch/shell_composition_20260920_current_v1/wide_u576.sqlite",
+        "recorded_stage": 576,
+        "requested_stage": null,
+        "sha256": "655e2ba49f53519e7cb3720ad8894579aaf113444afbe56b81a99ae7bbdae2b6"
+      },
+      "value": "625"
+    },
+    {
+      "association_count": 4,
+      "associations": [
+        {
+          "family": "square",
+          "id": "square:3/5",
+          "label": "Self-product of 3/5",
+          "parameters": {
+            "root": "3/5",
+            "square": "9/25"
+          },
+          "participants": [
+            {
+              "role": "root",
+              "value": "3/5"
+            },
+            {
+              "role": "square",
+              "value": "9/25"
+            }
+          ],
+          "roles": [
+            "square"
+          ],
+          "support": {
+            "blockers": [
+              "operand_not_positive_spine"
+            ],
+            "criterion": "literal_self_product",
+            "dependencies": [],
+            "first_supported_stage": null,
+            "local_first_supported_stage": null,
+            "local_requests_complete": false,
+            "mathematical_membership": "exact",
+            "requests": [
+              {
+                "blocker": "operand_not_positive_spine",
+                "candidate_stage": null,
+                "edge_refs": [],
+                "eligible_by_retention": null,
+                "eligible_by_stage": false,
+                "first_stage": null,
+                "left": "3/5",
+                "op": "*",
+                "result": "9/25",
+                "right": "3/5",
+                "role": "self_product",
+                "source_edge_count": 0,
+                "source_edge_refs_truncated": false,
+                "witnessed": false
+              }
+            ],
+            "status": "unwitnessed"
+          }
+        },
+        {
+          "family": "square",
+          "id": "square:9/25",
+          "label": "Self-product of 9/25",
+          "parameters": {
+            "root": "9/25",
+            "square": "81/625"
+          },
+          "participants": [
+            {
+              "role": "root",
+              "value": "9/25"
+            },
+            {
+              "role": "square",
+              "value": "81/625"
+            }
+          ],
+          "roles": [
+            "root"
+          ],
+          "support": {
+            "blockers": [
+              "operand_not_positive_spine"
+            ],
+            "criterion": "literal_self_product",
+            "dependencies": [],
+            "first_supported_stage": null,
+            "local_first_supported_stage": null,
+            "local_requests_complete": false,
+            "mathematical_membership": "exact",
+            "requests": [
+              {
+                "blocker": "operand_not_positive_spine",
+                "candidate_stage": null,
+                "edge_refs": [],
+                "eligible_by_retention": null,
+                "eligible_by_stage": false,
+                "first_stage": null,
+                "left": "9/25",
+                "op": "*",
+                "result": "81/625",
+                "right": "9/25",
+                "role": "self_product",
+                "source_edge_count": 0,
+                "source_edge_refs_truncated": false,
+                "witnessed": false
+              }
+            ],
+            "status": "unwitnessed"
+          }
+        },
+        {
+          "family": "shell",
+          "id": "shell:3/5,4/5,1",
+          "label": "Shell (3/5, 4/5, 1)",
+          "parameters": {
+            "r": "1",
+            "x": "3/5",
+            "y": "4/5"
+          },
+          "participants": [
+            {
+              "role": "r",
+              "value": "1"
+            },
+            {
+              "role": "r_square",
+              "value": "1"
+            },
+            {
+              "role": "x",
+              "value": "3/5"
+            },
+            {
+              "role": "x_square",
+              "value": "9/25"
+            },
+            {
+              "role": "y",
+              "value": "4/5"
+            },
+            {
+              "role": "y_square",
+              "value": "16/25"
+            }
+          ],
+          "roles": [
+            "x_square"
+          ],
+          "support": {
+            "blockers": [
+              "operand_not_positive_spine"
+            ],
+            "criterion": "three_literal_self_products_and_direct_sum",
+            "dependencies": [],
+            "first_supported_stage": null,
+            "local_first_supported_stage": null,
+            "local_requests_complete": false,
+            "mathematical_membership": "exact",
+            "requests": [
+              {
+                "blocker": "operand_not_positive_spine",
+                "candidate_stage": null,
+                "edge_refs": [],
+                "eligible_by_retention": null,
+                "eligible_by_stage": false,
+                "first_stage": null,
+                "left": "3/5",
+                "op": "*",
+                "result": "9/25",
+                "right": "3/5",
+                "role": "x_square",
+                "source_edge_count": 0,
+                "source_edge_refs_truncated": false,
+                "witnessed": false
+              },
+              {
+                "blocker": "operand_not_positive_spine",
+                "candidate_stage": null,
+                "edge_refs": [],
+                "eligible_by_retention": null,
+                "eligible_by_stage": false,
+                "first_stage": null,
+                "left": "4/5",
+                "op": "*",
+                "result": "16/25",
+                "right": "4/5",
+                "role": "y_square",
+                "source_edge_count": 0,
+                "source_edge_refs_truncated": false,
+                "witnessed": false
+              },
+              {
+                "blocker": null,
+                "candidate_stage": 1,
+                "edge_refs": [
+                  {
+                    "edge_id": 4,
+                    "stage": 1
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 1,
+                "left": "1",
+                "op": "*",
+                "result": "1",
+                "right": "1",
+                "role": "r_square",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              },
+              {
+                "blocker": "operand_not_positive_spine",
+                "candidate_stage": null,
+                "edge_refs": [],
+                "eligible_by_retention": null,
+                "eligible_by_stage": false,
+                "first_stage": null,
+                "left": "9/25",
+                "op": "+",
+                "result": "1",
+                "right": "16/25",
+                "role": "shell_sum",
+                "source_edge_count": 0,
+                "source_edge_refs_truncated": false,
+                "witnessed": false
+              }
+            ],
+            "status": "partial"
+          }
+        },
+        {
+          "family": "shell",
+          "id": "shell:4/5,3/5,1",
+          "label": "Shell (4/5, 3/5, 1)",
+          "parameters": {
+            "r": "1",
+            "x": "4/5",
+            "y": "3/5"
+          },
+          "participants": [
+            {
+              "role": "r",
+              "value": "1"
+            },
+            {
+              "role": "r_square",
+              "value": "1"
+            },
+            {
+              "role": "x",
+              "value": "4/5"
+            },
+            {
+              "role": "x_square",
+              "value": "16/25"
+            },
+            {
+              "role": "y",
+              "value": "3/5"
+            },
+            {
+              "role": "y_square",
+              "value": "9/25"
+            }
+          ],
+          "roles": [
+            "y_square"
+          ],
+          "support": {
+            "blockers": [
+              "operand_not_positive_spine"
+            ],
+            "criterion": "three_literal_self_products_and_direct_sum",
+            "dependencies": [],
+            "first_supported_stage": null,
+            "local_first_supported_stage": null,
+            "local_requests_complete": false,
+            "mathematical_membership": "exact",
+            "requests": [
+              {
+                "blocker": "operand_not_positive_spine",
+                "candidate_stage": null,
+                "edge_refs": [],
+                "eligible_by_retention": null,
+                "eligible_by_stage": false,
+                "first_stage": null,
+                "left": "4/5",
+                "op": "*",
+                "result": "16/25",
+                "right": "4/5",
+                "role": "x_square",
+                "source_edge_count": 0,
+                "source_edge_refs_truncated": false,
+                "witnessed": false
+              },
+              {
+                "blocker": "operand_not_positive_spine",
+                "candidate_stage": null,
+                "edge_refs": [],
+                "eligible_by_retention": null,
+                "eligible_by_stage": false,
+                "first_stage": null,
+                "left": "3/5",
+                "op": "*",
+                "result": "9/25",
+                "right": "3/5",
+                "role": "y_square",
+                "source_edge_count": 0,
+                "source_edge_refs_truncated": false,
+                "witnessed": false
+              },
+              {
+                "blocker": null,
+                "candidate_stage": 1,
+                "edge_refs": [
+                  {
+                    "edge_id": 4,
+                    "stage": 1
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 1,
+                "left": "1",
+                "op": "*",
+                "result": "1",
+                "right": "1",
+                "role": "r_square",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              },
+              {
+                "blocker": "operand_not_positive_spine",
+                "candidate_stage": null,
+                "edge_refs": [],
+                "eligible_by_retention": null,
+                "eligible_by_stage": false,
+                "first_stage": null,
+                "left": "16/25",
+                "op": "+",
+                "result": "1",
+                "right": "9/25",
+                "role": "shell_sum",
+                "source_edge_count": 0,
+                "source_edge_refs_truncated": false,
+                "witnessed": false
+              }
+            ],
+            "status": "partial"
+          }
+        }
+      ],
+      "filters": {
+        "family": null,
+        "witnessed_only": false
+      },
+      "interpretation": {
+        "absence": "No association means no match in this bounded selection, not mathematical nonmembership. Unknown/uninspected qualities are not negative tags.",
+        "membership": "Exact arithmetic in the selected external families.",
+        "partial": "Some supporting requests or dependencies are witnessed; the complete criterion is not.",
+        "snapshot": "Queries read this saved snapshot; they do not silently recompute against a changed or missing source.",
+        "spiral": "A witnessed scalar lineage does not require the later direct target-shell certificate; complex multiplication remains an external interpretation.",
+        "unwitnessed": "No selected scalar request or dependency has supporting witnesses; mathematical membership remains exact.",
+        "witnessed": "All named scalar requests and dependencies are witnessed by the selected checkpoint."
+      },
+      "node": {
+        "confirmed_stage": null,
+        "first_edge_id": 2441,
+        "first_stage": 25,
+        "in_saved_corpus": true,
+        "key": [
+          9,
+          25
+        ],
+        "kind": "rational",
+        "label": "9/25",
+        "node_id": 618,
+        "p": 9,
+        "present": true,
+        "q": 25,
+        "status": "speculative",
+        "status_at_checkpoint": "speculative"
+      },
+      "scope": {
+        "max_radius": 25,
+        "shells": "Ordered positive integer shells up to max_radius; their unit normalizations; plus selected signed spiral shells and their unit normalizations.",
+        "spiral": "Fixed-seed pair powers (4+3i)^n, n=1..spiral_steps; radius 5^n. No general spiral discovery.",
+        "spiral_seed": [
+          4,
+          3,
+          5
+        ],
+        "spiral_steps": 5,
+        "square_height": 25,
+        "squares": "Nonnegative reduced roots p/q with p,q <= square_height; q >= 1."
+      },
+      "source": {
+        "alignment": {
+          "non_core_operand_edges": 0,
+          "operand_rule": "positive-spine strict corpus: only confirmed positive-spine iterations may be operands",
+          "speculative_input_edges": 0,
+          "speculative_nodes_are_operands": false,
+          "status": "pass"
+        },
+        "checkpoint": 576,
+        "complete_stage": 576,
+        "config": {
+          "generator": "strict_stage_moo_graph",
+          "max_abs_p": 1000000000,
+          "max_abs_q": 576,
+          "max_abs_value": 1000000000.0,
+          "max_stage": 576,
+          "retain_confirmed_edges": true
+        },
+        "path": "/home/USER/Documents/MoO/out/scratch/shell_composition_20260920_current_v1/wide_u576.sqlite",
+        "recorded_stage": 576,
+        "requested_stage": null,
+        "sha256": "655e2ba49f53519e7cb3720ad8894579aaf113444afbe56b81a99ae7bbdae2b6"
+      },
+      "value": "9/25"
+    },
+    {
+      "association_count": 3,
+      "associations": [
+        {
+          "family": "shell",
+          "id": "shell:-44,117,125",
+          "label": "Shell (-44, 117, 125)",
+          "parameters": {
+            "r": "125",
+            "x": "-44",
+            "y": "117"
+          },
+          "participants": [
+            {
+              "role": "r",
+              "value": "125"
+            },
+            {
+              "role": "r_square",
+              "value": "15625"
+            },
+            {
+              "role": "x",
+              "value": "-44"
+            },
+            {
+              "role": "x_square",
+              "value": "1936"
+            },
+            {
+              "role": "y",
+              "value": "117"
+            },
+            {
+              "role": "y_square",
+              "value": "13689"
+            }
+          ],
+          "roles": [
+            "x"
+          ],
+          "support": {
+            "blockers": [
+              "candidate_stage_beyond_corpus",
+              "operand_not_positive_spine"
+            ],
+            "criterion": "three_literal_self_products_and_direct_sum",
+            "dependencies": [],
+            "first_supported_stage": null,
+            "local_first_supported_stage": null,
+            "local_requests_complete": false,
+            "mathematical_membership": "exact",
+            "requests": [
+              {
+                "blocker": "operand_not_positive_spine",
+                "candidate_stage": null,
+                "edge_refs": [],
+                "eligible_by_retention": null,
+                "eligible_by_stage": false,
+                "first_stage": null,
+                "left": "-44",
+                "op": "*",
+                "result": "1936",
+                "right": "-44",
+                "role": "x_square",
+                "source_edge_count": 0,
+                "source_edge_refs_truncated": false,
+                "witnessed": false
+              },
+              {
+                "blocker": null,
+                "candidate_stage": 117,
+                "edge_refs": [
+                  {
+                    "edge_id": 54292,
+                    "stage": 117
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 117,
+                "left": "117",
+                "op": "*",
+                "result": "13689",
+                "right": "117",
+                "role": "y_square",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              },
+              {
+                "blocker": null,
+                "candidate_stage": 125,
+                "edge_refs": [
+                  {
+                    "edge_id": 62004,
+                    "stage": 125
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 125,
+                "left": "125",
+                "op": "*",
+                "result": "15625",
+                "right": "125",
+                "role": "r_square",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              },
+              {
+                "blocker": "candidate_stage_beyond_corpus",
+                "candidate_stage": 13689,
+                "edge_refs": [],
+                "eligible_by_retention": null,
+                "eligible_by_stage": false,
+                "first_stage": null,
+                "left": "1936",
+                "op": "+",
+                "result": "15625",
+                "right": "13689",
+                "role": "shell_sum",
+                "source_edge_count": 0,
+                "source_edge_refs_truncated": false,
+                "witnessed": false
+              }
+            ],
+            "status": "partial"
+          }
+        },
+        {
+          "family": "spiral",
+          "id": "spiral:4,3,5:3",
+          "label": "Seed (4, 3, 5), iteration 3",
+          "parameters": {
+            "iteration": 3,
+            "r": "125",
+            "seed": [
+              4,
+              3,
+              5
+            ],
+            "x": "-44",
+            "y": "117"
+          },
+          "participants": [
+            {
+              "role": "previous_r",
+              "value": "25"
+            },
+            {
+              "role": "previous_x",
+              "value": "7"
+            },
+            {
+              "role": "previous_y",
+              "value": "24"
+            },
+            {
+              "role": "r",
+              "value": "125"
+            },
+            {
+              "role": "x",
+              "value": "-44"
+            },
+            {
+              "role": "y",
+              "value": "117"
+            }
+          ],
+          "roles": [
+            "x"
+          ],
+          "support": {
+            "blockers": [],
+            "criterion": "seed_shell_and_linked_scalar_transitions",
+            "dependencies": [
+              {
+                "first_supported_stage": 16,
+                "id": "shell:4,3,5",
+                "status": "witnessed"
+              },
+              {
+                "first_supported_stage": 16,
+                "id": "spiral:4,3,5:2",
+                "status": "witnessed"
+              }
+            ],
+            "first_supported_stage": 96,
+            "local_first_supported_stage": 96,
+            "local_requests_complete": true,
+            "mathematical_membership": "exact",
+            "requests": [
+              {
+                "blocker": null,
+                "candidate_stage": 7,
+                "edge_refs": [
+                  {
+                    "edge_id": 160,
+                    "stage": 7
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 7,
+                "left": "7",
+                "op": "*",
+                "result": "28",
+                "right": "4",
+                "role": "ac",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              },
+              {
+                "blocker": null,
+                "candidate_stage": 24,
+                "edge_refs": [
+                  {
+                    "edge_id": 2128,
+                    "stage": 24
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 24,
+                "left": "24",
+                "op": "*",
+                "result": "72",
+                "right": "3",
+                "role": "bd",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              },
+              {
+                "blocker": null,
+                "candidate_stage": 7,
+                "edge_refs": [
+                  {
+                    "edge_id": 156,
+                    "stage": 7
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 7,
+                "left": "7",
+                "op": "*",
+                "result": "21",
+                "right": "3",
+                "role": "ad",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              },
+              {
+                "blocker": null,
+                "candidate_stage": 24,
+                "edge_refs": [
+                  {
+                    "edge_id": 2132,
+                    "stage": 24
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 24,
+                "left": "24",
+                "op": "*",
+                "result": "96",
+                "right": "4",
+                "role": "bc",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              },
+              {
+                "blocker": null,
+                "candidate_stage": 72,
+                "edge_refs": [
+                  {
+                    "edge_id": 20563,
+                    "stage": 72
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 72,
+                "left": "28",
+                "op": "-",
+                "result": "-44",
+                "right": "72",
+                "role": "x",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              },
+              {
+                "blocker": null,
+                "candidate_stage": 96,
+                "edge_refs": [
+                  {
+                    "edge_id": 36566,
+                    "stage": 96
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 96,
+                "left": "21",
+                "op": "+",
+                "result": "117",
+                "right": "96",
+                "role": "y",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              },
+              {
+                "blocker": null,
+                "candidate_stage": 25,
+                "edge_refs": [
+                  {
+                    "edge_id": 2324,
+                    "stage": 25
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 25,
+                "left": "25",
+                "op": "*",
+                "result": "125",
+                "right": "5",
+                "role": "r",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              }
+            ],
+            "status": "witnessed"
+          }
+        },
+        {
+          "family": "spiral",
+          "id": "spiral:4,3,5:4",
+          "label": "Seed (4, 3, 5), iteration 4",
+          "parameters": {
+            "iteration": 4,
+            "r": "625",
+            "seed": [
+              4,
+              3,
+              5
+            ],
+            "x": "-527",
+            "y": "336"
+          },
+          "participants": [
+            {
+              "role": "previous_r",
+              "value": "125"
+            },
+            {
+              "role": "previous_x",
+              "value": "-44"
+            },
+            {
+              "role": "previous_y",
+              "value": "117"
+            },
+            {
+              "role": "r",
+              "value": "625"
+            },
+            {
+              "role": "x",
+              "value": "-527"
+            },
+            {
+              "role": "y",
+              "value": "336"
+            }
+          ],
+          "roles": [
+            "previous_x"
+          ],
+          "support": {
+            "blockers": [
+              "operand_not_positive_spine"
+            ],
+            "criterion": "seed_shell_and_linked_scalar_transitions",
+            "dependencies": [
+              {
+                "first_supported_stage": 16,
+                "id": "shell:4,3,5",
+                "status": "witnessed"
+              },
+              {
+                "first_supported_stage": 96,
+                "id": "spiral:4,3,5:3",
+                "status": "witnessed"
+              }
+            ],
+            "first_supported_stage": null,
+            "local_first_supported_stage": null,
+            "local_requests_complete": false,
+            "mathematical_membership": "exact",
+            "requests": [
+              {
+                "blocker": "operand_not_positive_spine",
+                "candidate_stage": null,
+                "edge_refs": [],
+                "eligible_by_retention": null,
+                "eligible_by_stage": false,
+                "first_stage": null,
+                "left": "-44",
+                "op": "*",
+                "result": "-176",
+                "right": "4",
+                "role": "ac",
+                "source_edge_count": 0,
+                "source_edge_refs_truncated": false,
+                "witnessed": false
+              },
+              {
+                "blocker": null,
+                "candidate_stage": 117,
+                "edge_refs": [
+                  {
+                    "edge_id": 53836,
+                    "stage": 117
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 117,
+                "left": "117",
+                "op": "*",
+                "result": "351",
+                "right": "3",
+                "role": "bd",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              },
+              {
+                "blocker": "operand_not_positive_spine",
+                "candidate_stage": null,
+                "edge_refs": [],
+                "eligible_by_retention": null,
+                "eligible_by_stage": false,
+                "first_stage": null,
+                "left": "-44",
+                "op": "*",
+                "result": "-132",
+                "right": "3",
+                "role": "ad",
+                "source_edge_count": 0,
+                "source_edge_refs_truncated": false,
+                "witnessed": false
+              },
+              {
+                "blocker": null,
+                "candidate_stage": 117,
+                "edge_refs": [
+                  {
+                    "edge_id": 53840,
+                    "stage": 117
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 117,
+                "left": "117",
+                "op": "*",
+                "result": "468",
+                "right": "4",
+                "role": "bc",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              },
+              {
+                "blocker": "operand_not_positive_spine",
+                "candidate_stage": null,
+                "edge_refs": [],
+                "eligible_by_retention": null,
+                "eligible_by_stage": false,
+                "first_stage": null,
+                "left": "-176",
+                "op": "-",
+                "result": "-527",
+                "right": "351",
+                "role": "x",
+                "source_edge_count": 0,
+                "source_edge_refs_truncated": false,
+                "witnessed": false
+              },
+              {
+                "blocker": "operand_not_positive_spine",
+                "candidate_stage": null,
+                "edge_refs": [],
+                "eligible_by_retention": null,
+                "eligible_by_stage": false,
+                "first_stage": null,
+                "left": "-132",
+                "op": "+",
+                "result": "336",
+                "right": "468",
+                "role": "y",
+                "source_edge_count": 0,
+                "source_edge_refs_truncated": false,
+                "witnessed": false
+              },
+              {
+                "blocker": null,
+                "candidate_stage": 125,
+                "edge_refs": [
+                  {
+                    "edge_id": 61524,
+                    "stage": 125
+                  }
+                ],
+                "eligible_by_retention": true,
+                "eligible_by_stage": true,
+                "first_stage": 125,
+                "left": "125",
+                "op": "*",
+                "result": "625",
+                "right": "5",
+                "role": "r",
+                "source_edge_count": 1,
+                "source_edge_refs_truncated": false,
+                "witnessed": true
+              }
+            ],
+            "status": "partial"
+          }
+        }
+      ],
+      "filters": {
+        "family": null,
+        "witnessed_only": false
+      },
+      "interpretation": {
+        "absence": "No association means no match in this bounded selection, not mathematical nonmembership. Unknown/uninspected qualities are not negative tags.",
+        "membership": "Exact arithmetic in the selected external families.",
+        "partial": "Some supporting requests or dependencies are witnessed; the complete criterion is not.",
+        "snapshot": "Queries read this saved snapshot; they do not silently recompute against a changed or missing source.",
+        "spiral": "A witnessed scalar lineage does not require the later direct target-shell certificate; complex multiplication remains an external interpretation.",
+        "unwitnessed": "No selected scalar request or dependency has supporting witnesses; mathematical membership remains exact.",
+        "witnessed": "All named scalar requests and dependencies are witnessed by the selected checkpoint."
+      },
+      "node": {
+        "confirmed_stage": null,
+        "first_edge_id": 7927,
+        "first_stage": 45,
+        "in_saved_corpus": true,
+        "key": [
+          -44,
+          1
+        ],
+        "kind": "relational_integer",
+        "label": "-44",
+        "node_id": 1900,
+        "p": -44,
+        "present": true,
+        "q": 1,
+        "status": "speculative",
+        "status_at_checkpoint": "speculative"
+      },
+      "scope": {
+        "max_radius": 25,
+        "shells": "Ordered positive integer shells up to max_radius; their unit normalizations; plus selected signed spiral shells and their unit normalizations.",
+        "spiral": "Fixed-seed pair powers (4+3i)^n, n=1..spiral_steps; radius 5^n. No general spiral discovery.",
+        "spiral_seed": [
+          4,
+          3,
+          5
+        ],
+        "spiral_steps": 5,
+        "square_height": 25,
+        "squares": "Nonnegative reduced roots p/q with p,q <= square_height; q >= 1."
+      },
+      "source": {
+        "alignment": {
+          "non_core_operand_edges": 0,
+          "operand_rule": "positive-spine strict corpus: only confirmed positive-spine iterations may be operands",
+          "speculative_input_edges": 0,
+          "speculative_nodes_are_operands": false,
+          "status": "pass"
+        },
+        "checkpoint": 576,
+        "complete_stage": 576,
+        "config": {
+          "generator": "strict_stage_moo_graph",
+          "max_abs_p": 1000000000,
+          "max_abs_q": 576,
+          "max_abs_value": 1000000000.0,
+          "max_stage": 576,
+          "retain_confirmed_edges": true
+        },
+        "path": "/home/USER/Documents/MoO/out/scratch/shell_composition_20260920_current_v1/wide_u576.sqlite",
+        "recorded_stage": 576,
+        "requested_stage": null,
+        "sha256": "655e2ba49f53519e7cb3720ad8894579aaf113444afbe56b81a99ae7bbdae2b6"
+      },
+      "value": "-44"
+    }
+  ],
+  "report_version": "moo_node_profiles.report.v1",
+  "witnessed_intersection": {
+    "count": 6,
+    "families": [
+      "shell",
+      "spiral",
+      "square"
+    ],
+    "interpretation": "Intersection of selected association families across all participant roles; not a statistical correlation or unrestricted membership claim.",
+    "scope": {
+      "max_radius": 25,
+      "shells": "Ordered positive integer shells up to max_radius; their unit normalizations; plus selected signed spiral shells and their unit normalizations.",
+      "spiral": "Fixed-seed pair powers (4+3i)^n, n=1..spiral_steps; radius 5^n. No general spiral discovery.",
+      "spiral_seed": [
+        4,
+        3,
+        5
+      ],
+      "spiral_steps": 5,
+      "square_height": 25,
+      "squares": "Nonnegative reduced roots p/q with p,q <= square_height; q >= 1."
+    },
+    "source": {
+      "alignment": {
+        "non_core_operand_edges": 0,
+        "operand_rule": "positive-spine strict corpus: only confirmed positive-spine iterations may be operands",
+        "speculative_input_edges": 0,
+        "speculative_nodes_are_operands": false,
+        "status": "pass"
+      },
+      "checkpoint": 576,
+      "complete_stage": 576,
+      "config": {
+        "generator": "strict_stage_moo_graph",
+        "max_abs_p": 1000000000,
+        "max_abs_q": 576,
+        "max_abs_value": 1000000000.0,
+        "max_stage": 576,
+        "retain_confirmed_edges": true
+      },
+      "path": "/home/USER/Documents/MoO/out/scratch/shell_composition_20260920_current_v1/wide_u576.sqlite",
+      "recorded_stage": 576,
+      "requested_stage": null,
+      "sha256": "655e2ba49f53519e7cb3720ad8894579aaf113444afbe56b81a99ae7bbdae2b6"
+    },
+    "values": [
+      "3",
+      "4",
+      "5",
+      "7",
+      "24",
+      "25"
+    ],
+    "witnessed_only": true
+  }
+}

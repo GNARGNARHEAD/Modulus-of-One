@@ -1,0 +1,599 @@
+{
+  "schema_version": "modulus_of_one.public_redactions.v1",
+  "date": "2026-11-09",
+  "scope": "Public derivatives of private original artifacts; arithmetic and recorded evidence identifiers retained.",
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "original_sha256": "8b23a3210ad28650a847e2fa0cd87ca72e089d7a104af1cb86e6e6361076d57e",
+      "public_sha256": "ad5c1ae45f210d619cf3483505950448433b0f2be53824cf6b12fc8a0f13f9c4",
+      "changes": [
+        "author first name replaced with public author handle"
+      ]
+    },
+    {
+      "path": "archive/reviews/ASTRA_CRITIQUE_20261106.md",
+      "original_sha256": "d596e9b863814c67d198e8cbfe11454c5a1a1626500a8ea17a5e7ef3e3f11c0c",
+      "public_sha256": "fd759bdb1bdb44d0655d065828f288b350a02261d80f256be284bccf46e95aee",
+      "changes": [
+        "author first name replaced with public author handle"
+      ]
+    },
+    {
+      "path": "research/dynamics/BRANCH_RHYTHM_20261002.analysis.md",
+      "original_sha256": "32d055850fb7dee3b62c9a88763011edc26f9be85366a0bb8c54efd7286f875c",
+      "public_sha256": "5a84eb0dfef9956ae5f554bcfde34ae2f8a91f8904e176239c7c2a9b729b6b1b",
+      "changes": [
+        "author first name replaced with public author handle"
+      ]
+    },
+    {
+      "path": "research/dynamics/BRANCH_RHYTHM_20261002.pre.md",
+      "original_sha256": "7e1d17e93a472a400955fc7ad557862a9dc6ee3dca930e012f76b0ab8208ec62",
+      "public_sha256": "42266dfabc54e90d7f1fb219362ed9184a5db73a8d930c9cd0fa45b1dc2779f7",
+      "changes": [
+        "author first name replaced with public author handle"
+      ]
+    },
+    {
+      "path": "research/dynamics/results/2026-10-02-branch-rhythm-v1/report.json",
+      "original_sha256": "b844283b70fbedfa1c98e387c18ffbb4d1547e86c1dc32fd3c0ffa7c32452563",
+      "public_sha256": "5d49bc9f2781b1e0672801a97ccbef17d794ec17629405cfd604b39c901a2468",
+      "changes": [
+        "personal directory component replaced with USER"
+      ]
+    },
+    {
+      "path": "research/dynamics/results/2026-10-02-branch-rhythm-v1/summary.json",
+      "original_sha256": "de461b6c88e0418873bcfac92739382d0b22308d0cb3b39df716e2a45604e570",
+      "public_sha256": "95a6a08f0c05f3919f71705cbc9673cad55e90f23af46974d1242d998da150de",
+      "changes": [
+        "personal directory component replaced with USER"
+      ]
+    },
+    {
+      "path": "research/experiments/216/route_identity_216_u1000_v2.report.json",
+      "original_sha256": "0f934ad2a7df98da2d7618aa81a25d48778d2012e1593a8159c958840a088b20",
+      "public_sha256": "49d073acf9a5404cc0155baa6e00e7a7d7074eb8abc9c1367dcef864a1e3f1fb",
+      "changes": [
+        "personal directory component replaced with USER"
+      ]
+    },
+    {
+      "path": "research/experiments/circle_as_one_u40_integer_congruence_v1.json",
+      "original_sha256": "74fb987de7800eed94cec64f4826c6880df58060736977276311f868a21f9662",
+      "public_sha256": "21906761fc1f61a52da27cbc715fe398c8e113ed4d32b1247f914a2b9caf7777",
+      "changes": [
+        "personal directory component replaced with USER"
+      ]
+    },
+    {
+      "path": "research/experiments/circle_as_one_u40_wide_d12_v1.json",
+      "original_sha256": "c54a403f24b81c1b6ecbb1a75dde75b196b634786b3f3986b0edca98791f1606",
+      "public_sha256": "8a79ac600750f2d2933b49f01c6633a361e011e2a59d1fbc59352734d9ed6e55",
+      "changes": [
+        "personal directory component replaced with USER"
+      ]
+    },
+    {
+      "path": "research/experiments/circle_as_one_u40_wide_d12_v2.json",
+      "original_sha256": "783448394ede7e6a9d444e69f8a0d2be55a7ccde54692abb9e7578cb491fb1b1",
+      "public_sha256": "3d0a25d4b05363823e333c6e67e16be20053b52384b3dd982361b907955860c8",
+      "changes": [
+        "personal directory component replaced with USER"
+      ]
+    },
+    {
+      "path": "research/experiments/circle_as_one_u40_wide_d12_v3.json",
+      "original_sha256": "416e3d99eaae2a023940ab65a10311ead0736b56bae7f4e3b24e828d5c1f11ac",
+      "public_sha256": "8ed037d7437207f09a2a7cb2ce47cce1d969f8b95bdc2f7ca89b8ed3c24d4d1d",
+      "changes": [
+        "personal directory component replaced with USER"
+      ]
+    },
+    {
+      "path": "research/experiments/circle_as_one_u80_d20_v1.json",
+      "original_sha256": "b89e43690093ae7c56a79921c47904cc15225e518fd7553d50963488541b1310",
+      "public_sha256": "8444d01dd95795034ff7296474d534d6967c65d6b07d3bf1cf1c8d8bdf6a25cf",
+      "changes": [
+        "personal directory component replaced with USER"
+      ]
+    },
+    {
+      "path": "research/experiments/circle_as_one_u80_d20_v2.json",
+      "original_sha256": "f69fe1fd1cb3d41312a33aaf4ba967c6e89a1d7ee4dfdabd9ce4ba1937ae8f60",
+      "public_sha256": "94d5d166984c7e28a5361ebd5d758f32fe4734266253a19340519d1a58202f5b",
+      "changes": [
+        "personal directory component replaced with USER"
+      ]
+    },
+    {
+      "path": "research/experiments/circle_as_one_u80_d20_v3.json",
+      "original_sha256": "a88975d5e076c9cf1d763e67f10364b013bf14d2b8f92437b1915423e008cb7f",
+      "public_sha256": "46ba37366bfff44c03dfb5d4e4349dd0292c54ee489125bc033cc44e1a0592da",
+      "changes": [
+        "personal directory component replaced with USER"
+      ]
+    },
+    {
+      "path": "research/experiments/dynamics/julia_branch_localization_20260912_v1.json",
+      "original_sha256": "5c15b48a7139c5f6afa92fae3addbbe3838d1ab380d1dacc613bdd78031e32bc",
+      "public_sha256": "582e605331edcf3edae6f7574ff514c24d70403cb0768ba55f4aba9fad3525b9",
+      "changes": [
+        "personal directory component replaced with USER"
+      ]
+    },
+    {
+      "path": "research/experiments/dynamics/julia_branch_localization_20260912_v1.pre.md",
+      "original_sha256": "492b494232f4c9a262a4a70b72d443a42a4527717373f3ff1e920049ad415fa6",
+      "public_sha256": "4dd58b76e296289f7e1208d8ff095a820415b1926bfd79e2f9d2315753328c09",
+      "changes": [
+        "personal directory component replaced with USER"
+      ]
+    },
+    {
+      "path": "research/experiments/dynamics/order4_unit_shell_t_3_over_4_u80_v1.json",
+      "original_sha256": "3439e4ae7ec2dff97e593cf7175b90634d13e0902ce97ae791f2525c8968e3d6",
+      "public_sha256": "691e5fb6bb7f034c423ae774de1e5797356bb8733758c342122c7a24a94e0361",
+      "changes": [
+        "personal directory component replaced with USER"
+      ]
+    },
+    {
+      "path": "research/experiments/euler/series_zeta_probe_u1000_v2.json",
+      "original_sha256": "c843d1f576ad9e009de2800b9d5f8abcc1ba06ed09db6e7c727ede704b4de17c",
+      "public_sha256": "666103e1667a0f38007a2fc0185d32723acd67dcfdf920a7e55826c725160050",
+      "changes": [
+        "personal directory component replaced with USER"
+      ]
+    },
+    {
+      "path": "research/experiments/euler/series_zeta_probe_u300_v2.json",
+      "original_sha256": "5abb25f8d500a73d61829d21ae71270b4071a56a1f9b65f201ea5f6faebb140f",
+      "public_sha256": "4990e7cd0d05e2e19015c829cfd4a9eebc3bc0f990e3c5a5b931851987c3e8de",
+      "changes": [
+        "personal directory component replaced with USER"
+      ]
+    },
+    {
+      "path": "research/experiments/euler/zeta_arrival_first_zero_u300_broad_v1.json",
+      "original_sha256": "f69b2748969300c35c993f999ab3950753739339c7d5f2fb43f192432add75bf",
+      "public_sha256": "fcf6d412d137e6753b71206b7588fc1a18eb385290e448bf3374736a402b15cc",
+      "changes": [
+        "personal directory component replaced with USER"
+      ]
+    },
+    {
+      "path": "research/experiments/euler/zeta_arrival_first_zero_u80_v1.json",
+      "original_sha256": "46b61a6f2600f8d1dc32bf27319b095f2046bd64afbed7bfc55fec5a5b0b4bbd",
+      "public_sha256": "cd1baa4b9c81325bb560f29edfa9b13828e0f5144960da5d6c292a67802d48de",
+      "changes": [
+        "personal directory component replaced with USER"
+      ]
+    },
+    {
+      "path": "research/experiments/euler/zeta_centered_inversion_first_zero_u300_broad_v1.json",
+      "original_sha256": "4aab6942af62182444c92d4186ffd5b128c89ba864e4b0cceadfc6a306a7aedc",
+      "public_sha256": "e31ef0485dd40f0c36aa420e6861bcc8e34e59710d2e47845522a171b3fc9721",
+      "changes": [
+        "personal directory component replaced with USER"
+      ]
+    },
+    {
+      "path": "research/experiments/euler/zeta_centered_inversion_first_zero_u80_v1.json",
+      "original_sha256": "93c8f4baf4ba0ef0d48bd01c7f5bee4800e07b1b9a42be6b8866a9b1063a954e",
+      "public_sha256": "93c71e3942867c59d825f21e1245c7fc059d89105f9f4d57abaad25be2280cc7",
+      "changes": [
+        "personal directory component replaced with USER"
+      ]
+    },
+    {
+      "path": "research/experiments/euler/zeta_critical_first_zero_u40_wide_v1.json",
+      "original_sha256": "e2a09edd671921ac66f7fdbb33404eedea7faf22406fd4a6616f8b2a56a18b5e",
+      "public_sha256": "57ce284a617914f3b5d9a8c0e14dfc3a2555ce0275a8644c8f3ba16efaa6d5b6",
+      "changes": [
+        "personal directory component replaced with USER"
+      ]
+    },
+    {
+      "path": "research/experiments/euler/zeta_critical_first_zero_u80_v1.json",
+      "original_sha256": "1bb73b7b6dfb7238ef91a2c206f3f60e9f751a2f951e7879cc62a348f2d5020f",
+      "public_sha256": "cc3d08ce91e3a3c18355e38b4139bf7f802743ea049762bfa85e3bc4dd5d4f56",
+      "changes": [
+        "personal directory component replaced with USER"
+      ]
+    },
+    {
+      "path": "research/experiments/gauss/gauss_congruence_quotient_u300_v1.json",
+      "original_sha256": "b4a9c3bce1637a62ec1f6d6e38bc280e083527a950e8eb4db2ef458249d16248",
+      "public_sha256": "4afe4033fc2d55bb0b8481dadaf8fa8abed182d2b7e6e67794b0ea835d56d446",
+      "changes": [
+        "personal directory component replaced with USER"
+      ]
+    },
+    {
+      "path": "research/experiments/gauss/gauss_nested_class_genus_ablation_u850_v1.analysis_manifest.json",
+      "original_sha256": "3323f3caf9b3847abbece7136dc32fa16c28f3c4e522c9c0bc96d7af0fac38f1",
+      "public_sha256": "c2f1c74eeb849e4390917237f50905e5ffce9ab8178de819009a1c1454d89cd8",
+      "changes": [
+        "personal directory component replaced with USER"
+      ]
+    },
+    {
+      "path": "research/experiments/gauss/gauss_nested_class_genus_ablation_u850_v1.json",
+      "original_sha256": "c0a461b442c12ca4a483b04289f6c8307e6f5caa463b6840c63585790b694518",
+      "public_sha256": "f2de9dead3c11f9caa67289455d78414559e51252fc91d265e34348dfdee1b94",
+      "changes": [
+        "personal directory component replaced with USER"
+      ]
+    },
+    {
+      "path": "research/experiments/gauss/gauss_quadratic_forms_d20_u300_v1.json",
+      "original_sha256": "d3ebb2c9bc1f4aeb7ce0e68683ae799bcfa28c55202a72b8e6381a4a194f4d3e",
+      "public_sha256": "080acd359c0e90150cb994d9c0329c65073f8bad71c9a96f05853885c7a03df8",
+      "changes": [
+        "personal directory component replaced with USER"
+      ]
+    },
+    {
+      "path": "research/experiments/gauss/strict_stage_u850_holdout_v1.provenance.json",
+      "original_sha256": "a4aff748ab7433e50feafb53c8681ed4052c2ac4988a3ac23ebc4447f45b0b7f",
+      "public_sha256": "04734fdfd245a0ba3c175ce79f60a977435d488a3ac2e16650fc4939a224aa15",
+      "changes": [
+        "personal directory component replaced with USER"
+      ]
+    },
+    {
+      "path": "research/experiments/geometry/circle_square_alignment_u80_v1.json",
+      "original_sha256": "36513329c4bfbbc78d0d8ae59e170c8a72ad3f3a2c5e9ac7f4d57d8baef8c902",
+      "public_sha256": "aeaca80c2fc0642176424c9cdef7a028d4c09c42b5cd2f56f99fbc99067c557a",
+      "changes": [
+        "personal directory component replaced with USER"
+      ]
+    },
+    {
+      "path": "research/experiments/geometry/geometry_unit_shell_summary_u80_v1.json",
+      "original_sha256": "fe2e908dd58fd3329bf8530c969cbdb890f97adc2c06b3c18004b058cfa150e6",
+      "public_sha256": "cfd0b93f5775f4a1c572d514af2260516f80137b2acc42c1948c7e4abed7af3c",
+      "changes": [
+        "personal directory component replaced with USER"
+      ]
+    },
+    {
+      "path": "research/experiments/geometry/prime_euclid_shell_alignment_u80_v1.json",
+      "original_sha256": "77ff2c3a9adbd40c07de3c4a0c9f2738686cb0d28f041c0706724cd8d8d04b9b",
+      "public_sha256": "ca437dd7aefa1d51c83ac67160eb263ce05fc5a18e55ba5b7c4edc9345ee7f62",
+      "changes": [
+        "personal directory component replaced with USER"
+      ]
+    },
+    {
+      "path": "research/experiments/geometry/primitive_euclid_branch_sweep_u120_provenance_v1.json",
+      "original_sha256": "fffcacc2e2d1ce09030168689250c18ba4b9a2f951100b76ebab587298d1f54f",
+      "public_sha256": "eccf735385871d4e45bdf56a1702d6dc4019aff74f4c1c9abb084e914cbee3d5",
+      "changes": [
+        "personal directory component replaced with USER"
+      ]
+    },
+    {
+      "path": "research/experiments/geometry/primitive_euclid_branch_sweep_u120_v1.json",
+      "original_sha256": "d260f50eb040e4255c957dcece1cd376e8942dd7adf8c57c342109385f8019a2",
+      "public_sha256": "32b4f0c9ada6e732b8daa57d7040579ec82427db57e7b7601d657614ee233beb",
+      "changes": [
+        "personal directory component replaced with USER"
+      ]
+    },
+    {
+      "path": "research/experiments/geometry/primitive_euclid_branch_sweep_u240_provenance_v1.json",
+      "original_sha256": "eadc17e4befb8625b526431aa69ebcbd610c5926592510969fb7dbec7682f072",
+      "public_sha256": "d46b60ecb51ac1eabfdbfb8eed4747b1cd0b522e71e76cad8d33e110662a172f",
+      "changes": [
+        "personal directory component replaced with USER"
+      ]
+    },
+    {
+      "path": "research/experiments/geometry/primitive_euclid_branch_sweep_u480_20260508_v2.json",
+      "original_sha256": "b5b3014aeb576833c07bba676bb61779198de7dad0d2baca958bc09b22b659ea",
+      "public_sha256": "db1fd5c9df7a224f9c0a569db7f5812b3bbcc397fb8c7ff3c5132d62cb46e049",
+      "changes": [
+        "personal directory component replaced with USER"
+      ]
+    },
+    {
+      "path": "research/experiments/geometry/primitive_euclid_branch_sweep_u480_provenance_v1.json",
+      "original_sha256": "9fd89a5fe5905e9729bf8b517e85123b618060e654b586824f956629fc0a394b",
+      "public_sha256": "944fe3dbd9a41c9c8ca1f2a17390086bf733d205b0966f29dfb7e5dde37205b8",
+      "changes": [
+        "personal directory component replaced with USER"
+      ]
+    },
+    {
+      "path": "research/experiments/geometry/primitive_euclid_branch_sweep_u80_provenance_v1.json",
+      "original_sha256": "87e8031a446f6cde49076398c7a99453d50e41e3d3109ac165614f1549cc0351",
+      "public_sha256": "6661b48dfe7da1b01892b83859cbb30b3c3a73a988d3d209b812aa53ea510b95",
+      "changes": [
+        "personal directory component replaced with USER"
+      ]
+    },
+    {
+      "path": "research/experiments/geometry/primitive_euclid_branch_sweep_u80_v1.json",
+      "original_sha256": "c0bdf81f08116d118f82dbb060a665438d727e915a6b266c951992857b23c7af",
+      "public_sha256": "a2de67dbc74ce41cd77e10cc427a7dbdd8047f8f94913ee64e963c08647263c3",
+      "changes": [
+        "personal directory component replaced with USER"
+      ]
+    },
+    {
+      "path": "research/experiments/geometry/quarantined_phase_transport/phase_provenance_transport_u40_q24_l8_v1.json",
+      "original_sha256": "964808483967bc2f4c05cfc33819b2818fa7e99da76154688c43809a933aec72",
+      "public_sha256": "0c819005a18b91ff099f307f13dd25c6f136152688ec4b583355872cd627e9e1",
+      "changes": [
+        "personal directory component replaced with USER"
+      ]
+    },
+    {
+      "path": "research/experiments/geometry/quarantined_phase_transport/phase_provenance_transport_u80_q24_l8_v1_followup.json",
+      "original_sha256": "f4837e2e5176fbc1cb299ac001dab93bb621919a066c7ae3a46f0447f648841b",
+      "public_sha256": "d72012546c569974287332c35be55d9ffb31a5ece40c67a0d79ed8bf4b3b52f0",
+      "changes": [
+        "personal directory component replaced with USER"
+      ]
+    },
+    {
+      "path": "research/experiments/pascal_coefficient_u1000_v2.report.json",
+      "original_sha256": "29d97c6af1bec7d35aa978e13d65484303e5c5e47b9ce708ef9d4944341f494d",
+      "public_sha256": "ee464f77b7a9ff6e90ba2984143f2ac5a4f98a9368eb1643729d6c0ccc601c55",
+      "changes": [
+        "personal directory component replaced with USER"
+      ]
+    },
+    {
+      "path": "research/experiments/pascal_controls_u1000_v1.report.json",
+      "original_sha256": "df5469c6ff29c72f5004bc3a166fc6d97d1d429ae2ed4d39b7d932424b6e2385",
+      "public_sha256": "a62bc725947f7ec664dac4ee556ea458f313d3ad1ccd9c24e94d31014baf4d3f",
+      "changes": [
+        "personal directory component replaced with USER"
+      ]
+    },
+    {
+      "path": "research/experiments/pascal_controls_u1000_v2.report.json",
+      "original_sha256": "b854b6c5733bdbf387774b91d123205ed621e7150f7d4d768aea3a05a3620f72",
+      "public_sha256": "7dc11c317960f030ab5d8f172d54d08e80c3f69666ddf2104991072e437c561e",
+      "changes": [
+        "personal directory component replaced with USER"
+      ]
+    },
+    {
+      "path": "research/experiments/pascal_controls_u300_v1.report.json",
+      "original_sha256": "05746dd85397c9399c82bea1534c10ecaf489cefda964c5741367f1f3bccd9d7",
+      "public_sha256": "333fb5f2e2a4b4f476eb04a55a99c6067e699bdb490e5b7148abb0a2ad1150a8",
+      "changes": [
+        "personal directory component replaced with USER"
+      ]
+    },
+    {
+      "path": "research/experiments/pascal_controls_u300_v2.report.json",
+      "original_sha256": "ba707a1d6e836bfbc3ec4e71629ea3e73ac002cf391cbe2780cd5da28b4192ac",
+      "public_sha256": "8e5275a3ce813dfc5a52cf56428e2ceaa766ea565cea2be1d8e4ff203b1d63cd",
+      "changes": [
+        "personal directory component replaced with USER"
+      ]
+    },
+    {
+      "path": "research/experiments/pascal_cubic_u1000_v2.report.json",
+      "original_sha256": "f801ed45c82b6dd192c891297a33545c135794f459b49fe7c0aa4b46e54437b2",
+      "public_sha256": "962bbca49c4413b3c4c3c87e4cf4878938c189a89ca4371349fc5e49dc754c63",
+      "changes": [
+        "personal directory component replaced with USER"
+      ]
+    },
+    {
+      "path": "research/experiments/pascal_cubic_u1000_v3.report.json",
+      "original_sha256": "e9626e60e0dae755778128224ee9a777fddc571e5728a231567a432bcab72a50",
+      "public_sha256": "c090ef6cd03bf05f0b65e44e85797e4ba88874eaecd939a9cd82bd4bef2b1495",
+      "changes": [
+        "personal directory component replaced with USER"
+      ]
+    },
+    {
+      "path": "research/experiments/pascal_edge_probe_u300_v2.report.json",
+      "original_sha256": "6fd451277287d71b420c37bfc69deb3d78ea0c045d8a23227549aca59413fcfc",
+      "public_sha256": "8272a7059e1052b00bb3b4e8c5335e3af1cb56877b7aa447a35b44ac75959ccd",
+      "changes": [
+        "personal directory component replaced with USER"
+      ]
+    },
+    {
+      "path": "research/experiments/pascal_subset_u1000_v2.report.json",
+      "original_sha256": "51cb97bec32620cb72ad4dd8c3bcb0a9913f46fca581f76c763cf78579bd7bc4",
+      "public_sha256": "496cd3752899c020c9073f1c752ce92f4d71b5a7c73ad6e5158f83a19166fa0d",
+      "changes": [
+        "personal directory component replaced with USER"
+      ]
+    },
+    {
+      "path": "research/experiments/phase_metric_collapse_u40_wide_d12_v1.json",
+      "original_sha256": "14cf420f25284faa9b96748455f963d34b3b4fd5af48798d843f87aeaae4c958",
+      "public_sha256": "372f37364e927b3b50622eb3d11bf2a0eefd22a7fae79367d0c45c5fdb7c8572",
+      "changes": [
+        "personal directory component replaced with USER"
+      ]
+    },
+    {
+      "path": "research/geometry/AREA_INSPECTION_BRANCH_20261001.pre.md",
+      "original_sha256": "9fe23856f35f333438434f0edfc55efe53fe9d9869cac8c3a14c1040ef842fc4",
+      "public_sha256": "273d74618fac286198c0b84c9203ac9cbe37ba794deee771a66dd8f0bfd091ec",
+      "changes": [
+        "author first name replaced with public author handle"
+      ]
+    },
+    {
+      "path": "research/geometry/erdos_unit_distance/FIXED_SEED_BRANCH_GATE_NOTE.md",
+      "original_sha256": "b43bacd3e12a798b3d52e569f929b11f78d7970ff7d97f633d6c8e9ca71d1d85",
+      "public_sha256": "e4045c91217fe442d18cf225eaea61d1461b6a4a0288bac483fbbd8b0355c722",
+      "changes": [
+        "personal directory component replaced with USER"
+      ]
+    },
+    {
+      "path": "research/geometry/erdos_unit_distance/SAWIN_FORMULA_BOUND_NOTE.md",
+      "original_sha256": "28e8941b1f9748fa71d9dc263167fa4f3cc53925437901ec6317b5bb2864b4b8",
+      "public_sha256": "642e37bb913a65755938a7f31ca834a0785e8814010747040b1ef3219b9bf9ca",
+      "changes": [
+        "personal directory component replaced with USER"
+      ]
+    },
+    {
+      "path": "research/geometry/erdos_unit_distance/SPLIT_PRIME_BRANCH_GROWTH_NOTE.md",
+      "original_sha256": "3cf61a81a82fb0bb9c4d42911ec8960afbf1ef165586a07d50c92465bdf3156d",
+      "public_sha256": "131cb63d209b13a8faef7efbeecc3d5c357a69cdef30d4f7bd871cb39dbe5c9b",
+      "changes": [
+        "personal directory component replaced with USER"
+      ]
+    },
+    {
+      "path": "research/geometry/results/2026-09-11-circle-square-area-summary-v1.json",
+      "original_sha256": "07b2fc6109896821eb1b61b02073780de6c63a37474ca62f5c9221da03f0daa2",
+      "public_sha256": "37a5596bbd3df7f42dfb4b473cdd7c80d739a5487c3f80b5736d1b7e5c59b600",
+      "changes": [
+        "personal directory component replaced with USER"
+      ]
+    },
+    {
+      "path": "research/geometry/results/2026-09-11-circle-square-area-v1.json",
+      "original_sha256": "35788e6cff0a045eae3a4c65203f6994ba52845f97dff2f8d2ac1a2da6ba3602",
+      "public_sha256": "08bda8b65fa2c1e7f502fbe2eb33f34c2bdf94c2349b8a32a3599ac8117da940",
+      "changes": [
+        "personal directory component replaced with USER"
+      ]
+    },
+    {
+      "path": "research/geometry/results/2026-09-11-shell-square-branch-summary-v1.json",
+      "original_sha256": "9509b44d2613bd34faa44747608f51b0d2ff141e47b774467e0735dd90e0670f",
+      "public_sha256": "417b4c0e9e5162b23fe79b65415230d2c61f56565e5967f05b4b88e74bee7cd7",
+      "changes": [
+        "personal directory component replaced with USER"
+      ]
+    },
+    {
+      "path": "research/geometry/results/2026-09-11-shell-square-branch-v1.json",
+      "original_sha256": "6f75ebcab76c4263aee009757624b3f53d59594389ac910497c5897b3f05b5f7",
+      "public_sha256": "31e03d0273828a0ea555ae9f483633e301eeed82217e03787678aa0cdcf0c6da",
+      "changes": [
+        "personal directory component replaced with USER"
+      ]
+    },
+    {
+      "path": "research/geometry/results/2026-10-01-area-branch-comparison-v1/report.json",
+      "original_sha256": "512126ea7e4db9671710af7a2df4a51368d8e388a3c45366bd89f98b1023ab9d",
+      "public_sha256": "eb7862e7aa326f583a98d4e93718ff495bb0cb2ae2f7a312238563996d9fa0b5",
+      "changes": [
+        "personal directory component replaced with USER"
+      ]
+    },
+    {
+      "path": "research/geometry/results/2026-10-01-area-branch-comparison-v1/summary.json",
+      "original_sha256": "5e756906faea9a6d553f0eab2f11dc5ad0360f145ac7b0e97c70a9543a710e3d",
+      "public_sha256": "c30e0de066bf9185312e975443679f1ded0788fc62ad76aad9fcb14f7659c263",
+      "changes": [
+        "personal directory component replaced with USER"
+      ]
+    },
+    {
+      "path": "research/geometry/results/2026-10-01-square-area-inspection-v1/report.json",
+      "original_sha256": "7fe4c4d1bb4d691f588f38af0da9d1e42f74dfa79546b7dbfe187e0aaf455da6",
+      "public_sha256": "fdcb81cfa1a99ee11f91a7a0e3db5e4e01435c80c6fcbc3f4bbdd86adfbf87d0",
+      "changes": [
+        "personal directory component replaced with USER"
+      ]
+    },
+    {
+      "path": "research/geometry/results/2026-11-04-node-profiles-review/checkpoint_views.json",
+      "original_sha256": "3262d155c73fc7c7141609194590aa26973155bc1157965c2fba678104eb360d",
+      "public_sha256": "daac94c124414965ed3f92435dd6cf9290cb9e6fe713c85587ad97be06c3448b",
+      "changes": [
+        "personal directory component replaced with USER"
+      ]
+    },
+    {
+      "path": "research/geometry/results/2026-11-04-node-profiles-review/root_binding_control.json",
+      "original_sha256": "542fa46a3e87b216f7469bc1a4d93c38dccea66cffd107b9d8dcac4725b19744",
+      "public_sha256": "624e8921b31e2629798e4f1ad691a2711ab88e66b8d002904711108f11333b2b",
+      "changes": [
+        "personal directory component replaced with USER"
+      ]
+    },
+    {
+      "path": "research/geometry/results/2026-11-04-node-profiles-review/v2_independent_audit.json",
+      "original_sha256": "8e99c329d5bdfc2c1cc77ca682e3112ae9199a36c849ab2b035519afc1539d0f",
+      "public_sha256": "129c608e164913b19415b23298afb09538911cac6c0d46daef33f5d463d18eac",
+      "changes": [
+        "personal directory component replaced with USER"
+      ]
+    },
+    {
+      "path": "research/geometry/results/2026-11-04-node-profiles-review/v3_independent_audit.json",
+      "original_sha256": "554d548d1bddea981a966d79b7da4323c2c985999ccedcbf5c072eaba2f794eb",
+      "public_sha256": "c931b4d88a9211152e0c984b1458177159a5c2c8ce71337c2389ff52d644eabd",
+      "changes": [
+        "personal directory component replaced with USER"
+      ]
+    },
+    {
+      "path": "research/geometry/results/2026-11-04-node-profiles-v1/report.json",
+      "original_sha256": "3ee08c5aadfd4c9328681524732fa863f856062f96c4aedd8695fb860ecb3871",
+      "public_sha256": "c686f7ced917fdc9886fa56e6b4b697228e34db4aafc925d509420b4e4a1e7b9",
+      "changes": [
+        "personal directory component replaced with USER"
+      ]
+    },
+    {
+      "path": "research/geometry/results/2026-11-04-node-profiles-v2/report.json",
+      "original_sha256": "bc157af205a0338ce47bbb1e7bd7dc45a63ed161317f8414b4b0dd08fec09746",
+      "public_sha256": "89e8a92ed12819a8e706ebf92c6a9b5e081dd9f533e3a7297a4254831665a001",
+      "changes": [
+        "personal directory component replaced with USER"
+      ]
+    },
+    {
+      "path": "research/geometry/results/2026-11-04-node-profiles-v3/report.json",
+      "original_sha256": "1279c5f13825f364881f640d2d88c085781254ca9288591be7e4653b6cc5cd55",
+      "public_sha256": "e5e771cf666b9b696a2b4ced7340ab35f0c26aae19b9db2d3d62c87dbfc56a59",
+      "changes": [
+        "personal directory component replaced with USER"
+      ]
+    },
+    {
+      "path": "research/geometry/results/2026-11-04-profile-inspection-v1/independent_sql.json",
+      "original_sha256": "84caf0552f2bbf624a5bbc82d9450c923bc7ea698a8d2cdd151d228ca752faaf",
+      "public_sha256": "a8bce49bda7820b370807c12a122a6cea23aa4f5a4965f202fa85d4d5fbb2f86",
+      "changes": [
+        "personal directory component replaced with USER"
+      ]
+    },
+    {
+      "path": "research/geometry/results/2026-11-04-profile-inspection-v1/report.json",
+      "original_sha256": "96c47acbfeb208522c941fd3eb1d9927858689ea976caf13786c2ad583191f0d",
+      "public_sha256": "4b36cc69a3623643b3e3031790e5c82cc778b4d0c70e3e347dc0d59b26a759a3",
+      "changes": [
+        "personal directory component replaced with USER"
+      ]
+    },
+    {
+      "path": "research/strict_stage/PASCAL_SHELL_CERTIFICATE_NOTE.md",
+      "original_sha256": "5bb3e6c3fffd3dd9f550ce16e9629c4ed967d4440e7a3e84ac96dcca8828eb30",
+      "public_sha256": "860f2f0881c15cc112fabf11549c8b70add2f65049ccc347c056617e0a136261",
+      "changes": [
+        "author first name replaced with public author handle"
+      ]
+    },
+    {
+      "path": "research/strict_stage/route_identity/PASCAL_SHELL_20260922.pre.md",
+      "original_sha256": "9f8e91987cea002544ccf92d9d4e029582eb945eea96783b14a5bbc0a11a4947",
+      "public_sha256": "e8b132ee4d5ff79ed4899ccb0c24aeb10b9c29c0ad463ad05c762afbd4337bbe",
+      "changes": [
+        "author first name replaced with public author handle"
+      ]
+    }
+  ]
+}

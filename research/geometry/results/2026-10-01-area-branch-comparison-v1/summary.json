@@ -1,0 +1,420 @@
+{
+  "graph_audit": {
+    "path": "/home/USER/Documents/MoO/research/geometry/results/2026-10-01-square-area-inspection-v1/current_u160.sqlite",
+    "sha256": "8c31e7da4dc5d359df31b7fa18b195c14e6b190426c704a5c6d4f4bff7e11fb7",
+    "alignment": {
+      "operand_rule": "positive-spine strict corpus: only confirmed positive-spine iterations may be operands",
+      "speculative_nodes_are_operands": false,
+      "speculative_input_edges": 0,
+      "non_core_operand_edges": 0,
+      "status": "pass"
+    },
+    "recorded_edges": 1790,
+    "outside_aperture_edges": 8678,
+    "preservation": "unchanged"
+  },
+  "validation": {
+    "representation_invariance": true,
+    "independent_shoelace": true,
+    "independent_grid_enumeration_through_n16": true,
+    "theoretical_width_bounds": true,
+    "no_definite_conflicts": true,
+    "all_continuation_levels_pass": true
+  },
+  "rows": [
+    {
+      "n": 1,
+      "method": "polygon_exact",
+      "width": 2.0,
+      "stage": "4",
+      "edges": 14,
+      "unresolved": 190,
+      "fully_recorded": true
+    },
+    {
+      "n": 1,
+      "method": "polygon_rounded",
+      "width": 2.0,
+      "stage": "4",
+      "edges": 14,
+      "unresolved": 190,
+      "fully_recorded": true
+    },
+    {
+      "n": 1,
+      "method": "grid",
+      "width": 4.0,
+      "stage": "4",
+      "edges": 9,
+      "unresolved": 648,
+      "fully_recorded": true
+    },
+    {
+      "n": 2,
+      "method": "polygon_exact",
+      "width": 0.5333333333333333,
+      "stage": "64",
+      "edges": 61,
+      "unresolved": 51,
+      "fully_recorded": true
+    },
+    {
+      "n": 2,
+      "method": "polygon_rounded",
+      "width": 0.75,
+      "stage": "96",
+      "edges": 59,
+      "unresolved": 70,
+      "fully_recorded": true
+    },
+    {
+      "n": 2,
+      "method": "grid",
+      "width": 3.0,
+      "stage": "16",
+      "edges": 21,
+      "unresolved": 325,
+      "fully_recorded": true
+    },
+    {
+      "n": 4,
+      "method": "polygon_exact",
+      "width": 0.13535489347254054,
+      "stage": "6486",
+      "edges": 149,
+      "unresolved": 12,
+      "fully_recorded": false
+    },
+    {
+      "n": 4,
+      "method": "polygon_rounded",
+      "width": 0.171875,
+      "stage": "5632",
+      "edges": 137,
+      "unresolved": 15,
+      "fully_recorded": false
+    },
+    {
+      "n": 4,
+      "method": "grid",
+      "width": 1.75,
+      "stage": "60",
+      "edges": 48,
+      "unresolved": 172,
+      "fully_recorded": true
+    },
+    {
+      "n": 8,
+      "method": "polygon_exact",
+      "width": 0.03398291524687096,
+      "stage": "12651380374",
+      "edges": 351,
+      "unresolved": 4,
+      "fully_recorded": false
+    },
+    {
+      "n": 8,
+      "method": "polygon_rounded",
+      "width": 0.048828125,
+      "stage": "434176",
+      "edges": 291,
+      "unresolved": 6,
+      "fully_recorded": false
+    },
+    {
+      "n": 8,
+      "method": "grid",
+      "width": 0.9375,
+      "stage": "224",
+      "edges": 88,
+      "unresolved": 88,
+      "fully_recorded": false
+    },
+    {
+      "n": 16,
+      "method": "polygon_exact",
+      "width": 0.008505055327601114,
+      "stage": "15907328719703769776177606573",
+      "edges": 724,
+      "unresolved": 1,
+      "fully_recorded": false
+    },
+    {
+      "n": 16,
+      "method": "polygon_rounded",
+      "width": 0.012451171875,
+      "stage": "30539776",
+      "edges": 588,
+      "unresolved": 1,
+      "fully_recorded": false
+    },
+    {
+      "n": 16,
+      "method": "grid",
+      "width": 0.484375,
+      "stage": "856",
+      "edges": 159,
+      "unresolved": 46,
+      "fully_recorded": false
+    },
+    {
+      "n": 32,
+      "method": "polygon_exact",
+      "width": 0.0021268516950420533,
+      "stage": "88836690398467666807053136155498284855937807677283167219518038",
+      "edges": 1492,
+      "unresolved": 0,
+      "fully_recorded": false
+    },
+    {
+      "n": 32,
+      "method": "polygon_rounded",
+      "width": 0.003143310546875,
+      "stage": "2048917504",
+      "edges": 1179,
+      "unresolved": 1,
+      "fully_recorded": false
+    },
+    {
+      "n": 32,
+      "method": "grid",
+      "width": 0.24609375,
+      "stage": "3332",
+      "edges": 298,
+      "unresolved": 21,
+      "fully_recorded": false
+    },
+    {
+      "n": 64,
+      "method": "polygon_exact",
+      "width": 0.0005317497428101382,
+      "stage": "48677871060793329326982765105481297505949208079897328758707610636882050630166466677303481338825530145067862966615114613781362872606358171406878",
+      "edges": 3042,
+      "unresolved": 0,
+      "fully_recorded": false
+    },
+    {
+      "n": 64,
+      "method": "polygon_rounded",
+      "width": 0.00078582763671875,
+      "stage": "134251282432",
+      "edges": 2373,
+      "unresolved": 0,
+      "fully_recorded": false
+    },
+    {
+      "n": 64,
+      "method": "grid",
+      "width": 0.1240234375,
+      "stage": "13104",
+      "edges": 573,
+      "unresolved": 12,
+      "fully_recorded": false
+    }
+  ],
+  "finite_tested_frontier": [
+    {
+      "method": "polygon_exact",
+      "n": 1,
+      "scale": 1,
+      "width": "2",
+      "stage": "4"
+    },
+    {
+      "method": "polygon_rounded",
+      "n": 1,
+      "scale": 1,
+      "width": "2",
+      "stage": "4"
+    },
+    {
+      "method": "polygon_exact",
+      "n": 2,
+      "scale": 1,
+      "width": "8/15",
+      "stage": "64"
+    },
+    {
+      "method": "polygon_exact",
+      "n": 4,
+      "scale": 1,
+      "width": "199327/1472625",
+      "stage": "6486"
+    },
+    {
+      "method": "polygon_rounded",
+      "n": 4,
+      "scale": 1,
+      "width": "11/64",
+      "stage": "5632"
+    },
+    {
+      "method": "grid",
+      "n": 4,
+      "scale": 1,
+      "width": "7/4",
+      "stage": "60"
+    },
+    {
+      "method": "polygon_rounded",
+      "n": 8,
+      "scale": 1,
+      "width": "25/512",
+      "stage": "434176"
+    },
+    {
+      "method": "polygon_rounded",
+      "n": 16,
+      "scale": 1,
+      "width": "51/4096",
+      "stage": "30539776"
+    },
+    {
+      "method": "grid",
+      "n": 16,
+      "scale": 1,
+      "width": "31/64",
+      "stage": "856"
+    },
+    {
+      "method": "polygon_rounded",
+      "n": 32,
+      "scale": 1,
+      "width": "103/32768",
+      "stage": "2048917504"
+    },
+    {
+      "method": "grid",
+      "n": 32,
+      "scale": 1,
+      "width": "63/256",
+      "stage": "3332"
+    },
+    {
+      "method": "polygon_exact",
+      "n": 64,
+      "scale": 1,
+      "width": "945948160888311323346101821613581515582299648562691659568590942543940636095247497037874122025154774682291599125812625119959548046530774315614538088768472399301448922784540599846423363290282282900569923873171847738265101435223263653017728881590954426223892681/1778934872425623475948187849388826783648871811198374826448645569236155881797196964660155843096774419503098066608824135832647733911201484302845120254795971005899372782139475071806443449083626730259145694894988561097445629197449994003772687870215615503829583290000",
+      "stage": "48677871060793329326982765105481297505949208079897328758707610636882050630166466677303481338825530145067862966615114613781362872606358171406878"
+    },
+    {
+      "method": "polygon_rounded",
+      "n": 64,
+      "scale": 1,
+      "width": "103/131072",
+      "stage": "134251282432"
+    },
+    {
+      "method": "grid",
+      "n": 64,
+      "scale": 1,
+      "width": "127/1024",
+      "stage": "13104"
+    },
+    {
+      "method": "polygon_exact",
+      "n": 1,
+      "scale": 2,
+      "width": "2",
+      "stage": "64"
+    },
+    {
+      "method": "polygon_rounded",
+      "n": 1,
+      "scale": 2,
+      "width": "2",
+      "stage": "64"
+    },
+    {
+      "method": "grid",
+      "n": 1,
+      "scale": 2,
+      "width": "4",
+      "stage": "16"
+    },
+    {
+      "method": "polygon_exact",
+      "n": 2,
+      "scale": 2,
+      "width": "8/15",
+      "stage": "1024"
+    },
+    {
+      "method": "polygon_exact",
+      "n": 4,
+      "scale": 2,
+      "width": "199327/1472625",
+      "stage": "16384"
+    },
+    {
+      "method": "grid",
+      "n": 4,
+      "scale": 2,
+      "width": "7/4",
+      "stage": "240"
+    },
+    {
+      "method": "polygon_rounded",
+      "n": 8,
+      "scale": 2,
+      "width": "25/512",
+      "stage": "434176"
+    },
+    {
+      "method": "grid",
+      "n": 8,
+      "scale": 2,
+      "width": "15/16",
+      "stage": "896"
+    },
+    {
+      "method": "polygon_rounded",
+      "n": 16,
+      "scale": 2,
+      "width": "51/4096",
+      "stage": "30539776"
+    },
+    {
+      "method": "grid",
+      "n": 16,
+      "scale": 2,
+      "width": "31/64",
+      "stage": "3424"
+    },
+    {
+      "method": "polygon_rounded",
+      "n": 32,
+      "scale": 2,
+      "width": "103/32768",
+      "stage": "2048917504"
+    },
+    {
+      "method": "grid",
+      "n": 32,
+      "scale": 2,
+      "width": "63/256",
+      "stage": "13328"
+    },
+    {
+      "method": "polygon_exact",
+      "n": 64,
+      "scale": 2,
+      "width": "945948160888311323346101821613581515582299648562691659568590942543940636095247497037874122025154774682291599125812625119959548046530774315614538088768472399301448922784540599846423363290282282900569923873171847738265101435223263653017728881590954426223892681/1778934872425623475948187849388826783648871811198374826448645569236155881797196964660155843096774419503098066608824135832647733911201484302845120254795971005899372782139475071806443449083626730259145694894988561097445629197449994003772687870215615503829583290000",
+      "stage": "48677871060793329326982765105481297505949208079897328758707610636882050630166466677303481338825530145067862966615114613781362872606358171406878"
+    },
+    {
+      "method": "polygon_rounded",
+      "n": 64,
+      "scale": 2,
+      "width": "103/131072",
+      "stage": "134251282432"
+    },
+    {
+      "method": "grid",
+      "n": 64,
+      "scale": 2,
+      "width": "127/1024",
+      "stage": "52416"
+    }
+  ]
+}
