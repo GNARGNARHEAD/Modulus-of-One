@@ -2,11 +2,7 @@
 
 **Modulus of One began with a failed attempt to count to two.**
 
-That attempt grew out of an earlier inquiry into squaring the circle and,
-more broadly, finding areas under curves. Asking what justifies a construction
-led back to the apparently simple act of counting.
-
-The philosophical starting thought is *cogito ergo unum* — “I think, therefore
+The philosophical starting thought is *cogito ergo unum*: “I think, therefore
 one.” Here, `1` names an immediate certainty. Using it again requires
 remembering an earlier occurrence,
 identifying it, and admitting recurrence. Descartes' demon expresses the
